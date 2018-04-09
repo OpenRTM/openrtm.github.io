@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-![](https://openrtm.github.com/openrtm.github.io/images/rtm_logo_small.png
 
 # OpenRTM-aist web on the github
 
@@ -17,15 +16,19 @@ layout: default
 
 ```shell
 $ git clone https://github.com/n-ando/xenial_package.git
+
 ubuntu 16.04 (64bit) の場合
 $ cd xenial_package/xenial/main/binary-amd64/
+
 C++版のインストール
 $ sudo dpkg -i openrtm-aist-1.1.2-0_amd64.deb
 $ sudo dpkg -i openrtm-aist-example_1.1.2-0_amd64.deb
 $ sudo dpkg -i openrtm-aist-dev_1.1.2-0_amd64.deb
+
 Python版のインストール
 $ sudo dpkg -i openrtm-aist-python_1.1.2-1_amd64.deb
 $ sudo dpkg -i openrtm-aist-python-example_1.1.2-1_amd64.deb
+
 RTSystemEditor/RTCBuilderのインストール
 $ sudo dpkg -i openrtp_1.2.0-0_amd64.deb
 ```

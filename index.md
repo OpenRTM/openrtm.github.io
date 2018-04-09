@@ -10,6 +10,7 @@ OpenRTM-aist臨時Webページ
 
 ### Linux pakages
 
+以下のリポジトリからUbuntu用のOpenRTM-aistパッケージがダウンロードできます。
 
 | Dist/version  | URL                                      |
 |:--------------|:-----------------------------------------| 
@@ -37,12 +38,15 @@ $ sudo dpkg -i openrtp_1.2.0-0_amd64.deb
 
 ### Windows installer
 
+以下のリポジトリからWindows用のmsiファイルをダウンロードできます。
+
+
 | 32bit/64bit   | URL                                      |
 |:--------------|:-----------------------------------------| 
 | 32bit msi     | https://github.com/n-ando/win32_pakcage  |
 | 64bit msi     | https://github.com/n-ando/win64_pakcage  |
 
-msiファイルはそのままではダウンロードできません。以下の手順でmsiをダウンロードしてください。
+msiファイルはサイズが大きいためそのままではダウンロードできません。以下の手順でmsiをダウンロードしてください。
 
 #### Git for Windowsのダウンロード
 

@@ -17,16 +17,16 @@ layout: default
 
 ```shell
 $ git clone https://github.com/n-ando/xenial_package.git
-ubuntu 16.04 (64bit) ‚Ìê‡
+ubuntu 16.04 (64bit) ã®å ´åˆ
 $ cd xenial_package/xenial/main/binary-amd64/
-C++”Å‚ÌƒCƒ“ƒXƒg[ƒ‹
+C++ç‰ˆã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 $ sudo dpkg -i openrtm-aist-1.1.2-0_amd64.deb
 $ sudo dpkg -i openrtm-aist-example_1.1.2-0_amd64.deb
 $ sudo dpkg -i openrtm-aist-dev_1.1.2-0_amd64.deb
-Python”Å‚ÌƒCƒ“ƒXƒg[ƒ‹
+Pythonç‰ˆã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 $ sudo dpkg -i openrtm-aist-python_1.1.2-1_amd64.deb
 $ sudo dpkg -i openrtm-aist-python-example_1.1.2-1_amd64.deb
-RTSystemEditor/RTCBuilder‚ÌƒCƒ“ƒXƒg[ƒ‹
+RTSystemEditor/RTCBuilderã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 $ sudo dpkg -i openrtp_1.2.0-0_amd64.deb
 ```
 
@@ -37,43 +37,43 @@ $ sudo dpkg -i openrtp_1.2.0-0_amd64.deb
 | 32bit msi     | https://github.com/n-ando/win32_pakcage  |
 | 64bit msi     | https://github.com/n-ando/win64_pakcage  |
 
-msiƒtƒ@ƒCƒ‹‚Í‚»‚Ì‚Ü‚Ü‚Å‚Íƒ_ƒEƒ“ƒ[ƒh‚Å‚«‚Ü‚¹‚ñBˆÈ‰º‚ÌŽè‡‚Åmsi‚ðƒ_ƒEƒ“ƒ[ƒh‚µ‚Ä‚­‚¾‚³‚¢B
+msiãƒ•ã‚¡ã‚¤ãƒ«ã¯ãã®ã¾ã¾ã§ã¯ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã§ãã¾ã›ã‚“ã€‚ä»¥ä¸‹ã®æ‰‹é †ã§msiã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¦ãã ã•ã„ã€‚
 
-#### Git for Windows‚Ìƒ_ƒEƒ“ƒ[ƒh
+#### Git for Windowsã®ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
 
 - Git for windows
   - https://git-scm.com/download/win
 
-#### git‚É‚æ‚éƒ_ƒEƒ“ƒ[ƒh
+#### gitã«ã‚ˆã‚‹ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
 
 ```shell
 > git clone https://github.com/n-ando/win64_pakage.git
 > cd win64_package
-win64_package ‚Ì’†‚ÉAOpenRTM-aist-1.1.2-RELEASE_x86_64.msi ‚ªƒ_ƒEƒ“ƒ[ƒh‚³‚ê‚Ä‚¢‚Ü‚·B
+win64_package ã®ä¸­ã«ã€OpenRTM-aist-1.1.2-RELEASE_x86_64.msi ãŒãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã•ã‚Œã¦ã„ã¾ã™ã€‚
 ```
 
 ## NEWS
 
-### ROBOMECH2018 RTMuK‰ï
+### ROBOMECH2018 RTMè¬›ç¿’ä¼š
 
-#### “úŽžEêŠ
-- ŽåÃ: ‘—§Œ¤‹†ŠJ”­–@l ŽY‹Æ‹Zp‘‡Œ¤‹†Š
-- ‹¦Ž^: ROBOMECH2018, (ŒöŽÐ)Œv‘ªŽ©“®§ŒäŠw‰ïƒVƒXƒeƒ€ƒCƒ“ƒeƒOƒŒ[ƒVƒ‡ƒ“•”–å
-- “úŽž: 2018”N6ŒŽ3“ú(“ú), 10:00`17:00 
-- êŠ: –k‹ãB‘ÛƒRƒ“ƒxƒ“ƒVƒ‡ƒ“ƒ][ƒ“
-- ’®u—¿: –³—¿
-  - uK‰ï‚Ì‚Ý‚ÌŽQ‰Á‚Ìê‡ROBOMEC2018‚Ö‚ÌŽQ‰Á“o˜^‚Í•s—v‚Å‚·‚ªA‰Â”\‚ÈŒÀ‚èŽQ‰Á“o˜^‚ð‚¨Šè‚¢‚µ‚Ü‚·B
-- ’èˆõ: ‘æ1•”50–¼, ŽÀKi‘æ2, 3•”j30–¼’ö“x‚ð—\’è‚µ‚Ä‚¨‚è‚Ü‚·B’èˆõ‚É‚È‚èŽŸ‘æ\‚µž‚Ý‚ÍI—¹‚³‚¹‚Ä‚¢‚½‚¾‚«‚Ü‚·B‘æ1•”‚Ì‚Ý‚²ŽQ‰Á‚Ì•û‚Í\‚µž‚Ý•s—v‚Å‚·B
+#### æ—¥æ™‚ãƒ»å ´æ‰€
+- ä¸»å‚¬: å›½ç«‹ç ”ç©¶é–‹ç™ºæ³•äºº ç”£æ¥­æŠ€è¡“ç·åˆç ”ç©¶æ‰€
+- å”è³›: ROBOMECH2018, (å…¬ç¤¾)è¨ˆæ¸¬è‡ªå‹•åˆ¶å¾¡å­¦ä¼šã‚·ã‚¹ãƒ†ãƒ ã‚¤ãƒ³ãƒ†ã‚°ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³éƒ¨é–€
+- æ—¥æ™‚: 2018å¹´6æœˆ3æ—¥(æ—¥), 10:00ã€œ17:00 
+- å ´æ‰€: åŒ—ä¹å·žå›½éš›ã‚³ãƒ³ãƒ™ãƒ³ã‚·ãƒ§ãƒ³ã‚¾ãƒ¼ãƒ³
+- è´è¬›æ–™: ç„¡æ–™
+  - è¬›ç¿’ä¼šã®ã¿ã®å‚åŠ ã®å ´åˆROBOMEC2018ã¸ã®å‚åŠ ç™»éŒ²ã¯ä¸è¦ã§ã™ãŒã€å¯èƒ½ãªé™ã‚Šå‚åŠ ç™»éŒ²ã‚’ãŠé¡˜ã„ã—ã¾ã™ã€‚
+- å®šå“¡: ç¬¬1éƒ¨50å, å®Ÿç¿’ï¼ˆç¬¬2, 3éƒ¨ï¼‰30åç¨‹åº¦ã‚’äºˆå®šã—ã¦ãŠã‚Šã¾ã™ã€‚å®šå“¡ã«ãªã‚Šæ¬¡ç¬¬ç”³ã—è¾¼ã¿ã¯çµ‚äº†ã•ã›ã¦ã„ãŸã ãã¾ã™ã€‚ç¬¬1éƒ¨ã®ã¿ã”å‚åŠ ã®æ–¹ã¯ç”³ã—è¾¼ã¿ä¸è¦ã§ã™ã€‚
 
-#### ƒvƒƒOƒ‰ƒ€
+#### ãƒ—ãƒ­ã‚°ãƒ©ãƒ 
 
-| 10:00 -10:50	| ‘æ1•”(‚»‚Ì1)FƒCƒ“ƒ^[ƒlƒbƒg‚ð—˜—p‚µ‚½ƒƒ{ƒbƒgƒT[ƒrƒX‚ÆRSi‚ÌŽæ‚è‘g‚Ý2018 <br/>@’S“–F¬“c‰ë•F ŽiŽY‹Æ‹Zp‘åŠw‰@‘åŠwj|
-|11:00 -11:50	| ‘æ1•”(‚»‚Ì2)FOpenRTM-aist‚¨‚æ‚ÑRTƒRƒ“ƒ|[ƒlƒ“ƒgƒvƒƒOƒ‰ƒ~ƒ“ƒO‚ÌŠT—v </br> ’S“–FˆÀ“¡Œcº Ž (ŽY‘Œ¤) |
-| 11:50 -12:00	| Ž¿‹^‰ž“šEˆÓŒ©ŒðŠ· |
-| 12:00 -13:00	| ’‹H |
-| 13:00 -14:30	| ‘æ2•”: RTƒRƒ“ƒ|[ƒlƒ“ƒg‚Ìì¬“ü–å <br/>@@@@@@’S“–F‹{–{M•F Ž (ŽY‘Œ¤) ‘¼ </br>@@@@@@ŠT—vFRTƒVƒXƒeƒ€‚ðÝŒv‚·‚éƒc[ƒ‹RTSystemEditor‚¨‚æ‚ÑRTƒRƒ“ƒ|[ƒlƒ“ƒg<br/>@@@@@@@@@‚ðì¬‚·‚éƒc[ƒ‹RTCBuilder‚ÌŽg—p•û–@‚É‚Â‚¢‚Ä‰ðà‚·‚é‚Æ‚Æ‚à‚ÉA<br/>@@@@@@@@@RTCBuilder‚ðŽg—p‚µ‚½RTƒRƒ“ƒ|[ƒlƒ“ƒg‚Ìì¬•û–@‚ðŽÀKŒ`Ž®‚Å<br/>@@@@@@@@@‘ÌŒ±‚µ‚Ä‚¢‚½‚¾‚«‚Ü‚·B|
-| 14:45 -17:00	| ‘æ3•”FƒvƒƒOƒ‰ƒ~ƒ“ƒOŽÀK <br/>@@@@@@’S“–F‹{–{M•F Ž (ŽY‘Œ¤) ‘¼ <br/>@@@@@@ŠT—vFOpenRTM-aist‚ð—˜—p‚µ‚Äƒƒ{ƒbƒg‚ð§Œä‚·‚éƒvƒƒOƒ‰ƒ€‚ðŽÀÛ‚Éì¬‚µ‚Ü‚·B|
+| 10:00 -10:50	| ç¬¬1éƒ¨(ãã®1)ï¼šã‚¤ãƒ³ã‚¿ãƒ¼ãƒãƒƒãƒˆã‚’åˆ©ç”¨ã—ãŸãƒ­ãƒœãƒƒãƒˆã‚µãƒ¼ãƒ“ã‚¹ã¨RSiã®å–ã‚Šçµ„ã¿2018 <br/>ã€€æ‹…å½“ï¼šæˆç”°é›…å½¦ æ°ï¼ˆç”£æ¥­æŠ€è¡“å¤§å­¦é™¢å¤§å­¦ï¼‰|
+|11:00 -11:50	| ç¬¬1éƒ¨(ãã®2)ï¼šOpenRTM-aistãŠã‚ˆã³RTã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆãƒ—ãƒ­ã‚°ãƒ©ãƒŸãƒ³ã‚°ã®æ¦‚è¦ </br> æ‹…å½“ï¼šå®‰è—¤æ…¶æ˜­ æ° (ç”£ç·ç ”) |
+| 11:50 -12:00	| è³ªç–‘å¿œç­”ãƒ»æ„è¦‹äº¤æ› |
+| 12:00 -13:00	| æ˜¼é£Ÿ |
+| 13:00 -14:30	| ç¬¬2éƒ¨: RTã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã®ä½œæˆå…¥é–€ <br/>ã€€ã€€ã€€ã€€ã€€ã€€æ‹…å½“ï¼šå®®æœ¬ä¿¡å½¦ æ° (ç”£ç·ç ”) ä»– </br>ã€€ã€€ã€€ã€€ã€€ã€€æ¦‚è¦ï¼šRTã‚·ã‚¹ãƒ†ãƒ ã‚’è¨­è¨ˆã™ã‚‹ãƒ„ãƒ¼ãƒ«RTSystemEditorãŠã‚ˆã³RTã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆ<br/>ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã‚’ä½œæˆã™ã‚‹ãƒ„ãƒ¼ãƒ«RTCBuilderã®ä½¿ç”¨æ–¹æ³•ã«ã¤ã„ã¦è§£èª¬ã™ã‚‹ã¨ã¨ã‚‚ã«ã€<br/>ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€RTCBuilderã‚’ä½¿ç”¨ã—ãŸRTã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã®ä½œæˆæ–¹æ³•ã‚’å®Ÿç¿’å½¢å¼ã§<br/>ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ä½“é¨“ã—ã¦ã„ãŸã ãã¾ã™ã€‚|
+| 14:45 -17:00	| ç¬¬3éƒ¨ï¼šãƒ—ãƒ­ã‚°ãƒ©ãƒŸãƒ³ã‚°å®Ÿç¿’ <br/>ã€€ã€€ã€€ã€€ã€€ã€€æ‹…å½“ï¼šå®®æœ¬ä¿¡å½¦ æ° (ç”£ç·ç ”) ä»– <br/>ã€€ã€€ã€€ã€€ã€€ã€€æ¦‚è¦ï¼šOpenRTM-aistã‚’åˆ©ç”¨ã—ã¦ãƒ­ãƒœãƒƒãƒˆã‚’åˆ¶å¾¡ã™ã‚‹ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’å®Ÿéš›ã«ä½œæˆã—ã¾ã™ã€‚|
 
-- –â‚¢‡‚í‚¹F n-ando@aist.go.jp
+- å•ã„åˆã‚ã›ï¼š n-ando@aist.go.jp
 
 

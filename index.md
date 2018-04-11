@@ -17,6 +17,10 @@ OpenRTM-aist臨時Webページ
 | Ubuntu 14.04  | https://github.com/n-ando/trusty_pakcage |
 | Ubuntu 16.04  | https://github.com/n-ando/xenial_pakcage |
 
+
+apt-get で直接インストールできませんので、リポジトリごとチェックアウトしてから dpkg コマンドで個別にインストールしてください。
+
+
 ```shell
 $ git clone https://github.com/n-ando/xenial_package.git
 

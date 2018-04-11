@@ -8,7 +8,7 @@ OpenRTM-aist臨時Webページ
 
 ## Download
 
-### Linux pakages
+### Linux packages
 
 以下のリポジトリからUbuntu用のOpenRTM-aistパッケージがダウンロードできます。
 

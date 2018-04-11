@@ -4,7 +4,9 @@ layout: default
 
 # OpenRTM-aist web on the github
 
-OpenRTM-aist臨時Webページ
+このページは、github上に作成されたOpenRTM-aist臨時Webページです。
+Webサイトのセキュリティアップデートのため、4月いっぱいの予定でOpenRTM-aistの公式Webページを一時停止します。
+ご迷惑をおかけしますがご理解のほどよろしくお願いいたします。
 
 ## Download
 

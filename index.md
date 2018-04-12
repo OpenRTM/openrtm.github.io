@@ -8,7 +8,14 @@ layout: default
 Webサイトのセキュリティアップデートのため、4月いっぱいの予定でOpenRTM-aistの公式Webページを一時停止します。
 ご迷惑をおかけしますがご理解のほどよろしくお願いいたします。
 
+This is the OpenRTM-aist official and templary website on the github.
+Due to security updates of the website, OpenRTM-aist website might be closed during April.
+Thank you for your cooperation and understanding.
+
 ## Download
+Linux (Ubuntu 14.04LTS, 16.04LTS) パッケージ、Windows msiインストーラのダウンロードができます。
+
+Linux (Ubuntu 14.04LTS, 16.04LTS) packages and Windows msi installers are available.
 
 ### Linux packages
 
@@ -21,6 +28,8 @@ Webサイトのセキュリティアップデートのため、4月いっぱい�
 
 
 apt-get で直接インストールできませんので、リポジトリごとチェックアウトしてから dpkg コマンドで個別にインストールしてください。
+
+Since you cannot install them by apt-get, please checkout package repository and install them by dpkg command as follows.
 
 
 ```shell
@@ -53,6 +62,8 @@ $ sudo dpkg -i openrtp_1.2.0-0_amd64.deb
 | 64bit msi     | [https://github.com/n-ando/win64_package](https://github.com/n-ando/win64_package)  |
 
 msiファイルはサイズが大きいためそのままではダウンロードできません。以下の手順でmsiをダウンロードしてください。
+
+Because of msi install file size, you cannot download them by web brouser. Please checkout msi file by the following process.
 
 #### Git for Windowsのダウンロード
 

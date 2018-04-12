@@ -16,8 +16,8 @@ Webサイトのセキュリティアップデートのため、4月いっぱい�
 
 | Dist/version  | URL                                      |
 |:--------------|:-----------------------------------------| 
-| Ubuntu 14.04  | https://github.com/n-ando/trusty_pakcage |
-| Ubuntu 16.04  | https://github.com/n-ando/xenial_pakcage |
+| Ubuntu 14.04  | [https://github.com/n-ando/trusty_pakcage](https://github.com/n-ando/trusty_pakcage) |
+| Ubuntu 16.04  | [https://github.com/n-ando/xenial_pakcage](https://github.com/n-ando/xenial_pakcage) |
 
 
 apt-get で直接インストールできませんので、リポジトリごとチェックアウトしてから dpkg コマンドで個別にインストールしてください。
@@ -49,15 +49,15 @@ $ sudo dpkg -i openrtp_1.2.0-0_amd64.deb
 
 | 32bit/64bit   | URL                                      |
 |:--------------|:-----------------------------------------| 
-| 32bit msi     | https://github.com/n-ando/win32_pakcage  |
-| 64bit msi     | https://github.com/n-ando/win64_pakcage  |
+| 32bit msi     | [https://github.com/n-ando/win32_pakcage](https://github.com/n-ando/win32_pakcage)  |
+| 64bit msi     | [https://github.com/n-ando/win64_pakcage](https://github.com/n-ando/win64_pakcage)  |
 
 msiファイルはサイズが大きいためそのままではダウンロードできません。以下の手順でmsiをダウンロードしてください。
 
 #### Git for Windowsのダウンロード
 
 - Git for windows
-  - https://git-scm.com/download/win
+  - [https://git-scm.com/download/win](https://git-scm.com/download/win)
 
 #### gitによるダウンロード
 
@@ -81,7 +81,7 @@ win64_package の中に、OpenRTM-aist-1.1.2-RELEASE_x86_64.msi がダウンロ�
 - 定員: 第1部50名, 実習（第2, 3部）30名程度を予定しております。定員になり次第申し込みは終了させていただきます。第1部のみご参加の方は申し込み不要です。
 #### 申し込み
 以下のフォームから申し込んでください。
-- [申し込みフォーム](https://goo.gl/forms/vDW0jAmboChrlhkC2)
+- [申し込みフォーム(Google Form)](https://goo.gl/forms/vDW0jAmboChrlhkC2)
 
 
 #### プログラム

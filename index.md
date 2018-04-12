@@ -16,8 +16,8 @@ Webサイトのセキュリティアップデートのため、4月いっぱい�
 
 | Dist/version  | URL                                      |
 |:--------------|:-----------------------------------------| 
-| Ubuntu 14.04  | [https://github.com/n-ando/trusty_pakcage](https://github.com/n-ando/trusty_pakcage) |
-| Ubuntu 16.04  | [https://github.com/n-ando/xenial_pakcage](https://github.com/n-ando/xenial_pakcage) |
+| Ubuntu 14.04  | [https://github.com/n-ando/trusty_package](https://github.com/n-ando/trusty_package) |
+| Ubuntu 16.04  | [https://github.com/n-ando/xenial_package](https://github.com/n-ando/xenial_package) |
 
 
 apt-get で直接インストールできませんので、リポジトリごとチェックアウトしてから dpkg コマンドで個別にインストールしてください。
@@ -49,8 +49,8 @@ $ sudo dpkg -i openrtp_1.2.0-0_amd64.deb
 
 | 32bit/64bit   | URL                                      |
 |:--------------|:-----------------------------------------| 
-| 32bit msi     | [https://github.com/n-ando/win32_pakcage](https://github.com/n-ando/win32_pakcage)  |
-| 64bit msi     | [https://github.com/n-ando/win64_pakcage](https://github.com/n-ando/win64_pakcage)  |
+| 32bit msi     | [https://github.com/n-ando/win32_package](https://github.com/n-ando/win32_package)  |
+| 64bit msi     | [https://github.com/n-ando/win64_package](https://github.com/n-ando/win64_package)  |
 
 msiファイルはサイズが大きいためそのままではダウンロードできません。以下の手順でmsiをダウンロードしてください。
 

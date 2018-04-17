@@ -39,7 +39,7 @@ ubuntu 16.04 (64bit) の場合
 $ cd xenial_package/xenial/main/binary-amd64/
 
 C++版のインストール
-$ sudo dpkg -i openrtm-aist-1.1.2-0_amd64.deb
+$ sudo dpkg -i openrtm-aist_1.1.2-0_amd64.deb
 $ sudo dpkg -i openrtm-aist-example_1.1.2-0_amd64.deb
 $ sudo dpkg -i openrtm-aist-dev_1.1.2-0_amd64.deb
 

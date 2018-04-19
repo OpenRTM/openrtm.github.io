@@ -91,10 +91,11 @@ win64_package の中に、OpenRTM-aist-1.1.2-RELEASE_x86_64.msi がダウンロ�
 
 OpenRTM-aist (C++, Python, Java版) および Java版のコンパイル済みjarパッケージをダウンロードできます。
 
-| 言語 |  URL  |
-| C++版 | [OpenRTM-aist-1.1.2.tar.gz](https://github.com/n-ando/openrtm-src_packages/raw/master/cxx/1.1.2/OpenRTM-aist-1.1.2.tar.gz) <br> [OpenRTM-aist-1.1.2.tar.bz2](https://github.com/n-ando/openrtm-src_packages/raw/master/cxx/1.1.2/OpenRTM-aist-1.1.2.tar.bz2) <br> [OpenRTM-aist-1.1.2-win32.zip](https://github.com/n-ando/openrtm-src_packages/raw/master/cxx/1.1.2/OpenRTM-aist-1.1.2-win32.zip) |
+| 言語     |  URL  |
+|:---------|:------| 
+| C++版    | [OpenRTM-aist-1.1.2.tar.gz](https://github.com/n-ando/openrtm-src_packages/raw/master/cxx/1.1.2/OpenRTM-aist-1.1.2.tar.gz) <br> [OpenRTM-aist-1.1.2.tar.bz2](https://github.com/n-ando/openrtm-src_packages/raw/master/cxx/1.1.2/OpenRTM-aist-1.1.2.tar.bz2) <br> [OpenRTM-aist-1.1.2-win32.zip](https://github.com/n-ando/openrtm-src_packages/raw/master/cxx/1.1.2/OpenRTM-aist-1.1.2-win32.zip) |
 | Python版 | [OpenRTM-aist-Python-1.1.2.tar.gz](https://github.com/n-ando/openrtm-src_packages/raw/master/python/1.1.2/OpenRTM-aist-Python-1.1.2.tar.gz) <br> [OpenRTM-aist-Python-1.1.2.zip](https://github.com/n-ando/openrtm-src_packages/raw/master/python/1.1.2/OpenRTM-aist-Python-1.1.2.zip) |
-| Java版 | [OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip](https://github.com/n-ando/openrtm-src_packages/raw/master/java/1.1.2/OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip) <br> [OpenRTM-aist-Java-1.1.2-RELEASE.tar.gz](https://github.com/n-ando/openrtm-src_packages/blob/master/java/1.1.2/OpenRTM-aist-Java-1.1.2-RELEASE.tar.gz) <br> [OpenRTM-aist-Java-1.1.2-RELEASE.zip](https://github.com/n-ando/openrtm-src_packages/blob/master/java/1.1.2/OpenRTM-aist-Java-1.1.2-RELEASE.zip) |
+| Java版   | [OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip](https://github.com/n-ando/openrtm-src_packages/raw/master/java/1.1.2/OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip) <br> [OpenRTM-aist-Java-1.1.2-RELEASE.tar.gz](https://github.com/n-ando/openrtm-src_packages/blob/master/java/1.1.2/OpenRTM-aist-Java-1.1.2-RELEASE.tar.gz) <br> [OpenRTM-aist-Java-1.1.2-RELEASE.zip](https://github.com/n-ando/openrtm-src_packages/blob/master/java/1.1.2/OpenRTM-aist-Java-1.1.2-RELEASE.zip) |
 
 
 ## NEWS

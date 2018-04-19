@@ -12,8 +12,8 @@ This is the OpenRTM-aist official and templary website on the github.
 Due to security updates of the website, OpenRTM-aist website might be closed during April.
 Thank you for your cooperation and understanding.
 
-## Download
-Linux (Ubuntu 14.04LTS, 16.04LTS) パッケージ、Windows msiインストーラのダウンロードができます。
+## Downloading Packages
+Linux (Ubuntu 14.04LTS, 16.04LTS) パッケージ、Windows msiインストーラ、コンパイル済みのJava（jar）パッケージのダウンロードができます。
 
 Linux (Ubuntu 14.04LTS, 16.04LTS) packages and Windows msi installers are available.
 
@@ -53,17 +53,27 @@ $ sudo dpkg -i openrtp_1.2.0-0_amd64.deb
 
 ### Windows installer
 
-以下のリポジトリからWindows用のmsiファイルをダウンロードできます。
+以下のURLからWindows用のmsiファイルをダウンロードできます。ただし、ファイルが大きいためうまくダウンロードできないことがたまにあります。そういった場合は、時間をおいてダウンロードを試すか、以下のリポジトリから直接gitコマンドによりリポジトリをcloneすることで対応してください。
 
+You can download msi-files for Windows. However, downloading from the following URLs fail sometimes. In that case, please retry again or consider checking-out msi repository by using git command.
 
 | 32bit/64bit   | URL                                      |
 |:--------------|:-----------------------------------------| 
-| 32bit msi     | [https://github.com/n-ando/win32_package](https://github.com/n-ando/win32_package)  |
-| 64bit msi     | [https://github.com/n-ando/win64_package](https://github.com/n-ando/win64_package)  |
+| 32bit msi     | [https://github.com/n-ando/win32_package/raw/master/OpenRTM-aist-1.1.2-RELEASE_x86.msi](https://github.com/n-ando/win32_package/raw/master/OpenRTM-aist-1.1.2-RELEASE_x86.msi) |
+| 64bit msi     | [https://github.com/n-ando/win64_package/raw/master/OpenRTM-aist-1.1.2-RELEASE_x86_64.msi](https://github.com/n-ando/win64_package/raw/master/OpenRTM-aist-1.1.2-RELEASE_x86_64.msi) |
 
-msiファイルはサイズが大きいためそのままではダウンロードできません。以下の手順でmsiをダウンロードしてください。
+#### Windows版msiファイルのリポジトリ
 
-Because of msi install file size, you cannot download them by web brouser. Please checkout msi file by the following process.
+上記 URL から直接ダウンロードできない場合はgitコマンドをインストールし、以下のリポジトリをclone等することでダウンロードしてください。
+
+| 32bit/64bit   | URL                                      |
+|:--------------|:-----------------------------------------| 
+| 32bit msi     | [https://github.com/n-ando/win64_package](https://github.com/n-ando/win64_package)  |
+| 64bit msi     | [https://github.com/n-ando/win32_package](https://github.com/n-ando/win32_package)  |
+
+具体的な手順は以下の通りです。
+
+Please checkout msi file by the following process.
 
 #### Git for Windowsのダウンロード
 
@@ -77,6 +87,15 @@ Because of msi install file size, you cannot download them by web brouser. Pleas
 > cd win64_package
 win64_package の中に、OpenRTM-aist-1.1.2-RELEASE_x86_64.msi がダウンロードされています。
 ```
+## Downloading Source-code (or jar file)
+
+OpenRTM-aist (C++, Python, Java版) および Java版のコンパイル済みjarパッケージをダウンロードできます。
+
+| 言語 |  URL  |
+| C++版 | [OpenRTM-aist-1.1.2.tar.gz](https://github.com/n-ando/openrtm-src_packages/raw/master/cxx/1.1.2/OpenRTM-aist-1.1.2.tar.gz) <br> [OpenRTM-aist-1.1.2.tar.bz2](https://github.com/n-ando/openrtm-src_packages/raw/master/cxx/1.1.2/OpenRTM-aist-1.1.2.tar.bz2) <br> [OpenRTM-aist-1.1.2-win32.zip](https://github.com/n-ando/openrtm-src_packages/raw/master/cxx/1.1.2/OpenRTM-aist-1.1.2-win32.zip) |
+| Python版 | [OpenRTM-aist-Python-1.1.2.tar.gz](https://github.com/n-ando/openrtm-src_packages/raw/master/python/1.1.2/OpenRTM-aist-Python-1.1.2.tar.gz) <br> [OpenRTM-aist-Python-1.1.2.zip](https://github.com/n-ando/openrtm-src_packages/raw/master/python/1.1.2/OpenRTM-aist-Python-1.1.2.zip) |
+| Java版 | [OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip](https://github.com/n-ando/openrtm-src_packages/raw/master/java/1.1.2/OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip) <br> [OpenRTM-aist-Java-1.1.2-RELEASE.tar.gz](https://github.com/n-ando/openrtm-src_packages/blob/master/java/1.1.2/OpenRTM-aist-Java-1.1.2-RELEASE.tar.gz) <br> [OpenRTM-aist-Java-1.1.2-RELEASE.zip](https://github.com/n-ando/openrtm-src_packages/blob/master/java/1.1.2/OpenRTM-aist-Java-1.1.2-RELEASE.zip) |
+
 
 ## NEWS
 

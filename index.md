@@ -51,6 +51,16 @@ RTSystemEditor/RTCBuilderのインストール
 $ sudo dpkg -i openrtp_1.2.0-0_amd64.deb
 ```
 
+以下のコマンドでomniORB、CMake、Doxygen等をインストールしてください。
+
+```shell
+$ sudo apt-get install gcc g++ make python-yaml
+$ sudo apt-get install libomniorb4-dev omniidl omniorb-nameserver
+$ sudo apt-get install python-omniorb-omg omniidl-python
+$ sudo apt-get install cmake doxygen
+$ sudo apt-get install default-jdk
+```
+
 ### Windows installer
 
 以下のURLからWindows用のmsiファイルをダウンロードできます。ただし、ファイルが大きいためうまくダウンロードできないことがたまにあります。そういった場合は、時間をおいてダウンロードを試すか、以下のリポジトリから直接gitコマンドによりリポジトリをcloneすることで対応してください。

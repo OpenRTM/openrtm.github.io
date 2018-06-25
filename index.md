@@ -110,6 +110,7 @@ OpenRTM-aist (C++, Python, Java版) および Java版のコンパイル済みjar
 
 ## NEWS
 
+<a name="tutorial_meijo"></a>
 ### RTM強化月間2018 in 名城大学
 
 #### 日時・場所
@@ -126,7 +127,7 @@ OpenRTM-aist (C++, Python, Java版) および Java版のコンパイル済みjar
 
 ただいま準備中です。
 
-
+<a name="tutorial_waseda"></a>
 ### RTM強化月間2018 in 早稲田大学
 
 #### 日時・場所
@@ -142,7 +143,7 @@ OpenRTM-aist (C++, Python, Java版) および Java版のコンパイル済みjar
 
 ただいま準備中です。
 
-
+<a name="tutorial_iri-tokyo"></a>
 ### RTM強化月間2018 in 都産技研
 
 #### 日時・場所
@@ -160,6 +161,7 @@ OpenRTM-aist (C++, Python, Java版) および Java版のコンパイル済みjar
 
 ただいま準備中です。
 
+<a name="summer_camp"></a>
 ### サマーキャンプ2018 
 
 #### 日時・場所

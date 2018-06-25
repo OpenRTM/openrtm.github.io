@@ -14,9 +14,9 @@ Thank you for your cooperation and understanding.
 
 ## 目次
 
-### ダウンロード
+### [ダウンロード](#download)
 - [Linux Pakcages](#linux_packages)
-- [Windows installer](#windows__packages)
+- [Windows installer](#windows_packages)
 - [Source Code](#source_code)
 
 
@@ -26,6 +26,7 @@ Thank you for your cooperation and understanding.
 - [6/22 RTミドルウェア講習会＠都産技研(7月24日)のご案内](tutorial_irit)
 - [6/25 RTミドルウェアサマーキャンプ(7/30-8/2)の申し込みを開始](summercamp)
 
+======
 
 
 <a name="download"></a>
@@ -126,80 +127,4 @@ OpenRTM-aist (C++, Python, Java版) および Java版のコンパイル済みjar
 | C++版    | [OpenRTM-aist-1.1.2.tar.gz](https://github.com/n-ando/openrtm-src_packages/raw/master/cxx/1.1.2/OpenRTM-aist-1.1.2.tar.gz) <br> [OpenRTM-aist-1.1.2.tar.bz2](https://github.com/n-ando/openrtm-src_packages/raw/master/cxx/1.1.2/OpenRTM-aist-1.1.2.tar.bz2) <br> [OpenRTM-aist-1.1.2-win32.zip](https://github.com/n-ando/openrtm-src_packages/raw/master/cxx/1.1.2/OpenRTM-aist-1.1.2-win32.zip) |
 | Python版 | [OpenRTM-aist-Python-1.1.2.tar.gz](https://github.com/n-ando/openrtm-src_packages/raw/master/python/1.1.2/OpenRTM-aist-Python-1.1.2.tar.gz) <br> [OpenRTM-aist-Python-1.1.2.zip](https://github.com/n-ando/openrtm-src_packages/raw/master/python/1.1.2/OpenRTM-aist-Python-1.1.2.zip) |
 | Java版   | [OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip](https://github.com/n-ando/openrtm-src_packages/raw/master/java/1.1.2/OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip) <br> [OpenRTM-aist-Java-1.1.2-RELEASE.tar.gz](https://github.com/n-ando/openrtm-src_packages/raw/master/java/1.1.2/OpenRTM-aist-Java-1.1.2-RELEASE.tar.gz) <br> [OpenRTM-aist-Java-1.1.2-RELEASE.zip](https://github.com/n-ando/openrtm-src_packages/raw/master/java/1.1.2/OpenRTM-aist-Java-1.1.2-RELEASE.zip) |
-
-
-## NEWS
-
-<a name="tutorial_meijo"></a>
-### RTM強化月間2018 in 名城大学
-
-#### 日時・場所
-- 日時: 2018年7月4日(水)
-- 場所: 名城大学
-- 聴講料: 無料
-- 定員: 10名程度を予定しております。定員になり次第申し込みは終了させていただきます。
-#### 申し込み
-
-以下のフォームから申し込んでください。
-- [申し込みフォーム(Google Form)](https://goo.gl/forms/vcGRgCx088dH1nFV2)
-
-#### プログラム
-
-ただいま準備中です。
-
-<a name="tutorial_waseda"></a>
-### RTM強化月間2018 in 早稲田大学
-
-#### 日時・場所
-- 日時: 2018年7月6日(金), 13:00 - 17:00 
-- 場所: 早稲田大学西早稲田キャンパス55号館S棟5階510室 (会議室C)
-- 聴講料: 無料
-- 定員: 10名程度を予定しております。定員になり次第申し込みは終了させていただきます。
-#### 申し込み
-以下のフォームから申し込んでください。
-- [申し込みフォーム(Google Form)](https://goo.gl/forms/0H0lnVIiWMGMDSZx1)
-
-#### プログラム
-
-ただいま準備中です。
-
-<a name="tutorial_iri-tokyo"></a>
-### RTM強化月間2018 in 都産技研
-
-#### 日時・場所
-- 日時: 2018年7月24日(火)
-- 場所: 東京都立産業技術研究センター 本部
-- 聴講料: 3,000円
-- 定員: 10名
-
-#### 申し込み
-
-以下のページから申し込んでください。
-- [申し込みページ(都産技研のサイトに移動します)](http://www.iri-tokyo.jp/seminar/180724-1.html)
-
-#### プログラム
-
-ただいま準備中です。
-
-<a name="summer_camp"></a>
-### サマーキャンプ2018 
-
-#### 日時・場所
-- 日時: 2018年7月30日(月)～8月3日
-- 場所: 産業技術総合研究所つくばセンター中央第２
-- ※産総研内の宿泊施設での宿泊が可能です。実費(約1000円/泊、食費)は参加者負担
-- 参加費: 無料
-- 定員: 20名程度を予定しております。定員になり次第申し込みは終了させていただきます。
-- 対象者: RTM講習会に参加したことがある、もしくは同等程度の経験を有していること。 
-
-#### 申し込み
-
-ただいま準備中です。
-
-#### プログラム
-
-ただいま準備中です。
-
-- 問い合わせ： n-ando@aist.go.jp
-
 

@@ -12,7 +12,7 @@
 #### 申し込み
 
 以下のフォームからお申し込みください。
-[https://goo.gl/forms/R18wB3DuHHSJTiIj1](申し込みフォーム)
+[申し込みフォーム](https://goo.gl/forms/R18wB3DuHHSJTiIj1)
 
 #### プログラム
 

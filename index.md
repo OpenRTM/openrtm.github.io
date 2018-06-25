@@ -5,18 +5,32 @@ layout: default
 # OpenRTM-aist web on the github
 
 このページは、github上に作成されたOpenRTM-aist臨時Webページです。
-Webサイトのセキュリティアップデートのため、4月いっぱいの予定でOpenRTM-aistの公式Webページを一時停止します。
+Webサイトのセキュリティアップデートのため、7月いっぱいの予定でOpenRTM-aistの公式Webページを一時停止します。
 ご迷惑をおかけしますがご理解のほどよろしくお願いいたします。
 
 This is the OpenRTM-aist official and templary website on the github.
 Due to security updates of the website, OpenRTM-aist website might be closed during April.
 Thank you for your cooperation and understanding.
 
+## 目次
+
+### ダウンロード
+
+### NEWS
+- [6/22 RTミドルウェア強化月間の申し込み(7月4日 名城大)開始](bootcamp_meijyo)
+- [6/22 RTミドルウェア強化月間の申し込み(7月6日 早稲田大)開始](bootcamp_waseda)
+- [6/22 RTミドルウェア講習会＠都産技研(7月24日)のご案内](tutorial_irit)
+- [6/25 RTミドルウェアサマーキャンプ(7/30-8/2)の申し込みを開始](summercamp)
+
+
+
+<a name="download"></a>
 ## Downloading Packages
 Linux (Ubuntu 14.04LTS, 16.04LTS) パッケージ、Windows msiインストーラ、コンパイル済みのJava（jar）パッケージのダウンロードができます。
 
 Linux (Ubuntu 14.04LTS, 16.04LTS) packages and Windows msi installers are available.
 
+<a name="linux_packages"></a>
 ### Linux packages
 
 以下のリポジトリからUbuntu用のOpenRTM-aistパッケージがダウンロードできます。
@@ -60,7 +74,7 @@ $ sudo apt-get install python-omniorb-omg omniidl-python
 $ sudo apt-get install cmake doxygen
 $ sudo apt-get install default-jdk
 ```
-
+<a name="windows_packages"></a>
 ### Windows installer
 
 以下のURLからWindows用のmsiファイルをダウンロードできます。ただし、ファイルが大きいためうまくダウンロードできないことがたまにあります。そういった場合は、時間をおいてダウンロードを試すか、以下のリポジトリから直接gitコマンドによりリポジトリをcloneすることで対応してください。

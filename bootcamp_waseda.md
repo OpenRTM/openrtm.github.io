@@ -12,7 +12,6 @@
 以下のフォームから申し込んでください。
 - [申し込みフォーム(Google Form)](https://goo.gl/forms/0H0lnVIiWMGMDSZx1)
 
-#### プログラム
 
 #### プログラム(予定)
 13:00 -13:30 第1部：RTミドルウエア: OpenRTM-aist概要 

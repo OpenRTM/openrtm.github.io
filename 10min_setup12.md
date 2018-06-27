@@ -29,17 +29,17 @@ Python 2.7 ‚Ìƒ_ƒEƒ“ƒ[ƒh‚Í OpenRTM-aist-1.2.0-RELEASE(index#download) ‚ð‚²——‚­‚
 #### ƒCƒ“ƒXƒg[ƒ‹Žè‡
 1. ƒCƒ“ƒXƒg[ƒ‰[‚ð‹N“®‚µ‚Ä [ŽŸ‚Ö] ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B
 
-<img src="./images/10min_setup/Openrtm120-Install001.png" width="400">
+<img src="./images/10min_setup/OpenRTM120-install001.png" width="400">
 
 
 2. Žg—p³‘øŒ_–ñ‘‚Ìƒy[ƒW‚Å‚·Bƒ\ƒtƒgƒEƒFƒAƒ‰ƒCƒZƒ“ƒXð€‚É“¯ˆÓ‚µ‚Ä [ŽŸ‚Ö] ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B
 
-<img src="./images/10min_setup/Openrtm120-Install002.png" width="400">
+<img src="./images/10min_setup/Openrtm120-install002.png" width="400">
 
 
 3.ƒCƒ“ƒXƒg[ƒ‹‚ÌŽí—Þ‚ð‘I‘ð‚µ‚Ü‚·BƒfƒtƒHƒ‹ƒg‚Ì‚Ü‚Ü [ŽŸ‚Ö] ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B 
 
-<img src="./images/10min_setup/Openrtm120-Install003.png" width="400">
+<img src="./images/10min_setup/Openrtm120-install003.png" width="400">
 
 
 
@@ -53,29 +53,29 @@ C++”Å‚ÅŽg—p‚·‚é Visual Studio ‚Ìƒo[ƒWƒ‡ƒ“‚ðƒVƒXƒeƒ€ŠÂ‹«•Ï”‚ÉÝ’è‚µ‚Ü‚·B
 ( VCVerChanger‚ÌŽg‚¢•û )ƒƒŠƒ“ƒN„
 ¦Python”ÅAJava”Å‚Å‚Í–³ŠÖŒW‚Å‚·‚Ì‚ÅƒfƒtƒHƒ‹ƒg‚Ì‚Ü‚Ü [ŽŸ‚Ö] ‚ðƒNƒŠƒbƒN‚µ‚Ä‚­‚¾‚³‚¢B 
 
-<img src="./images/10min_setup/Openrtm120-Install004.png" width="400">
+<img src="./images/10min_setup/Openrtm120-nstall004.png" width="400">
 
 
 
 5. ƒZƒbƒgƒAƒbƒv‚ÌŽí—Þ‚ð‘I‘ð‚µ‚Ü‚·B
 [•W€] ‚ð‘I‘ð‚µ‚½ê‡AOpenRTM-aist ‚Ì C++”ÅAJava”ÅAPython”ÅAOpenRTPARTSystemEditorRCPARTShellAOpenRTM-aist-C++”Å‚Ì Visual Studio 2008 ‚©‚ç 2017 ‚Ü‚Å‚Ìƒ‰ƒ“ƒ^ƒCƒ€ƒ‰ƒCƒuƒ‰ƒŠAOpenRTM-aist-1.0.0 ‚©‚ç 1.1.2 ‚Ü‚Å‚Ìƒ‰ƒ“ƒ^ƒCƒ€ƒ‰ƒCƒuƒ‰ƒŠ‚ªƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚Ü‚·B“Á‚É•ÏX——R‚ª‚È‚¢‚æ‚¤‚Å‚ ‚ê‚Î [•W€] ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B 
 
-<img src="./images/10min_setup/Openrtm120-Install005.png" width="400">
+<img src="./images/10min_setup/Openrtm120-install005.png" width="400">
 
 
 
 6. [ƒCƒ“ƒXƒg[ƒ‹] ‚ðƒNƒŠƒbƒN‚·‚é‚ÆƒCƒ“ƒXƒg[ƒ‹‚ªŠJŽn‚³‚ê‚Ü‚·B 
 
-<img src="./images/10min_setup/Openrtm120-Install006.png" width="400">
+<img src="./images/10min_setup/Openrtm120-install006.png" width="400">
 
 
-<img src="./images/10min_setup/Openrtm120-Install007.png" width="400">
+<img src="./images/10min_setup/Openrtm120-install007.png" width="400">
 
 
 
 7. ƒCƒ“ƒXƒg[ƒ‹‚ªI—¹‚µ‚Ü‚µ‚½B[Š®—¹] ‚ðƒNƒŠƒbƒN‚µ‚ÄƒCƒ“ƒXƒg[ƒ‰[‚ðI—¹‚µ‚Ü‚·B 
 
-<img src="./images/10min_setup/Openrtm120-Install008.png" width="400">
+<img src="./images/10min_setup/Openrtm120-install008.png" width="400">
 
 
 
@@ -130,7 +130,7 @@ Start Naming Service ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·BˆÈ‰º‚Ì‚æ‚¤‚ÈƒRƒ“ƒ\[ƒ‹‰æ–Ê‚ª•\Ž¦‚³‚ê‚Ü‚·
 <img src="./images/10min_setup/OpenRTP001.png" width="400">
 
 
-<b>ƒ[ƒNƒXƒy[ƒX‚Ì‘I‘ð
+<b>ƒ[ƒNƒXƒy[ƒX‚Ì‘I‘ð</b>
 
 
 u‚æ‚¤‚±‚»v‰æ–Ê‚Í¡‚Ì‚Æ‚±‚ë•K—v‚È‚¢‚Ì‚Å¶ã‚Ì [‚æ‚¤‚±‚»] ƒ^ƒu‚Ì [~] ƒ{ƒ^ƒ“‚ðƒNƒŠƒbƒN‚µ‚Ä‰æ–Ê‚ð•Â‚¶‚Ä‚­‚¾‚³‚¢B 

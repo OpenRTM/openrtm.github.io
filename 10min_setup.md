@@ -23,36 +23,36 @@ Python 2.7 ‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚¢‚È‚¢ê‡‚ÍAOpenRTM-aist ‚ÍƒCƒ“ƒXƒg[ƒ‹‚Å‚«‚Ü‚¹‚ñ
 
 1. ƒCƒ“ƒXƒg[ƒ‰[‚ð‹N“®‚µA[ŽŸ‚Ö] ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B
 
-<img src="./images/10min_setup/install1.png width="300">
+<img src="./images/10min_setup/install1.png" width="300">
 
 
 2. Žg—p³‘øŒ_–ñ‘‚Ìƒy[ƒW‚Å‚·Bƒ\ƒtƒgƒEƒFƒAƒ‰ƒCƒZƒ“ƒXð€‚É“¯ˆÓ‚µ‚ÄA[ŽŸ‚Ö] ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B
 
-<img src="./images/10min_setup/install2.png width="300">
+<img src="./images/10min_setup/install2.png" width="300">
 
 
 3. ƒCƒ“ƒXƒg[ƒ‹‚ÌŽí—Þ‚ð‘I‘ð‚µ‚Ü‚·B‚Ç‚¿‚ç‚©‚ð‘I‘ð‚µ‚ÄA[ŽŸ‚Ö] ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B 
 
-<img src="./images/10min_setup/install3.png width="300">
+<img src="./images/10min_setup/install3.png" width="300">
 
 
 4. ƒZƒbƒgƒAƒbƒv‚ÌŽí—Þ‚ð‘I‘ð‚µ‚Ü‚·B[•W€] ‚ð‘I‘ð‚µ‚½ê‡AOpenRTM-aist ‚Ì C++”ÅAJava”ÅAPython”ÅAOpenRTPARTSystemEditorRCPARTShellAOpenRTM-aist-C++”Å‚Ì Visual Studio 2008 ‚©‚ç 2015 ‚Ü‚Å‚Ìƒ‰ƒ“ƒ^ƒCƒ€ƒ‰ƒCƒuƒ‰ƒŠAOpenRTM-aist-1.0.0 ‚©‚ç 1.1.1 ‚Ü‚Å‚Ìƒ‰ƒ“ƒ^ƒCƒ€ƒ‰ƒCƒuƒ‰ƒŠ‚ªƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚Ü‚·B“Á‚É•ÏX——R‚ª‚È‚¢‚æ‚¤‚Å‚ ‚ê‚ÎA[•W€] ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B
 
-<img src="./images/10min_setup/install4.png width="300">
+<img src="./images/10min_setup/install4.png" width="300">
 
 
 5. [ƒCƒ“ƒXƒg[ƒ‹] ‚ðƒNƒŠƒbƒN‚·‚é‚ÆƒCƒ“ƒXƒg[ƒ‹‚ªŠJŽn‚µ‚Ü‚·B 
 
-<img src="./images/10min_setup/install5.png width="300">
+<img src="./images/10min_setup/install5.png" width="300">
 
 
 
-<img src="./images/10min_setup/install6.png width="300">
+<img src="./images/10min_setup/install6.png" width="300">
 
 
 6. ƒCƒ“ƒXƒg[ƒ‹‚ªI—¹‚µ‚Ü‚µ‚½B[Š®—¹] ‚ðƒNƒŠƒbƒN‚µ‚ÄƒCƒ“ƒXƒg[ƒ‰[‚ðI—¹‚µ‚Ü‚·B
 
-<img src="./images/10min_setup/install7.png width="300">
+<img src="./images/10min_setup/install7.png" width="300">
 
 <b>ƒCƒ“ƒXƒg[ƒ‹I—¹‰æ–Ê</b>
 
@@ -63,7 +63,7 @@ Python 2.7 ‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚¢‚È‚¢ê‡‚ÍAOpenRTM-aist ‚ÍƒCƒ“ƒXƒg[ƒ‹‚Å‚«‚Ü‚¹‚ñ
 
 •K{‚Å‚Í‚ ‚è‚Ü‚¹‚ñ‚ªA‚±‚±‚©‚ç‚ÍƒXƒ^[ƒgƒƒjƒ…[‚É“o˜^‚³‚ê‚½ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ð‘½”‹N“®‚µ‚Ü‚·B–ˆ‰ñƒXƒ^[ƒgƒƒjƒ…[‚©‚ç‡”Ô‚É‚½‚Ç‚é‚Ì‚Í‘å•Ï‚Å‚·‚Ì‚ÅA
 
-<img src="./images/10min_setup/install8.png width="300">
+<img src="./images/10min_setup/install8.png" width="300">
 
 <b>ƒtƒ@ƒCƒ‹‚ÌêŠ‚ðŠJ‚­</b>
 
@@ -71,7 +71,7 @@ Python 2.7 ‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚¢‚È‚¢ê‡‚ÍAOpenRTM-aist ‚ÍƒCƒ“ƒXƒg[ƒ‹‚Å‚«‚Ü‚¹‚ñ
 
 ‚»‚µ‚Ä1‚Âã‚ÌƒtƒHƒ‹ƒ_[‚ÉˆÚ“®‚µ‚Ä‚­‚¾‚³‚¢B
 
-<img src="./images/10min_setup/install31.png width="300">
+<img src="./images/10min_setup/install31.png" width="300">
 
 <b>ƒXƒ^[ƒgƒƒjƒ…[ƒtƒHƒ‹ƒ_[</b>
 
@@ -85,7 +85,7 @@ ConsoleInCompAConsoleOutComp ‚Í DataInPortADataOutPort ‚ÌŽg—p•û–@‚ðŽ¦‚µ‚½ƒTƒ“ƒ
 
 [OpenRTM-aist 1.1.2] > [Tools] ‚Ì Start Naming Service ‚ðƒNƒŠƒbƒN‚µ‚Ä‹N“®‚µ‚Ü‚·B
 
-<img src="./images/10min_setup/install30.png width="300">
+<img src="./images/10min_setup/install30.png" width="300">
 
 <b>Start Naming Service</b>
 
@@ -93,7 +93,7 @@ ConsoleInCompAConsoleOutComp ‚Í DataInPortADataOutPort ‚ÌŽg—p•û–@‚ðŽ¦‚µ‚½ƒTƒ“ƒ
 
 [OpenRTM-aist 1.1.2] > [C++] > [Components] > [Examples] ‚Ì ConsoleInComp.exe ‚Æ ConsoleOutComp.exe ‚ðƒNƒŠƒbƒN‚·‚é‚ÆƒRƒ“ƒ\[ƒ‹‰æ–Ê‚ª‹N“®‚µ‚Ü‚·B 
 
-<img src="./images/10min_setup/install29.png width="300">
+<img src="./images/10min_setup/install29.png" width="300">
 
 <b>ConsoleInComp.exe‚ÆConsoleOutComp.exe</b>
 
@@ -101,71 +101,71 @@ ConsoleInCompAConsoleOutComp ‚Í DataInPortADataOutPort ‚ÌŽg—p•û–@‚ðŽ¦‚µ‚½ƒTƒ“ƒ
 
 ‚±‚±‚©‚ç OpenRTP ‚ð‘€ì‚µ‚Ü‚·B[OpenRTM-aist 1.1.2] > [Tools] ‚Ì OpenRTP ‚ðƒNƒŠƒbƒN‚µ‚Ä‹N“®‚µ‚Ü‚·B ƒ[ƒNƒXƒy[ƒX‚Í“K“–‚ÈêŠ‚ðŽw’è‚µ‚Ä‚­‚¾‚³‚¢B
 
-<img src="./images/10min_setup/install40.png width="300">
+<img src="./images/10min_setup/install40.png" width="300">
 
 <b>ƒ[ƒNƒXƒy[ƒX‚Ì‘I‘ð</b>
 
 
 u‚æ‚¤‚±‚»v‰æ–Ê‚Í¡‚Ì‚Æ‚±‚ë•K—v‚È‚¢‚Ì‚Å¶ã‚Ì [‚æ‚¤‚±‚»] ƒ^ƒu‚Ì [~] ƒ{ƒ^ƒ“‚ðƒNƒŠƒbƒN‚µ‚Ä‰æ–Ê‚ð•Â‚¶‚Ä‚­‚¾‚³‚¢B
 
-<img src="./images/10min_setup/install41.png width="300">
+<img src="./images/10min_setup/install41.png" width="300">
 
 <b>‰Šú‹N“®Žž‚Ì‰æ–Ê</b>
 
 ‰Eã‚Ìuƒp[ƒXƒyƒNƒeƒBƒu‚ðŠJ‚­v‚ðƒNƒŠƒbƒN‚µAuRT System Editorv‚ð‘I‘ð‚·‚é‚±‚Æ‚ÅARTSystemEditor ‚ª‹N“®‚µ‚Ü‚·B
 
-<img src="./images/10min_setup/install42.png width="300">
+<img src="./images/10min_setup/install42.png" width="300">
 
-<img src="./images/10min_setup/install43.png width="300">
+<img src="./images/10min_setup/install43.png" width="300">
 
 <b>ƒp[ƒXƒyƒNƒeƒBƒu‚ÌØ‚è‘Ö‚¦</b>
 
 ¦NameServerView ‚Éƒl[ƒ€ƒT[ƒo[‚ª•\Ž¦‚³‚ê‚È‚¢Žž‚ÍAŽè“®‚Å localhost ‚ð’Ç‰Á‚µ‚Ü‚·B‰æ‘œ‚Ì [ƒl[ƒ€ƒT[ƒo‚Ì’Ç‰Á] ‚ðƒNƒŠƒbƒN‚µƒ_ƒCƒAƒƒO‚ð•\Ž¦‚µ‚Ü‚·Blocalhost ‚Æ“ü—Í‚µA[OK] ‚ðƒNƒŠƒbƒN‚µ‚Ä’Ç‰Á‚µ‚Ü‚·B
 
-<img src="./images/10min_setup/install44.png width="300">
+<img src="./images/10min_setup/install44.png" width="300">
 
 <b>ƒl[ƒ€ƒT[ƒo‚Ì’Ç‰Á</b>
 
 NameServiceView ‚ÉƒRƒ“ƒ|[ƒlƒ“ƒg‚ª•\Ž¦‚³‚ê‚Ü‚·BÅ‰‚ÍÜ‚è‚½‚½‚Ü‚ê‚Ä”ñ•\Ž¦‚Å‚·B[>] ‚ðƒNƒŠƒbƒN‚µ“WŠJ‚·‚é‚ÆAConsoleInCompAConsoleOutCompƒRƒ“ƒ|[ƒlƒ“ƒg‚ðŠm”F‚Å‚«‚Ü‚·B
 
-<img src="./images/10min_setup/install45.png width="300">
+<img src="./images/10min_setup/install45.png" width="300">
 
 <b>ƒRƒ“ƒ|[ƒlƒ“ƒg‹N“®Šm”F</b>
 
 [OpenNewSystemEditor] ‚ðƒNƒŠƒbƒN‚µ‚ÄASystemDiagram ‚ð•\Ž¦‚µ‚Ü‚·B
 
-<img src="./images/10min_setup/install46.png width="300">
+<img src="./images/10min_setup/install46.png" width="300">
 
 <b>SystemDiagram‚ð•\Ž¦</b>
 
 NameServiceView ‚ÌƒRƒ“ƒ|[ƒlƒ“ƒg‚ðƒVƒXƒeƒ€Eƒ_ƒCƒAƒOƒ‰ƒ€‚Éƒhƒ‰ƒbƒO•ƒhƒƒbƒv‚·‚é‚Æ‰æ‘œ‚Ì‚æ‚¤‚É•\Ž¦‚³‚ê‚Ü‚·B
 
-<img src="./images/10min_setup/install47.png width="300">
+<img src="./images/10min_setup/install47.png" width="300">
 
 <b>ƒRƒ“ƒ|[ƒlƒ“ƒg‚ðƒhƒ‰ƒbƒO•ƒhƒƒbƒv</b>
 
 ƒRƒ“ƒ|[ƒlƒ“ƒg‚ðÚ‘±‚µ‚Ü‚·Bƒf[ƒ^ƒ|[ƒgŠÔ‚Åƒhƒ‰ƒbƒO•ƒhƒƒbƒvŒãAÚ‘±‚É•K—v‚Èî•ñ‚Ì“ü—Í‚ð‘£‚·ƒ_ƒCƒAƒƒO‚ª•\Ž¦‚³‚ê‚é‚Ì‚ÅA[OK] ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B
 
 
-<img src="./images/10min_setup/install48.png width="300">
+<img src="./images/10min_setup/install48.png" width="300">
 
 
-<img src="./images/10min_setup/install49.png width="300">
+<img src="./images/10min_setup/install49.png" width="300">
 
 <b>ƒRƒ“ƒ|[ƒlƒ“ƒgÚ‘±</b>
 
 Ú‘±‚ªŠ®—¹‚µ‚Ü‚µ‚½B
 
-<img src="./images/10min_setup/install50.png width="300">
+<img src="./images/10min_setup/install50.png" width="300">
 
 <b>Ú‘±Š®—¹</b>
 
 ƒRƒ“ƒ|[ƒlƒ“ƒg‚Ìó‘Ô‚ð Activate ‚É‚µ‚Ü‚·B[All Activate] ƒNƒŠƒbƒN‚µ‚Ä‚­‚¾‚³‚¢BƒRƒ“ƒ|[ƒlƒ“ƒg‚ÌF‚ªÂ‚©‚ç–¾‚é‚¢—Î‚É•Ï‚í‚Á‚½‚ç¬Œ÷‚Å‚·BƒRƒ“ƒ|[ƒlƒ“ƒg‚ÍŒÂ•Ê‚É‘I‘ð‚µ‚Ä Activate ‚É‚·‚é‚±‚Æ‚à‰Â”\‚Å‚·B
 
 
-<img src="./images/10min_setup/install51.png width="300">
+<img src="./images/10min_setup/install51.png" width="300">
 
-<img src="./images/10min_setup/install52.png width="300">
+<img src="./images/10min_setup/install52.png" width="300">
 
 
 <b>ActivateŠ®—¹</b>
@@ -173,15 +173,15 @@ NameServiceView ‚ÌƒRƒ“ƒ|[ƒlƒ“ƒg‚ðƒVƒXƒeƒ€Eƒ_ƒCƒAƒOƒ‰ƒ€‚Éƒhƒ‰ƒbƒO•ƒhƒƒbƒv‚·‚é
 ŽŸ‚ÉƒRƒ“ƒ\[ƒ‹‰æ–Ê‚Å“®ìŠm”F‚µ‚Ü‚·BRTSystemEditor ‚ÅÚ‘±ŒãAConsoleInComp.exe ƒRƒ“ƒ\[ƒ‹‚ÉAuPlease input number:v‚Æ•\Ž¦‚³‚ê‚Ü‚·B
 
 
-<img src="./images/10min_setup/install24.png width="300">
+<img src="./images/10min_setup/install24.png" width="300">
 
 <b>ConsoleInComp.exe‚ÆConsoleOutComp.exe</b>
 
 ConsoleInComp.exe ƒRƒ“ƒ\[ƒ‹‰æ–Ê‚ð‘I‘ð‚µA”’l‚ð“ü—Í‚µ [Enter] ‚ð‰Ÿ‚·‚ÆAConsoleOutComp.exe ƒRƒ“ƒ\[ƒ‹‚É”’l‚ª•\Ž¦‚³‚ê‚Ü‚·B
 
-<img src="./images/10min_setup/install25.png width="300">
+<img src="./images/10min_setup/install25.png" width="300">
 
-<img src="./images/10min_setup/install26.png width="300">
+<img src="./images/10min_setup/install26.png" width="300">
 
 <b>“®ìŠm”F</b>
 
@@ -190,11 +190,11 @@ ConsoleInComp.exe ƒRƒ“ƒ\[ƒ‹‰æ–Ê‚ð‘I‘ð‚µA”’l‚ð“ü—Í‚µ [Enter] ‚ð‰Ÿ‚·‚ÆAConsole
 
 ˆÈã‚Å ConsoleInComp.exe ‚Æ ConsoleOutComp.exe ‚ðŽg—p‚µ‚½“®ìŠm”F‚ÍI—¹‚Å‚·BƒRƒ“ƒ|[ƒlƒ“ƒg‚ðI—¹‚·‚éê‡‚ÍADeactivate ‚µ‚Ä‚©‚ç Exit ‚µ‚Ä‰º‚³‚¢B
 
-<img src="./images/10min_setup/install53.png width="300">
+<img src="./images/10min_setup/install53.png" width="300">
 
 <b>ƒRƒ“ƒ|[ƒlƒ“ƒg”ñƒAƒNƒeƒBƒu‰»</b>
 
-<img src="./images/10min_setup/install54.png width="300">
+<img src="./images/10min_setup/install54.png" width="300">
 
 <b>ƒRƒ“ƒ|[ƒlƒ“ƒgI—¹</b>
 
@@ -226,7 +226,7 @@ ConsoleIn.pyAConsoleOut.py ‚Æ ConsoleInComp.exeAConsoleOutComp.exe ‚ÌŠî–{“I‚È“
 ŽŸ‚ÉƒRƒ}ƒ“ƒhƒvƒƒ“ƒvƒg‚ð‹N“®‚µ‚Ä‚­‚¾‚³‚¢B
 
 
-<img src="./images/10min_setup/install32.png width="300">
+<img src="./images/10min_setup/install32.png" width="300">
 
 <b>ƒRƒ}ƒ“ƒhƒvƒƒ“ƒvƒg‚Ì‹N“®</b>
 
@@ -246,7 +246,7 @@ ConsoleIn.pyAConsoleOut.py ‚Æ ConsoleInComp.exeAConsoleOutComp.exe ‚ÌŠî–{“I‚È“
    Profile::id:     4d622f80-135f-11e6-b923-001c4231a7a3
 
 
-<img src="./images/10min_setup/install36.png width="300">
+<img src="./images/10min_setup/install36.png" width="300">
 
 <b>ƒf[ƒ^ƒ|[ƒgÚ‘±‚Ì•\Ž¦</b>
 
@@ -254,7 +254,7 @@ ConsoleIn.pyAConsoleOut.py ‚Æ ConsoleInComp.exeAConsoleOutComp.exe ‚ÌŠî–{“I‚È“
 NameServiceView ‚ÌƒRƒ“ƒ|[ƒlƒ“ƒg‚ðƒVƒXƒeƒ€Eƒ_ƒCƒAƒOƒ‰ƒ€‚Éƒhƒ‰ƒbƒO•ƒhƒƒbƒv‚·‚é‚ÆA ƒf[ƒ^ƒ|[ƒg‚ªÚ‘±‚³‚ê‚½‚±‚Æ‚ªŠm”F‚Å‚«‚Ü‚·B
 
 
-<img src="./images/10min_setup/install55.png width="300">
+<img src="./images/10min_setup/install55.png" width="300">
 
 <b>ƒf[ƒ^ƒ|[ƒgÚ‘±‚ÌŠm”F</b>
 
@@ -266,7 +266,7 @@ NameServiceView ‚ÌƒRƒ“ƒ|[ƒlƒ“ƒg‚ðƒVƒXƒeƒ€Eƒ_ƒCƒAƒOƒ‰ƒ€‚Éƒhƒ‰ƒbƒO•ƒhƒƒbƒv‚·‚é
 
 RTƒVƒXƒeƒ€ƒGƒfƒBƒ^‚ðŒ©‚Ä‚Ý‚é‚ÆARTC ‚ªƒAƒNƒeƒBƒu‰»‚³‚ê‚½‚±‚Æ‚ªŠm”F‚Å‚«‚Ü‚·B
 
-<img src="./images/10min_setup/install56.png width="300">
+<img src="./images/10min_setup/install56.png" width="300">
 
 <b>ƒAƒNƒeƒBƒu‰»‚ÌŠm”F</b>
 
@@ -274,7 +274,7 @@ RTƒVƒXƒeƒ€ƒGƒfƒBƒ^‚ðŒ©‚Ä‚Ý‚é‚ÆARTC ‚ªƒAƒNƒeƒBƒu‰»‚³‚ê‚½‚±‚Æ‚ªŠm”F‚Å‚«‚Ü‚·B
 ‚»‚µ‚Ä ConsoleIn.py ƒRƒ“ƒ\[ƒ‹‰æ–Ê‚Å”’l‚ð“ü—Í‚·‚é‚ÆAConsoleOut.py ƒRƒ“ƒ\[ƒ‹‚É”’l‚ª•\Ž¦‚³‚ê‚Ü‚·B
 
 
-<img src="./images/10min_setup/install38.png width="300">
+<img src="./images/10min_setup/install38.png" width="300">
 
 <b>ConsoleIn.py ‚Æ ConsoleOut.py</b>
 

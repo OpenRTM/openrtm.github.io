@@ -34,12 +34,12 @@ Python 2.7 ‚Ìƒ_ƒEƒ“ƒ[ƒh‚Í OpenRTM-aist-1.2.0-RELEASE(index#download) ‚ð‚²——‚­‚
 
 2. Žg—p³‘øŒ_–ñ‘‚Ìƒy[ƒW‚Å‚·Bƒ\ƒtƒgƒEƒFƒAƒ‰ƒCƒZƒ“ƒXð€‚É“¯ˆÓ‚µ‚Ä [ŽŸ‚Ö] ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B
 
-<img src="./images/10min_setup/Openrtm120-install002.png" width="400">
+<img src="./images/10min_setup/OpenRTM120-install002.png" width="400">
 
 
 3.ƒCƒ“ƒXƒg[ƒ‹‚ÌŽí—Þ‚ð‘I‘ð‚µ‚Ü‚·BƒfƒtƒHƒ‹ƒg‚Ì‚Ü‚Ü [ŽŸ‚Ö] ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B 
 
-<img src="./images/10min_setup/Openrtm120-install003.png" width="400">
+<img src="./images/10min_setup/OpenRTM120-install003.png" width="400">
 
 
 
@@ -53,7 +53,7 @@ C++”Å‚ÅŽg—p‚·‚é Visual Studio ‚Ìƒo[ƒWƒ‡ƒ“‚ðƒVƒXƒeƒ€ŠÂ‹«•Ï”‚ÉÝ’è‚µ‚Ü‚·B
 ( VCVerChanger‚ÌŽg‚¢•û )ƒƒŠƒ“ƒN„
 ¦Python”ÅAJava”Å‚Å‚Í–³ŠÖŒW‚Å‚·‚Ì‚ÅƒfƒtƒHƒ‹ƒg‚Ì‚Ü‚Ü [ŽŸ‚Ö] ‚ðƒNƒŠƒbƒN‚µ‚Ä‚­‚¾‚³‚¢B 
 
-<img src="./images/10min_setup/Openrtm120-nstall004.png" width="400">
+<img src="./images/10min_setup/OpenRTM120-install004.png" width="400">
 
 
 
@@ -66,16 +66,16 @@ C++”Å‚ÅŽg—p‚·‚é Visual Studio ‚Ìƒo[ƒWƒ‡ƒ“‚ðƒVƒXƒeƒ€ŠÂ‹«•Ï”‚ÉÝ’è‚µ‚Ü‚·B
 
 6. [ƒCƒ“ƒXƒg[ƒ‹] ‚ðƒNƒŠƒbƒN‚·‚é‚ÆƒCƒ“ƒXƒg[ƒ‹‚ªŠJŽn‚³‚ê‚Ü‚·B 
 
-<img src="./images/10min_setup/Openrtm120-install006.png" width="400">
+<img src="./images/10min_setup/OpenRTM120-install006.png" width="400">
 
 
-<img src="./images/10min_setup/Openrtm120-install007.png" width="400">
+<img src="./images/10min_setup/OpenRTM120-install007.png" width="400">
 
 
 
 7. ƒCƒ“ƒXƒg[ƒ‹‚ªI—¹‚µ‚Ü‚µ‚½B[Š®—¹] ‚ðƒNƒŠƒbƒN‚µ‚ÄƒCƒ“ƒXƒg[ƒ‰[‚ðI—¹‚µ‚Ü‚·B 
 
-<img src="./images/10min_setup/Openrtm120-install008.png" width="400">
+<img src="./images/10min_setup/OpenRTM120-install008.png" width="400">
 
 
 
@@ -219,7 +219,7 @@ NameServiceView ‚É‚ ‚é ConsoleInAConsoleOut ‚ÌƒRƒ“ƒ|[ƒlƒ“ƒg‚ð System Diagramã
 
 ConsoleIn ‰æ–Ê‚Å”CˆÓ‚Ì”’l‚ð“ü—Í‚µ [Enter] ‚ð‰Ÿ‚·‚ÆAConsoleOut ‰æ–Ê‚É”’l‚ª•\Ž¦‚³‚ê‚Ü‚·B
 
-<img src="./images/10min_setup/Console002.png" width="400">
+<img src="./images/10min_setup/Console002.png" width="600">
   
 
 <b>“®ìŠm”F</b>

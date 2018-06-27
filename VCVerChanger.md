@@ -1,102 +1,101 @@
 ## VCVerChanger
-### �T�v
+### 概要
 
-�{�c�[���́AOpenRTM-aist 1.2.0 �ňȍ~�̃C���X�g�[���[�Ɋ܂܂�Ă���A���L�̃P�[�X�ɑΉ����Ă��܂��B
+本ツールは、OpenRTM-aist 1.2.0 版以降のインストーラーに含まれており、下記のケースに対応しています。
 
-- OpenRTM-aist �Ŏg�p���� Visual Studio �̃o�[�W������ύX������
-- OpenRTM-aist ��32bit �ŁA64bit �ł𗼕��C���X�g�[�����Ă��邪�A�؂�ւ��Ďg�������B
+- OpenRTM-aist で使用する Visual Studio のバージョンを変更したい
+- OpenRTM-aist の32bit 版、64bit 版を両方インストールしているが、切り替えて使いたい。
 
-OpenRTM-aist�́A32bit �ł�64bit �ł��������O�̃V�X�e�����𗘗p���Ă��܂��B�܂��p�X��ʂ����߂� PATH �ɂ��ǉ����Ă��܂��B ���̂��߁A32bit �ŁA64bit �ł̗������C���X�g�[��������A������A���C���X�g�[�������肷��ƁA�V�X�e�����ϐ��̏����������K�v�ƂȂ�ꍇ������܂��B
+OpenRTM-aistは、32bit 版も64bit 版も同じ名前のシステム環境を利用しています。またパスを通すために PATH にも追加しています。 このため、32bit 版、64bit 版の両方をインストールしたり、一方をアンインストールしたりすると、システム環境変数の書き換えが必要となる場合があります。
 
-���̂悤�ȏꍇ�ɖ{�c�[�����N������ [�m�F] �{�^�����N���b�N����ƁA�������V�X�e�����ϐ��ɏC�����܂��B
+このような場合に本ツールを起動して [確認] ボタンをクリックすると、正しいシステム環境変数に修正します。
 
-�{�c�[���̃��O���A�N����ʂɎ����Ă����ɏo�͂��Ă��܂��B����㏑�����Ă���̂Œ��O�̎��s���e�����ł����m�F���邱�Ƃ��ł��܂��B
+本ツールのログを、起動画面に示している先に出力しています。毎回上書きしているので直前の実行内容だけですが確認することができます。
 
-### �C���X�g�[������ыN��
+### インストールおよび起動
 
-�C���X�g�[����ɃX�^�[�g���j���[����N���ł��܂��BVCVerChanger �Ō������Ă̋N�����ł��܂��B
+インストール後にスタートメニューから起動できます。VCVerChanger で検索しての起動もできます。
 
 <img src="./images/vcverchanger/VCVerChanger_01.png" width="600">
 
 
 
-### Visual Studio �̃o�[�W�����X�V�菇
+### Visual Studio のバージョン更新手順
 
-�{�c�[�����N�����A[�m�F] �{�^�����N���b�N���܂��B�����Ŏ����Ă���摜�́AOpenRTM-aist �� 32bit �ł������C���X�g�[�����Ă�����ł̌��ʂł��B 
+本ツールを起動し、[確認] ボタンをクリックします。ここで示している画像は、OpenRTM-aist の 32bit 版だけをインストールしている環境での結果です。 
 
 <img src="./images/vcverchanger/VCVerChanger_03.jpg" width="400">
 
 
 
-���݂̃V�X�e�����ϐ��̐ݒ肪�\������܂��B��ԏ�� Visual Studio Version ���C���X�g�[�����Ă���o�[�W�����ƈ�v���Ă��邩�m�F���܂��B 
+現在のシステム環境変数の設定が表示されます。一番上の Visual Studio Version がインストールしているバージョンと一致しているか確認します。 
 
 <img src="./images/vcverchanger/VCVerChanger_04.jpg" width="400">
 
 
 
-�ύX����ꍇ�́A���L�̂悤�Ƀ��X�g����I�����A[�X�V] �{�^�����N���b�N���܂��B 
+変更する場合は、下記のようにリストから選択し、[更新] ボタンをクリックします。 
 
 <img src="./images/vcverchanger/VCVerChanger_05.jpg" width="400">
 
 
 
-�ύX��̐ݒ肪�\������܂��̂ŁA�w�肵�� RTM_VC_VERSION �̒l���p�X�ɔ��f����Ă��邱�Ƃ��m�F���A[�I��] �{�^�����N���b�N���܂��B 
+変更後の設定が表示されますので、指定した RTM_VC_VERSION の値がパスに反映されていることを確認し、[終了] ボタンをクリックします。 
 
 <img src="./images/vcverchanger/VCVerChanger_06.jpg" width="400">
 
 
-## OpenRTM-aist �� 32bit�A64bit �p�X�̐ؑ֎菇
+## OpenRTM-aist の 32bit、64bit パスの切替手順
 
-32bit �ł� 64bit �ł𑱂��ăC���X�g�[�������ꍇ�A�{�c�[�����N������ [�m�F] �{�^�����N���b�N���܂��B ���݂̃V�X�e�����ϐ��̐ݒ肪�\������APATH �ɗ����̐ݒ肪�������Ēǉ�����Ă��邱�Ƃ��m�F�ł��܂��B 
+32bit 版と 64bit 版を続けてインストールした場合、本ツールを起動して [確認] ボタンをクリックします。 現在のシステム環境変数の設定が表示され、PATH に両方の設定が混ざって追加されていることを確認できます。 
 
 <img src="./images/vcverchanger/VCVerChanger_07.jpg" width="400">
 
 
 
-32bit�A64bit �̂ǂ��炩��I�����A[�ؑ�] �{�^�����N���b�N���܂��B 
+32bit、64bit のどちらかを選択し、[切替] ボタンをクリックします。 
 
 <img src="./images/vcverchanger/VCVerChanger_08.jpg" width="400">
 
 
 
-�؂�ւ���̐ݒ肪�\������܂��̂ŁA�p�X���m�F�� [�I��] �{�^�����N���b�N���܂��B 
+切り替え後の設定が表示されますので、パスを確認し [終了] ボタンをクリックします。 
 
 <img src="./images/vcverchanger/VCVerChanger_09.jpg" width="400">
 
 
-### OpenRTM-aist 1.1.2�ŗp�̃c�[�� OpenRTMEnvTool
+### OpenRTM-aist 1.1.2版用のツール OpenRTMEnvTool
 
-### �_�E�����[�h
+### ダウンロード
 
-�{�c�[���̎��s�ɂ́Amfc �� dll ���K�v�ł��B���� dll ��ʓr�C���X�g�[�������Ƃ��c�[�������s���邽�߂ɁA2��ނ̎��s�t�@�C����p�ӂ��Ă��܂��B ���g�p�� Visual Studio �̃o�[�W�����ɍ��킹�ă_�E�����[�h���Ă��������B
+本ツールの実行には、mfc の dll が必要です。この dll を別途インストールせずともツールを実行するために、2種類の実行ファイルを用意しています。 ご使用の Visual Studio のバージョンに合わせてダウンロードしてください。
 
 | VS Version    | URL                                      |
-
 |:--------------|:-----------------------------------------| 
-|Visual Studio 2008,2010,2012 ����|OpenRTMEnvTool_vc10.exe |
-|Visual Studio 2013,2015 ����	  |OpenRTMEnvTool_vc12.exe |
+|Visual Studio 2008,2010,2012 向け|OpenRTMEnvTool_vc10.exe |
+|Visual Studio 2013,2015 向け	  |OpenRTMEnvTool_vc12.exe |
 
-### �g����
+### 使い方
 
-�_�E�����[�h���� exe �t�@�C�������s����ƈȉ��̉�ʂ��\�������̂ŁA[�m�F] �{�^�����N���b�N���܂��B 
+ダウンロードした exe ファイルを実行すると以下の画面が表示されるので、[確認] ボタンをクリックします。 
 
 <img src="./images/vcverchanger/RTMEnvTool_01.jpg" width="400">
 
 
 
-���݂̃V�X�e�����ϐ��̐ݒ肪�\�������̂ŁA��ԏ�́uRTM_VC_VERSION�v�̐ݒ肪�C���X�g�[�����Ă��� Visual Studio �̃o�[�W�����ƈ�v���Ă��邩�m�F���܂��B 
+現在のシステム環境変数の設定が表示されるので、一番上の「RTM_VC_VERSION」の設定がインストールしている Visual Studio のバージョンと一致しているか確認します。 
 
 <img src="./images/vcverchanger/RTMEnvTool_02.jpg" width="400">
 
 
 
-�uRTM_VC_VERSION�v�̐ݒ�� vc14 (vc2015�p�j�ɕύX����ꍇ�́A���L�̂悤�Ɏw�肵�A[�X�V] �{�^�����N���b�N���܂��B 
+「RTM_VC_VERSION」の設定を vc14 (vc2015用）に変更する場合は、下記のように指定し、[更新] ボタンをクリックします。 
 
 <img src="./images/vcverchanger/RTMEnvTool_03.jpg" width="400">
 
 
 
-�ύX��̐ݒ肪�\������܂��̂ŁA�w�肵�� RTM_VC_VERSION �̒l���p�X�ɔ��f����Ă��邱�Ƃ��m�F���A[�I��] �{�^�����N���b�N���܂��B 
+変更後の設定が表示されますので、指定した RTM_VC_VERSION の値がパスに反映されていることを確認し、[終了] ボタンをクリックします。 
 
 <img src="./images/vcverchanger/RTMEnvTool_04.jpg" width="400">
 

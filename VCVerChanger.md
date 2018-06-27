@@ -16,7 +16,7 @@ OpenRTM-aistは、32bit 版も64bit 版も同じ名前のシステム環境を利用しています。また
 
 インストール後にスタートメニューから起動できます。VCVerChanger で検索しての起動もできます。
 
-<img src="./images/vcverchanger/VCVerChanger_01.png" width="400">
+<img src="./images/vcverchanger/VCVerChanger_01.png" width="600">
 
 
 

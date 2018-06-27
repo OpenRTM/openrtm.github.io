@@ -50,7 +50,7 @@ C++版で使用する Visual Studio のバージョンをシステム環境変数に設定します。
 
 ※Visual Studio のダウンロードは OpenRTM-aist-1.2.0-RELEASE <ページ作成中> をご覧ください。
 ※システム環境変数 RTM_VC_VERSION の設定は、インストール終了後に VCVerChanger で変更することができます。
-( VCVerChangerの使い方 )＜リンク＞
+( [VCVerChangerの使い方](VCVerChanger) )
 ※Python版、Java版では無関係ですのでデフォルトのまま [次へ] をクリックしてください。 
 
 <img src="./images/10min_setup/OpenRTM120-install004.png" width="400">

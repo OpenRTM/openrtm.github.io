@@ -24,7 +24,7 @@ Python 2.7 ‚Ìƒ_ƒEƒ“ƒ[ƒh‚Í OpenRTM-aist-1.2.0-RELEASE(index#download) ‚ð‚²——‚­‚
 
 ‚±‚±‚Å‚Í Windows10 ‚Å 32bit —pƒCƒ“ƒXƒg[ƒ‰[ OpenRTM-aist-1.2.0-RELEASE_x86.msi ‚ðŽg‚Á‚½ƒCƒ“ƒXƒg[ƒ‹Žè‡‚ðÐ‰î‚µ‚Ü‚·B
 
-ƒCƒ“ƒXƒg[ƒ‰[‚Ìƒ_ƒEƒ“ƒ[ƒh‚Í OpenRTM-aist-1.2.0-RELEASƒƒŠƒ“ƒN„ ‚ð‚²——‚­‚¾‚³‚¢B
+ƒCƒ“ƒXƒg[ƒ‰[‚Ìƒ_ƒEƒ“ƒ[ƒh‚Í OpenRTM-aist-1.2.0-RELEAS(index#download) ‚ð‚²——‚­‚¾‚³‚¢B
 
 #### ƒCƒ“ƒXƒg[ƒ‹Žè‡
 1. ƒCƒ“ƒXƒg[ƒ‰[‚ð‹N“®‚µ‚Ä [ŽŸ‚Ö] ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B
@@ -60,7 +60,7 @@ C++”Å‚ÅŽg—p‚·‚é Visual Studio ‚Ìƒo[ƒWƒ‡ƒ“‚ðƒVƒXƒeƒ€ŠÂ‹«•Ï”‚ÉÝ’è‚µ‚Ü‚·B
 5. ƒZƒbƒgƒAƒbƒv‚ÌŽí—Þ‚ð‘I‘ð‚µ‚Ü‚·B
 [•W€] ‚ð‘I‘ð‚µ‚½ê‡AOpenRTM-aist ‚Ì C++”ÅAJava”ÅAPython”ÅAOpenRTPARTSystemEditorRCPARTShellAOpenRTM-aist-C++”Å‚Ì Visual Studio 2008 ‚©‚ç 2017 ‚Ü‚Å‚Ìƒ‰ƒ“ƒ^ƒCƒ€ƒ‰ƒCƒuƒ‰ƒŠAOpenRTM-aist-1.0.0 ‚©‚ç 1.1.2 ‚Ü‚Å‚Ìƒ‰ƒ“ƒ^ƒCƒ€ƒ‰ƒCƒuƒ‰ƒŠ‚ªƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚Ü‚·B“Á‚É•ÏX——R‚ª‚È‚¢‚æ‚¤‚Å‚ ‚ê‚Î [•W€] ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B 
 
-<img src="./images/10min_setup/Openrtm120-install005.png" width="400">
+<img src="./images/10min_setup/OpenRTM120-install005.png" width="400">
 
 
 

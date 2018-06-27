@@ -52,7 +52,7 @@ Python 2.7 ‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚¢‚È‚¢ê‡‚ÍAOpenRTM-aist ‚ÍƒCƒ“ƒXƒg[ƒ‹‚Å‚«‚Ü‚¹‚ñ
 
 6. ƒCƒ“ƒXƒg[ƒ‹‚ªI—¹‚µ‚Ü‚µ‚½B[Š®—¹] ‚ðƒNƒŠƒbƒN‚µ‚ÄƒCƒ“ƒXƒg[ƒ‰[‚ðI—¹‚µ‚Ü‚·B
 
-<img src="./images/10min_setup/install7.png" width="300">
+<img src="./images/10min_setup/install7_0.png" width="300">
 
 <b>ƒCƒ“ƒXƒg[ƒ‹I—¹‰æ–Ê</b>
 
@@ -93,7 +93,7 @@ ConsoleInCompAConsoleOutComp ‚Í DataInPortADataOutPort ‚ÌŽg—p•û–@‚ðŽ¦‚µ‚½ƒTƒ“ƒ
 
 [OpenRTM-aist 1.1.2] > [C++] > [Components] > [Examples] ‚Ì ConsoleInComp.exe ‚Æ ConsoleOutComp.exe ‚ðƒNƒŠƒbƒN‚·‚é‚ÆƒRƒ“ƒ\[ƒ‹‰æ–Ê‚ª‹N“®‚µ‚Ü‚·B 
 
-<img src="./images/10min_setup/install29.png" width="300">
+<img src="./images/10min_setup/install29.png" width="600">
 
 <b>ConsoleInComp.exe‚ÆConsoleOutComp.exe</b>
 
@@ -240,10 +240,9 @@ ConsoleIn.pyAConsoleOut.py ‚Æ ConsoleInComp.exeAConsoleOutComp.exe ‚ÌŠî–{“I‚È“
 
 ‚·‚é‚Æ ConsoleIn.pyAConsoleOut.py ƒRƒ“ƒ\[ƒ‹‚ÉˆÈ‰º‚Ì‚æ‚¤‚È•¶Žš—ñ‚ª•\Ž¦‚³‚ê‚Ü‚·B
 
-
-   Listener:        ON_CONNECT
-   Profile::name:   outin
-   Profile::id:     4d622f80-135f-11e6-b923-001c4231a7a3
+    Listener:        ON_CONNECT
+    Profile::name:   outin
+    Profile::id:     4d622f80-135f-11e6-b923-001c4231a7a3
 
 
 <img src="./images/10min_setup/install36.png" width="300">
@@ -266,7 +265,7 @@ NameServiceView ‚ÌƒRƒ“ƒ|[ƒlƒ“ƒg‚ðƒVƒXƒeƒ€Eƒ_ƒCƒAƒOƒ‰ƒ€‚Éƒhƒ‰ƒbƒO•ƒhƒƒbƒv‚·‚é
 
 RTƒVƒXƒeƒ€ƒGƒfƒBƒ^‚ðŒ©‚Ä‚Ý‚é‚ÆARTC ‚ªƒAƒNƒeƒBƒu‰»‚³‚ê‚½‚±‚Æ‚ªŠm”F‚Å‚«‚Ü‚·B
 
-<img src="./images/10min_setup/install56.png" width="300">
+<img src="./images/10min_setup/install56.png" width="600">
 
 <b>ƒAƒNƒeƒBƒu‰»‚ÌŠm”F</b>
 
@@ -280,12 +279,12 @@ RTƒVƒXƒeƒ€ƒGƒfƒBƒ^‚ðŒ©‚Ä‚Ý‚é‚ÆARTC ‚ªƒAƒNƒeƒBƒu‰»‚³‚ê‚½‚±‚Æ‚ªŠm”F‚Å‚«‚Ü‚·B
 
 ˆÈ‰º‚ÌƒRƒ}ƒ“ƒh‚Å RTC ‚ð”ñƒAƒNƒeƒBƒu‰»‚µ‚Ä‚­‚¾‚³‚¢B
 
-   rtdeact /localhost/ConsoleIn0.rtc /localhost/ConsoleOut0.rtc
+    rtdeact /localhost/ConsoleIn0.rtc /localhost/ConsoleOut0.rtc
 
 ¦ConsoleIn ‚ª”ñƒAƒNƒeƒBƒu‰»‚Å‚«‚È‚¢ê‡A”’l“ü—Í‚ÅŽ~‚Ü‚Á‚Ä‚¢‚é‚Ì‚Å‰½‚©”’l‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B
 
 ÅŒã‚ÉˆÈ‰º‚ÌƒRƒ}ƒ“ƒh‚Å RTC ‚ðI—¹‚³‚¹‚Ä‚­‚¾‚³‚¢B
 
-   rtexit /localhost/ConsoleIn0.rtc
+    rtexit /localhost/ConsoleIn0.rtc
 
-   rtexit /localhost/ConsoleOut0.rtc
+    rtexit /localhost/ConsoleOut0.rtc

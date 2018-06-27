@@ -70,8 +70,11 @@ OpenRTM-aistは、32bit 版も64bit 版も同じ名前のシステム環境を利用しています。また
 
 本ツールの実行には、mfc の dll が必要です。この dll を別途インストールせずともツールを実行するために、2種類の実行ファイルを用意しています。 ご使用の Visual Studio のバージョンに合わせてダウンロードしてください。
 
-|Visual Studio 2008,2010,2012 向け|OpenRTMEnvTool_vc10.exe<リンク>|
-|Visual Studio 2013,2015 向け	  |OpenRTMEnvTool_vc12.exe<リンク>|
+| VS Version    | URL                                      |
+
+|:--------------|:-----------------------------------------| 
+|Visual Studio 2008,2010,2012 向け|OpenRTMEnvTool_vc10.exe |
+|Visual Studio 2013,2015 向け	  |OpenRTMEnvTool_vc12.exe |
 
 ### 使い方
 

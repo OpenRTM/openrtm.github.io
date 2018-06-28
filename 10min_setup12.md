@@ -48,9 +48,9 @@ Python 2.7 のダウンロードは OpenRTM-aist-1.2.0-RELEASE(index#download) �
 C++版で使用する Visual Studio のバージョンをシステム環境変数に設定します。
 インストールされている Visual Studio のバージョンを選択して [次へ] をクリックします。
 
-※Visual Studio 2017のインストールは[こちら](vs2017_install)をご覧ください。
-※Visual Studio (それ以外のバージョン)のインストールは[こちら](vs2017_install)をご覧ください。
-※システム環境変数 RTM_VC_VERSION の設定は、インストール終了後に VCVerChanger で変更することができます。
+- ※Visual Studio 2017のインストールは[こちら](vs2017_install)をご覧ください。
+- ※Visual Studio (それ以外のバージョン)のインストールは[こちら](vs2017_install)をご覧ください。
+- ※システム環境変数 RTM_VC_VERSION の設定は、インストール終了後に VCVerChanger で変更することができます。
 - [VCVerChangerの使い方](VCVerChanger) 
 ※Python版、Java版では無関係ですのでデフォルトのまま [次へ] をクリックしてください。 
 

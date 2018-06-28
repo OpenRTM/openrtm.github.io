@@ -19,7 +19,8 @@ Thank you for your cooperation and understanding.
 - [Windows installer](#windows_packages)
 - [Source Code](#source_code)
 
-### [１０分ではじめよう！](10min_setup12)
+### ドキュメント
+- [１０分ではじめよう！](10min_setup12)
 
 ### NEWS
 - [6/22 RTミドルウェア強化月間の申し込み(7月4日 名城大)開始](bootcamp_meijyo)

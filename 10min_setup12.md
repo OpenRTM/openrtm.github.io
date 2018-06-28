@@ -11,7 +11,7 @@
 Python 2.7 をインストールしていない場合は、OpenRTM-aist をインストールすることができません。
 OpenRTM-aist をインストールする前に、Python 2.7 をインストールしてください。
 
-Python 2.7 のダウンロードは OpenRTM-aist-1.2.0-RELEASE(index#download) をご覧ください。
+Python 2.7 は [こちら](https://www.python.org/ftp/python/2.7.10/python-2.7.10.msi) からダウンロードしてください。
 
 インストールを実行した際に、以下の画面で [Add python.exe to Path] を [Will be installed on local hard drive] に設定してください。
 こうすると、python.exe と Scripts に Path を自動で設定してくれます。（例：Path=C:\Python27\; C:\Python27\Scripts;...）

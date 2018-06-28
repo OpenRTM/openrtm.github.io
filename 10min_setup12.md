@@ -143,7 +143,7 @@ Start Naming Service をクリックします。以下のようなコンソー�
 
 画面右上の [パースペクティブを開く] をクリックします。表示されるダイアログで [RT System Editor] を選択して [開く] をクリックすると RTSystemEditor が起動します。 
 
-<img src="./images/10min_setup/OpenRTP003.png" width="500">
+<img src="./images/10min_setup/OpenRTP003.png" width="600">
   
 
 <b>パースペクティブの切り替え</b>
@@ -159,7 +159,7 @@ NameServiceView にコンポーネントが表示されます。最初は折り�
 
 ※NameServerView にネームサーバーが表示されない時は、手動で localhost を追加します。画像の [ネームサーバを追加] をクリックしてダイアログを表示します。「localhost」 と入力し [OK] をクリックして追加します。 
 
-<img src="./images/10min_setup/OpenRTP006.png" width="400">
+<img src="./images/10min_setup/OpenRTP006.png" width="600">
   
 
 <b>ネームサーバの追加</b>
@@ -175,7 +175,7 @@ NameServiceView にコンポーネントが表示されます。最初は折り�
 
 NameServiceView にある ConsoleIn、ConsoleOut のコンポーネントを System Diagram上にドラッグ＆ドロップすると、以下の画像のように表示されます。 
 
-<img src="./images/10min_setup/OpenRTP009.png" width="400">
+<img src="./images/10min_setup/OpenRTP009.png" width="600">
 
 
 <b>コンポーネントをドラッグ＆ドロップ</b>
@@ -183,7 +183,7 @@ NameServiceView にある ConsoleIn、ConsoleOut のコンポーネントを Sys
 
 データポート間でドラッグ＆ドロップしてコンポーネントを接続します。その後、接続に必要な情報の入力を促すダイアログが表示されるので [OK] をクリックします。 
 
-<img src="./images/10min_setup/OpenRTP010.png" width="400">
+<img src="./images/10min_setup/OpenRTP010.png" width="600">
  
 
 <b>コンポーネント接続</b>
@@ -191,7 +191,7 @@ NameServiceView にある ConsoleIn、ConsoleOut のコンポーネントを Sys
 
 以下の画像のように接続されます。 
 
-<img src="./images/10min_setup/OpenRTP012.png" width="400">
+<img src="./images/10min_setup/OpenRTP012.png" width="600">
 
 
 <b>接続完了</b>
@@ -199,10 +199,10 @@ NameServiceView にある ConsoleIn、ConsoleOut のコンポーネントを Sys
 
 コンポーネントの状態を Activate にします。[All Activate] クリックしてください。コンポーネントの色が青から明るい緑に変わったら成功です。コンポーネントは個別に選択して Activate にすることも可能です。 
 
-<img src="./images/10min_setup/OpenRTP013.png" width="400">
+<img src="./images/10min_setup/OpenRTP013.png" width="600">
 
 
-<img src="./images/10min_setup/OpenRTP014.png" width="400">
+<img src="./images/10min_setup/OpenRTP014.png" width="600">
 
 
 <b>Activate 完了</b>
@@ -229,12 +229,12 @@ ConsoleIn 画面で任意の数値を入力し [Enter] を押すと、ConsoleOut
 コンポーネントを終了する場合は、ツールバーから [All Deactivate] をクリックします。その後、コンポーネントを右クリックして [Exit] してください。 
 ※Deactivate に時間がかかる場合は ConsoleIn の数値入力で止まっているので、何か数値を入力してください。 
 
-<img src="./images/10min_setup/Console004.png" width="400">
+<img src="./images/10min_setup/Console004.png" width="600">
 
 
 <b>コンポーネントの非アクティブ化</b>
 
-<img src="./images/10min_setup/Console005.png" width="400">
+<img src="./images/10min_setup/Console005.png" width="600">
 
 
 <b>コンポーネントの終了</b>
@@ -282,7 +282,7 @@ OpenRTM-aist-1.2.0 では rtshell が標準でインストールされます。 
 念のため RTSystemEditor で確認します。
 NameServiceView のコンポーネントをSystem Diagramにドラッグ＆ドロップすると、データポートが接続されたことが確認できます。
 
-<img src="./images/10min_setup/Console007.png" width="400">
+<img src="./images/10min_setup/Console007.png" width="600">
 
 
 <b>データポート接続の確認</b>
@@ -294,7 +294,7 @@ NameServiceView のコンポーネントをSystem Diagramにドラッグ＆ド�
 
 アクティブ化に成功していると ConsoleIn.py コンソールに「Please input number:」と表示されます。 RTSystemEditor を見ると、RTC がアクティブ化されたことが確認できます。 
 
-<img src="./images/10min_setup/Console008.png" width="400">
+<img src="./images/10min_setup/Console008.png" width="600">
 
 
 <b>アクティブ化の確認</b>

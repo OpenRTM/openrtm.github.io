@@ -27,11 +27,11 @@ VisualStudio2017コミュニティ(無償版)を利用するためにMicrosoft�
 
 3. 次にMicrosoftからのメールを確認します。メールの「(メールアドレス)の確認」をクリックし確認を完了します。
 
-<img src="./images/vs2017_install/accont_04.png" width="400">
+<img src="./images/vs2017_install/accont_04.png" width="600">
 
 <b>確認メール</b>
 
-<img src="./images/vs2017_install/accont_03.png" width="400">
+<img src="./images/vs2017_install/accont_03.png" width="600">
 
 <b>メールアドレスの確認完了</b>
 
@@ -45,7 +45,7 @@ VisualStudio2017コミュニティ(無償版)を利用するためにMicrosoft�
 
 「VisualStudioのダウンロード」の「コミュニティ」から「vs_community__1100323626.1489559297.exe」をダウンロードします。
 
-<img src="./images/vs2017_install/vs2017_00.png" width="400">
+<img src="./images/vs2017_install/vs2017_00.png" width="800">
 
 <b>VisualStudioのダウンロードページ</b>
 
@@ -69,7 +69,7 @@ VisualStudio2017コミュニティ(無償版)を利用するためにMicrosoft�
 
 4. 次の画面が表示されたら「C++によるデスクトップ開発」にチェックを入れ、インストールを進めます。
 
-<img src="./images/vs2017_install/vs2017_03.png" width="400">
+<img src="./images/vs2017_install/vs2017_03.png" width="600">
 
 <b>C++を追加</b>
 
@@ -102,6 +102,6 @@ RTM講習会に参加する方はMicrosoftアカウントの登録、及び Visu
 
 3. 次の画面が表示されたら完了です。右上の「×」ボタンでソフトウェアを終了します。
 
-<img src="./images/vs2017_install/vs2017_08.png" width="400">
+<img src="./images/vs2017_install/vs2017_08.png" width="800">
 
 <b>VisualStudio2017 スタート画面</b>

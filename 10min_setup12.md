@@ -1,70 +1,71 @@
 
-## 10•ª‚ÅŽn‚ß‚æ‚¤
+## 10åˆ†ã§å§‹ã‚ã‚ˆã†
 
 <a name="startup_openrtm"></a>
 
-ÅVƒo[ƒWƒ‡ƒ“ OpenRTM-aist-1.2.0-RELEASE ‚Å‚Í C++”ÅAPython”ÅAJava”Å ‚ªƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚Ü‚·B
-‚Ü‚½Artshell ‚à“¯Žž‚ÉƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚Ü‚·B
+æœ€æ–°ãƒãƒ¼ã‚¸ãƒ§ãƒ³ OpenRTM-aist-1.2.0-RELEASE ã§ã¯ C++ç‰ˆã€Pythonç‰ˆã€Javaç‰ˆ ãŒã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã•ã‚Œã¾ã™ã€‚
+ã¾ãŸã€rtshell ã‚‚åŒæ™‚ã«ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã•ã‚Œã¾ã™ã€‚
 
-### Python 2.7 ‚ÌƒCƒ“ƒXƒg[ƒ‹
+### Python 2.7 ã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
-Python 2.7 ‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚¢‚È‚¢ê‡‚ÍAOpenRTM-aist ‚ðƒCƒ“ƒXƒg[ƒ‹‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚¹‚ñB
-OpenRTM-aist ‚ðƒCƒ“ƒXƒg[ƒ‹‚·‚é‘O‚ÉAPython 2.7 ‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚­‚¾‚³‚¢B
+Python 2.7 ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¦ã„ãªã„å ´åˆã¯ã€OpenRTM-aist ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹ã“ã¨ãŒã§ãã¾ã›ã‚“ã€‚
+OpenRTM-aist ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹å‰ã«ã€Python 2.7 ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¦ãã ã•ã„ã€‚
 
-Python 2.7 ‚Ìƒ_ƒEƒ“ƒ[ƒh‚Í OpenRTM-aist-1.2.0-RELEASE(index#download) ‚ð‚²——‚­‚¾‚³‚¢B
+Python 2.7 ã®ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã¯ OpenRTM-aist-1.2.0-RELEASE(index#download) ã‚’ã”è¦§ãã ã•ã„ã€‚
 
-ƒCƒ“ƒXƒg[ƒ‹‚ðŽÀs‚µ‚½Û‚ÉAˆÈ‰º‚Ì‰æ–Ê‚Å [Add python.exe to Path] ‚ð [Will be installed on local hard drive] ‚ÉÝ’è‚µ‚Ä‚­‚¾‚³‚¢B
-‚±‚¤‚·‚é‚ÆApython.exe ‚Æ Scripts ‚É Path ‚ðŽ©“®‚ÅÝ’è‚µ‚Ä‚­‚ê‚Ü‚·Bi—áFPath=C:\Python27\; C:\Python27\Scripts;...j
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã‚’å®Ÿè¡Œã—ãŸéš›ã«ã€ä»¥ä¸‹ã®ç”»é¢ã§ [Add python.exe to Path] ã‚’ [Will be installed on local hard drive] ã«è¨­å®šã—ã¦ãã ã•ã„ã€‚
+ã“ã†ã™ã‚‹ã¨ã€python.exe ã¨ Scripts ã« Path ã‚’è‡ªå‹•ã§è¨­å®šã—ã¦ãã‚Œã¾ã™ã€‚ï¼ˆä¾‹ï¼šPath=C:\Python27\; C:\Python27\Scripts;...ï¼‰
 
 <img src="./images/10min_setup/Python-install001.png" width="400">
 
 
 
-### OpenRTM-aist ‚ÌƒCƒ“ƒXƒg[ƒ‹
+### OpenRTM-aist ã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
-‚±‚±‚Å‚Í Windows10 ‚Å 32bit —pƒCƒ“ƒXƒg[ƒ‰[ OpenRTM-aist-1.2.0-RELEASE_x86.msi ‚ðŽg‚Á‚½ƒCƒ“ƒXƒg[ƒ‹Žè‡‚ðÐ‰î‚µ‚Ü‚·B
+ã“ã“ã§ã¯ Windows10 ã§ 32bit ç”¨ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ OpenRTM-aist-1.2.0-RELEASE_x86.msi ã‚’ä½¿ã£ãŸã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ‰‹é †ã‚’ç´¹ä»‹ã—ã¾ã™ã€‚
 
-ƒCƒ“ƒXƒg[ƒ‰[‚Ìƒ_ƒEƒ“ƒ[ƒh‚Í OpenRTM-aist-1.2.0-RELEAS(index#download) ‚ð‚²——‚­‚¾‚³‚¢B
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ã®ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã¯ [OpenRTM-aist-1.2.0-RELEAS](index#download) ã‚’ã”è¦§ãã ã•ã„ã€‚
 
-#### ƒCƒ“ƒXƒg[ƒ‹Žè‡
-1. ƒCƒ“ƒXƒg[ƒ‰[‚ð‹N“®‚µ‚Ä [ŽŸ‚Ö] ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B
+#### ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ‰‹é †
+1. ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ã‚’èµ·å‹•ã—ã¦ [æ¬¡ã¸] ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¾ã™ã€‚
 
 <img src="./images/10min_setup/OpenRTM120-install001.png" width="400">
 
 
-2. Žg—p³‘øŒ_–ñ‘‚Ìƒy[ƒW‚Å‚·Bƒ\ƒtƒgƒEƒFƒAƒ‰ƒCƒZƒ“ƒXð€‚É“¯ˆÓ‚µ‚Ä [ŽŸ‚Ö] ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B
+2. ä½¿ç”¨æ‰¿è«¾å¥‘ç´„æ›¸ã®ãƒšãƒ¼ã‚¸ã§ã™ã€‚ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ãƒ©ã‚¤ã‚»ãƒ³ã‚¹æ¡é …ã«åŒæ„ã—ã¦ [æ¬¡ã¸] ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¾ã™ã€‚
 
 <img src="./images/10min_setup/OpenRTM120-install002.png" width="400">
 
 
-3.ƒCƒ“ƒXƒg[ƒ‹‚ÌŽí—Þ‚ð‘I‘ð‚µ‚Ü‚·BƒfƒtƒHƒ‹ƒg‚Ì‚Ü‚Ü [ŽŸ‚Ö] ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B 
+3.ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã®ç¨®é¡žã‚’é¸æŠžã—ã¾ã™ã€‚ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®ã¾ã¾ [æ¬¡ã¸] ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¾ã™ã€‚ 
 
 <img src="./images/10min_setup/OpenRTM120-install003.png" width="400">
 
 
 
-4.Visual Studio ‚Ìƒo[ƒWƒ‡ƒ“‚ð‘I‘ð‚µ‚Ü‚·B
+4.Visual Studio ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚’é¸æŠžã—ã¾ã™ã€‚
 
-C++”Å‚ÅŽg—p‚·‚é Visual Studio ‚Ìƒo[ƒWƒ‡ƒ“‚ðƒVƒXƒeƒ€ŠÂ‹«•Ï”‚ÉÝ’è‚µ‚Ü‚·B
-ƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚Ä‚¢‚é Visual Studio ‚Ìƒo[ƒWƒ‡ƒ“‚ð‘I‘ð‚µ‚Ä [ŽŸ‚Ö] ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B
+C++ç‰ˆã§ä½¿ç”¨ã™ã‚‹ Visual Studio ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚’ã‚·ã‚¹ãƒ†ãƒ ç’°å¢ƒå¤‰æ•°ã«è¨­å®šã—ã¾ã™ã€‚
+ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã•ã‚Œã¦ã„ã‚‹ Visual Studio ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚’é¸æŠžã—ã¦ [æ¬¡ã¸] ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¾ã™ã€‚
 
-¦Visual Studio ‚Ìƒ_ƒEƒ“ƒ[ƒh‚Í OpenRTM-aist-1.2.0-RELEASE <ƒy[ƒWì¬’†> ‚ð‚²——‚­‚¾‚³‚¢B
-¦ƒVƒXƒeƒ€ŠÂ‹«•Ï” RTM_VC_VERSION ‚ÌÝ’è‚ÍAƒCƒ“ƒXƒg[ƒ‹I—¹Œã‚É VCVerChanger ‚Å•ÏX‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
-( [VCVerChanger‚ÌŽg‚¢•û](VCVerChanger) )
-¦Python”ÅAJava”Å‚Å‚Í–³ŠÖŒW‚Å‚·‚Ì‚ÅƒfƒtƒHƒ‹ƒg‚Ì‚Ü‚Ü [ŽŸ‚Ö] ‚ðƒNƒŠƒbƒN‚µ‚Ä‚­‚¾‚³‚¢B 
+â€»Visual Studio 2017ã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã¯[ã“ã¡ã‚‰](vs2017_install)ã‚’ã”è¦§ãã ã•ã„ã€‚
+â€»Visual Studio (ãã‚Œä»¥å¤–ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³)ã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã¯[ã“ã¡ã‚‰](vs2017_install)ã‚’ã”è¦§ãã ã•ã„ã€‚
+â€»ã‚·ã‚¹ãƒ†ãƒ ç’°å¢ƒå¤‰æ•° RTM_VC_VERSION ã®è¨­å®šã¯ã€ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«çµ‚äº†å¾Œã« VCVerChanger ã§å¤‰æ›´ã™ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚
+- [VCVerChangerã®ä½¿ã„æ–¹](VCVerChanger) 
+â€»Pythonç‰ˆã€Javaç‰ˆã§ã¯ç„¡é–¢ä¿‚ã§ã™ã®ã§ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®ã¾ã¾ [æ¬¡ã¸] ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãã ã•ã„ã€‚ 
 
 <img src="./images/10min_setup/OpenRTM120-install004.png" width="400">
 
 
 
-5. ƒZƒbƒgƒAƒbƒv‚ÌŽí—Þ‚ð‘I‘ð‚µ‚Ü‚·B
-[•W€] ‚ð‘I‘ð‚µ‚½ê‡AOpenRTM-aist ‚Ì C++”ÅAJava”ÅAPython”ÅAOpenRTPARTSystemEditorRCPARTShellAOpenRTM-aist-C++”Å‚Ì Visual Studio 2008 ‚©‚ç 2017 ‚Ü‚Å‚Ìƒ‰ƒ“ƒ^ƒCƒ€ƒ‰ƒCƒuƒ‰ƒŠAOpenRTM-aist-1.0.0 ‚©‚ç 1.1.2 ‚Ü‚Å‚Ìƒ‰ƒ“ƒ^ƒCƒ€ƒ‰ƒCƒuƒ‰ƒŠ‚ªƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚Ü‚·B“Á‚É•ÏX——R‚ª‚È‚¢‚æ‚¤‚Å‚ ‚ê‚Î [•W€] ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B 
+5. ã‚»ãƒƒãƒˆã‚¢ãƒƒãƒ—ã®ç¨®é¡žã‚’é¸æŠžã—ã¾ã™ã€‚
+[æ¨™æº–] ã‚’é¸æŠžã—ãŸå ´åˆã€OpenRTM-aist ã® C++ç‰ˆã€Javaç‰ˆã€Pythonç‰ˆã€OpenRTPã€RTSystemEditorRCPã€RTShellã€OpenRTM-aist-C++ç‰ˆã® Visual Studio 2008 ã‹ã‚‰ 2017 ã¾ã§ã®ãƒ©ãƒ³ã‚¿ã‚¤ãƒ ãƒ©ã‚¤ãƒ–ãƒ©ãƒªã€OpenRTM-aist-1.0.0 ã‹ã‚‰ 1.1.2 ã¾ã§ã®ãƒ©ãƒ³ã‚¿ã‚¤ãƒ ãƒ©ã‚¤ãƒ–ãƒ©ãƒªãŒã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã•ã‚Œã¾ã™ã€‚ç‰¹ã«å¤‰æ›´ç†ç”±ãŒãªã„ã‚ˆã†ã§ã‚ã‚Œã° [æ¨™æº–] ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¾ã™ã€‚ 
 
 <img src="./images/10min_setup/OpenRTM120-install005.png" width="400">
 
 
 
-6. [ƒCƒ“ƒXƒg[ƒ‹] ‚ðƒNƒŠƒbƒN‚·‚é‚ÆƒCƒ“ƒXƒg[ƒ‹‚ªŠJŽn‚³‚ê‚Ü‚·B 
+6. [ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«] ã‚’ã‚¯ãƒªãƒƒã‚¯ã™ã‚‹ã¨ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ãŒé–‹å§‹ã•ã‚Œã¾ã™ã€‚ 
 
 <img src="./images/10min_setup/OpenRTM120-install006.png" width="400">
 
@@ -73,38 +74,38 @@ C++”Å‚ÅŽg—p‚·‚é Visual Studio ‚Ìƒo[ƒWƒ‡ƒ“‚ðƒVƒXƒeƒ€ŠÂ‹«•Ï”‚ÉÝ’è‚µ‚Ü‚·B
 
 
 
-7. ƒCƒ“ƒXƒg[ƒ‹‚ªI—¹‚µ‚Ü‚µ‚½B[Š®—¹] ‚ðƒNƒŠƒbƒN‚µ‚ÄƒCƒ“ƒXƒg[ƒ‰[‚ðI—¹‚µ‚Ü‚·B 
+7. ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ãŒçµ‚äº†ã—ã¾ã—ãŸã€‚[å®Œäº†] ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ã‚’çµ‚äº†ã—ã¾ã™ã€‚ 
 
 <img src="./images/10min_setup/OpenRTM120-install008.png" width="400">
 
 
 
-¦Žg—p‚µ‚Ä‚¢‚é Visual Studio ‚Ìƒo[ƒWƒ‡ƒ“‚ª 2017(vc14) ˆÈŠO‚Ìê‡‚ÍAˆÈ‰º‚Ìƒy[ƒW‚ðŽQl‚ÉŠÂ‹«•Ï”‚Ì RTM_VC_VERSION ‚ð•ÏX‚µ‚Ä‚­‚¾‚³‚¢B
-RTM_VC_VERSION‚Ì•ÏXƒƒŠƒ“ƒN„
+â€»ä½¿ç”¨ã—ã¦ã„ã‚‹ Visual Studio ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ãŒ 2017(vc14) ä»¥å¤–ã®å ´åˆã¯ã€ä»¥ä¸‹ã®ãƒšãƒ¼ã‚¸ã‚’å‚è€ƒã«ç’°å¢ƒå¤‰æ•°ã® RTM_VC_VERSION ã‚’å¤‰æ›´ã—ã¦ãã ã•ã„ã€‚
+RTM_VC_VERSIONã®å¤‰æ›´ï¼œãƒªãƒ³ã‚¯ï¼ž
 
-### ƒTƒ“ƒvƒ‹ƒRƒ“ƒ|[ƒlƒ“ƒg‚ðŽÀs‚·‚é
+### ã‚µãƒ³ãƒ—ãƒ«ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã‚’å®Ÿè¡Œã™ã‚‹
 
-•K{‚Å‚Í‚ ‚è‚Ü‚¹‚ñ‚ªA‚±‚±‚©‚ç‚ÍƒXƒ^[ƒgƒƒjƒ…[‚É“o˜^‚³‚ê‚½ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ð‘½”‹N“®‚µ‚Ü‚·B–ˆ‰ñƒXƒ^[ƒgƒƒjƒ…[‚©‚ç‡”Ô‚É‚½‚Ç‚é‚Ì‚Í‘å•Ï‚Å‚·‚Ì‚ÅA ƒXƒ^[ƒgƒ{ƒ^ƒ“‚©‚çƒXƒ^[ƒgƒƒjƒ…[‚ð•\Ž¦‚³‚¹ [OpenRTM-aist 1.2.0 x86] > [OpenRTP] ‚ð‰EƒNƒŠƒbƒN‚µ‚Ä [ƒtƒ@ƒCƒ‹‚ÌêŠ‚ðŠJ‚­] ‚ð‘I‘ð‚µ‚Ä‚­‚¾‚³‚¢B 
+å¿…é ˆã§ã¯ã‚ã‚Šã¾ã›ã‚“ãŒã€ã“ã“ã‹ã‚‰ã¯ã‚¹ã‚¿ãƒ¼ãƒˆãƒ¡ãƒ‹ãƒ¥ãƒ¼ã«ç™»éŒ²ã•ã‚ŒãŸã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã‚’å¤šæ•°èµ·å‹•ã—ã¾ã™ã€‚æ¯Žå›žã‚¹ã‚¿ãƒ¼ãƒˆãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‹ã‚‰é †ç•ªã«ãŸã©ã‚‹ã®ã¯å¤§å¤‰ã§ã™ã®ã§ã€ ã‚¹ã‚¿ãƒ¼ãƒˆãƒœã‚¿ãƒ³ã‹ã‚‰ã‚¹ã‚¿ãƒ¼ãƒˆãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‚’è¡¨ç¤ºã•ã› [OpenRTM-aist 1.2.0 x86] > [OpenRTP] ã‚’å³ã‚¯ãƒªãƒƒã‚¯ã—ã¦ [ãƒ•ã‚¡ã‚¤ãƒ«ã®å ´æ‰€ã‚’é–‹ã] ã‚’é¸æŠžã—ã¦ãã ã•ã„ã€‚ 
 
 <img src="./images/10min_setup/Startmenu001.png" width="400">
 
 
-<b>ƒtƒ@ƒCƒ‹‚ÌêŠ‚ðŠJ‚­</b>
+<b>ãƒ•ã‚¡ã‚¤ãƒ«ã®å ´æ‰€ã‚’é–‹ã</b>
 
 <img src="./images/10min_setup/Startmenu002.png" width="400">
 
 
-<b>ƒXƒ^[ƒgƒƒjƒ…[ƒtƒHƒ‹ƒ_[</b>
+<b>ã‚¹ã‚¿ãƒ¼ãƒˆãƒ¡ãƒ‹ãƒ¥ãƒ¼ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼</b>
 
-‚±‚Ì‚æ‚¤‚ÉAƒXƒ^[ƒgƒƒjƒ…[‚ÌƒtƒHƒ‹ƒ_[‚ªŠJ‚©‚êA—lX‚ÈƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ÉƒAƒNƒZƒX‚µ‚â‚·‚­‚È‚è‚Ü‚·B ‚Å‚ÍAƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚½ƒTƒ“ƒvƒ‹ƒRƒ“ƒ|[ƒlƒ“ƒg‚ðŽÀs‚µ‚Ä‚Ý‚Ü‚·B
+ã“ã®ã‚ˆã†ã«ã€ã‚¹ã‚¿ãƒ¼ãƒˆãƒ¡ãƒ‹ãƒ¥ãƒ¼ã®ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ãŒé–‹ã‹ã‚Œã€æ§˜ã€…ãªã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã«ã‚¢ã‚¯ã‚»ã‚¹ã—ã‚„ã™ããªã‚Šã¾ã™ã€‚ ã§ã¯ã€ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã•ã‚ŒãŸã‚µãƒ³ãƒ—ãƒ«ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã‚’å®Ÿè¡Œã—ã¦ã¿ã¾ã™ã€‚
 
-#### ConsoleInCompAConsoleOutComp‚ðŽg—p‚·‚é
+#### ConsoleInCompã€ConsoleOutCompã‚’ä½¿ç”¨ã™ã‚‹
 
-ConsoleInCompAConsoleOutComp ‚Í DataInPortADataOutPort ‚ÌŽg—p•û–@‚ðŽ¦‚µ‚½ƒTƒ“ƒvƒ‹‚Å‚·BConsoleIn ‘¤‚Å“ü—Í‚µ‚½”Žš‚ªCConsoleOut ‘¤‚É•\Ž¦‚³‚ê‚Ü‚·B 
+ConsoleInCompã€ConsoleOutComp ã¯ DataInPortã€DataOutPort ã®ä½¿ç”¨æ–¹æ³•ã‚’ç¤ºã—ãŸã‚µãƒ³ãƒ—ãƒ«ã§ã™ã€‚ConsoleIn å´ã§å…¥åŠ›ã—ãŸæ•°å­—ãŒï¼ŒConsoleOut å´ã«è¡¨ç¤ºã•ã‚Œã¾ã™ã€‚ 
 
-##### rtm-naming ‚Ì‹N“®
+##### rtm-naming ã®èµ·å‹•
 
-Start Naming Service ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·BˆÈ‰º‚Ì‚æ‚¤‚ÈƒRƒ“ƒ\[ƒ‹‰æ–Ê‚ª•\Ž¦‚³‚ê‚Ü‚·B 
+Start Naming Service ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¾ã™ã€‚ä»¥ä¸‹ã®ã‚ˆã†ãªã‚³ãƒ³ã‚½ãƒ¼ãƒ«ç”»é¢ãŒè¡¨ç¤ºã•ã‚Œã¾ã™ã€‚ 
 
 <img src="./images/10min_setup/StartNameService001.png" width="400">
 
@@ -112,92 +113,92 @@ Start Naming Service ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·BˆÈ‰º‚Ì‚æ‚¤‚ÈƒRƒ“ƒ\[ƒ‹‰æ–Ê‚ª•\Ž¦‚³‚ê‚Ü‚·
 <b>Start Naming Service</b>
 
 
-##### ƒTƒ“ƒvƒ‹ƒRƒ“ƒ|[ƒlƒ“ƒg‹N“®
+##### ã‚µãƒ³ãƒ—ãƒ«ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆèµ·å‹•
 
-[OpenRTM-aist 1.2.0 x86] > [C++_Example] ƒtƒHƒ‹ƒ_[“à‚Ì ConsoleIn.bat ‚Æ ConsoleOut.bat ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·BˆÈ‰º‚Ì‚æ‚¤‚ÈƒRƒ“ƒ\[ƒ‹‰æ–Ê‚ª•\Ž¦‚³‚ê‚Ü‚·B 
+[OpenRTM-aist 1.2.0 x86] > [C++_Example] ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼å†…ã® ConsoleIn.bat ã¨ ConsoleOut.bat ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¾ã™ã€‚ä»¥ä¸‹ã®ã‚ˆã†ãªã‚³ãƒ³ã‚½ãƒ¼ãƒ«ç”»é¢ãŒè¡¨ç¤ºã•ã‚Œã¾ã™ã€‚ 
 
 <img src="./images/10min_setup/ConsoleIn_out001.png" width="600">
   
 
 
-<b>ConsoleIn.bat ‚Æ ConsoleOut.bat</b>
+<b>ConsoleIn.bat ã¨ ConsoleOut.bat</b>
 
 
-##### OpenRTP‹N“®
+##### OpenRTPèµ·å‹•
 
-[OpenRTM-aist 1.2.0 x86] ƒtƒHƒ‹ƒ_[“à‚Ì OpenRTP ‚ðƒNƒŠƒbƒN‚µ‚Ä‹N“®‚µ‚Ü‚·B ƒ[ƒNƒXƒy[ƒX‚Í“K“–‚ÈêŠ‚ðŽw’è‚µ‚Ä‚­‚¾‚³‚¢B 
+[OpenRTM-aist 1.2.0 x86] ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼å†…ã® OpenRTP ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦èµ·å‹•ã—ã¾ã™ã€‚ ãƒ¯ãƒ¼ã‚¯ã‚¹ãƒšãƒ¼ã‚¹ã¯é©å½“ãªå ´æ‰€ã‚’æŒ‡å®šã—ã¦ãã ã•ã„ã€‚ 
 
 <img src="./images/10min_setup/OpenRTP001.png" width="400">
 
 
-<b>ƒ[ƒNƒXƒy[ƒX‚Ì‘I‘ð</b>
+<b>ãƒ¯ãƒ¼ã‚¯ã‚¹ãƒšãƒ¼ã‚¹ã®é¸æŠž</b>
 
 
-u‚æ‚¤‚±‚»v‰æ–Ê‚Í¡‚Ì‚Æ‚±‚ë•K—v‚È‚¢‚Ì‚Å¶ã‚Ì [‚æ‚¤‚±‚»] ƒ^ƒu‚Ì [~] ƒ{ƒ^ƒ“‚ðƒNƒŠƒbƒN‚µ‚Ä‰æ–Ê‚ð•Â‚¶‚Ä‚­‚¾‚³‚¢B 
+ã€Œã‚ˆã†ã“ãã€ç”»é¢ã¯ä»Šã®ã¨ã“ã‚å¿…è¦ãªã„ã®ã§å·¦ä¸Šã® [ã‚ˆã†ã“ã] ã‚¿ãƒ–ã® [Ã—] ãƒœã‚¿ãƒ³ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ç”»é¢ã‚’é–‰ã˜ã¦ãã ã•ã„ã€‚ 
 
 <img src="./images/10min_setup/OpenRTP002.png" width="400">
 
 
-<b>‰Šú‹N“®Žž‚Ì‰æ–Ê</b>
+<b>åˆæœŸèµ·å‹•æ™‚ã®ç”»é¢</b>
 
 
-‰æ–Ê‰Eã‚Ì [ƒp[ƒXƒyƒNƒeƒBƒu‚ðŠJ‚­] ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B•\Ž¦‚³‚ê‚éƒ_ƒCƒAƒƒO‚Å [RT System Editor] ‚ð‘I‘ð‚µ‚Ä [ŠJ‚­] ‚ðƒNƒŠƒbƒN‚·‚é‚Æ RTSystemEditor ‚ª‹N“®‚µ‚Ü‚·B 
+ç”»é¢å³ä¸Šã® [ãƒ‘ãƒ¼ã‚¹ãƒšã‚¯ãƒ†ã‚£ãƒ–ã‚’é–‹ã] ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¾ã™ã€‚è¡¨ç¤ºã•ã‚Œã‚‹ãƒ€ã‚¤ã‚¢ãƒ­ã‚°ã§ [RT System Editor] ã‚’é¸æŠžã—ã¦ [é–‹ã] ã‚’ã‚¯ãƒªãƒƒã‚¯ã™ã‚‹ã¨ RTSystemEditor ãŒèµ·å‹•ã—ã¾ã™ã€‚ 
 
 <img src="./images/10min_setup/OpenRTP003.png" width="500">
   
 
-<b>ƒp[ƒXƒyƒNƒeƒBƒu‚ÌØ‚è‘Ö‚¦</b>
+<b>ãƒ‘ãƒ¼ã‚¹ãƒšã‚¯ãƒ†ã‚£ãƒ–ã®åˆ‡ã‚Šæ›¿ãˆ</b>
 
 
-NameServiceView ‚ÉƒRƒ“ƒ|[ƒlƒ“ƒg‚ª•\Ž¦‚³‚ê‚Ü‚·BÅ‰‚ÍÜ‚è‚½‚½‚Ü‚ê‚Ä‚¢‚é‚½‚ß•\Ž¦‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ‚ªA[>] ‚ðƒNƒŠƒbƒN‚µ“WŠJ‚·‚é‚ÆAConsoleInAConsoleOut ƒRƒ“ƒ|[ƒlƒ“ƒg‚ªŠm”F‚Å‚«‚Ü‚·B 
+NameServiceView ã«ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆãŒè¡¨ç¤ºã•ã‚Œã¾ã™ã€‚æœ€åˆã¯æŠ˜ã‚ŠãŸãŸã¾ã‚Œã¦ã„ã‚‹ãŸã‚è¡¨ç¤ºã•ã‚Œã¦ã„ã¾ã›ã‚“ãŒã€[>] ã‚’ã‚¯ãƒªãƒƒã‚¯ã—å±•é–‹ã™ã‚‹ã¨ã€ConsoleInã€ConsoleOut ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆãŒç¢ºèªã§ãã¾ã™ã€‚ 
 
 <img src="./images/10min_setup/OpenRTP005.png" width="400">
 
 
-<b>ƒRƒ“ƒ|[ƒlƒ“ƒg‹N“®Šm”F</b>
+<b>ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆèµ·å‹•ç¢ºèª</b>
 
 
-¦NameServerView ‚Éƒl[ƒ€ƒT[ƒo[‚ª•\Ž¦‚³‚ê‚È‚¢Žž‚ÍAŽè“®‚Å localhost ‚ð’Ç‰Á‚µ‚Ü‚·B‰æ‘œ‚Ì [ƒl[ƒ€ƒT[ƒo‚ð’Ç‰Á] ‚ðƒNƒŠƒbƒN‚µ‚Äƒ_ƒCƒAƒƒO‚ð•\Ž¦‚µ‚Ü‚·Bulocalhostv ‚Æ“ü—Í‚µ [OK] ‚ðƒNƒŠƒbƒN‚µ‚Ä’Ç‰Á‚µ‚Ü‚·B 
+â€»NameServerView ã«ãƒãƒ¼ãƒ ã‚µãƒ¼ãƒãƒ¼ãŒè¡¨ç¤ºã•ã‚Œãªã„æ™‚ã¯ã€æ‰‹å‹•ã§ localhost ã‚’è¿½åŠ ã—ã¾ã™ã€‚ç”»åƒã® [ãƒãƒ¼ãƒ ã‚µãƒ¼ãƒã‚’è¿½åŠ ] ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãƒ€ã‚¤ã‚¢ãƒ­ã‚°ã‚’è¡¨ç¤ºã—ã¾ã™ã€‚ã€Œlocalhostã€ ã¨å…¥åŠ›ã— [OK] ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦è¿½åŠ ã—ã¾ã™ã€‚ 
 
 <img src="./images/10min_setup/OpenRTP006.png" width="400">
   
 
-<b>ƒl[ƒ€ƒT[ƒo‚Ì’Ç‰Á</b>
+<b>ãƒãƒ¼ãƒ ã‚µãƒ¼ãƒã®è¿½åŠ </b>
 
 
-ƒc[ƒ‹ƒo[‚©‚ç [Open New System Editor] ‚ðƒNƒŠƒbƒN‚µ‚ÄASystem Diagram ‚ð•\Ž¦‚µ‚Ü‚·B 
+ãƒ„ãƒ¼ãƒ«ãƒãƒ¼ã‹ã‚‰ [Open New System Editor] ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ã€System Diagram ã‚’è¡¨ç¤ºã—ã¾ã™ã€‚ 
 
 <img src="./images/10min_setup/OpenRTP008.png" width="400">
 
 
-<b>System Diagram‚ð•\Ž¦</b>
+<b>System Diagramã‚’è¡¨ç¤º</b>
 
 
-NameServiceView ‚É‚ ‚é ConsoleInAConsoleOut ‚ÌƒRƒ“ƒ|[ƒlƒ“ƒg‚ð System Diagramã‚Éƒhƒ‰ƒbƒO•ƒhƒƒbƒv‚·‚é‚ÆAˆÈ‰º‚Ì‰æ‘œ‚Ì‚æ‚¤‚É•\Ž¦‚³‚ê‚Ü‚·B 
+NameServiceView ã«ã‚ã‚‹ ConsoleInã€ConsoleOut ã®ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã‚’ System Diagramä¸Šã«ãƒ‰ãƒ©ãƒƒã‚°ï¼†ãƒ‰ãƒ­ãƒƒãƒ—ã™ã‚‹ã¨ã€ä»¥ä¸‹ã®ç”»åƒã®ã‚ˆã†ã«è¡¨ç¤ºã•ã‚Œã¾ã™ã€‚ 
 
 <img src="./images/10min_setup/OpenRTP009.png" width="400">
 
 
-<b>ƒRƒ“ƒ|[ƒlƒ“ƒg‚ðƒhƒ‰ƒbƒO•ƒhƒƒbƒv</b>
+<b>ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã‚’ãƒ‰ãƒ©ãƒƒã‚°ï¼†ãƒ‰ãƒ­ãƒƒãƒ—</b>
 
 
-ƒf[ƒ^ƒ|[ƒgŠÔ‚Åƒhƒ‰ƒbƒO•ƒhƒƒbƒv‚µ‚ÄƒRƒ“ƒ|[ƒlƒ“ƒg‚ðÚ‘±‚µ‚Ü‚·B‚»‚ÌŒãAÚ‘±‚É•K—v‚Èî•ñ‚Ì“ü—Í‚ð‘£‚·ƒ_ƒCƒAƒƒO‚ª•\Ž¦‚³‚ê‚é‚Ì‚Å [OK] ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B 
+ãƒ‡ãƒ¼ã‚¿ãƒãƒ¼ãƒˆé–“ã§ãƒ‰ãƒ©ãƒƒã‚°ï¼†ãƒ‰ãƒ­ãƒƒãƒ—ã—ã¦ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã‚’æŽ¥ç¶šã—ã¾ã™ã€‚ãã®å¾Œã€æŽ¥ç¶šã«å¿…è¦ãªæƒ…å ±ã®å…¥åŠ›ã‚’ä¿ƒã™ãƒ€ã‚¤ã‚¢ãƒ­ã‚°ãŒè¡¨ç¤ºã•ã‚Œã‚‹ã®ã§ [OK] ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¾ã™ã€‚ 
 
 <img src="./images/10min_setup/OpenRTP010.png" width="400">
  
 
-<b>ƒRƒ“ƒ|[ƒlƒ“ƒgÚ‘±</b>
+<b>ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆæŽ¥ç¶š</b>
 
 
-ˆÈ‰º‚Ì‰æ‘œ‚Ì‚æ‚¤‚ÉÚ‘±‚³‚ê‚Ü‚·B 
+ä»¥ä¸‹ã®ç”»åƒã®ã‚ˆã†ã«æŽ¥ç¶šã•ã‚Œã¾ã™ã€‚ 
 
 <img src="./images/10min_setup/OpenRTP012.png" width="400">
 
 
-<b>Ú‘±Š®—¹</b>
+<b>æŽ¥ç¶šå®Œäº†</b>
 
 
-ƒRƒ“ƒ|[ƒlƒ“ƒg‚Ìó‘Ô‚ð Activate ‚É‚µ‚Ü‚·B[All Activate] ƒNƒŠƒbƒN‚µ‚Ä‚­‚¾‚³‚¢BƒRƒ“ƒ|[ƒlƒ“ƒg‚ÌF‚ªÂ‚©‚ç–¾‚é‚¢—Î‚É•Ï‚í‚Á‚½‚ç¬Œ÷‚Å‚·BƒRƒ“ƒ|[ƒlƒ“ƒg‚ÍŒÂ•Ê‚É‘I‘ð‚µ‚Ä Activate ‚É‚·‚é‚±‚Æ‚à‰Â”\‚Å‚·B 
+ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã®çŠ¶æ…‹ã‚’ Activate ã«ã—ã¾ã™ã€‚[All Activate] ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãã ã•ã„ã€‚ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã®è‰²ãŒé’ã‹ã‚‰æ˜Žã‚‹ã„ç·‘ã«å¤‰ã‚ã£ãŸã‚‰æˆåŠŸã§ã™ã€‚ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã¯å€‹åˆ¥ã«é¸æŠžã—ã¦ Activate ã«ã™ã‚‹ã“ã¨ã‚‚å¯èƒ½ã§ã™ã€‚ 
 
 <img src="./images/10min_setup/OpenRTP013.png" width="400">
 
@@ -205,73 +206,73 @@ NameServiceView ‚É‚ ‚é ConsoleInAConsoleOut ‚ÌƒRƒ“ƒ|[ƒlƒ“ƒg‚ð System Diagramã
 <img src="./images/10min_setup/OpenRTP014.png" width="400">
 
 
-<b>Activate Š®—¹</b>
+<b>Activate å®Œäº†</b>
 
 
-#### ƒRƒ“ƒ\[ƒ‹‰æ–Ê‚Å‚Ì“®ìŠm”F
+#### ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ç”»é¢ã§ã®å‹•ä½œç¢ºèª
 
-ŽŸ‚ÉƒRƒ“ƒ\[ƒ‹‰æ–Ê‚Å“®ìŠm”F‚µ‚Ü‚·BRTSystemEditor ‚ÅÚ‘±ŒãAConsoleIn ‰æ–Ê‚ÉuPlease input number:v‚Æ•\Ž¦‚³‚ê‚Ü‚·B 
+æ¬¡ã«ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ç”»é¢ã§å‹•ä½œç¢ºèªã—ã¾ã™ã€‚RTSystemEditor ã§æŽ¥ç¶šå¾Œã€ConsoleIn ç”»é¢ã«ã€ŒPlease input number:ã€ã¨è¡¨ç¤ºã•ã‚Œã¾ã™ã€‚ 
 
 <img src="./images/10min_setup/Console001.png" width="400">
 
 
-<b>uPlease input number:v‚Æ•\Ž¦</b>
+<b>ã€ŒPlease input number:ã€ã¨è¡¨ç¤º</b>
 
-ConsoleIn ‰æ–Ê‚Å”CˆÓ‚Ì”’l‚ð“ü—Í‚µ [Enter] ‚ð‰Ÿ‚·‚ÆAConsoleOut ‰æ–Ê‚É”’l‚ª•\Ž¦‚³‚ê‚Ü‚·B
+ConsoleIn ç”»é¢ã§ä»»æ„ã®æ•°å€¤ã‚’å…¥åŠ›ã— [Enter] ã‚’æŠ¼ã™ã¨ã€ConsoleOut ç”»é¢ã«æ•°å€¤ãŒè¡¨ç¤ºã•ã‚Œã¾ã™ã€‚
 
 <img src="./images/10min_setup/Console002.png" width="600">
   
 
-<b>“®ìŠm”F</b>
+<b>å‹•ä½œç¢ºèª</b>
 
-¦”’lˆÈŠO‚Ì“ü—Í‚âA‘å‚«‚·‚¬‚é”’l‚ð“ü—Í‚·‚é‚ÆƒGƒ‰[(Ô)‚É‚È‚è‚Ü‚·BƒRƒ“ƒ|[ƒlƒ“ƒg‚ªƒGƒ‰[‚ð‹N‚±‚µ‚½‚çARTSystemEditor ‚ÅƒRƒ“ƒ|[ƒlƒ“ƒg‚ð‰EƒNƒŠƒbƒN‚µ‚Ä [Reset] ‚ð‘I‘ð‚µ‚Ä‚­‚¾‚³‚¢B 
+â€»æ•°å€¤ä»¥å¤–ã®å…¥åŠ›ã‚„ã€å¤§ãã™ãŽã‚‹æ•°å€¤ã‚’å…¥åŠ›ã™ã‚‹ã¨ã‚¨ãƒ©ãƒ¼(èµ¤)ã«ãªã‚Šã¾ã™ã€‚ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆãŒã‚¨ãƒ©ãƒ¼ã‚’èµ·ã“ã—ãŸã‚‰ã€RTSystemEditor ã§ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã‚’å³ã‚¯ãƒªãƒƒã‚¯ã—ã¦ [Reset] ã‚’é¸æŠžã—ã¦ãã ã•ã„ã€‚ 
 
-ƒRƒ“ƒ|[ƒlƒ“ƒg‚ðI—¹‚·‚éê‡‚ÍAƒc[ƒ‹ƒo[‚©‚ç [All Deactivate] ‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B‚»‚ÌŒãAƒRƒ“ƒ|[ƒlƒ“ƒg‚ð‰EƒNƒŠƒbƒN‚µ‚Ä [Exit] ‚µ‚Ä‚­‚¾‚³‚¢B 
-¦Deactivate ‚ÉŽžŠÔ‚ª‚©‚©‚éê‡‚Í ConsoleIn ‚Ì”’l“ü—Í‚ÅŽ~‚Ü‚Á‚Ä‚¢‚é‚Ì‚ÅA‰½‚©”’l‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B 
+ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã‚’çµ‚äº†ã™ã‚‹å ´åˆã¯ã€ãƒ„ãƒ¼ãƒ«ãƒãƒ¼ã‹ã‚‰ [All Deactivate] ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¾ã™ã€‚ãã®å¾Œã€ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã‚’å³ã‚¯ãƒªãƒƒã‚¯ã—ã¦ [Exit] ã—ã¦ãã ã•ã„ã€‚ 
+â€»Deactivate ã«æ™‚é–“ãŒã‹ã‹ã‚‹å ´åˆã¯ ConsoleIn ã®æ•°å€¤å…¥åŠ›ã§æ­¢ã¾ã£ã¦ã„ã‚‹ã®ã§ã€ä½•ã‹æ•°å€¤ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚ 
 
 <img src="./images/10min_setup/Console004.png" width="400">
 
 
-<b>ƒRƒ“ƒ|[ƒlƒ“ƒg‚Ì”ñƒAƒNƒeƒBƒu‰»</b>
+<b>ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã®éžã‚¢ã‚¯ãƒ†ã‚£ãƒ–åŒ–</b>
 
 <img src="./images/10min_setup/Console005.png" width="400">
 
 
-<b>ƒRƒ“ƒ|[ƒlƒ“ƒg‚ÌI—¹</b>
+<b>ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã®çµ‚äº†</b>
 
-ˆÈã‚Å ConsoleIn ‚Æ ConsoleOut ‚ðŽg—p‚µ‚½“®ìŠm”F‚ÍI—¹‚Å‚·B
+ä»¥ä¸Šã§ ConsoleIn ã¨ ConsoleOut ã‚’ä½¿ç”¨ã—ãŸå‹•ä½œç¢ºèªã¯çµ‚äº†ã§ã™ã€‚
 
 
-### rtshell ‚ð—˜—p‚·‚é
+### rtshell ã‚’åˆ©ç”¨ã™ã‚‹
 
-OpenRTM-aist-1.2.0 ‚Å‚Í rtshell ‚ª•W€‚ÅƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚Ü‚·B rtshell ‚ð—˜—p‚·‚é‚±‚Æ‚ÅƒRƒ}ƒ“ƒhƒ‰ƒCƒ“‚©‚ç RTC ‚ÌƒAƒNƒeƒBƒu‰»A”ñƒAƒNƒeƒBƒu‰»AI—¹“™‚ª‚Å‚«‚é‚æ‚¤‚É‚È‚è‚Ü‚·B
+OpenRTM-aist-1.2.0 ã§ã¯ rtshell ãŒæ¨™æº–ã§ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã•ã‚Œã¾ã™ã€‚ rtshell ã‚’åˆ©ç”¨ã™ã‚‹ã“ã¨ã§ã‚³ãƒžãƒ³ãƒ‰ãƒ©ã‚¤ãƒ³ã‹ã‚‰ RTC ã®ã‚¢ã‚¯ãƒ†ã‚£ãƒ–åŒ–ã€éžã‚¢ã‚¯ãƒ†ã‚£ãƒ–åŒ–ã€çµ‚äº†ç­‰ãŒã§ãã‚‹ã‚ˆã†ã«ãªã‚Šã¾ã™ã€‚
 
-¦64bit”Å‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚½ê‡‚É dll ‚Ì•s‘«‚É‚æ‚è“®ì‚Å‚«‚È‚¢ê‡‚ª‚ ‚è‚Ü‚·B‚»‚Ìê‡‚Í Windows Update ‚ðŽÀs‚µ‚Ä‚­‚¾‚³‚¢B
+â€»64bitç‰ˆã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ãŸå ´åˆã« dll ã®ä¸è¶³ã«ã‚ˆã‚Šå‹•ä½œã§ããªã„å ´åˆãŒã‚ã‚Šã¾ã™ã€‚ãã®å ´åˆã¯ Windows Update ã‚’å®Ÿè¡Œã—ã¦ãã ã•ã„ã€‚
 
-#### RTC ‚Ì‘€ì
-ƒTƒ“ƒvƒ‹ƒRƒ“ƒ|[ƒlƒ“ƒg‚ð‹N“®‚µArtshell ‚É‚æ‚èƒRƒ}ƒ“ƒhƒ‰ƒCƒ“‚©‚çƒf[ƒ^ƒ|[ƒg‚ÌÚ‘±ARTC ‚ÌƒAƒNƒeƒBƒu‰»A”ñƒAƒNƒeƒBƒu‰»AI—¹‚ðs‚¢‚Ü‚·B
+#### RTC ã®æ“ä½œ
+ã‚µãƒ³ãƒ—ãƒ«ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã‚’èµ·å‹•ã—ã€rtshell ã«ã‚ˆã‚Šã‚³ãƒžãƒ³ãƒ‰ãƒ©ã‚¤ãƒ³ã‹ã‚‰ãƒ‡ãƒ¼ã‚¿ãƒãƒ¼ãƒˆã®æŽ¥ç¶šã€RTC ã®ã‚¢ã‚¯ãƒ†ã‚£ãƒ–åŒ–ã€éžã‚¢ã‚¯ãƒ†ã‚£ãƒ–åŒ–ã€çµ‚äº†ã‚’è¡Œã„ã¾ã™ã€‚
 
-#### rtm-naming ‚ð‹N“®
-[OpenRTM-aist 1.2.0 x86] ƒtƒHƒ‹ƒ_[“à‚Ì Start Naming Service ‚ðƒNƒŠƒbƒN‚µ‚Ä‹N“®‚µ‚Ü‚·B
+#### rtm-naming ã‚’èµ·å‹•
+[OpenRTM-aist 1.2.0 x86] ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼å†…ã® Start Naming Service ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦èµ·å‹•ã—ã¾ã™ã€‚
 
-#### ƒTƒ“ƒvƒ‹ƒRƒ“ƒ|[ƒlƒ“ƒg ‚Ì‹N“®
-‚Ü‚¸‚ÍƒTƒ“ƒvƒ‹ƒRƒ“ƒ|[ƒlƒ“ƒg‚ð‹N“®‚µ‚ÄA‹N“®‚µ‚½ƒRƒ“ƒ|[ƒlƒ“ƒg‚ð rtshell ‚Å‘€ì‚µ‚Ü‚·B [OpenRTM-aist 1.2.0 x86] > [Python_Examples] ƒtƒHƒ‹ƒ_[“à‚Ì ConsoleIn.bat ‚Æ ConsoleOut.bat ‚ðƒNƒŠƒbƒN‚·‚é‚ÆƒRƒ“ƒ\[ƒ‹‰æ–Ê‚ª‹N“®‚µ‚Ü‚·B
+#### ã‚µãƒ³ãƒ—ãƒ«ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆ ã®èµ·å‹•
+ã¾ãšã¯ã‚µãƒ³ãƒ—ãƒ«ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã‚’èµ·å‹•ã—ã¦ã€èµ·å‹•ã—ãŸã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã‚’ rtshell ã§æ“ä½œã—ã¾ã™ã€‚ [OpenRTM-aist 1.2.0 x86] > [Python_Examples] ãƒ•ã‚©ãƒ«ãƒ€ãƒ¼å†…ã® ConsoleIn.bat ã¨ ConsoleOut.bat ã‚’ã‚¯ãƒªãƒƒã‚¯ã™ã‚‹ã¨ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ç”»é¢ãŒèµ·å‹•ã—ã¾ã™ã€‚
 
-#### ƒRƒ}ƒ“ƒhƒvƒƒ“ƒvƒg‚©‚ç‚Ì‘€ì
-ŽŸ‚ÉƒXƒ^[ƒgƒƒjƒ…[‚©‚ç [Windows ƒVƒXƒeƒ€ ƒc[ƒ‹] > [ƒRƒ}ƒ“ƒhƒvƒƒ“ƒvƒg] ‚ð‹N“®‚µ‚Ä‚­‚¾‚³‚¢B
+#### ã‚³ãƒžãƒ³ãƒ‰ãƒ—ãƒ­ãƒ³ãƒ—ãƒˆã‹ã‚‰ã®æ“ä½œ
+æ¬¡ã«ã‚¹ã‚¿ãƒ¼ãƒˆãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‹ã‚‰ [Windows ã‚·ã‚¹ãƒ†ãƒ  ãƒ„ãƒ¼ãƒ«] > [ã‚³ãƒžãƒ³ãƒ‰ãƒ—ãƒ­ãƒ³ãƒ—ãƒˆ] ã‚’èµ·å‹•ã—ã¦ãã ã•ã„ã€‚
 
 <img src="./images/10min_setup/Console006.png" width="400">
 
 
-<b>ƒRƒ}ƒ“ƒhƒvƒƒ“ƒvƒg‚Ì‹N“®</b>
+<b>ã‚³ãƒžãƒ³ãƒ‰ãƒ—ãƒ­ãƒ³ãƒ—ãƒˆã®èµ·å‹•</b>
 
-‚Ü‚¸AC:\Python27\Scripts ‚ÉƒpƒX‚ðÝ’è‚µ‚Ä‚¢‚È‚¢ê‡‚ÍˆÈ‰º‚ÌƒRƒ}ƒ“ƒh‚ÅƒpƒX‚ðÝ’è‚µ‚Ä‚­‚¾‚³‚¢B
+ã¾ãšã€C:\Python27\Scripts ã«ãƒ‘ã‚¹ã‚’è¨­å®šã—ã¦ã„ãªã„å ´åˆã¯ä»¥ä¸‹ã®ã‚³ãƒžãƒ³ãƒ‰ã§ãƒ‘ã‚¹ã‚’è¨­å®šã—ã¦ãã ã•ã„ã€‚
 
  set PATH=C:\Python27\Scripts;%PATH%
-ŽŸ‚ÉˆÈ‰º‚ÌƒRƒ}ƒ“ƒh‚Åƒf[ƒ^ƒ|[ƒg‚ðÚ‘±‚µ‚Ü‚·B
+æ¬¡ã«ä»¥ä¸‹ã®ã‚³ãƒžãƒ³ãƒ‰ã§ãƒ‡ãƒ¼ã‚¿ãƒãƒ¼ãƒˆã‚’æŽ¥ç¶šã—ã¾ã™ã€‚
 
  rtcon /localhost/ConsoleIn0.rtc:out /localhost/ConsoleOut0.rtc:in
-‚·‚é‚Æ ConsoleIn.pyAConsoleOut.py ƒRƒ“ƒ\[ƒ‹‚ÉˆÈ‰º‚Ì‚æ‚¤‚È•¶Žš—ñ‚ª•\Ž¦‚³‚ê‚Ü‚·B
+ã™ã‚‹ã¨ ConsoleIn.pyã€ConsoleOut.py ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã«ä»¥ä¸‹ã®ã‚ˆã†ãªæ–‡å­—åˆ—ãŒè¡¨ç¤ºã•ã‚Œã¾ã™ã€‚
 
 
     Listener:        ON_CONNECT
@@ -279,41 +280,41 @@ OpenRTM-aist-1.2.0 ‚Å‚Í rtshell ‚ª•W€‚ÅƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚Ü‚·B rtshell ‚ð—˜—p‚·‚
     Profile::id:     4d622f80-135f-11e6-b923-001c4231a7a3
 
 
-”O‚Ì‚½‚ß RTSystemEditor ‚ÅŠm”F‚µ‚Ü‚·B
-NameServiceView ‚ÌƒRƒ“ƒ|[ƒlƒ“ƒg‚ðSystem Diagram‚Éƒhƒ‰ƒbƒO•ƒhƒƒbƒv‚·‚é‚ÆAƒf[ƒ^ƒ|[ƒg‚ªÚ‘±‚³‚ê‚½‚±‚Æ‚ªŠm”F‚Å‚«‚Ü‚·B
+å¿µã®ãŸã‚ RTSystemEditor ã§ç¢ºèªã—ã¾ã™ã€‚
+NameServiceView ã®ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã‚’System Diagramã«ãƒ‰ãƒ©ãƒƒã‚°ï¼†ãƒ‰ãƒ­ãƒƒãƒ—ã™ã‚‹ã¨ã€ãƒ‡ãƒ¼ã‚¿ãƒãƒ¼ãƒˆãŒæŽ¥ç¶šã•ã‚ŒãŸã“ã¨ãŒç¢ºèªã§ãã¾ã™ã€‚
 
 <img src="./images/10min_setup/Console007.png" width="400">
 
 
-<b>ƒf[ƒ^ƒ|[ƒgÚ‘±‚ÌŠm”F</b>
+<b>ãƒ‡ãƒ¼ã‚¿ãƒãƒ¼ãƒˆæŽ¥ç¶šã®ç¢ºèª</b>
 
 
-ŽŸ‚ÉAˆÈ‰º‚ÌƒRƒ}ƒ“ƒh‚Å RTC ‚ðƒAƒNƒeƒBƒu‰»‚µ‚Ü‚·B
+æ¬¡ã«ã€ä»¥ä¸‹ã®ã‚³ãƒžãƒ³ãƒ‰ã§ RTC ã‚’ã‚¢ã‚¯ãƒ†ã‚£ãƒ–åŒ–ã—ã¾ã™ã€‚
 
     rtact /localhost/ConsoleIn0.rtc /localhost/ConsoleOut0.rtc
 
-ƒAƒNƒeƒBƒu‰»‚É¬Œ÷‚µ‚Ä‚¢‚é‚Æ ConsoleIn.py ƒRƒ“ƒ\[ƒ‹‚ÉuPlease input number:v‚Æ•\Ž¦‚³‚ê‚Ü‚·B RTSystemEditor ‚ðŒ©‚é‚ÆARTC ‚ªƒAƒNƒeƒBƒu‰»‚³‚ê‚½‚±‚Æ‚ªŠm”F‚Å‚«‚Ü‚·B 
+ã‚¢ã‚¯ãƒ†ã‚£ãƒ–åŒ–ã«æˆåŠŸã—ã¦ã„ã‚‹ã¨ ConsoleIn.py ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã«ã€ŒPlease input number:ã€ã¨è¡¨ç¤ºã•ã‚Œã¾ã™ã€‚ RTSystemEditor ã‚’è¦‹ã‚‹ã¨ã€RTC ãŒã‚¢ã‚¯ãƒ†ã‚£ãƒ–åŒ–ã•ã‚ŒãŸã“ã¨ãŒç¢ºèªã§ãã¾ã™ã€‚ 
 
 <img src="./images/10min_setup/Console008.png" width="400">
 
 
-<b>ƒAƒNƒeƒBƒu‰»‚ÌŠm”F</b>
+<b>ã‚¢ã‚¯ãƒ†ã‚£ãƒ–åŒ–ã®ç¢ºèª</b>
 
-‚»‚µ‚Ä ConsoleIn.py ‰æ–Ê‚Å”’l‚ð“ü—Í‚µ [Enter] ‚ð‰Ÿ‚·‚ÆAConsoleOut.py ‰æ–Ê‚É”’l‚ª•\Ž¦‚³‚ê‚Ü‚·B
+ãã—ã¦ ConsoleIn.py ç”»é¢ã§æ•°å€¤ã‚’å…¥åŠ›ã— [Enter] ã‚’æŠ¼ã™ã¨ã€ConsoleOut.py ç”»é¢ã«æ•°å€¤ãŒè¡¨ç¤ºã•ã‚Œã¾ã™ã€‚
 
 <img src="./images/10min_setup/Console009.png" width="600">
   
 
-<b>ConsoleIn.py ‚Æ ConsoleOut.py</b>
+<b>ConsoleIn.py ã¨ ConsoleOut.py</b>
 
 
-ˆÈ‰º‚ÌƒRƒ}ƒ“ƒh‚Å RTC ‚ð”ñƒAƒNƒeƒBƒu‰»‚µ‚Ä‚­‚¾‚³‚¢B
+ä»¥ä¸‹ã®ã‚³ãƒžãƒ³ãƒ‰ã§ RTC ã‚’éžã‚¢ã‚¯ãƒ†ã‚£ãƒ–åŒ–ã—ã¦ãã ã•ã„ã€‚
 
     rtdeact /localhost/ConsoleIn0.rtc /localhost/ConsoleOut0.rtc
 
-¦ConsoleIn ‚ª”ñƒAƒNƒeƒBƒu‰»‚Å‚«‚È‚¢ê‡A”’l“ü—Í‚ÅŽ~‚Ü‚Á‚Ä‚¢‚é‚Ì‚Å‰½‚©”’l‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B
+â€»ConsoleIn ãŒéžã‚¢ã‚¯ãƒ†ã‚£ãƒ–åŒ–ã§ããªã„å ´åˆã€æ•°å€¤å…¥åŠ›ã§æ­¢ã¾ã£ã¦ã„ã‚‹ã®ã§ä½•ã‹æ•°å€¤ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚
 
-ÅŒã‚ÉˆÈ‰º‚ÌƒRƒ}ƒ“ƒh‚Å RTC ‚ðI—¹‚³‚¹‚Ä‚­‚¾‚³‚¢B
+æœ€å¾Œã«ä»¥ä¸‹ã®ã‚³ãƒžãƒ³ãƒ‰ã§ RTC ã‚’çµ‚äº†ã•ã›ã¦ãã ã•ã„ã€‚
 
     rtexit /localhost/ConsoleIn0.rtc
 

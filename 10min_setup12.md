@@ -6,12 +6,14 @@
 最新バージョン OpenRTM-aist-1.2.0-RELEASE では C++版、Python版、Java版 がインストールされます。
 また、rtshell も同時にインストールされます。
 
-### Python 2.7 のインストール
+### Python のインストール
 
-Python 2.7 をインストールしていない場合は、OpenRTM-aist をインストールすることができません。
-OpenRTM-aist をインストールする前に、Python 2.7 をインストールしてください。
+Python をインストールしていない場合は、OpenRTM-aist をインストールすることができません。
+OpenRTM-aist をインストールする前に、Python 2.7 または、3.6 をインストールしてください。
 
-Python 2.7 は [こちら](https://www.python.org/ftp/python/2.7.10/python-2.7.10.msi) からダウンロードしてください。
+Python こちらからダウンロードしてください。
+- [2.7(64bit)](https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64.msi)
+- [3.6(64bit)](https://www.python.org/ftp/python/3.6.6/python-3.6.6-amd64.exe)
 
 インストールを実行した際に、以下の画面で [Add python.exe to Path] を [Will be installed on local hard drive] に設定してください。
 こうすると、python.exe と Scripts に Path を自動で設定してくれます。（例：Path=C:\Python27\; C:\Python27\Scripts;...）

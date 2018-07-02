@@ -34,7 +34,7 @@
 
 
 #### インストールするソフトウェア
-##### Windows
+##### Windowsの場合
 以下のソフトウェアをインストールしてください。
 * [Visual Studio 2017](vs_install)
   * Visual C++がインストールされているかは必ず確認してください。
@@ -43,8 +43,9 @@
 * [Doxygen](http://ftp.stack.nl/pub/users/dimitri/doxygen-1.8.11-setup.exe)
 * OpenRTM-aist 1.2.0RC
 
-##### Ubuntu
+##### Ubuntuの場合
 * OpenRTM-aist
+
 ```shell
 $ git clone https://github.com/n-ando/xenial_package.git
 
@@ -65,36 +66,47 @@ $ sudo dpkg -i openrtp_1.2.0-0_amd64.deb
 ```
 
 * g++
+
 ```shell
 $ sudo apt-get install gcc g++
 ```
 * omniORB
+
 ```shell
 $ sudo apt-get install libomniorb4-dev omniidl omniorb-nameserver
 $ sudo apt-get install python-omniorb-omg omniidl-python
 ```
 * CMake
+
 ```shell
 $ sudo apt-get install cmake
 ```
 * Doxygen
+
 ```shell
 $ sudo apt-get install doxygen
 ```
+
 * JDK
+
 ```shell
 $ sudo apt-get install default-jdk
 ```
 * Premake
+
 ```shell
 $ sudo apt-get install premake4
 ```
+
 * RaspberryPiMouseSimulator コンポーネント
+
 ```shell
 $ wget https://raw.githubusercontent.com/Nobu19800/RTM_Tutorial_Waseda2018/master/install_raspimouse_simulator.sh
 $ sudo sh install_raspimouse_simulator.sh
 ```
+
 * Code::Blocks(任意)
+
 ```shell
 $ sudo apt-get install codeblocks
 ```

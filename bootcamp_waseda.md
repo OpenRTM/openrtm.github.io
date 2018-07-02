@@ -23,3 +23,78 @@
 - 概要：コンポーネント開発ツールRTCBuilder、システム構築支援ツールRTSystemEditorの使用方法を説明します。実習としてRaspberry Piマウスのシミュレータ、実機を制御するRTシステムの作成を行います。
 
 
+### 事前準備
+
+#### ノートPC
+第2部ではノートPCを用いた実習を行うため、ノートPCの用意をお願いします。
+ノートPCが用意できない場合は貸し出します。当日申し出てください。
+
+ノートPCにウイルス対策ソフトをインストールしている場合は無効にしてください。
+無効にできない場合はこちらで用意したノートPCを貸し出します。
+
+
+#### インストールするソフトウェア
+##### Windows
+以下のソフトウェアをインストールしてください。
+* [Visual Studio 2017](vs_install)
+  * Visual C++がインストールされているかは必ず確認してください。
+* [Python 2.7](https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64.msi)
+* [CMake](https://cmake.org/files/v3.11/cmake-3.11.4-win64-x64.msi)
+* [Doxygen](http://ftp.stack.nl/pub/users/dimitri/doxygen-1.8.11-setup.exe)
+* OpenRTM-aist 1.2.0RC
+
+##### Ubuntu
+* OpenRTM-aist
+```shell
+$ git clone https://github.com/n-ando/xenial_package.git
+
+ubuntu 16.04 (64bit) の場合
+$ cd xenial_package/xenial/main/binary-amd64/
+
+C++版のインストール
+$ sudo dpkg -i openrtm-aist_1.1.2-0_amd64.deb
+$ sudo dpkg -i openrtm-aist-example_1.1.2-0_amd64.deb
+$ sudo dpkg -i openrtm-aist-dev_1.1.2-0_amd64.deb
+
+Python版のインストール
+$ sudo dpkg -i openrtm-aist-python_1.1.2-1_amd64.deb
+$ sudo dpkg -i openrtm-aist-python-example_1.1.2-1_amd64.deb
+
+RTSystemEditor/RTCBuilderのインストール
+$ sudo dpkg -i openrtp_1.2.0-0_amd64.deb
+```
+
+* g++
+```shell
+$ sudo apt-get install gcc g++
+```
+* omniORB
+```shell
+$ sudo apt-get install libomniorb4-dev omniidl omniorb-nameserver
+$ sudo apt-get install python-omniorb-omg omniidl-python
+```
+* CMake
+```shell
+$ sudo apt-get install cmake
+```
+* Doxygen
+```shell
+$ sudo apt-get install doxygen
+```
+* JDK
+```shell
+$ sudo apt-get install default-jdk
+```
+* Premake
+```shell
+$ sudo apt-get install premake4
+```
+* RaspberryPiMouseSimulator コンポーネント
+```shell
+$ wget https://raw.githubusercontent.com/Nobu19800/RTM_Tutorial_Waseda2018/master/install_raspimouse_simulator.sh
+$ sudo sh install_raspimouse_simulator.sh
+```
+* Code::Blocks(任意)
+```shell
+$ sudo apt-get install codeblocks
+```

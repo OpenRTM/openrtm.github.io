@@ -105,7 +105,7 @@ $ sudo apt-get install premake4
 * RaspberryPiMouseSimulator コンポーネント
 
 ```shell
-$ wget https://raw.githubusercontent.com/Nobu19800/RTM_Tutorial_Waseda2018/master/install_raspimouse_simulator.sh
+$ wget https://raw.githubusercontent.com/OpenRTM/RTM_Tutorial_Waseda2018/master/script/install_raspimouse_simulator.sh
 $ sudo sh install_raspimouse_simulator.sh
 ```
 

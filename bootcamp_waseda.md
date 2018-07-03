@@ -32,7 +32,10 @@
 ノートPCにウイルス対策ソフトをインストールしている場合は無効にしてください。
 無効にできない場合はこちらで用意したノートPCを貸し出します。
 
+#### 資料
+説明資料等を講習会当日にUSBメモリで配布する予定ですが、何らかの理由によりUSBメモリを利用できない場合は以下のZIPファイルをダウンロードしてください。
 
+* [RTM_Tutorial_Waseda2018.zip](https://github.com/OpenRTM/RTM_Tutorial_Waseda2018/raw/master/RTM_Tutorial_Waseda2018.zip)
 
 #### インストールするソフトウェア
 ##### Windowsの場合

@@ -45,7 +45,7 @@
 * [Python 2.7](https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64.msi)
 * [CMake](https://cmake.org/files/v3.11/cmake-3.11.4-win64-x64.msi)
 * [Doxygen](http://ftp.stack.nl/pub/users/dimitri/doxygen-1.8.11-setup.exe)
-* OpenRTM-aist 1.2.0RC
+* [OpenRTM-aist-1.2.0-RC1](https://tmp.openrtm.org/pub/Windows/OpenRTM-aist/1.2/OpenRTM-aist-1.2.0-RC1_x86_64_0618.msi)
 
 ##### Ubuntuの場合
 * OpenRTM-aist

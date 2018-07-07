@@ -47,6 +47,15 @@
 * [Doxygen](http://ftp.stack.nl/pub/users/dimitri/doxygen-1.8.11-setup.exe)
 * [OpenRTM-aist-1.2.0-RC1](https://drive.google.com/uc?id=1-sJPFro2qA82HyESidYSqhbmgj_2fo_O&export=download)
 
+※1.2.0-RC1の不具合によりRTCをビルドする際にエラーが出る場合があります。リリース版では解消する予定です。
+問題が発生する場合は生成したひな型コードのidlフォルダ内のCMakeLists.txtの先頭部分を変更します。
+
+    set(idls BasicDataTypes.idl ExtendedDataTypes.idl)
+
+この部分からBasicDataTypes.idl等を削除してください。
+
+    set(idls )
+
 ##### Ubuntuの場合
 * OpenRTM-aist
 

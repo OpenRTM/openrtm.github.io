@@ -22,11 +22,8 @@ Thank you for your cooperation and understanding.
 ### ドキュメント
 - [１０分ではじめよう！](10min_setup12)
 
-### NEWS
-- [6/22 RTミドルウェア強化月間の申し込み(7月4日 名城大)開始](bootcamp_meijyo)
-- [6/22 RTミドルウェア強化月間の申し込み(7月6日 早稲田大)開始](bootcamp_waseda)
-- [6/22 RTミドルウェア講習会＠都産技研(7月24日)のご案内](tutorial_irit)
-- [6/25 RTミドルウェアサマーキャンプ(7/30-8/2)の申し込みを開始](summercamp)
+### 今後のイベント
+- [RTミドルウェアサマーキャンプ2018(7/30〜8/2)](summercamp)
 
 
 ---

@@ -24,7 +24,7 @@ Thank you for your cooperation and understanding.
 
 ### 今後のイベント
 - [RTミドルウェアサマーキャンプ2018(7/30〜8/2)](summercamp)
-
+- [RTミドルウェアコンテスト2018](contest2018)
 
 ---
 

@@ -9,10 +9,11 @@
 - 定員: 20名程度を予定しております。定員になり次第申し込みは終了させていただきます。
 - 対象者: RTM講習会に参加したことがある、もしくは同等程度の経験を有していること。 
 
-
+<!--
 #### レジュメ
 
 サマーキャンプの[レジュメ](summercamp2018_resume_rc5.pdf)を更新しました。(2018.07.27)
+-->
 
 <!--
 #### 強化月間について
@@ -91,6 +92,24 @@ RTミドルウェアサマーキャンプは、参加要件として1回以上RT
 | 16:00 - 16:10 |  閉会の挨拶  | 平井成興 （ビジ協・NEDO）|
 | 16:10 - 17:00 |  片付け  |  -  |
 | 18:00 - 20:00 |  RTミドルウェア情報交換会（BOFミーティング）  |  -  |
+
+#### 成果発表
+
+##### グループ１：モバイルロボットゲームパック
+
+[プロジェクトページ](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group1)
+
+##### グループ２：NAOの大冒険
+
+[プロジェクトページ](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group2)
+
+##### グループ３：じゃんけんロボットシステム
+
+[プロジェクトページ](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group3)
+
+##### グループ４：おもてなしロボット(仮)
+
+[プロジェクトページ](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group4)
 
 #### 申し込み
 

@@ -111,11 +111,19 @@ RTミドルウェアサマーキャンプは、参加要件として1回以上RT
 
 [プロジェクトページ](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group4)
 
+
+#### アンケート
+
+[サマーキャンプのアンケート](https://goo.gl/forms/j12HssiJ1mizVL7O2)にご協力お願いいたします(googleフォームに移動します)
+
+<!--
 #### 申し込み
 
 以下のフォームからお申し込みください。
 
 [申し込みフォーム](https://goo.gl/forms/R18wB3DuHHSJTiIj1)
+
+-->
 
 #### 問い合わせ
 

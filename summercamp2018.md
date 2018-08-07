@@ -26,42 +26,18 @@
 - 発表スライド1
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/5pjAinxHEmE892" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/openrtm/summer-camp2018-group1-108736729" title="Summer camp2018 group1" target="_blank">Summer camp2018 group1</a> </strong> from <strong><a href="https://www.slideshare.net/openrtm" target="_blank">openrtm</a></strong> </div>
-
 <br/>
 
 
 - 開発モデル発表グループ1
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ir7IzYPpSz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 <br/>
 
-<!--
-- 開発モデル発表グループ１
-
-<iframe id="ytplayer" type="text/html" width="640" height="360"
-  src="https://www.youtube.com/embed/Ir7IzYPpSz0"
-  frameborder="0">
-</div>
-<br/>
--->
 
 - デモンストレーション
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FWxefLb69HU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <br/>
 
-<!--
-<iframe id="ytplayer" type="text/html" width="640" height="360"
-  src="https://www.youtube.com/embed/FWxefLb69HU"
-  frameborder="0"/>
- </iframe>
-</div>
-<br/>
--->
-
-<!--
-[![デモンストレーション](http://img.youtube.com/vi/FWxefLb69HU/0.jpg)](http://www.youtube.com/watch?v=FWxefLb69HU)
--->
 
 ---
 
@@ -70,15 +46,18 @@
 
 - [プロジェクトページ](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group2)
 
-- [発表スライド](http://www.slideshare.net/108735739)
+- 発表スライド
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/1WtYUQeC9V3NF9" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/openrtm/summer-camp2018-group2" title="Summer camp2018 group2" target="_blank">Summer camp2018 group2</a> </strong> from <strong><a href="https://www.slideshare.net/openrtm" target="_blank">openrtm</a></strong> </div>
+<br/>
 
 - 開発モデル発表グループ2
-
-[![開発モデル発表グループ2](http://img.youtube.com/vi/bc2Fg0u0iQM/0.jpg)](http://www.youtube.com/watch?v=bc2Fg0u0iQM)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bc2Fg0u0iQM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<br/>
 
 - デモンストレーション
-
-[![デモンストレーション](http://img.youtube.com/vi/RtAw4KkpQPo/0.jpg)](http://www.youtube.com/watch?v=RtAw4KkpQPo)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RtAw4KkpQPo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<br/>
 
 ---
 <a name="group03"></a>
@@ -86,31 +65,35 @@
 
 - [プロジェクトページ](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group3)
 
-- [発表スライド](http://www.slideshare.net/108736424)
+- 発表スライド
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/gIs9mTAHGfEAtV" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/openrtm/summer-camp2018-group3" title="Summer camp2018 group3" target="_blank">Summer camp2018 group3</a> </strong> from <strong><a href="https://www.slideshare.net/openrtm" target="_blank">openrtm</a></strong> </div>
+<br/>
 
 - 開発モデル発表グループ3
-
-[![開発モデル発表グループ3](http://img.youtube.com/vi/47vOBBoKiNA/0.jpg)](http://www.youtube.com/watch?v=47vOBBoKiNA)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/47vOBBoKiNA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<br/>
 
 - デモンストレーション
-
-[![デモンストレーション](http://img.youtube.com/vi/B45teQvMjpY/0.jpg)](http://www.youtube.com/watch?v=B45teQvMjpY)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B45teQvMjpY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<br/>
 
 ---
 <a name="group04"></a>
-#### グループ４：おもてなしロボット(仮)
+#### グループ４：T型自律走行ロボット
 
-- [プロジェクトページ(](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group4)
+- [プロジェクトページ](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group4)
 
-- [発表スライド](http://www.slideshare.net/108736510)
+- 発表スライド
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/eoqKIzbrfnF3av" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/openrtm/summer-camp2018-group4" title="Summer camp2018 group4" target="_blank">Summer camp2018 group4</a> </strong> from <strong><a href="https://www.slideshare.net/openrtm" target="_blank">openrtm</a></strong> </div>
+<br/>
 
 - 開発モデル発表グループ4
-
-[![開発モデル発表グループ4](http://img.youtube.com/vi/WQZwcAaY7Zs/0.jpg)](http://www.youtube.com/watch?v=WQZwcAaY7Zs)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WQZwcAaY7Zs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<br/>
 
 - デモンストレーション
-
-[![デモンストレーション](http://img.youtube.com/vi/yMCdjIn_QSc/0.jpg)](http://www.youtube.com/watch?v=yMCdjIn_QSc)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yMCdjIn_QSc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<br/>
 
 ---
 <a name="pictures"></a>

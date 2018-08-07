@@ -13,14 +13,9 @@
 
 ---
 
-
+<!--
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/mATa1wXpFXbqHq" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/openrtm/sysml-108196432" title="RTミドルウェアサマーキャンプ2018「SysML実習」" target="_blank">RTミドルウェアサマーキャンプ2018「SysML実習」</a> </strong> from <strong><a href="https://www.slideshare.net/openrtm" target="_blank">openrtm</a></strong> </div>
-
-
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/mATa1wXpFXbqHq" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/openrtm/sysml-108196432" title="RTミドルウェアサマーキャンプ2018「SysML実習」" target="_blank">RTミドルウェアサマーキャンプ2018「SysML実習」</a> </strong> from <strong><a href="https://www.slideshare.net/openrtm" target="_blank">openrtm</a></strong> </div>
-
-<br/>
-
+-->
 
 <a name="group01"></a>
 #### グループ１：モバイルロボットゲームパック
@@ -34,20 +29,15 @@
 
 <br/>
 
-- 発表スライド2
-
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/mATa1wXpFXbqHq" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/openrtm/sysml-108196432" title="RTミドルウェアサマーキャンプ2018「SysML実習」" target="_blank">RTミドルウェアサマーキャンプ2018「グループ１：モバイルロボットゲームパック発表スライド」</a> </strong> from <strong><a href="https://www.slideshare.net/openrtm" target="_blank">openrtm</a></strong> </div>
-
-<br/>
-
 - 開発モデル発表グループ１
 
 <iframe id="ytplayer" type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/Ir7IzYPpSz0"
   frameborder="0"/>
  </iframe>
-
+</div>
 <br/>
+
 
 - デモンストレーション
 
@@ -55,7 +45,7 @@
   src="https://www.youtube.com/embed/FWxefLb69HU"
   frameborder="0"/>
  </iframe>
-
+</div>
 <br/>
 
 <!--

@@ -1,12 +1,13 @@
-<a name="summer_camp"></a>
-### RTミドルウェアサマーキャンプ2018 成果発表
-
-##### グループ１：モバイルロボットゲームパック
+<a name="summer_camp2018"></a>
+## RTミドルウェアサマーキャンプ2018 成果発表
 
 
-- [プロジェクトページ(別のサイトに移動します)](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group1)
+#### グループ１：モバイルロボットゲームパック
 
-- [発表スライド(slideshareに移動します)](http://www.slideshare.net/108736729)
+
+- [プロジェクトページ](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group1)
+
+- [発表スライド](http://www.slideshare.net/108736729)
 
 - 開発モデル発表グループ１
 
@@ -16,11 +17,11 @@
 
 [![デモンストレーション](http://img.youtube.com/vi/FWxefLb69HU/0.jpg)](http://www.youtube.com/watch?v=FWxefLb69HU)
 
-##### グループ２：NAOの大冒険
+#### グループ２：NAOの大冒険
 
-- [プロジェクトページ(別のサイトに移動します)](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group2)
+- [プロジェクトページ](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group2)
 
-- [発表スライド(slideshareに移動します)](http://www.slideshare.net/108735739)
+- [発表スライド](http://www.slideshare.net/108735739)
 
 - 開発モデル発表グループ2
 
@@ -30,11 +31,11 @@
 
 [![デモンストレーション](http://img.youtube.com/vi/RtAw4KkpQPo/0.jpg)](http://www.youtube.com/watch?v=RtAw4KkpQPo)
 
-##### グループ３：じゃんけんロボットシステム
+#### グループ３：じゃんけんロボットシステム
 
-- [プロジェクトページ(別のサイトに移動します)](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group3)
+- [プロジェクトページ](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group3)
 
-- [発表スライド(slideshareに移動します)](http://www.slideshare.net/108736424)
+- [発表スライド](http://www.slideshare.net/108736424)
 
 - 開発モデル発表グループ3
 
@@ -44,11 +45,11 @@
 
 [![デモンストレーション](http://img.youtube.com/vi/B45teQvMjpY/0.jpg)](http://www.youtube.com/watch?v=B45teQvMjpY)
 
-##### グループ４：おもてなしロボット(仮)
+#### グループ４：おもてなしロボット(仮)
 
-- [プロジェクトページ(別のサイトに移動します)](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group4)
+- [プロジェクトページ(](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group4)
 
-- [発表スライド(slideshareに移動します)](http://www.slideshare.net/108736510)
+- [発表スライド](http://www.slideshare.net/108736510)
 
 - 開発モデル発表グループ4
 
@@ -58,7 +59,7 @@
 
 [![デモンストレーション](http://img.youtube.com/vi/yMCdjIn_QSc/0.jpg)](http://www.youtube.com/watch?v=yMCdjIn_QSc)
 
-#### サマーキャンプの様子
+### サマーキャンプの様子
 
 ![](https://tmp.openrtm.org/openrtm/sites/default/files/6548/pic-00.jpg)
 

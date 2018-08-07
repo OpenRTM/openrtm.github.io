@@ -1,15 +1,5 @@
 <a name="summer_camp2018"></a>
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/mATa1wXpFXbqHq" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/openrtm/sysml-108196432" title="RTミドルウェアサマーキャンプ2018「SysML実習」" target="_blank">RTミドルウェアサマーキャンプ2018「SysML実習」</a> </strong> from <strong><a href="https://www.slideshare.net/openrtm" target="_blank">openrtm</a></strong> </div>
-
-
-<br/>
-
-<iframe id="ytplayer" type="text/html" width="640" height="360"
-  src="https://www.youtube.com/embed/Ir7IzYPpSz0"
-  frameborder="0"/>
- </iframe>
-  
 ## RTミドルウェアサマーキャンプ2018 成果発表
 
 ### 目次
@@ -23,21 +13,54 @@
 
 ---
 
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/mATa1wXpFXbqHq" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/openrtm/sysml-108196432" title="RTミドルウェアサマーキャンプ2018「SysML実習」" target="_blank">RTミドルウェアサマーキャンプ2018「SysML実習」</a> </strong> from <strong><a href="https://www.slideshare.net/openrtm" target="_blank">openrtm</a></strong> </div>
+
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/mATa1wXpFXbqHq" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/openrtm/sysml-108196432" title="RTミドルウェアサマーキャンプ2018「SysML実習」" target="_blank">RTミドルウェアサマーキャンプ2018「SysML実習」</a> </strong> from <strong><a href="https://www.slideshare.net/openrtm" target="_blank">openrtm</a></strong> </div>
+
+<br/>
+
+
 <a name="group01"></a>
 #### グループ１：モバイルロボットゲームパック
 
 
 - [プロジェクトページ](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group1)
 
-- [発表スライド](http://www.slideshare.net/108736729)
+- 発表スライド1
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/5pjAinxHEmE892" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/openrtm/summer-camp2018-group1-108736729" title="Summer camp2018 group1" target="_blank">Summer camp2018 group1</a> </strong> from <strong><a href="https://www.slideshare.net/openrtm" target="_blank">openrtm</a></strong> </div>
+
+<br/>
+
+- 発表スライド2
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/mATa1wXpFXbqHq" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/openrtm/sysml-108196432" title="RTミドルウェアサマーキャンプ2018「SysML実習」" target="_blank">RTミドルウェアサマーキャンプ2018「グループ１：モバイルロボットゲームパック発表スライド」</a> </strong> from <strong><a href="https://www.slideshare.net/openrtm" target="_blank">openrtm</a></strong> </div>
+
+<br/>
 
 - 開発モデル発表グループ１
 
-[![開発モデル発表グループ１](http://img.youtube.com/vi/Ir7IzYPpSz0/0.jpg)](http://www.youtube.com/watch?v=Ir7IzYPpSz0)
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/Ir7IzYPpSz0"
+  frameborder="0"/>
+ </iframe>
+
+<br/>
 
 - デモンストレーション
 
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/FWxefLb69HU"
+  frameborder="0"/>
+ </iframe>
+
+<br/>
+
+<!--
 [![デモンストレーション](http://img.youtube.com/vi/FWxefLb69HU/0.jpg)](http://www.youtube.com/watch?v=FWxefLb69HU)
+-->
 
 ---
 

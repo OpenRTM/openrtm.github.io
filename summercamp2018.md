@@ -4,7 +4,7 @@
 ##### グループ１：モバイルロボットゲームパック
 
 
-- [プロジェクトページ](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group1)
+- [プロジェクトページ(別のサイトに移動します)](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group1)
 
 - [発表スライド(slideshareに移動します)](http://www.slideshare.net/108736729)
 
@@ -16,7 +16,7 @@
 
 ##### グループ２：NAOの大冒険
 
-- [プロジェクトページ](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group2)
+- [プロジェクトページ(別のサイトに移動します)](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group2)
 
 - [発表スライド(slideshareに移動します)](http://www.slideshare.net/108735739)
 
@@ -28,7 +28,7 @@
 
 ##### グループ３：じゃんけんロボットシステム
 
-- [プロジェクトページ](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group3)
+- [プロジェクトページ(別のサイトに移動します)](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group3)
 
 - [発表スライド(slideshareに移動します)](http://www.slideshare.net/108736424)
 
@@ -40,7 +40,7 @@
 
 ##### グループ４：おもてなしロボット(仮)
 
-- [プロジェクトページ](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group4)
+- [プロジェクトページ(別のサイトに移動します)](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group4)
 
 - [発表スライド(slideshareに移動します)](http://www.slideshare.net/108736510)
 

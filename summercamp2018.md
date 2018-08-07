@@ -1,4 +1,7 @@
 <a name="summer_camp2018"></a>
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/mATa1wXpFXbqHq" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/openrtm/sysml-108196432" title="RTミドルウェアサマーキャンプ2018「SysML実習」" target="_blank">RTミドルウェアサマーキャンプ2018「SysML実習」</a> </strong> from <strong><a href="https://www.slideshare.net/openrtm" target="_blank">openrtm</a></strong> </div>
+
 ## RTミドルウェアサマーキャンプ2018 成果発表
 
 ### 目次

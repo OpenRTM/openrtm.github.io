@@ -9,9 +9,11 @@
 - [発表スライド(slideshareに移動します)](http://www.slideshare.net/108736729)
 
 - 開発モデル発表グループ１
+
 [![開発モデル発表グループ１](http://img.youtube.com/vi/Ir7IzYPpSz0/0.jpg)](http://www.youtube.com/watch?v=Ir7IzYPpSz0)
 
 - デモンストレーション
+
 [![デモンストレーション](http://img.youtube.com/vi/FWxefLb69HU/0.jpg)](http://www.youtube.com/watch?v=FWxefLb69HU)
 
 ##### グループ２：NAOの大冒険
@@ -21,9 +23,11 @@
 - [発表スライド(slideshareに移動します)](http://www.slideshare.net/108735739)
 
 - 開発モデル発表グループ2
+
 [![開発モデル発表グループ2](http://img.youtube.com/vi/bc2Fg0u0iQM/0.jpg)](http://www.youtube.com/watch?v=bc2Fg0u0iQM)
 
 - デモンストレーション
+
 [![デモンストレーション](http://img.youtube.com/vi/RtAw4KkpQPo/0.jpg)](http://www.youtube.com/watch?v=RtAw4KkpQPo)
 
 ##### グループ３：じゃんけんロボットシステム
@@ -33,9 +37,11 @@
 - [発表スライド(slideshareに移動します)](http://www.slideshare.net/108736424)
 
 - 開発モデル発表グループ3
+
 [![開発モデル発表グループ3](http://img.youtube.com/vi/47vOBBoKiNA/0.jpg)](http://www.youtube.com/watch?v=47vOBBoKiNA)
 
 - デモンストレーション
+
 [![デモンストレーション](http://img.youtube.com/vi/B45teQvMjpY/0.jpg)](http://www.youtube.com/watch?v=B45teQvMjpY)
 
 ##### グループ４：おもてなしロボット(仮)
@@ -45,9 +51,11 @@
 - [発表スライド(slideshareに移動します)](http://www.slideshare.net/108736510)
 
 - 開発モデル発表グループ4
+
 [![開発モデル発表グループ4](http://img.youtube.com/vi/WQZwcAaY7Zs/0.jpg)](http://www.youtube.com/watch?v=WQZwcAaY7Zs)
 
 - デモンストレーション
+
 [![デモンストレーション](http://img.youtube.com/vi/yMCdjIn_QSc/0.jpg)](http://www.youtube.com/watch?v=yMCdjIn_QSc)
 
 #### サマーキャンプの様子

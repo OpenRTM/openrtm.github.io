@@ -29,15 +29,14 @@
 
 <br/>
 
-- 発表スライド1
-
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/5pjAinxHEmE892" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/openrtm/summer-camp2018-group1-108736729" title="Summer camp2018 group1" target="_blank">
-
 
 - 開発モデル発表グループ1
 
+<br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ir7IzYPpSz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
+<br/>
 
 <!--
 - 開発モデル発表グループ１
@@ -51,7 +50,11 @@
 
 - デモンストレーション
 
+<br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FWxefLb69HU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+<br/>
 
 <!--
 <iframe id="ytplayer" type="text/html" width="640" height="360"

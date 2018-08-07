@@ -95,35 +95,7 @@ RTミドルウェアサマーキャンプは、参加要件として1回以上RT
 
 #### 成果発表
 
-##### グループ１：モバイルロボットゲームパック
-
-[プロジェクトページ](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group1)
-
-##### グループ２：NAOの大冒険
-
-[プロジェクトページ](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group2)
-
-##### グループ３：じゃんけんロボットシステム
-
-[プロジェクトページ](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group3)
-
-##### グループ４：おもてなしロボット(仮)
-
-[プロジェクトページ](https://tmp.openrtm.org/openrtm/ja/project/SummerCamp2018_group4)
-
-
-#### アンケート
-
-[サマーキャンプのアンケート](https://goo.gl/forms/j12HssiJ1mizVL7O2)にご協力お願いいたします(googleフォームに移動します)
-
-<!--
-#### 申し込み
-
-以下のフォームからお申し込みください。
-
-[申し込みフォーム](https://goo.gl/forms/R18wB3DuHHSJTiIj1)
-
--->
+[こちら](summercamp2018)のページで公開しております。
 
 #### 問い合わせ
 

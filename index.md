@@ -51,6 +51,17 @@ Linux (Ubuntu 14.04LTS, 16.04LTS) packages and Windows msi installers are availa
 
 
 apt-get で直接インストールできませんので、リポジトリごとチェックアウトしてから dpkg コマンドで個別にインストールしてください。
+また、openrtp (RTSystemEditor, RTCBulder) は git コマンドでは正常にダウンロードできないことがあります。
+openrtpのdebファイルは正常にダウンロードできていれば200MB以上あります。
+git に LFS (large file system) 拡張をインストールするか、以下のリンクからダウンロードして取得してください。
+
+| Dist/version         | URL                                      |
+|:---------------------|:-----------------------------------------| 
+| Ubuntu 14.04 (32bit) | [https://github.com/n-ando/trusty_package/raw/master/trusty/main/binary-i386/openrtp_1.2.0-0_i386.deb](https://github.com/n-ando/trusty_package/raw/master/trusty/main/binary-i386/openrtp_1.2.0-0_i386.deb) |
+| Ubuntu 14.04 (64bit) | [https://github.com/n-ando/trusty_package/raw/master/trusty/main/binary-amd64/openrtp_1.2.0-0_amd64.deb](https://github.com/n-ando/trusty_package/raw/master/trusty/main/binary-amd64/openrtp_1.2.0-0_amd64.deb) |
+| Ubuntu 16.04 (32bit) | [https://github.com/n-ando/xenial_package/raw/master/xenial/main/binary-i386/openrtp_1.2.0-0_i386.deb](https://github.com/n-ando/xenial_package/raw/master/xenial/main/binary-i386/openrtp_1.2.0-0_i386.deb) |
+| Ubuntu 16.04 (64bit) | [https://github.com/n-ando/xenial_package/raw/master/xenial/main/binary-amd64/openrtp_1.2.0-0_amd64.deb](https://github.com/n-ando/xenial_package/raw/master/xenial/main/binary-amd64/openrtp_1.2.0-0_amd64.deb) |
+
 
 Since you cannot install them by apt-get, please checkout package repository and install them by dpkg command as follows.
 
@@ -60,6 +71,10 @@ $ git clone https://github.com/n-ando/xenial_package.git
 
 ubuntu 16.04 (64bit) の場合
 $ cd xenial_package/xenial/main/binary-amd64/
+
+git でopenrtpがうまくダウンロードできない場合
+$ rm openrtp_1.2.0-0_amd64.deb
+$ wget https://github.com/n-ando/trusty_package/raw/master/xenial/main/binary-amd64/openrtp_1.2.0-0_amd64.deb
 
 C++版のインストール
 $ sudo dpkg -i openrtm-aist_1.1.2-0_amd64.deb

@@ -23,6 +23,7 @@ Thank you for your cooperation and understanding.
 - [１０分ではじめよう！](10min_setup12)
 
 ### 今後のイベント
+- [Japan Robot Week 2018 RTM講習会](jrw2018)
 - [RTミドルウェアコンテスト2018](contest2018)
 
 ### 過去のイベント

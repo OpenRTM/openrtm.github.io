@@ -5,7 +5,7 @@ layout: default
 # OpenRTM-aist web on the github
 
 このページは、github上に作成されたOpenRTM-aist臨時Webページです。
-Webサイトのセキュリティアップデートのため、7月いっぱいの予定でOpenRTM-aistの公式Webページを一時停止します。
+Webサイトのセキュリティアップデートのため、2018年いっぱいの予定でOpenRTM-aistの公式Webページを一時停止します。
 ご迷惑をおかけしますがご理解のほどよろしくお願いいたします。
 
 This is the OpenRTM-aist official and templary website on the github.
@@ -23,10 +23,10 @@ Thank you for your cooperation and understanding.
 - [１０分ではじめよう！](10min_setup12)
 
 ### 今後のイベント
-- [Japan Robot Week 2018 RTM講習会](jrw2018)
 - [RTミドルウェアコンテスト2018](contest2018)
 
 ### 過去のイベント
+- [Japan Robot Week 2018 RTM講習会](jrw2018)
 - [RTミドルウェアサマーキャンプ2018(7/30〜8/2)](summercamp)
 - [RTミドルウェアサマーキャンプ2018(7/30〜8/2)成果発表](summercamp2018)
 

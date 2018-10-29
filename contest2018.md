@@ -54,7 +54,7 @@ RTミドルウエアは、ロボットを構成する様々な要素をモジュ
 
 | 番号      | タイトル | 所属・氏名 |
 |:---------:|:--------|:----------|
-| 2E1-01	| Lua 版 RT ミドルウェアの開発 |	 首都大学東京 ○宮本 信彦 |
+| 2E1-01	| [Lua 版 RT ミドルウェアの開発](https://nobu19800.github.io/RTM-Lua/docs/) |	 首都大学東京 ○宮本 信彦 |
 | 2E1-02	| 人の進行経路の分岐を予測する RTC |	 芝浦工業大学 ○岡野 憲、松日楽 信人、東京女子大学 太田 麻美、加藤 由花 |
 | 2E1-03	| 高齢者の習慣的な運動を支援する声掛け RTC | 	 芝浦工業大学 ○大塚 菜々、浅田 郁弥、岡野 憲、内藤 佑太、原田 信太朗、松日楽 信人 |
 | 2E1-04	| VR デバイスを用いた RT コンポーネント群 | 	 	 名城大学 ○横山 彰吾、大原 賢一|
@@ -158,10 +158,10 @@ RTミドルウエアは、ロボットを構成する様々な要素をモジュ
 <!-- - OpenRTM-aist Webサイトのプロジェクトとして登録すること。（プロジェクトページに紹介ビデオを掲載することを推奨） -->
 - github等の上に登録し以下の要件を満たすこと。(URLを rtm-contest@aist.go.jp へお知らせください。)
 - 作品を紹介するページを作成すること。
--- github では MarkdownでWebページを作成することができます。
--- 昨年優勝者のページ：https://github.com/takahasi/docker-openrtm
--- 上記プロジェクトのドキュメント: https://github.com/takahasi/docker-openrtm/blob/master/README.md
--- 同上: https://openrtm-on-docker.readthedocs.io/ja/latest/
+ - github では MarkdownでWebページを作成することができます。
+ - 昨年優勝者のページ：https://github.com/takahasi/docker-openrtm
+ - 上記プロジェクトのドキュメント: https://github.com/takahasi/docker-openrtm/blob/master/README.md
+ - 同上: https://openrtm-on-docker.readthedocs.io/ja/latest/
 - ソースコードをオープンにすること。
 - 分かりやすいマニュアルを添付し、できるだけ第三者が結果を再現できるようにすること。
 - 参考にしたRTコンポーネントやソースコードがある場合は、マニュアル・論文中で出典を明記してオリジナル作者に敬意を払うこと。
@@ -177,7 +177,7 @@ RTミドルウエアは、ロボットを構成する様々な要素をモジュ
 
 # お問い合わせ
 
- n-ando@aist.go.jp
+ rtm-contest@aist.go.jp
 
 
 

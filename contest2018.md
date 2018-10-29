@@ -158,10 +158,7 @@ RTミドルウエアは、ロボットを構成する様々な要素をモジュ
 <!-- - OpenRTM-aist Webサイトのプロジェクトとして登録すること。（プロジェクトページに紹介ビデオを掲載することを推奨） -->
 - github等の上に登録し以下の要件を満たすこと。(URLを rtm-contest@aist.go.jp へお知らせください。)
 - 作品を紹介するページを作成すること。
- github では MarkdownでWebページを作成することができます。
- 昨年優勝者のページ：https://github.com/takahasi/docker-openrtm
- 上記プロジェクトのドキュメント: https://github.com/takahasi/docker-openrtm/blob/master/README.md
- 同上: https://openrtm-on-docker.readthedocs.io/ja/latest/
+(github では MarkdownでWebページを作成することができます。 [昨年優勝者のページ](https://github.com/takahasi/docker-openrtm)、 [上記プロジェクトのドキュメント](https://github.com/takahasi/docker-openrtm/blob/master/README.md)、 [同上](https://openrtm-on-docker.readthedocs.io/ja/latest/)
 - ソースコードをオープンにすること。
 - 分かりやすいマニュアルを添付し、できるだけ第三者が結果を再現できるようにすること。
 - 参考にしたRTコンポーネントやソースコードがある場合は、マニュアル・論文中で出典を明記してオリジナル作者に敬意を払うこと。

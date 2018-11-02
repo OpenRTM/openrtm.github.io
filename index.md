@@ -39,9 +39,9 @@ Thank you for your cooperation and understanding.
 
 <a name="download"></a>
 ## Downloading Packages
-Linux (Ubuntu 14.04LTS, 16.04LTS) パッケージ、Windows msiインストーラ、コンパイル済みのJava（jar）パッケージのダウンロードができます。
+Linux (Ubuntu 14.04LTS, 16.04LTS, 18.04LTS) パッケージ、Windows msiインストーラ、コンパイル済みのJava（jar）パッケージのダウンロードができます。
 
-Linux (Ubuntu 14.04LTS, 16.04LTS) packages and Windows msi installers are available.
+Linux (Ubuntu 14.04LTS, 16.04LTS, 18.04LTS) packages and Windows msi installers are available.
 
 <a name="linux_packages"></a>
 ### Linux packages
@@ -52,6 +52,7 @@ Linux (Ubuntu 14.04LTS, 16.04LTS) packages and Windows msi installers are availa
 |:--------------|:-----------------------------------------| 
 | Ubuntu 14.04  | [https://github.com/n-ando/trusty_package](https://github.com/n-ando/trusty_package) |
 | Ubuntu 16.04  | [https://github.com/n-ando/xenial_package](https://github.com/n-ando/xenial_package) |
+| Ubuntu 18.04  | [https://github.com/n-ando/bionic_package](https://github.com/n-ando/bionic_package) |
 
 
 apt-get で直接インストールできませんので、リポジトリごとチェックアウトしてから dpkg コマンドで個別にインストールしてください。
@@ -65,7 +66,7 @@ git に LFS (large file system) 拡張をインストールするか、以下の
 | Ubuntu 14.04 (64bit) | [https://github.com/n-ando/trusty_package/raw/master/trusty/main/binary-amd64/openrtp_1.2.0-0_amd64.deb](https://github.com/n-ando/trusty_package/raw/master/trusty/main/binary-amd64/openrtp_1.2.0-0_amd64.deb) |
 | Ubuntu 16.04 (32bit) | [https://github.com/n-ando/xenial_package/raw/master/xenial/main/binary-i386/openrtp_1.2.0-0_i386.deb](https://github.com/n-ando/xenial_package/raw/master/xenial/main/binary-i386/openrtp_1.2.0-0_i386.deb) |
 | Ubuntu 16.04 (64bit) | [https://github.com/n-ando/xenial_package/raw/master/xenial/main/binary-amd64/openrtp_1.2.0-0_amd64.deb](https://github.com/n-ando/xenial_package/raw/master/xenial/main/binary-amd64/openrtp_1.2.0-0_amd64.deb) |
-
+| Ubuntu 18.04 (64bit) | [https://github.com/n-ando/bionic_package/raw/master/bionic/main/binary-amd64/openrtp_1.2.0-0_amd64.deb](https://github.com/n-ando/bionic_package/raw/master/bionic/main/binary-amd64/openrtp_1.2.0-0_amd64.deb) |
 
 Since you cannot install them by apt-get, please checkout package repository and install them by dpkg command as follows.
 

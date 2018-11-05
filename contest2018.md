@@ -54,7 +54,7 @@ RTミドルウエアは、ロボットを構成する様々な要素をモジュ
 
 | 番号      | タイトル | 所属・氏名 |
 |:---------:|:--------|:----------|
-| 2E1-01	| [Lua 版 RT ミドルウェアの開発](https://github.com/Nobu19800/RTM-Lua/) |	 首都大学東京 ○宮本 信彦 |
+| 2E1-01	| [Lua 版 RT ミドルウェアの開発](https://nobu19800.github.io/RTM-Lua/docs/) |	 首都大学東京 ○宮本 信彦 |
 | 2E1-02	| [人の進行経路の分岐を予測する RTC](https://github.com/SatoshiOkano/CoursePredictionSystem) |	 芝浦工業大学 ○岡野 憲、松日楽 信人、東京女子大学 太田 麻美、加藤 由花 |
 | 2E1-03	| [高齢者の習慣的な運動を支援する声掛け RTC](https://github.com/NanaOtsuka/Cheering-RTCs) | 	 芝浦工業大学 ○大塚 菜々、浅田 郁弥、岡野 憲、内藤 佑太、原田 信太朗、松日楽 信人 |
 | 2E1-04	| [VR デバイスを用いた RT コンポーネント群](https://github.com/Shogo-Yokoyama/ViveController-RTM-pkg) | 	 	 名城大学 ○横山 彰吾、大原 賢一|
@@ -62,7 +62,7 @@ RTミドルウエアは、ロボットを構成する様々な要素をモジュ
 | 2E1-06	| [サービスロボットのための人物検出 RTC の研究](https://github.com/sako35/PeopleDetection) | 	 	 東京理科大学 ○佐古 奈津希、竹村 裕、溝口 博 |
 | 2E1-07	| [顔方向推定 RTC の研究](https://github.com/Shichimi/facedirection) |  	 	 東京理科大学 ○齊藤 七海、佐古 奈津希、竹村 裕、溝口 博 |
 | 2E1-08	|  [実世界中での身振りや記号の提示を介したロボット操作に向けた RTC に関する研究](https://github.com/Y-Shingai/Symbol-recognition) |	 	 東京理科大学 ○新階 幸也、佐古 奈津希、竹村 裕、溝口 博 |
-| 2E1-09	| [SEED-Noid における双腕作業のための RTC 群](https://github.com/Mayuka-Shii/SEED-Noid_Dual-Arm_pkg) |	 	 名城大学 ○四位 茉祐果、真崎 聡士、大原 賢一 |
+| 2E1-09	| [SEED-Noid における双腕作業のための RTC 群](https://mayuka-shii.github.io/SEED-Noid_Dual-Arm_pkg/) |	 	 名城大学 ○四位 茉祐果、真崎 聡士、大原 賢一 |
 | 2E1-10	| [深層学習を用いたロボットシステム開発の基礎学習キット](http://ogata-lab.jp/ja/technology_ja/openrtm_deeplearning_education_material.html) | 	 	 早稲田大学 ○金村 杏美、菅 佑樹、早大・産総研 尾形 哲也 |
 
 

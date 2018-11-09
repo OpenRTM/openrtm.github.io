@@ -112,6 +112,14 @@ $ sudo apt-get update
 $ sudo apt-get install openjdk-8-jdk
 ```
 
+JDKを複数インストールしている場合はjava8に切り替えてください。
+
+```shell
+$ sudo update-alternatives --config java
+```
+
+
+
 <a name="windows_packages"></a>
 ### Windows installer
 

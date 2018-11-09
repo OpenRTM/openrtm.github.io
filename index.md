@@ -103,6 +103,15 @@ $ sudo apt-get install python-omniorb-omg omniidl-python
 $ sudo apt-get install cmake doxygen
 $ sudo apt-get install default-jdk
 ```
+
+Ubuntu 18.04の場合はOpenJDK8のインストールが必要です。
+
+```shell
+$ sudo add-apt-repository ppa:openjdk-r/ppa
+$ sudo apt-get update
+$ sudo apt-get install openjdk-8-jdk
+```
+
 <a name="windows_packages"></a>
 ### Windows installer
 

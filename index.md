@@ -132,6 +132,14 @@ You can download msi-files for Windows. However, downloading from the following 
 | 32bit msi     | [https://github.com/n-ando/win32_package/raw/master/OpenRTM-aist-1.1.2-RELEASE_x86.msi](https://github.com/n-ando/win32_package/raw/master/OpenRTM-aist-1.1.2-RELEASE_x86.msi) |
 | 64bit msi     | [https://github.com/n-ando/win64_package/raw/master/OpenRTM-aist-1.1.2-RELEASE_x86_64.msi](https://github.com/n-ando/win64_package/raw/master/OpenRTM-aist-1.1.2-RELEASE_x86_64.msi) |
 
+
+OpenRTM-aist以外に以下のソフトウェアをインストールしてください。
+
+* [Python 2.7](https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64.msi)
+* [Visual Studio 2017](https://github.com/OpenRTM/openrtm.github.io/blob/master/vs_install)
+* [CMake](https://cmake.org/files/v3.12/cmake-3.12.4-win64-x64.msi)
+* [Doxygen](http://ftp.stack.nl/pub/users/dimitri/doxygen-1.8.11-setup.exe)
+
 #### Windows版msiファイルのリポジトリ
 
 上記 URL から直接ダウンロードできない場合はgitコマンドをインストールし、以下のリポジトリをclone等することでダウンロードしてください。

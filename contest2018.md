@@ -54,9 +54,9 @@ RTミドルウエアは、ロボットを構成する様々な要素をモジュ
 
 | 番号      | タイトル | 所属・氏名 |
 |:---------:|:--------|:----------|
-| 2E1-01	|Lua 版 RT ミドルウェアの開発 　（[ドキュメント](https://nobu19800.github.io/RTM-Lua/docs/),[ソースコード](https://github.com/Nobu19800/RTM-Lua)） |	 首都大学東京 ○宮本 信彦 |
+| 2E1-01	|Lua 版 RT ミドルウェアの開発 <br>（[ドキュメント](https://nobu19800.github.io/RTM-Lua/docs/),[ソースコード](https://github.com/Nobu19800/RTM-Lua)） |	 首都大学東京 ○宮本 信彦 |
 | 2E1-02	| 人の進行経路の分岐を予測する RTC （[ドキュメント](https://github.com/SatoshiOkano/CoursePredictionSystem/blob/master/README.md), [ソースコード](https://github.com/SatoshiOkano/CoursePredictionSystem)） |	 芝浦工業大学 ○岡野 憲、松日楽 信人、東京女子大学 太田 麻美、加藤 由花 |
-| 2E1-03	| [高齢者の習慣的な運動を支援する声掛け RTC](https://github.com/NanaOtsuka/Cheering-RTCs) | 	 芝浦工業大学 ○大塚 菜々、浅田 郁弥、岡野 憲、内藤 佑太、原田 信太朗、松日楽 信人 |
+| 2E1-03	| 高齢者の習慣的な運動を支援する声掛け RTC [ドキュメント](https://github.com/NanaOtsuka/Cheering-RTCs/blob/master/%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB.docx), [ソースコード](https://github.com/NanaOtsuka/Cheering-RTCs) | 	 芝浦工業大学 ○大塚 菜々、浅田 郁弥、岡野 憲、内藤 佑太、原田 信太朗、松日楽 信人 |
 | 2E1-04	| [VR デバイスを用いた RT コンポーネント群](https://github.com/Shogo-Yokoyama/ViveController-RTM-pkg) | 	 	 名城大学 ○横山 彰吾、大原 賢一|
 | 2E1-05	| [複数ロボットのための協調制御 RTC](https://github.com/YutaNaito/CooperativeController) | 	 	芝浦工業大学 ○内藤 佑太、松日楽 信人 |
 | 2E1-06	| [サービスロボットのための人物検出 RTC の研究](https://github.com/sako35/PeopleDetection) | 	 	 東京理科大学 ○佐古 奈津希、竹村 裕、溝口 博 |

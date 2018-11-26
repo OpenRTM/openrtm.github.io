@@ -63,7 +63,7 @@ RTミドルウエアは、ロボットを構成する様々な要素をモジュ
 | 2E1-07	| 顔方向推定 RTC の研究 <br>([ドキュメント](https://github.com/Shichimi/facedirection/blob/master/README.md), [ソースコード](https://github.com/Shichimi/facedirection)) |  	 	 東京理科大学 ○齊藤 七海、佐古 奈津希、竹村 裕、溝口 博 |
 | 2E1-08	|  実世界中での身振りや記号の提示を介したロボット操作に向けた RTC に関する研究<br>([ドキュメント](https://github.com/Y-Shingai/Symbol-recognition/blob/master/README.md),[ソースコード](https://github.com/Y-Shingai/Symbol-recognition)) |	 	 東京理科大学 ○新階 幸也、佐古 奈津希、竹村 裕、溝口 博 |
 | 2E1-09	| SEED-Noid における双腕作業のための RTC 群 <br> ([ドキュメント](https://mayuka-shii.github.io/SEED-Noid_Dual-Arm_pkg/), [ソースコード](https://github.com/Mayuka-Shii/SEED-Noid_Dual-Arm_pkg)) |	 	 名城大学 ○四位 茉祐果、真崎 聡士、大原 賢一 |
-| 2E1-10	|深層学習を用いたロボットシステム開発の基礎学習キット <br> ([ドキュメント](http://ogata-lab.jp/ja/technology_ja/openrtm_deeplearning_education_material.html) | 	 	 早稲田大学 ○金村 杏美、菅 佑樹、早大・産総研 尾形 哲也 |
+| 2E1-10	|深層学習を用いたロボットシステム開発の基礎学習キット <br> ([ドキュメント](http://ogata-lab.jp/ja/technology_ja/openrtm_deeplearning_education_material.html)) | 	 	 早稲田大学 ○金村 杏美、菅 佑樹、早大・産総研 尾形 哲也 |
 
 
 ## 作品へコメントする

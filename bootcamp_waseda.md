@@ -44,7 +44,7 @@
   * Visual C++がインストールされているかは必ず確認してください。
 * [Python 2.7](https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64.msi)
 * [CMake](https://cmake.org/files/v3.11/cmake-3.11.4-win64-x64.msi)
-* [Doxygen](http://ftp.stack.nl/pub/users/dimitri/doxygen-1.8.11-setup.exe)
+* [Doxygen](http://doxygen.nl/files/doxygen-1.8.14-setup.exe)
 * [OpenRTM-aist-1.2.0-RC1](http://tmp.openrtm.org/pub/Windows/OpenRTM-aist/1.2/OpenRTM-aist-1.2.0-RC1_x86_64_0727.msi)
 
 ※1.2.0-RC1の不具合によりRTCをビルドする際にエラーが出る場合があります。リリース版では解消する予定です。

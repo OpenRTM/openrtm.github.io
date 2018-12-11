@@ -146,8 +146,8 @@ OpenRTM-aist以外に以下のソフトウェアをインストールしてく�
 
 | 32bit/64bit   | URL                                      |
 |:--------------|:-----------------------------------------| 
-| 32bit msi     | [https://github.com/n-ando/win32_package](https://github.com/n-ando/win32_package/raw/master/OpenRTM-aist-1.1.2-RELEASE_x86.msi)  |
-| 64bit msi     | [https://github.com/n-ando/win64_package](https://github.com/n-ando/win64_package/raw/master/OpenRTM-aist-1.1.2-RELEASE_x86_64.msi)  |
+| 32bit msi     | [OpenRTM-aist-1.1.2-RELEASE_x86.msi](https://github.com/n-ando/win32_package/raw/master/OpenRTM-aist-1.1.2-RELEASE_x86.msi)  |
+| 64bit msi     | [OpenRTM-aist-1.1.2-RELEASE_x86_64.msi](https://github.com/n-ando/win64_package/raw/master/OpenRTM-aist-1.1.2-RELEASE_x86_64.msi)  |
 
 具体的な手順は以下の通りです。
 

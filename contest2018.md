@@ -52,7 +52,7 @@ RTミドルウエアは、ロボットを構成する様々な要素をモジュ
 
 # プログラム
 
-| 番号      | タイトル || 所属・氏名 | 受賞情報 |
+| 番号      | タイトル | 所属・氏名 | 受賞情報 |
 |:---------:|:--------|:----------|:----------|
 | 2E1-01	|Lua 版 RT ミドルウェアの開発 <br>（[ドキュメント](https://nobu19800.github.io/RTM-Lua/docs/),[ソースコード](https://github.com/Nobu19800/RTM-Lua)） |	 首都大学東京 ○宮本 信彦 |SUGAR SWEET ROBOTICS賞 |
 | 2E1-02	| 人の進行経路の分岐を予測する RTC <br>（[ドキュメント](https://github.com/SatoshiOkano/CoursePredictionSystem/blob/master/README.md), [ソースコード](https://github.com/SatoshiOkano/CoursePredictionSystem)） |	 芝浦工業大学 ○岡野 憲、松日楽 信人、東京女子大学 太田 麻美、加藤 由花 | |

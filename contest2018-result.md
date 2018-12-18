@@ -170,10 +170,10 @@
 
 
 ### RTミドルウェアを普及しま賞
-![](https://tmp.openrtm.org/openrtm/sites/default/files/6574/181214-hukyu.JPG)
+<img src="https://tmp.openrtm.org/openrtm/sites/default/files/6574/181214-hukyu.JPG" width=20%>
 [複数ロボットのための協調制御 RTC](https://github.com/YutaNaito/CooperativeController/blob/master/README.md)
 内藤 佑太（芝浦工業大学）, 松日楽 信人（芝浦工業大学）
 
 
-![](https://docbase.io/ogp.png =200x)
+
 

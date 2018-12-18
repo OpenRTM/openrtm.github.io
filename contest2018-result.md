@@ -37,7 +37,7 @@
 ### ロボティズ賞
 ![](https://tmp.openrtm.org/openrtm/sites/default/files/6574/181214-daina.JPG)
 [VR デバイスを用いた RT コンポーネント群](https://github.com/Shogo-Yokoyama/ViveController-RTM-pkg/blob/master/README.md)
-横山 彰吾（名城大学 ）, 大原 賢一（名城大学 ）, 
+横山 彰吾（名城大学 ）, 大原 賢一（名城大学 ）
 
 
 
@@ -46,7 +46,7 @@
 ### 日本ロボット工業会賞
 ![](https://tmp.openrtm.org/openrtm/sites/default/files/6574/181214-japanrobot.JPG)
 [SEED-Noid における双腕作業のための RTC 群](https://mayuka-shii.github.io/SEED-Noid_Dual-Arm_pkg/)
-四位 茉祐果（名城大学 ）, 真崎 聡士（名城大学 ）, 大原 賢一（名城大学 ）br; 
+四位 茉祐果（名城大学 ）, 真崎 聡士（名城大学 ）, 大原 賢一（名城大学 ）
 
 
 
@@ -60,7 +60,7 @@
 ### パナソニック アドバンストテクノロジー(株)賞
 ![](https://tmp.openrtm.org/openrtm/sites/default/files/6574/181214-pat.JPG)
 [SEED-Noid における双腕作業のための RTC 群](https://mayuka-shii.github.io/SEED-Noid_Dual-Arm_pkg/)
-四位 茉祐果（名城大学 ）, 真崎 聡士（名城大学 ）, 大原 賢一（名城大学 ）br; 
+四位 茉祐果（名城大学 ）, 真崎 聡士（名城大学 ）, 大原 賢一（名城大学 ）
 
 
 
@@ -83,7 +83,7 @@
 ### 東京ロボティクス賞
 ![](https://tmp.openrtm.org/openrtm/sites/default/files/6574/181214-tr.JPG)
 [深層学習を用いたロボットシステム開発の基礎学習キット](https://github.com/Y-Shingai/Symbol-recognition/blob/master/README.md)
-金村 杏美（早稲田大学 ）, 菅 佑樹（早稲田大学 ）, 尾形 哲也（早稲田大学・産総研）, 
+金村 杏美（早稲田大学 ）, 菅 佑樹（早稲田大学 ）, 尾形 哲也（早稲田大学・産総研）
 
 
 
@@ -132,7 +132,7 @@
 ### RTMサマーキャンプ賞
 ![](https://tmp.openrtm.org/openrtm/sites/default/files/6574/181214-summer.JPG)
 [深層学習を用いたロボットシステム開発の基礎学習キット](https://github.com/Y-Shingai/Symbol-recognition/blob/master/README.md)
-金村 杏美（早稲田大学 ）, 菅 佑樹（早稲田大学 ）, 尾形 哲也（早稲田大学・産総研）, 
+金村 杏美（早稲田大学 ）, 菅 佑樹（早稲田大学 ）, 尾形 哲也（早稲田大学・産総研）
 
 
 
@@ -140,7 +140,7 @@
 ### ベストサポート賞
 ![](https://tmp.openrtm.org/openrtm/sites/default/files/6574/181214-bestsup.JPG)
 [深層学習を用いたロボットシステム開発の基礎学習キット](https://github.com/Y-Shingai/Symbol-recognition/blob/master/README.md)
-金村 杏美（早稲田大学 ）, 菅 佑樹（早稲田大学 ）, 尾形 哲也（早稲田大学・産総研）, 
+金村 杏美（早稲田大学 ）, 菅 佑樹（早稲田大学 ）, 尾形 哲也（早稲田大学・産総研） 
 
 
 
@@ -148,7 +148,7 @@
 ### ベストコメント賞
 ![](https://tmp.openrtm.org/openrtm/sites/default/files/6574/181214-bestcmt.JPG)
 [深層学習を用いたロボットシステム開発の基礎学習キット](https://github.com/Y-Shingai/Symbol-recognition/blob/master/README.md)
-金村 杏美（早稲田大学 ）, 菅 佑樹（早稲田大学 ）, 尾形 哲也（早稲田大学・産総研）, 
+金村 杏美（早稲田大学 ）, 菅 佑樹（早稲田大学 ）, 尾形 哲也（早稲田大学・産総研）
 
 
 
@@ -164,7 +164,7 @@
 ### 世界一リッチなRTコンポーネント賞
 ![](https://tmp.openrtm.org/openrtm/sites/default/files/6574/181214-rtrich.JPG)
 [深層学習を用いたロボットシステム開発の基礎学習キット](https://github.com/Y-Shingai/Symbol-recognition/blob/master/README.md)
-金村 杏美（早稲田大学 ）, 菅 佑樹（早稲田大学 ）, 尾形 哲也（早稲田大学・産総研）, 
+金村 杏美（早稲田大学 ）, 菅 佑樹（早稲田大学 ）, 尾形 哲也（早稲田大学・産総研）
 
 
 

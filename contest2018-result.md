@@ -17,7 +17,7 @@
 
 ## 計測自動制御学会ＲＴミドルウエア賞（最優秀賞）
 
-![](https://tmp.openrtm.org/openrtm/sites/default/files/6574/181214-saiyuu.JPG=200x200)
+![](https://tmp.openrtm.org/openrtm/sites/default/files/6574/181214-saiyuu.JPG)
 
 [DLua版RTミドルウェアの開発](https://nobu19800.github.io/RTM-Lua/docs/)
 宮本 信彦（首都大学東京）
@@ -27,7 +27,7 @@
 
 ## 賞品協賛賞
 ### ウィン電子工業賞
-![](https://tmp.openrtm.org/openrtm/sites/default/files/6574/181214-win.JPG=200x200)
+![](https://tmp.openrtm.org/openrtm/sites/default/files/6574/181214-win.JPG)
 [高齢者の習慣的な運動を支援する声掛け RTC](https://github.com/NanaOtsuka/Cheering-RTCs/blob/master/README.md)
 大塚 菜々（芝浦工大）, 浅田 郁弥（芝浦工大）, 岡野 憲（芝浦工大）
 内藤 佑太（芝浦工大）, 原田 信太朗（芝浦工大）, 松日楽 信人（芝浦工大） 
@@ -173,4 +173,7 @@
 ![](https://tmp.openrtm.org/openrtm/sites/default/files/6574/181214-hukyu.JPG)
 [複数ロボットのための協調制御 RTC](https://github.com/YutaNaito/CooperativeController/blob/master/README.md)
 内藤 佑太（芝浦工業大学）, 松日楽 信人（芝浦工業大学）
+
+
+![](https://docbase.io/ogp.png =200x)
 

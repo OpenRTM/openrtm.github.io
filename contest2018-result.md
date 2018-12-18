@@ -175,5 +175,18 @@
 内藤 佑太（芝浦工業大学）, 松日楽 信人（芝浦工業大学）
 
 
+# 発表・表彰式の様子
+<img src="https://tmp.openrtm.org/openrtm/sites/default/files/6574/contest-003.jpeg" width="80%"><br>
+
+<img src="https://tmp.openrtm.org/openrtm/sites/default/files/6574/contest-004.jpeg" width="80%"><br>
+
+<img src="https://tmp.openrtm.org/openrtm/sites/default/files/6574/contest-005.jpeg" width="80%"><br>
+
+<img src="https://tmp.openrtm.org/openrtm/sites/default/files/6574/contest-002.jpeg" width="80%"><br>
+
+<img src="https://tmp.openrtm.org/openrtm/sites/default/files/6574/contest-000.JPG" width="80%"><br>
+
+<img src="https://tmp.openrtm.org/openrtm/sites/default/files/6574/contest-001.JPG" width="80%"><br>
+
 
 

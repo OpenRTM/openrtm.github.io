@@ -17,7 +17,7 @@
 
 ## 計測自動制御学会ＲＴミドルウエア賞（最優秀賞）
 
-![](https://tmp.openrtm.org/openrtm/sites/default/files/6574/181214-saiyuu.JPG)
+![](https://tmp.openrtm.org/openrtm/sites/default/files/6574/181214-saiyuu.JPG, 50%)
 
 [DLua版RTミドルウェアの開発](https://nobu19800.github.io/RTM-Lua/docs/)
 宮本 信彦（首都大学東京）

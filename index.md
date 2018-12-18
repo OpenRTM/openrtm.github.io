@@ -27,6 +27,7 @@ Thank you for your cooperation and understanding.
 -->
 
 ### 過去のイベント
+- [RTミドルウェアコンテスト2018-表彰式の様子(2018/12/14)](contest2018-result)
 - [RTミドルウェアコンテスト2018-結果発表](contest2018)
 - [RTミドルウェア普及貢献賞授賞式](business_award2018)
 - [Japan Robot Week 2018 RTM講習会](jrw2018)

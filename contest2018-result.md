@@ -180,9 +180,9 @@
 
 <img src="https://tmp.openrtm.org/openrtm/sites/default/files/6574/contest-004.jpeg" width="80%"><br>
 
-<img src="https://tmp.openrtm.org/openrtm/sites/default/files/6574/contest-005.jpeg" width="80%"><br>
-
 <img src="https://tmp.openrtm.org/openrtm/sites/default/files/6574/contest-002.jpeg" width="80%"><br>
+
+<img src="https://tmp.openrtm.org/openrtm/sites/default/files/6574/contest-005.jpeg" width="80%"><br>
 
 <img src="https://tmp.openrtm.org/openrtm/sites/default/files/6574/contest-000.JPG" width="80%"><br>
 

@@ -20,7 +20,7 @@ Thank you for your cooperation and understanding.
 - [Source Code](#source_code)
 
 ### ドキュメント
-- [１０分ではじめよう！](10min_setup12)
+- [１０分ではじめよう！](10min_setup12.md)
 
 <!-- ### 今後のイベント
 - [RTミドルウェアコンテスト2018](contest2018)
@@ -138,9 +138,10 @@ You can download msi-files for Windows. However, downloading from the following 
 
 OpenRTM-aist以外に以下のソフトウェアをインストールしてください。
 
-* [Python 2.7](https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64.msi)
+* Python 2.7 または 3.6 または 3.7
+  * Python のインストールについては [１０分ではじめよう！](10min_setup12.md) のページをご覧ください
 * [Visual Studio 2017](vs_install.md)
-* [CMake](https://cmake.org/files/v3.12/cmake-3.12.4-win64-x64.msi)
+* [CMake](https://github.com/Kitware/CMake/releases/download/v3.13.2/cmake-3.13.2-win64-x64.msi)
 * [Doxygen](http://doxygen.nl/files/doxygen-1.8.14-setup.exe)
 
 #### Windows版msiファイルのリポジトリ

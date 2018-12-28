@@ -131,7 +131,8 @@ Start Naming Service をクリックします。以下のようなコンソー�
 
 ##### OpenRTP起動
 
-[OpenRTM-aist 1.2.0 x86] フォルダー内の OpenRTP をクリックして起動します。 ワークスペースは適当な場所を指定してください。 
+デスクトップのショートカットを クリックして起動します。スタートメニューでは、[OpenRTM-aist 1.2.0 x86] フォルダー内の OpenRTP をクリックです。
+ワークスペースは適当な場所を指定してください。 
 
 <img src="./images/10min_setup/OpenRTP001.png" width="400">
 

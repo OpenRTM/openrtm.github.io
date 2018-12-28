@@ -59,7 +59,7 @@ C++版で使用する Visual Studio のバージョンをシステム環境変�
 - ※Visual Studio 2017のインストールは[こちら](vs2017_install)をご覧ください。
 - ※Visual Studio のバージョンは、インストール終了後にツールの VCVerChanger で変更することができます。
 - [VCVerChangerの使い方](VCVerChanger) 
-※Python版、Java版では無関係ですのでデフォルトのまま [次へ] をクリックしてください。 
+- ※Python版、Java版では無関係ですのでデフォルトのまま [次へ] をクリックしてください。 
 
 <img src="./images/10min_setup/OpenRTM120-install004.png" width="400">
 

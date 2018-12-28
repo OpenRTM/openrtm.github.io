@@ -9,14 +9,20 @@
 ### Python のインストール
 
 Python をインストールしていない場合は、OpenRTM-aist をインストールすることができません。
-OpenRTM-aist をインストールする前に、Python 2.7 または、3.6 をインストールしてください。
+OpenRTM-aist をインストールする前に、Python 2.7 または 3.6 または 3.7 をインストールしてください。
 
 Python こちらからダウンロードしてください。
 - [2.7(64bit)](https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64.msi)
-- [3.6(64bit)](https://www.python.org/ftp/python/3.6.6/python-3.6.6-amd64.exe)
+- [3.6(64bit)](https://www.python.org/ftp/python/3.6.7/python-3.6.7-amd64.exe)
+- [3.7(64bit)](https://www.python.org/ftp/python/3.7.1/python-3.7.1-amd64.exe)
 
-インストールを実行した際に、以下の画面で [Add python.exe to Path] を [Will be installed on local hard drive] に設定してください。
-こうすると、python.exe と Scripts に Path を自動で設定してくれます。（例：Path=C:\Python27\; C:\Python27\Scripts;...）
+Python のインストール先は、3.6 または 3.7 の場合はインストール時の選択 [Install Now] [Customize installation] のどちらにも対応しています。
+2.7 の場合はデフォルトの [Install for all users] 設定のみに対応しています。
+
+Python のパスは、自動で設定されるようにして下さい。こうすると、python.exe と Scripts が Path に追加されます。（例：Path=C:\Python27\; C:\Python27\Scripts;...）
+
+Python 3.6 または 3.7 のインストールでは、最初の画面の一番下にある [add python *** to PATH] にチェックを入れてください。
+2.7 のインストールでは、以下の画面で [Add python.exe to Path] を [Will be installed on local hard drive] に設定してください。
 
 <img src="./images/10min_setup/Python-install001.png" width="400">
 
@@ -51,7 +57,7 @@ C++版で使用する Visual Studio のバージョンをシステム環境変�
 インストールされている Visual Studio のバージョンを選択して [次へ] をクリックします。
 
 - ※Visual Studio 2017のインストールは[こちら](vs2017_install)をご覧ください。
-- ※システム環境変数 RTM_VC_VERSION の設定は、インストール終了後に VCVerChanger で変更することができます。
+- ※Visual Studio のバージョンは、インストール終了後にツールの VCVerChanger で変更することができます。
 - [VCVerChangerの使い方](VCVerChanger) 
 ※Python版、Java版では無関係ですのでデフォルトのまま [次へ] をクリックしてください。 
 
@@ -81,8 +87,6 @@ C++版で使用する Visual Studio のバージョンをシステム環境変�
 
 
 
-※使用している Visual Studio のバージョンが 2017(vc14) 以外の場合は、以下のページを参考に環境変数の RTM_VC_VERSION を変更してください。
-RTM_VC_VERSIONの変更＜リンク＞
 
 ### サンプルコンポーネントを実行する
 

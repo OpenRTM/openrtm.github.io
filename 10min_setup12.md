@@ -32,7 +32,7 @@ Python 3.6 または 3.7 のインストールでは、最初の画面の一番�
 
 ここでは Windows10 で 32bit 用インストーラー OpenRTM-aist-1.2.0-RELEASE_x86.msi を使ったインストール手順を紹介します。
 
-インストーラーのダウンロードは [OpenRTM-aist-1.2.0-RELEAS](index#download) をご覧ください。
+インストーラーのダウンロードは [OpenRTM-aist-1.2.0-RELEASE](index.md#download) をご覧ください。
 
 #### インストール手順
 1. インストーラーを起動して [次へ] をクリックします。

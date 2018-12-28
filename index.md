@@ -81,20 +81,24 @@ ubuntu 16.04 (64bit) の場合
 $ cd xenial_package/xenial/main/binary-amd64/
 
 git でopenrtpがうまくダウンロードできない場合
-$ rm openrtp_1.2.0-0_amd64.deb
-$ wget https://github.com/n-ando/trusty_package/raw/master/xenial/main/binary-amd64/openrtp_1.2.0-0_amd64.deb
+$ rm openrtp_1.2.0-1_amd64.deb
+$ wget https://github.com/n-ando/trusty_package/raw/master/xenial/main/binary-amd64/openrtp_1.2.0-1_amd64.deb
 
 C++版のインストール
-$ sudo dpkg -i openrtm-aist_1.1.2-0_amd64.deb
-$ sudo dpkg -i openrtm-aist-example_1.1.2-0_amd64.deb
-$ sudo dpkg -i openrtm-aist-dev_1.1.2-0_amd64.deb
+$ sudo dpkg -i openrtm-aist_1.2.0-0_amd64.deb
+$ sudo dpkg -i openrtm-aist-example_1.2.0-0_amd64.deb
+$ sudo dpkg -i openrtm-aist-dev_1.2.0-0_amd64.deb
 
 Python版のインストール
-$ sudo dpkg -i openrtm-aist-python_1.1.2-1_amd64.deb
-$ sudo dpkg -i openrtm-aist-python-example_1.1.2-1_amd64.deb
+$ sudo dpkg -i openrtm-aist-python_1.2.0-0_amd64.deb
+$ sudo dpkg -i openrtm-aist-python-example_1.2.0-0_amd64.deb
+
+Java版のインストール
+$ sudo dpkg -i openrtm-aist-java_1.2.0-0_amd64.deb
+$ sudo dpkg -i openrtm-aist-java-example_1.2.0-0_amd64.deb
 
 RTSystemEditor/RTCBuilderのインストール
-$ sudo dpkg -i openrtp_1.2.0-0_amd64.deb
+$ sudo dpkg -i openrtp_1.2.0-1_amd64.deb
 ```
 
 以下のコマンドでomniORB、CMake、Doxygen等をインストールしてください。

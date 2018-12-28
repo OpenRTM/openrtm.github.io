@@ -56,9 +56,9 @@ Python 3.6 または 3.7 のインストールでは、最初の画面の一番�
 C++版で使用する Visual Studio のバージョンをシステム環境変数に設定します。
 インストールされている Visual Studio のバージョンを選択して [次へ] をクリックします。
 
-- ※Visual Studio 2017のインストールは[こちら](vs2017_install)をご覧ください。
+- ※Visual Studio 2017のインストールは[こちら](vs_install.md)をご覧ください。
 - ※Visual Studio のバージョンは、インストール終了後にツールの VCVerChanger で変更することができます。
-- [VCVerChangerの使い方](VCVerChanger) 
+- [VCVerChangerの使い方](VCVerChanger.md) 
 - ※Python版、Java版では無関係ですのでデフォルトのまま [次へ] をクリックしてください。 
 
 <img src="./images/10min_setup/OpenRTM120-install004.png" width="400">

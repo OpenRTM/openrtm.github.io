@@ -42,35 +42,69 @@ Thank you for your cooperation and understanding.
 
 <a name="download"></a>
 ## Downloading Packages
-Linux (Ubuntu 14.04LTS, 16.04LTS, 18.04LTS) パッケージ、Windows msiインストーラ、コンパイル済みのJava（jar）パッケージのダウンロードができます。
+Linux (Ubuntu 14.04LTS, 16.04LTS, 18.04LTS, 18.10) パッケージ、Windows msiインストーラ、コンパイル済みのJava（jar）パッケージのダウンロードができます。
 
-Linux (Ubuntu 14.04LTS, 16.04LTS, 18.04LTS) packages and Windows msi installers are available.
+Linux (Ubuntu 14.04LTS, 16.04LTS, 18.04LTS, 18.10) packages and Windows msi installers are available.
 
 <a name="linux_packages"></a>
 ### Linux packages
 
-以下のリポジトリからUbuntu用のOpenRTM-aistパッケージがダウンロードできます。
+以下からUbuntu用のOpenRTM-aistパッケージがダウンロードできます。
 
+<!--
 | Dist/version  | URL                                      |
 |:--------------|:-----------------------------------------| 
 | Ubuntu 14.04  | [https://github.com/n-ando/trusty_package](https://github.com/n-ando/trusty_package) |
 | Ubuntu 16.04  | [https://github.com/n-ando/xenial_package](https://github.com/n-ando/xenial_package) |
 | Ubuntu 18.04  | [https://github.com/n-ando/bionic_package](https://github.com/n-ando/bionic_package) |
 
-
 apt-get で直接インストールできませんので、リポジトリごとチェックアウトしてから dpkg コマンドで個別にインストールしてください。
 また、openrtp (RTSystemEditor, RTCBulder) は git コマンドでは正常にダウンロードできないことがあります。
 openrtpのdebファイルは正常にダウンロードできていれば200MB以上あります。
 git に LFS (large file system) 拡張をインストールするか、以下のリンクからダウンロードして取得してください。
+-->
+apt-get で直接インストールできませんので、各パッケージ(tar.gz)に同梱している install-openrtm-deb-packages.sh スクリプトでインストールしてください。
 
-| Dist/version         | URL                                      |
+Since you cannot install them by apt-get, please install it using the bundled install-openrtm-deb-packages.sh script.
+
+
+| Dist/version         | OpenRTM-aist C++                                      |
 |:---------------------|:-----------------------------------------| 
-| Ubuntu 14.04 (32bit) | [https://github.com/n-ando/trusty_package/raw/master/trusty/main/binary-i386/openrtp_1.2.0-0_i386.deb](https://github.com/n-ando/trusty_package/raw/master/trusty/main/binary-i386/openrtp_1.2.0-0_i386.deb) |
-| Ubuntu 14.04 (64bit) | [https://github.com/n-ando/trusty_package/raw/master/trusty/main/binary-amd64/openrtp_1.2.0-0_amd64.deb](https://github.com/n-ando/trusty_package/raw/master/trusty/main/binary-amd64/openrtp_1.2.0-0_amd64.deb) |
-| Ubuntu 16.04 (32bit) | [https://github.com/n-ando/xenial_package/raw/master/xenial/main/binary-i386/openrtp_1.2.0-0_i386.deb](https://github.com/n-ando/xenial_package/raw/master/xenial/main/binary-i386/openrtp_1.2.0-0_i386.deb) |
-| Ubuntu 16.04 (64bit) | [https://github.com/n-ando/xenial_package/raw/master/xenial/main/binary-amd64/openrtp_1.2.0-0_amd64.deb](https://github.com/n-ando/xenial_package/raw/master/xenial/main/binary-amd64/openrtp_1.2.0-0_amd64.deb) |
-| Ubuntu 18.04 (64bit) | [https://github.com/n-ando/bionic_package/raw/master/bionic/main/binary-amd64/openrtp_1.2.0-0_amd64.deb](https://github.com/n-ando/bionic_package/raw/master/bionic/main/binary-amd64/openrtp_1.2.0-0_amd64.deb) |
+| Ubuntu 14.04 (32bit) | [OpenRTM-aist_1.2.0_ubuntu14.04_i386_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist_1.2.0_ubuntu14.04_i386_package.tar.gz) |
+| Ubuntu 14.04 (64bit) | [OpenRTM-aist_1.2.0_ubuntu14.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist_1.2.0_ubuntu14.04_amd64_package.tar.gz) |
+| Ubuntu 16.04 (32bit) | [OpenRTM-aist_1.2.0_ubuntu16.04_i386_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist_1.2.0_ubuntu16.04_i386_package.tar.gz) |
+| Ubuntu 16.04 (64bit) | [OpenRTM-aist_1.2.0_ubuntu16.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist_1.2.0_ubuntu16.04_amd64_package.tar.gz) |
+| Ubuntu 18.04 (64bit) | [OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz) |
+| Ubuntu 18.10 (64bit) | [OpenRTM-aist_1.2.0_ubuntu18.10_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist_1.2.0_ubuntu18.10_amd64_package.tar.gz) |
 
+| Dist/version         | OpenRTM-aist-Python                                     |
+|:---------------------|:-----------------------------------------| 
+| Ubuntu 14.04 (32bit) | [OpenRTM-aist-Python_1.2.0_ubuntu14.04_i386_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python_1.2.0_ubuntu14.04_i386_package.tar.gz) |
+| Ubuntu 14.04 (64bit) | [OpenRTM-aist-Python_1.2.0_ubuntu14.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python_1.2.0_ubuntu14.04_amd64_package.tar.gz) |
+| Ubuntu 16.04 (32bit) | [OpenRTM-aist-Python_1.2.0_ubuntu16.04_i386_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python_1.2.0_ubuntu16.04_i386_package.tar.gz) |
+| Ubuntu 16.04 (64bit) | [OpenRTM-aist-Python_1.2.0_ubuntu16.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python_1.2.0_ubuntu16.04_amd64_package.tar.gz) |
+| Ubuntu 18.04 (64bit) | [OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package.tar.gz) |
+| Ubuntu 18.10 (64bit) | [OpenRTM-aist-Python_1.2.0_ubuntu18.10_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python_1.2.0_ubuntu18.10_amd64_package.tar.gz) |
+
+| Dist/version         | OpenRTM-aist-Java                                     |
+|:---------------------|:-----------------------------------------| 
+| Ubuntu 14.04 (32bit) | [OpenRTM-aist-Java_1.2.0_ubuntu14.04_i386_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/v1.2.0/OpenRTM-aist-Java_1.2.0_ubuntu14.04_i386_package.tar.gz) |
+| Ubuntu 14.04 (64bit) | [OpenRTM-aist-Java_1.2.0_ubuntu14.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/v1.2.0/OpenRTM-aist-Java_1.2.0_ubuntu14.04_amd64_package.tar.gz) |
+| Ubuntu 16.04 (32bit) | [OpenRTM-aist-Java_1.2.0_ubuntu16.04_i386_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/v1.2.0/OpenRTM-aist-Java_1.2.0_ubuntu16.04_i386_package.tar.gz) |
+| Ubuntu 16.04 (64bit) | [OpenRTM-aist-Java_1.2.0_ubuntu16.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/v1.2.0/OpenRTM-aist-Java_1.2.0_ubuntu16.04_amd64_package.tar.gz) |
+| Ubuntu 18.04 (64bit) | [OpenRTM-aist-Java_1.2.0_ubuntu18.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/v1.2.0/OpenRTM-aist-Java_1.2.0_ubuntu18.04_amd64_package.tar.gz) |
+| Ubuntu 18.10 (64bit) | [OpenRTM-aist-Java_1.2.0_ubuntu18.10_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/v1.2.0/OpenRTM-aist-Java_1.2.0_ubuntu18.10_amd64_package.tar.gz) |
+
+| Dist/version         | OpenRTP-aist                                     |
+|:---------------------|:-----------------------------------------| 
+| Ubuntu 14.04 (32bit) | [OpenRTP-aist_1.2.0_ubuntu14.04_i386_package.tar.gz](https://github.com/OpenRTM/OpenRTP-aist/releases/download/v1.2.0/OpenRTP-aist_1.2.0_ubuntu14.04_i386_package.tar.gz) |
+| Ubuntu 14.04 (64bit) | [OpenRTP-aist_1.2.0_ubuntu14.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTP-aist/releases/download/v1.2.0/OpenRTP-aist_1.2.0_ubuntu14.04_amd64_package.tar.gz) |
+| Ubuntu 16.04 (32bit) | [OpenRTP-aist_1.2.0_ubuntu16.04_i386_package.tar.gz](https://github.com/OpenRTM/OpenRTP-aist/releases/download/v1.2.0/OpenRTP-aist_1.2.0_ubuntu16.04_i386_package.tar.gz) |
+| Ubuntu 16.04 (64bit) | [OpenRTP-aist_1.2.0_ubuntu16.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTP-aist/releases/download/v1.2.0/OpenRTP-aist_1.2.0_ubuntu16.04_amd64_package.tar.gz) |
+| Ubuntu 18.04 (64bit) | [OpenRTP-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTP-aist/releases/download/v1.2.0/OpenRTP-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz) |
+| Ubuntu 18.10 (64bit) | [OpenRTP-aist_1.2.0_ubuntu18.10_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTP-aist/releases/download/v1.2.0/OpenRTP-aist_1.2.0_ubuntu18.10_amd64_package.tar.gz) |
+
+<!--
 Since you cannot install them by apt-get, please checkout package repository and install them by dpkg command as follows.
 
 
@@ -100,6 +134,7 @@ $ sudo dpkg -i openrtm-aist-java-example_1.2.0-0_amd64.deb
 RTSystemEditor/RTCBuilderのインストール
 $ sudo dpkg -i openrtp_1.2.0-1_amd64.deb
 ```
+-->
 
 以下のコマンドでomniORB、CMake、Doxygen等をインストールしてください。
 
@@ -128,14 +163,19 @@ $ sudo update-alternatives --config java
 <a name="windows_packages"></a>
 ### Windows installer
 
+<!--
 以下のURLからWindows用のmsiファイルをダウンロードできます。ただし、ファイルが大きいためうまくダウンロードできないことがたまにあります。そういった場合は、時間をおいてダウンロードを試すか、以下のリポジトリから直接gitコマンドによりリポジトリをcloneすることで対応してください。
 
 You can download msi-files for Windows. However, downloading from the following URLs fail sometimes. In that case, please retry again or consider checking-out msi repository by using git command.
+-->
+以下からWindows用のmsiファイルをダウンロードできます。
+
+You can download msi-files for Windows.
 
 | 32bit/64bit   | URL                                      |
 |:--------------|:-----------------------------------------| 
-| 32bit msi     | [https://github.com/n-ando/win32_package/raw/master/OpenRTM-aist-1.1.2-RELEASE_x86.msi](https://github.com/n-ando/win32_package/raw/master/OpenRTM-aist-1.1.2-RELEASE_x86.msi) |
-| 64bit msi     | [https://github.com/n-ando/win64_package/raw/master/OpenRTM-aist-1.1.2-RELEASE_x86_64.msi](https://github.com/n-ando/win64_package/raw/master/OpenRTM-aist-1.1.2-RELEASE_x86_64.msi) |
+| 32bit msi     | [OpenRTM-aist-1.2.0-RELEASE_x86.msi](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist-1.2.0-RELEASE_x86.msi) |
+| 64bit msi     | [OpenRTM-aist-1.2.0-RELEASE_x86_64.msi](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist-1.2.0-RELEASE_x86_64.msi) |
 
 
 OpenRTM-aist以外に以下のソフトウェアをインストールしてください。
@@ -146,6 +186,7 @@ OpenRTM-aist以外に以下のソフトウェアをインストールしてく�
 * [CMake](https://github.com/Kitware/CMake/releases/download/v3.13.2/cmake-3.13.2-win64-x64.msi)
 * [Doxygen](http://doxygen.nl/files/doxygen-1.8.14-setup.exe)
 
+<!--
 #### Windows版msiファイルのリポジトリ
 
 上記 URL から直接ダウンロードできない場合はgitコマンドをインストールし、以下のリポジトリをclone等することでダウンロードしてください。
@@ -171,6 +212,7 @@ Please checkout msi file by the following process.
 > cd win64_package
 win64_package の中に、OpenRTM-aist-1.1.2-RELEASE_x86_64.msi がダウンロードされています。
 ```
+-->
 
 <a name="source_code"></a>
 ## Downloading Source-code (and jar file)
@@ -179,7 +221,7 @@ OpenRTM-aist (C++, Python, Java版) および Java版のコンパイル済みjar
 
 | 言語     |  URL  |
 |:---------|:------| 
-| C++版    | [OpenRTM-aist-1.1.2.tar.gz](https://github.com/n-ando/openrtm-src_packages/raw/master/cxx/1.1.2/OpenRTM-aist-1.1.2.tar.gz) <br> [OpenRTM-aist-1.1.2.tar.bz2](https://github.com/n-ando/openrtm-src_packages/raw/master/cxx/1.1.2/OpenRTM-aist-1.1.2.tar.bz2) <br> [OpenRTM-aist-1.1.2-win32.zip](https://github.com/n-ando/openrtm-src_packages/raw/master/cxx/1.1.2/OpenRTM-aist-1.1.2-win32.zip) |
-| Python版 | [OpenRTM-aist-Python-1.1.2.tar.gz](https://github.com/n-ando/openrtm-src_packages/raw/master/python/1.1.2/OpenRTM-aist-Python-1.1.2.tar.gz) <br> [OpenRTM-aist-Python-1.1.2.zip](https://github.com/n-ando/openrtm-src_packages/raw/master/python/1.1.2/OpenRTM-aist-Python-1.1.2.zip) |
-| Java版   | [OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip](https://github.com/n-ando/openrtm-src_packages/raw/master/java/1.1.2/OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip) <br> [OpenRTM-aist-Java-1.1.2-RELEASE.tar.gz](https://github.com/n-ando/openrtm-src_packages/raw/master/java/1.1.2/OpenRTM-aist-Java-1.1.2-RELEASE.tar.gz) <br> [OpenRTM-aist-Java-1.1.2-RELEASE.zip](https://github.com/n-ando/openrtm-src_packages/raw/master/java/1.1.2/OpenRTM-aist-Java-1.1.2-RELEASE.zip) |
+| C++版    | [OpenRTM-aist-1.2.0.tar.gz](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist-1.2.0.tar.gz) <br> [OpenRTM-aist-1.2.0.tar.bz2](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist-1.2.0.tar.bz2) <br> [OpenRTM-aist-1.2.0-win32.zip](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist-1.2.0-win32.zip) |
+| Python版 | [OpenRTM-aist-Python-1.2.0.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python-1.2.0.tar.gz) <br> [OpenRTM-aist-Python-1.2.0.zip](https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python-1.2.0.zip) |
+| Java版   | [OpenRTM-aist-Java-1.2.0-RELEASE-jar.zip](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/v1.2.0/OpenRTM-aist-Java-1.2.0-RELEASE-jar.zip) <br> [OpenRTM-aist-Java-1.2.0-RELEASE.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/v1.2.0/OpenRTM-aist-Java-1.2.0-RELEASE.tar.gz) <br> [OpenRTM-aist-Java-1.2.0-RELEASE.zip](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/v1.2.0/OpenRTM-aist-Java-1.2.0-RELEASE.zip) |
 

@@ -12,9 +12,9 @@ Python をインストールしていない場合は、OpenRTM-aist をインス
 OpenRTM-aist をインストールする前に、Python 2.7 または 3.6 または 3.7 をインストールしてください。
 
 Python こちらからダウンロードしてください。
-- [2.7(64bit)](https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64.msi)
-- [3.6(64bit)](https://www.python.org/ftp/python/3.6.7/python-3.6.7-amd64.exe)
-- [3.7(64bit)](https://www.python.org/ftp/python/3.7.1/python-3.7.1-amd64.exe)
+- [2.7(64bit)](https://www.python.org/ftp/python/2.7.16/python-2.7.16.amd64.msi)
+- [3.6(64bit)](https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe)
+- [3.7(64bit)](https://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe)
 
 Python のインストール先は、3.6 または 3.7 の場合はインストール時の選択 [Install Now] [Customize installation] のどちらにも対応しています。
 2.7 の場合はデフォルトの [Install for all users] 設定のみに対応しています。
@@ -32,7 +32,7 @@ Python 3.6 または 3.7 のインストールでは、最初の画面の一番�
 
 ここでは Windows10 で 32bit 用インストーラー OpenRTM-aist-1.2.0-RELEASE_x86.msi を使ったインストール手順を紹介します。
 
-インストーラーのダウンロードは [OpenRTM-aist-1.2.0-RELEASE](index.md#download) をご覧ください。
+インストーラーのダウンロードは [OpenRTM-aist-1.2.0-RELEASE](index.md#windows_packages) をご覧ください。
 
 #### インストール手順
 1. インストーラーを起動して [次へ] をクリックします。

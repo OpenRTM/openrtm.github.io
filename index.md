@@ -77,6 +77,7 @@ Since you cannot install them by apt-get, please install it using the bundled in
 | Ubuntu 18.04 (64bit) | [OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz) |
 | Ubuntu 18.10 (64bit) | [OpenRTM-aist_1.2.0_ubuntu18.10_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist_1.2.0_ubuntu18.10_amd64_package.tar.gz) |
 
+
 | Dist/version         | OpenRTM-aist-Python                                     |
 |:---------------------|:-----------------------------------------| 
 | Ubuntu 14.04 (32bit) | [OpenRTM-aist-Python_1.2.0_ubuntu14.04_i386_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python_1.2.0_ubuntu14.04_i386_package.tar.gz) |
@@ -86,6 +87,7 @@ Since you cannot install them by apt-get, please install it using the bundled in
 | Ubuntu 18.04 (64bit) | [OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package.tar.gz) |
 | Ubuntu 18.10 (64bit) | [OpenRTM-aist-Python_1.2.0_ubuntu18.10_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python_1.2.0_ubuntu18.10_amd64_package.tar.gz) |
 
+
 | Dist/version         | OpenRTM-aist-Java                                     |
 |:---------------------|:-----------------------------------------| 
 | Ubuntu 14.04 (32bit) | [OpenRTM-aist-Java_1.2.0_ubuntu14.04_i386_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/v1.2.0/OpenRTM-aist-Java_1.2.0_ubuntu14.04_i386_package.tar.gz) |
@@ -94,6 +96,7 @@ Since you cannot install them by apt-get, please install it using the bundled in
 | Ubuntu 16.04 (64bit) | [OpenRTM-aist-Java_1.2.0_ubuntu16.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/v1.2.0/OpenRTM-aist-Java_1.2.0_ubuntu16.04_amd64_package.tar.gz) |
 | Ubuntu 18.04 (64bit) | [OpenRTM-aist-Java_1.2.0_ubuntu18.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/v1.2.0/OpenRTM-aist-Java_1.2.0_ubuntu18.04_amd64_package.tar.gz) |
 | Ubuntu 18.10 (64bit) | [OpenRTM-aist-Java_1.2.0_ubuntu18.10_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/v1.2.0/OpenRTM-aist-Java_1.2.0_ubuntu18.10_amd64_package.tar.gz) |
+
 
 | Dist/version         | OpenRTP-aist                                     |
 |:---------------------|:-----------------------------------------| 

@@ -67,6 +67,8 @@ apt-get で直接インストールできませんので、各パッケージ(ta
 
 Since you cannot install them by apt-get, please install it using the bundled install-openrtm-deb-packages.sh script.
 
+#### OpenRTM-aist C++
+
 
 | Dist/version         | OpenRTM-aist C++                                      |
 |:---------------------|:-----------------------------------------| 
@@ -77,7 +79,8 @@ Since you cannot install them by apt-get, please install it using the bundled in
 | Ubuntu 18.04 (64bit) | [OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz) |
 | Ubuntu 18.10 (64bit) | [OpenRTM-aist_1.2.0_ubuntu18.10_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist_1.2.0_ubuntu18.10_amd64_package.tar.gz) |
 
-<br>
+
+#### OpenRTM-aist-Python
 
 | Dist/version         | OpenRTM-aist-Python                                     |
 |:---------------------|:-----------------------------------------| 
@@ -88,7 +91,8 @@ Since you cannot install them by apt-get, please install it using the bundled in
 | Ubuntu 18.04 (64bit) | [OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package.tar.gz) |
 | Ubuntu 18.10 (64bit) | [OpenRTM-aist-Python_1.2.0_ubuntu18.10_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python_1.2.0_ubuntu18.10_amd64_package.tar.gz) |
 
-<br>
+
+#### OpenRTM-aist-Java
 
 | Dist/version         | OpenRTM-aist-Java                                     |
 |:---------------------|:-----------------------------------------| 
@@ -99,7 +103,8 @@ Since you cannot install them by apt-get, please install it using the bundled in
 | Ubuntu 18.04 (64bit) | [OpenRTM-aist-Java_1.2.0_ubuntu18.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/v1.2.0/OpenRTM-aist-Java_1.2.0_ubuntu18.04_amd64_package.tar.gz) |
 | Ubuntu 18.10 (64bit) | [OpenRTM-aist-Java_1.2.0_ubuntu18.10_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/v1.2.0/OpenRTM-aist-Java_1.2.0_ubuntu18.10_amd64_package.tar.gz) |
 
-<br>
+
+#### OpenRTP-aist
 
 | Dist/version         | OpenRTP-aist                                     |
 |:---------------------|:-----------------------------------------| 
@@ -141,6 +146,8 @@ RTSystemEditor/RTCBuilderのインストール
 $ sudo dpkg -i openrtp_1.2.0-1_amd64.deb
 ```
 -->
+
+#### 必要なパッケージ
 
 以下のコマンドでomniORB、CMake、Doxygen等をインストールしてください。
 

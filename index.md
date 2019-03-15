@@ -77,6 +77,7 @@ Since you cannot install them by apt-get, please install it using the bundled in
 | Ubuntu 18.04 (64bit) | [OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz) |
 | Ubuntu 18.10 (64bit) | [OpenRTM-aist_1.2.0_ubuntu18.10_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist_1.2.0_ubuntu18.10_amd64_package.tar.gz) |
 
+<br>
 
 | Dist/version         | OpenRTM-aist-Python                                     |
 |:---------------------|:-----------------------------------------| 
@@ -87,6 +88,7 @@ Since you cannot install them by apt-get, please install it using the bundled in
 | Ubuntu 18.04 (64bit) | [OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package.tar.gz) |
 | Ubuntu 18.10 (64bit) | [OpenRTM-aist-Python_1.2.0_ubuntu18.10_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python_1.2.0_ubuntu18.10_amd64_package.tar.gz) |
 
+<br>
 
 | Dist/version         | OpenRTM-aist-Java                                     |
 |:---------------------|:-----------------------------------------| 
@@ -97,6 +99,7 @@ Since you cannot install them by apt-get, please install it using the bundled in
 | Ubuntu 18.04 (64bit) | [OpenRTM-aist-Java_1.2.0_ubuntu18.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/v1.2.0/OpenRTM-aist-Java_1.2.0_ubuntu18.04_amd64_package.tar.gz) |
 | Ubuntu 18.10 (64bit) | [OpenRTM-aist-Java_1.2.0_ubuntu18.10_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/v1.2.0/OpenRTM-aist-Java_1.2.0_ubuntu18.10_amd64_package.tar.gz) |
 
+<br>
 
 | Dist/version         | OpenRTP-aist                                     |
 |:---------------------|:-----------------------------------------| 

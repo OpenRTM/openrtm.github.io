@@ -17,7 +17,7 @@ Thank you for your cooperation and understanding.
 ### OpenRTM-aist-1.2リリース
 
 ### (2019/03/15) OpenRTM-aistの新バージョン、OpenRTM-aist-1.2 をリリースしました。
-- [リリースノート](releasenote12)
+- [リリースノート](release_note)
 - [ダウンロード](#download)
 
 ### (2019/03/01) ROBOMECH2019 RTミドルウェア講習会のご案内
@@ -45,8 +45,15 @@ Thank you for your cooperation and understanding.
 ---
 
 
+<a name="release_note"></a>
+## Release notes
 
-
+|   | URL                                      |
+|:--------------|:-----------------------------------------| 
+| OpenRTM-aist C++ | [v1.2.0 (2019/03/15)](https://github.com/OpenRTM/OpenRTM-aist/releases/tag/v1.2.0) |
+| OpenRTM-aist-Python | [v1.2.0 (2019/03/15)](https://github.com/OpenRTM/OpenRTM-aist-Python/releases/tag/v1.2.0) |
+| OpenRTM-aist-Java | [v1.2.0 (2019/03/15)](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/tag/v1.2.0) |
+| OpenRTP-aist |  [v1.2.0 (2019/03/15)](https://github.com/OpenRTM/OpenRTP-aist/releases/tag/v1.2.0) |
 
 <a name="download"></a>
 ## Downloading Packages
@@ -60,7 +67,7 @@ Linux (Ubuntu 14.04LTS, 16.04LTS, 18.04LTS, 18.10) packages and Windows msi inst
 以下からUbuntu用のOpenRTM-aistパッケージがダウンロードできます。
 
 <!--
-| Dist/version  | URL                                      |
+| Dist/version   | URL                                      |
 |:--------------|:-----------------------------------------| 
 | Ubuntu 14.04  | [https://github.com/n-ando/trusty_package](https://github.com/n-ando/trusty_package) |
 | Ubuntu 16.04  | [https://github.com/n-ando/xenial_package](https://github.com/n-ando/xenial_package) |

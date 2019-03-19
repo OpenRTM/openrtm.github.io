@@ -48,8 +48,8 @@ Thank you for your cooperation and understanding.
 ### OpenRTM-aist-1.2リリース
 
 OpenRTM-aistの新バージョン、OpenRTM-aist-1.2 をリリースしました。
-- リリースノート(releasenote12)
-- ダウンロード(#download)
+- [リリースノート](releasenote12)
+- [ダウンロード](#download)
 
 
 <a name="download"></a>

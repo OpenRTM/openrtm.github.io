@@ -12,7 +12,16 @@ This is the OpenRTM-aist official and templary website on the github.
 Due to security updates of the website, OpenRTM-aist website might be closed during April.
 Thank you for your cooperation and understanding.
 
-## 目次
+<a name="news"></a>
+## NEWS
+### OpenRTM-aist-1.2リリース
+
+### (2019/03/15) OpenRTM-aistの新バージョン、OpenRTM-aist-1.2 をリリースしました。
+- [リリースノート](releasenote12)
+- [ダウンロード](#download)
+
+### (2019/03/01) ROBOMECH2019 RTミドルウェア講習会のご案内
+- [ROBOMECH2019 RTM講習会](ROBOMECH2019.md)
 
 ### [NEWS](#news)
 - OpenRTM-aist-1.2 がリリースされました(releasenote12.md)
@@ -24,10 +33,6 @@ Thank you for your cooperation and understanding.
 
 ### ドキュメント
 - [１０分ではじめよう！](10min_setup12.md)
-
-### 今後のイベント
-- [ROBOMECH2019 RTM講習会](ROBOMECH2019.md)
-
 
 ### 過去のイベント
 - [RTミドルウェアコンテスト2018-表彰式の様子(2018/12/14)](contest2018-result)
@@ -43,13 +48,7 @@ Thank you for your cooperation and understanding.
 ---
 
 
-<a name="news"></a>
-## NEWS
-### OpenRTM-aist-1.2リリース
 
-OpenRTM-aistの新バージョン、OpenRTM-aist-1.2 をリリースしました。
-- [リリースノート](releasenote12)
-- [ダウンロード](#download)
 
 
 <a name="download"></a>

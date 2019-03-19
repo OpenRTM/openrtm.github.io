@@ -23,9 +23,6 @@ Thank you for your cooperation and understanding.
 ### (2019/03/01) ROBOMECH2019 RTミドルウェア講習会のご案内
 - [ROBOMECH2019 RTM講習会](ROBOMECH2019.md)
 
-### [NEWS](#news)
-- OpenRTM-aist-1.2 がリリースされました(releasenote12.md)
-
 ### [ダウンロード](#download)
 - [Linux Pakcages](#linux_packages)
 - [Windows installer](#windows_packages)

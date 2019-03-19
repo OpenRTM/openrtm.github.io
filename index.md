@@ -15,7 +15,7 @@ Thank you for your cooperation and understanding.
 ## 目次
 
 ### [NEWS](#news)
-- OpenRTM-aist-1.2 がリリースされました
+- OpenRTM-aist-1.2 がリリースされました(releasenote12.md)
 
 ### [ダウンロード](#download)
 - [Linux Pakcages](#linux_packages)
@@ -48,7 +48,8 @@ Thank you for your cooperation and understanding.
 ### OpenRTM-aist-1.2リリース
 
 OpenRTM-aistの新バージョン、OpenRTM-aist-1.2 をリリースしました。
-以下のダウンロードページからダウンロードできます。
+- リリースノート(releasenote12)
+- ダウンロード(#download)
 
 
 <a name="download"></a>

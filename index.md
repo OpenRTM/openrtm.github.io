@@ -44,7 +44,6 @@ Thank you for your cooperation and understanding.
 
 
 <a name="news"></a>
-
 ## NEWS
 ### OpenRTM-aist-1.2リリース
 

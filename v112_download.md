@@ -65,15 +65,15 @@ Since you cannot install them by apt-get, please install it using the bundled in
 
 | Dist/version         | OpenRTP-aist                                     |
 |:---------------------|:-----------------------------------------| 
-| Ubuntu 14.04 (32bit) | [OpenRTP-aist_1.2.0-RC1_ubuntu14.04_i386_package.tar.gz]() |
-| Ubuntu 14.04 (64bit) | [OpenRTP-aist_1.2.0-RC1_ubuntu14.04_amd64_package.tar.gz]() |
-| Ubuntu 16.04 (32bit) | [OpenRTP-aist_1.2.0-RC1_ubuntu16.04_i386_package.tar.gz]() |
-| Ubuntu 16.04 (64bit) | [OpenRTP-aist_1.2.0-RC1_ubuntu16.04_amd64_package.tar.gz]() |
-| Ubuntu 18.04 (64bit) | [OpenRTP-aist_1.2.0-RC1_ubuntu18.04_amd64_package.tar.gz]() |
-| Deiban 8 (32bit) | [OpenRTP-aist_1.2.0-RC1_debian8_i386_package.tar.gz]() |
-| Deiban 8 (64bit) | [OpenRTP-aist_1.2.0-RC1_debian8_amd64_package.tar.gz]() |
-| Deiban 9 (32bit) | [OpenRTP-aist_1.2.0-RC1_debian9_i386_package.tar.gz]() |
-| Deiban 9 (64bit) | [OpenRTP-aist_1.2.0-RC1_debian9_amd64_package.tar.gz]() |
+| Ubuntu 14.04 (32bit) | [OpenRTP-aist_1.2.0-RC1_ubuntu14.04_i386_package.tar.gz](https://github.com/OpenRTM/OpenRTP-aist/releases/download/svn%252FRELEASE_1_2_0_RC1/OpenRTP-aist_1.2.0-RC1_ubuntu14.04_i386_package.tar.gz) |
+| Ubuntu 14.04 (64bit) | [OpenRTP-aist_1.2.0-RC1_ubuntu14.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTP-aist/releases/download/svn%252FRELEASE_1_2_0_RC1/OpenRTP-aist_1.2.0-RC1_ubuntu14.04_amd64_package.tar.gz) |
+| Ubuntu 16.04 (32bit) | [OpenRTP-aist_1.2.0-RC1_ubuntu16.04_i386_package.tar.gz](https://github.com/OpenRTM/OpenRTP-aist/releases/download/svn%252FRELEASE_1_2_0_RC1/OpenRTP-aist_1.2.0-RC1_ubuntu16.04_i386_package.tar.gz) |
+| Ubuntu 16.04 (64bit) | [OpenRTP-aist_1.2.0-RC1_ubuntu16.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTP-aist/releases/download/svn%252FRELEASE_1_2_0_RC1/OpenRTP-aist_1.2.0-RC1_ubuntu16.04_amd64_package.tar.gz) |
+| Ubuntu 18.04 (64bit) | [OpenRTP-aist_1.2.0-RC1_ubuntu18.04_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTP-aist/releases/download/svn%252FRELEASE_1_2_0_RC1/OpenRTP-aist_1.2.0-RC1_ubuntu18.04_amd64_package.tar.gz) |
+| Deiban 8 (32bit) | [OpenRTP-aist_1.2.0-RC1_debian8_i386_package.tar.gz](https://github.com/OpenRTM/OpenRTP-aist/releases/download/svn%252FRELEASE_1_2_0_RC1/OpenRTP-aist_1.2.0-RC1_debian8_i386_package.tar.gz) |
+| Deiban 8 (64bit) | [OpenRTP-aist_1.2.0-RC1_debian8_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTP-aist/releases/download/svn%252FRELEASE_1_2_0_RC1/OpenRTP-aist_1.2.0-RC1_debian8_amd64_package.tar.gz) |
+| Deiban 9 (32bit) | [OpenRTP-aist_1.2.0-RC1_debian9_i386_package.tar.gz](https://github.com/OpenRTM/OpenRTP-aist/releases/download/svn%252FRELEASE_1_2_0_RC1/OpenRTP-aist_1.2.0-RC1_debian9_i386_package.tar.gz) |
+| Deiban 9 (64bit) | [OpenRTP-aist_1.2.0-RC1_debian9_amd64_package.tar.gz](https://github.com/OpenRTM/OpenRTP-aist/releases/download/svn%252FRELEASE_1_2_0_RC1/OpenRTP-aist_1.2.0-RC1_debian9_amd64_package.tar.gz) |
 
 
 
@@ -104,8 +104,8 @@ You can download msi-files for Windows.
 
 | 32bit/64bit   | URL                                      |
 |:--------------|:-----------------------------------------| 
-| 32bit msi     | [OpenRTM-aist-1.1.2-RELEASE_x86.msi]() |
-| 64bit msi     | [OpenRTM-aist-1.1.2-RELEASE_x86_64.msi]() |
+| 32bit msi     | [OpenRTM-aist-1.1.2-RELEASE_x86.msi](https://github.com/OpenRTM/OpenRTM-aist/releases/download/svn%2FRELEASE_1_1_2/OpenRTM-aist-1.1.2-RELEASE_x86.msi) |
+| 64bit msi     | [OpenRTM-aist-1.1.2-RELEASE_x86_64.msi](https://github.com/OpenRTM/OpenRTM-aist/releases/download/svn%2FRELEASE_1_1_2/OpenRTM-aist-1.1.2-RELEASE_x86_64.msi) |
 
 
 OpenRTM-aist以外に以下のソフトウェアをインストールしてください。
@@ -127,5 +127,5 @@ OpenRTM-aist (C++, Python, Java版) および Java版のコンパイル済みjar
 |:---------|:------| 
 | C++版    | [OpenRTM-aist-1.1.2.tar.gz](https://github.com/OpenRTM/OpenRTM-aist/releases/download/svn%2FRELEASE_1_1_2/OpenRTM-aist-1.1.2.tar.gz) <br> [OpenRTM-aist-1.1.2.tar.bz2](https://github.com/OpenRTM/OpenRTM-aist/releases/download/svn%2FRELEASE_1_1_2/OpenRTM-aist-1.1.2.tar.bz2) <br> [OpenRTM-aist-1.2.0-win32.zip](https://github.com/OpenRTM/OpenRTM-aist/releases/download/svn%2FRELEASE_1_1_2/OpenRTM-aist-1.1.2-win32.zip) |
 | Python版 | [OpenRTM-aist-Python-1.1.2.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/svn%252FRELEASE_1_1_2/OpenRTM-aist-Python-1.1.2.tar.gz) <br> [OpenRTM-aist-Python-1.1.2.zip](https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/svn%252FRELEASE_1_1_2/OpenRTM-aist-Python-1.1.2.zip) |
-| Java版   | [OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip]() <br> [OpenRTM-aist-Java-1.1.2-RELEASE.tar.gz]() <br> [OpenRTM-aist-Java-1.1.2-RELEASE.zip]() |
+| Java版   | [OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/svn%252FRELEASE_1_1_2/OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip) <br> [OpenRTM-aist-Java-1.1.2-RELEASE.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/svn%252FRELEASE_1_1_2/OpenRTM-aist-Java-1.1.2-RELEASE.tar.gz) <br> [OpenRTM-aist-Java-1.1.2-RELEASE.zip](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/svn%252FRELEASE_1_1_2/OpenRTM-aist-Java-1.1.2-RELEASE.zip) |
 

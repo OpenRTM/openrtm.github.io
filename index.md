@@ -222,6 +222,15 @@ OpenRTM-aist以外に以下のソフトウェアをインストールしてく�
 * [CMake](https://github.com/Kitware/CMake/releases/download/v3.13.2/cmake-3.13.2-win64-x64.msi)
 * [Doxygen](http://doxygen.nl/files/doxygen-1.8.14-setup.exe)
 
+**（重要なお知らせ）OpenRTM-aistインストール後の設定**
+
+* Pythonのインストール先によっては、rtshellのexeコマンド実行時にエラーとなることが判明しました
+* 下記手順で更新して頂ければ改善します
+```
+pip uninstall rtshell rtctree rtsprofile
+pip install rtshell-aist
+```
+
 <!--
 #### Windows版msiファイルのリポジトリ
 

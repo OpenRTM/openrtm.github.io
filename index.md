@@ -18,6 +18,7 @@ Thank you for your cooperation and understanding.
 
 ### (2019/03/15) OpenRTM-aistの新バージョン、OpenRTM-aist-1.2 をリリースしました。
 - [リリースノート](#release_note)
+- [機能詳細](#openrtm12)
 - [ダウンロード](#download)
 
 ### (2019/03/01) ROBOMECH2019 RTミドルウェア講習会のご案内

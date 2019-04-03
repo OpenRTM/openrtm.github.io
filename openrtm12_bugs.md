@@ -12,7 +12,7 @@ ALL_IDL_TGTのターゲットをビルドした際に実行するskel_wrapper.py
 
 対処としては`C:\Program Files\OpenRTM-aist\1.2.0\bin\skel_wrapper.py`を以下のファイルに差し替えるか、Python 2.7を使用するしかありません。
 
-- https://raw.githubusercontent.com/OpenRTM/OpenRTM-aist/master/utils/rtm-skelwrapper/skel_wrapper.py
+- [skel_wrapper.py](https://raw.githubusercontent.com/OpenRTM/OpenRTM-aist/master/utils/rtm-skelwrapper/skel_wrapper.py)
 
 
 ### RTSystemEditor上でPythonのRTCでサービスポートを接続したが、接続されていないように表示され

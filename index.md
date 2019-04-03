@@ -20,6 +20,7 @@ Thank you for your cooperation and understanding.
 - [リリースノート](#release_note)
 - [新機能詳細](openrtm12.md)
 - [ダウンロード](#download)
+- [既知の不具合](openrtm12_bugs.md)
 
 ### (2019/03/01) ROBOMECH2019 RTミドルウェア講習会のご案内
 - [ROBOMECH2019 RTM講習会](ROBOMECH2019.md)

@@ -59,33 +59,13 @@
 以下のソフトウェアをインストールしてください。
 * [Visual Studio 2017](vs_install.md)
   * **Visual C++がインストールされているかは必ず確認してください。**
-* [Python 2.7](https://www.python.org/ftp/python/2.7.15/python-2.7.15.amd64.msi)
-* [CMake](https://cmake.org/files/v3.11/cmake-3.11.4-win64-x64.msi)
+* [Python 2.7](https://www.python.org/ftp/python/2.7.16/python-2.7.16.amd64.msi
+* [CMake](https://github.com/Kitware/CMake/releases/download/v3.14.1/cmake-3.14.1-win64-x64.msi)
 * [Doxygen](http://doxygen.nl/files/doxygen-1.8.14-setup.exe)
-* [OpenRTM-aist-1.2.0-RELEASE](https://tmp.openrtm.org/pub/Windows/OpenRTM-aist/1.2/OpenRTM-aist-1.2.0-RC1_x86_64_0831.msi)
+* [OpenRTM-aist-1.2.0-RELEASE](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist-1.2.0-RELEASE_x86_64.msi)
 
 
 ##### Ubuntuの場合
-* OpenRTM-aist
-
-```shell
-$ git clone https://github.com/n-ando/xenial_package.git
-
-ubuntu 16.04 (64bit) の場合
-$ cd xenial_package/xenial/main/binary-amd64/
-
-C++版のインストール
-$ sudo dpkg -i openrtm-aist_1.1.2-0_amd64.deb
-$ sudo dpkg -i openrtm-aist-example_1.1.2-0_amd64.deb
-$ sudo dpkg -i openrtm-aist-dev_1.1.2-0_amd64.deb
-
-Python版のインストール
-$ sudo dpkg -i openrtm-aist-python_1.1.2-1_amd64.deb
-$ sudo dpkg -i openrtm-aist-python-example_1.1.2-1_amd64.deb
-
-RTSystemEditor/RTCBuilderのインストール
-$ sudo dpkg -i openrtp_1.2.0-0_amd64.deb
-```
 
 * g++
 
@@ -112,20 +92,66 @@ $ sudo apt-get install doxygen
 * JDK
 
 ```shell
+# Ubuntu 18.04、18.10の場合
+$ sudo apt-get install openjdk-8-jdk
+# Ubuntu 16.04の場合
 $ sudo apt-get install default-jdk
 ```
+
+Ubuntu 18.04、18.10の場合は以下のコマンドでjava8に切り替えます。
+
+```shell
+$ sudo update-alternatives --config java
+```
+
 * Premake
 
 ```shell
 $ sudo apt-get install premake4
 ```
 
+* GLUT
+
+```shell
+$ sudo apt-get install freeglut3-dev
+```
+
 * RaspberryPiMouseSimulator コンポーネント
 
 ```shell
-$ wget https://raw.githubusercontent.com/OpenRTM/ROBOMECH2019/master/script/install_raspimouse_simulator.sh
+$ wget https://raw.githubusercontent.com/OpenRTM/RTM_Tutorial_ROBOMECH2019/master/script/install_raspimouse_simulator.sh
 $ sudo sh install_raspimouse_simulator.sh
 ```
+
+
+* OpenRTM-aist
+
+```shell
+ubuntu 18.04 (64bit) の場合
+
+C++版のインストール
+wget https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz
+tar xf OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz
+cd OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package
+sudo sh install-openrtm-deb-packages.sh
+cd ..
+
+Python版のインストール
+wget https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package.tar.gz
+tar xf OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package.tar.gz
+cd OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package
+sudo sh install-openrtm-deb-packages.sh
+cd ..
+
+
+RTSystemEditor/RTCBuilderのインストール
+wget https://github.com/OpenRTM/OpenRTP-aist/releases/download/v1.2.0/OpenRTP-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz
+tar xf OpenRTP-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz
+cd OpenRTP-aist_1.2.0_ubuntu18.04_amd64_package
+sudo sh install-openrtm-deb-packages.sh
+cd ..
+```
+
 
 * Code::Blocks(任意)
 

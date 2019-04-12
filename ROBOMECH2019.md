@@ -162,5 +162,9 @@ $ sudo apt-get install codeblocks
 
 
 
+* cmake-gui(任意)
 
+```shell
+$ sudo apt-get install cmake-qt-gui
+```
 

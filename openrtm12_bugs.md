@@ -15,7 +15,11 @@ ALL_IDL_TGTのターゲットをビルドした際に実行するskel_wrapper.py
 - [skel_wrapper.py](https://raw.githubusercontent.com/OpenRTM/OpenRTM-aist/master/utils/rtm-skelwrapper/skel_wrapper.py)
 
 
-### RTSystemEditor上でPythonのRTCでサービスポートを接続したが、接続されていないように表示され
+### 別のマシンで起動したRTCをRTSystemEditorで操作するとRTCが異常終了する
+コンポーネントオブザーバーの解除時のバグにより、コンポーネントオブザーバーの通信エラー発生時にRTCが異常終了することがあります。
+ファイアウォールで通信がブロックされたり、無線LANが切断されて通信できなくなった場合に発生する可能性があります。
+
+### RTSystemEditor上でPythonのRTCでサービスポートを接続したが、接続されていないように表示される
 OpenRTM-aist 1.2からコンポーネントオブザーバーの機能によりポートの接続時などにRTCからRTSystemEditorへ通知が送られるようになりましたが、Python版のバグによりサービスポート接続時は通知されません。
 通知がされないだけのため接続自体は正常に完了しています。
 RTCをシステムダイアグラムから一旦削除して再配置すると反映されますが、rtc.confに以下のように記述してコンポーネントオブザーバーを無効にしても対応できます。
@@ -23,6 +27,7 @@ RTCをシステムダイアグラムから一旦削除して再配置すると�
 ```
 sdo.service.consumer.enabled_services: off
 ```
+
 
 ### Python版でトピックベース接続機能が動作しない
 Python版のトピックベース接続機能はバグにより動作しません。

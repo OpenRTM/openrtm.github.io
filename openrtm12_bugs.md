@@ -19,6 +19,32 @@ ALL_IDL_TGTのターゲットをビルドした際に実行するskel_wrapper.py
 C++版のコンポーネントオブザーバーの解除時のバグにより、コンポーネントオブザーバーの通信エラー発生時にRTCが異常終了することがあります。
 ファイアウォールで通信がブロックされたり、無線LANが切断されて通信できなくなった場合に発生する可能性があります。
 
+### OpenRTM-aist C++版のRTC起動時にポートの情報や実行コンテキストの設定情報が標準出力される
+RTC起動時に以下のようにポートの情報や実行コンテキストの設定情報が標準出力で表示されます。
+現状、表示させないようにする方法はありません。
+
+```
+- sync_transition: YES
+- transition_timeout: 0.5
+- type: PeriodicExecutionContext
+- rate: 1000
+- name:
+- port
+  - port_type: DataInPort
+- dataport
+  - data_type: IDL:RTC/TimedShortSeq:1.0
+  - subscription_type: Any
+  - dataflow_type: push,pull
+  - interface_type: corba_cdr,direct,shared_memory
+- port
+  - port_type: DataOutPort
+- dataport
+  - data_type: IDL:RTC/TimedVelocity2D:1.0
+  - subscription_type: flush,new,periodic
+  - dataflow_type: push,pull
+  - interface_type: corba_cdr,direct,shared_memory
+```
+
 ### コンポーネントオブザーバーの機能を無効にできない
 C++版はバグによりコンポーネントオブザーバーの等のSDOサービスを無効にできません。
 

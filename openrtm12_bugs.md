@@ -57,6 +57,8 @@ RTCをシステムダイアグラムから一旦削除して再配置すると�
 sdo.service.consumer.enabled_services: off
 ```
 
+### RTSystemEditorでRTCのポートや名前が表示されなくなる
+詳しい再現条件が不明です。
 
 ### Python版でトピックベース接続機能が動作しない
 Python版のトピックベース接続機能はバグにより動作しません。

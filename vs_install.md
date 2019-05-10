@@ -6,8 +6,9 @@
 * [Visual Studio のダウンロード](https://visualstudio.microsoft.com/ja/downloads/?utm_source=mscom&utm_campaign=msdocs)
 
 Visual Studio Community 2017の無償ダウンロードをクリックするとインストーラーをダウンロードできます。
+OpenRTM-aist 1.2.0以前はVisual Studio 2019には未対応です。
 
-![vs1](https://user-images.githubusercontent.com/6216077/42159413-a4244006-7e2e-11e8-9323-eb5852c7108d.png)
+![image](https://user-images.githubusercontent.com/6216077/57502537-2567f700-7327-11e9-9084-57a197fc347e.png)
 
 
 #### インストーラーの実行

@@ -177,7 +177,7 @@ Windowsの場合は、デスクトップのショートカットをダブルク�
 
 ![image](https://user-images.githubusercontent.com/6216077/57674509-6aa76400-765a-11e9-9860-242adec2f17b.png)
 
-もしくはWindows 10の場合は右下の「ここに入力して検索」にOpenRTPと入力して起動してください。
+もしくはWindows 10の場合は左下の「ここに入力して検索」にOpenRTPと入力して起動してください。
 
 ![image](https://user-images.githubusercontent.com/6216077/57674587-a5a99780-765a-11e9-8fd5-44083b66c5ca.png)
 
@@ -516,7 +516,7 @@ RTCは自身の参照をネームサーバーに登録することで名前でRT
 
 #### OpenCVCameraコンポーネント、CameraViewerコンポーネントの起動
 OpenCVCameraコンポーネントはUSBカメラの画像をOutPortから送信するRTC、CameraViewerコンポーネントはInPortの入力画像をGUIに表示するRTCです。
-Windows 10の場合は右下の「ここに入力して検索」に**C++_OpenCV-Examples**を入力してサンプルコンポーネントをインストールしたフォルダを開きます。
+Windows 10の場合は左下の「ここに入力して検索」に**C++_OpenCV-Examples**を入力してサンプルコンポーネントをインストールしたフォルダを開きます。
 
 ![image](https://user-images.githubusercontent.com/6216077/57683746-4b670180-766f-11e9-8e50-830f6ad4c951.png)
 

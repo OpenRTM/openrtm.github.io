@@ -327,6 +327,8 @@ add_dependencies(${PROJECT_NAME}Comp ALL_IDL_TGT)
 target_link_libraries(${PROJECT_NAME}Comp ${OPENRTM_LIBRARIES} ${OpenCV_LIBS}) #${OpenCV_LIBS}を追加
 ```
 
+※Flipフォルダ直下のCMakeLists.txtではありません。srcフォルダの下のCMakeLists.txtを編集してください。
+
 #### Visual Studioのプロジェクト生成(Ubuntuの場合はMakefile)
 CMake設定ファイルからVisual Studioのプロジェクト、Makefile等を作成できます。
 まずはcmake-guiを起動してください。Windows 10の場合は左下の「ここに入力して検索」にCMakeと入力してCMake(cmake-gui)を起動してください。

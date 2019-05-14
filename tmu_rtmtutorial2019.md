@@ -338,16 +338,16 @@ CMake設定ファイルからVisual Studioのプロジェクト、Makefile等を
 cmake-guiにFlip直下のCMakeLists.txtをドラッグアンドドロップしてください。
 これでcmake-guiの「Where is the source code」にFlipのディレクトリが設定されます。
 
-![image](https://user-images.githubusercontent.com/6216077/57680778-5d45a600-7669-11e9-9bd8-e251d6f0715a.png)
+![image](https://user-images.githubusercontent.com/6216077/57690618-02b64500-767d-11e9-8ef9-432192ab22d8.png)
 
 「Where to build the binaries」にはFlip以下のbuildフォルダを指定してください。
 
-![image](https://user-images.githubusercontent.com/6216077/57680963-bc0b1f80-7669-11e9-940f-725729015f67.png)
+![image](https://user-images.githubusercontent.com/6216077/57690556-dc90a500-767c-11e9-9397-9a08a689b4f4.png)
 
 次に**Configure**ボタンを押します。
 この時、Flipコンポーネントのビルドに必要なライブラリの検出等を行います。
 
-![image](https://user-images.githubusercontent.com/6216077/57681012-ce855900-7669-11e9-8397-b0eeb5bba90e.png)
+![image](https://user-images.githubusercontent.com/6216077/57690671-1bbef600-767d-11e9-981f-9f7afc884dd0.png)
 
 コンパイラの種類を設定します。
 おそらくOpenRTM-aistの64bit版をインストールしているはずのため、「Optional Platform for genarator」には**x64**を設定してください。
@@ -361,6 +361,10 @@ cmake-guiにFlip直下のCMakeLists.txtをドラッグアンドドロップし�
 ここで失敗する場合はVisual StudioのC++コンパイラがインストールされていない可能性があります。
 
 次に**Genarate**をクリックします。
+
+
+![image](https://user-images.githubusercontent.com/6216077/57690696-31342000-767d-11e9-8177-afb90c33e28d.png)
+
 これでVisual Studioのプロジェクトファイルを生成できました。
 
 **Open Project**ボタンを押してVisual Studioのソリューションファイルを開いてください。

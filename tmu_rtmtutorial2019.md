@@ -108,6 +108,18 @@ cd ..
 RTCのモジュール名等の基本的な情報、RTCにどのようなデータポート、サービスポート、コンフィギュレーションパラメータなどが使えるのか等の仕様をまず決める必要があります。
 今回は以下のような仕様に設定します。
 
+|||
+|---|---|
+|モジュール名|Flip|
+|アクティビティ|onActivated、onDeactivated、onExecute|
+|InPort|1個(originalImage)|
+|OutPort|1個(flippedImage)|
+|コンフィギュレーションパラメータ|1個(flipMode)|
+
+
+FlipコンポーネントはInPortで他のRTCから受信した画像データをOutPortから出力するRTCのため、まずInPortとOutPortが必要です。
+また画像を反転させる方向の設定をコンフィギュレーションパラメータで設定できるようにします。
+
 RTCは状態遷移を行い、状態によりonActivated、onDeactivated、onExecute等のコールバック関数を呼び出します。
 これらのコールバック関数で画像反転処理、リソースの解放処理などを実行します。RTCの主たる機能を実行する部分をアクティビティと言います。
 
@@ -118,17 +130,6 @@ RTCは状態遷移を行い、状態によりonActivated、onDeactivated、onExe
 |onDeactivated|RTCが非アクティブ状態に遷移したときに呼び出されるコールバック関数。終了処理などを実行する。|
 |onExecute|RTCがアクティブ状態の時に周期的に呼び出されるコールバック関数。メインの処理を実行する。|
 
-
-FlipコンポーネントはInPortで他のRTCから受信した画像データをOutPortから出力するRTCのため、まずInPortとOutPortが必要です。
-また画像を反転させる方向の設定をコンフィギュレーションパラメータで設定できるようにします。
-
-|||
-|---|---|
-|モジュール名|Flip|
-|アクティビティ|onActivated、onDeactivated、onExecute|
-|InPort|1個(originalImage)|
-|OutPort|1個(flippedImage)|
-|コンフィギュレーションパラメータ|1個(flipMode)|
 
 以下はoriginalImageというInPortの仕様です。
 originalImageは他のRTCから画像データを受信するポートに該当します。

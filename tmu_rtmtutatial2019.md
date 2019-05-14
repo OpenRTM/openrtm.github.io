@@ -120,7 +120,7 @@ originalImageで受信した画像データを反転した画像を送信しま�
 |パラメーター名|flipMode|
 |型|int|
 |デフォルト値|0|
-|制約|(0、-1、1)|
+|制約|(0, -1, 1)|
 |Widget|radio|
 
 このコンフィギュレーションパラメータで画像反転パターンを設定します。
@@ -203,8 +203,13 @@ Flipコンポーネントの仕様を入力していきます。
 
 ##### アクティビティの設定
 仕様通りにonActivated、onDeactivated、onExecuteを有効にします。
-有効にするためには、**アクティビティ**タブから
+有効にするためには、**アクティビティ**タブからonActivate等の名前をクリックしてON・OFFを切り替えます。
 
+![image](https://user-images.githubusercontent.com/6216077/57677474-db05b380-7661-11e9-8b95-5b31f8083042.png)
+
+同じ手順でonDeactivated、onExecuteをONに切り替えます。
+
+![image](https://user-images.githubusercontent.com/6216077/57677532-025c8080-7662-11e9-9968-554abe2c9de8.png)
 
 
 ##### データポートの設定
@@ -217,4 +222,54 @@ InPort、OutPortの追加はAddボタンを押します。
 
 ![image](https://user-images.githubusercontent.com/6216077/57675668-8fe9a180-765d-11e9-9754-a4bc77969619.png)
 
-InPort
+InPortを仕様通りにポート名、データ型を設定します。
+
+
+![image](https://user-images.githubusercontent.com/6216077/57677652-494a7600-7662-11e9-98a2-be57e5b0447a.png)
+
+このとき必ず**RTC::CameraImage**を設定してください。Img::CameraImage、Img::TimedCameraImageと間違えないようにしてください。
+
+
+OutPortを仕様通りにポート名、データ型を設定します。
+
+
+![image](https://user-images.githubusercontent.com/6216077/57677794-a6dec280-7662-11e9-97f3-58024eac1736.png)
+
+
+##### コンフィギュレーションパラメータ
+コンフィギュレーションタブを選択して、コンフィギュレーションパラメータを追加します。
+
+![image](https://user-images.githubusercontent.com/6216077/57677937-fd4c0100-7662-11e9-8d1b-e17487ca494b.png)
+
+
+仕様通りに入力します。
+
+
+![image](https://user-images.githubusercontent.com/6216077/57678980-41d89c00-7665-11e9-8c9c-8e62712841fc.png)
+
+##### 言語
+**言語・環境**タブから言語をC++に設定します。
+
+![image](https://user-images.githubusercontent.com/6216077/57679499-713bd880-7666-11e9-9fe2-ff47ae71ef0b.png)
+
+
+#### コード生成
+**基本**タブに戻って**コード生成**ボタンを押します。
+
+![image](https://user-images.githubusercontent.com/6216077/57679576-9b8d9600-7666-11e9-9b01-dddeca4fe1ef.png)
+
+
+これでCPPファイル、ヘッダーファイルなどのソースコード、CMake設定ファイルなどが生成できます。
+
+パッケージエクスプローラのFlipを右クリックして、**表示方法->システムエクスプローラー**で確認できます。
+
+![image](https://user-images.githubusercontent.com/6216077/57679641-cd9ef800-7666-11e9-9f81-f52bf9706b33.png)
+
+### 内部の処理を実装する
+RTCの内部で画像を反転させる処理を実装してRTCの実行ファイルを作成します。
+
+#### CMake設定ファイルの編集
+画像処理にはOpenCVというライブラリを使用します。
+RTCのビルドにはCMakeというビルドシステムを使用しており、使用するライブラリの設定などはCMakeLists.txtという設定ファイルに記述する必要があります。
+OpenCVのライブラリとリンクするためには、コードを生成したフォルダ(Flip)の**src/CMakeLists.txt**を以下のように編集します。
+

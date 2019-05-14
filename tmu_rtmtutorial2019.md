@@ -1,25 +1,31 @@
 このページは首都大学東京大学院のユビキタスロボティクス特論(2019年5月15日)で行うOpenRTM-aist 1.2.0のインストール、Flipコンポーネント作成の手順を記したページです。
 本来は[openrtm.org](https://openrtm.org/openrtm/)のページに記載してあるのですが、授業当日にopenrtm.orgを閉じるらしいので臨時ページを作成しました。
 
-## OpenRTM-aist 1.2.0のインストール
-### 依存ソフトウェアのインストール
-#### Windowsの場合
+既にRTミドルウェアについては説明済みだと聞いていますが、分からない点は以下の用語集を参考にしてください。
+
+- [用語集](https://nobu19800.github.io/RTM-Lua/docs/glossary.html)
+
+## OpenRTM-aist 1.2.1のインストール
+### Windowsの場合
 以下のソフトウェアをインストールしてください。
 
-* [Visual Studio 2017](vs_install.md)
+* [Visual Studio 2017(2008、2012、2013、2015、2019でも可)](vs_install.md)
   * **Visual C++がインストールされているかは必ず確認してください。**
 * [Python 2.7](https://www.python.org/ftp/python/2.7.16/python-2.7.16.amd64.msi)
+  * Python 3.6、3.7がインストールされている場合はそのままで問題ありません
 * [CMake](https://github.com/Kitware/CMake/releases/download/v3.14.1/cmake-3.14.1-win64-x64.msi)
 * [Doxygen](http://doxygen.nl/files/doxygen-1.8.14-setup.exe)
+* [OpenRTM-aist-1.2.1-RC1](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist-1.2.0-RELEASE_x86_64.msi)
 
-**Visual Studio 2019をインストールした場合について**
-
-OpenRTM-aist 1.2.0はVisual Studio 2019に未対応ですが、一部ファイルを置き換えることで対応可能です。対応手順は後で説明します。
+**OpenRTM-aist 1.1.2以前をインストールしている場合**
+OpenRTM-aist 1.1.2以前をインストールしている場合はアンインストールしてください。
 
 **Visual Studioをインストールすることが困難な場合について**
-Visual Studioは大量のファイルをダウンロードする必要があるため、
 
-#### Ubuntuの場合
+Visual Studioは大量のファイルをダウンロードする必要があるため環境によってはダウンロードに数時間かかる可能性があります。
+
+
+### Ubuntuの場合
 
 * g++
 
@@ -56,6 +62,34 @@ Ubuntu 18.04、18.10の場合は以下のコマンドでjava8に切り替えま�
 
 ```shell
 $ sudo update-alternatives --config java
+```
+
+* OpenRTM-aist
+
+```shell
+ubuntu 18.04 (64bit) の場合
+
+C++版のインストール
+wget https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz
+tar xf OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz
+cd OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package
+sudo sh install-openrtm-deb-packages.sh
+cd ..
+
+Python版のインストール
+wget https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package.tar.gz
+tar xf OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package.tar.gz
+cd OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package
+sudo sh install-openrtm-deb-packages.sh
+cd ..
+
+
+RTSystemEditor/RTCBuilderのインストール
+wget https://github.com/OpenRTM/OpenRTP-aist/releases/download/v1.2.0/OpenRTP-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz
+tar xf OpenRTP-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz
+cd OpenRTP-aist_1.2.0_ubuntu18.04_amd64_package
+sudo sh install-openrtm-deb-packages.sh
+cd ..
 ```
 
 ## Flipコンポーネント作成手順

@@ -68,7 +68,7 @@ $ sudo update-alternatives --config java
 1. RTCの仕様を決める
 2. RTC BuilderでRTCのひな形コードを生成する
 3. 内部の処理を実装する
-4. RTSystemEditorでRTシステムを作成、動作確認をする
+4. RT System EditorでRTシステムを作成、動作確認をする
 
 ### RTCの仕様を決める
 RTCのモジュール名等の基本的な情報、にどのようなデータポート、サービスポート、コンフィギュレーションパラメータなどが使えるのか等の仕様をまず決める必要があります。
@@ -113,7 +113,7 @@ originalImageで受信した画像データを反転した画像を送信しま�
 |型|RTC::CameraImage|
 
 以下はflipModeというコンフィギュレーションパラメータの仕様です。
-コンフィギュレーションパラメータはRTSystemEditor等のツールから実行中のRTCのパラメータを操作するための機能です。
+コンフィギュレーションパラメータはRT System Editor等のツールから実行中のRTCのパラメータを操作するための機能です。
 
 |||
 |---|---|
@@ -136,7 +136,7 @@ RTC BuilderはRTCのひな形コードを生成するためのGUIツールです
 先ほど決めた仕様をRTC Builderに入力すると、C++、Python、Java、Luaのコードを生成できます。
 
 #### OpenRTPの起動
-OpenRTPはRTC Builder、RTSystemEditorのツールを含む開発環境です。
+OpenRTPはRTC Builder、RT System Editorのツールを含む開発環境です。
 
 Windowsの場合は、デスクトップのショートカットをダブルクリックしてください。
 
@@ -273,3 +273,269 @@ RTCの内部で画像を反転させる処理を実装してRTCの実行ファ�
 RTCのビルドにはCMakeというビルドシステムを使用しており、使用するライブラリの設定などはCMakeLists.txtという設定ファイルに記述する必要があります。
 OpenCVのライブラリとリンクするためには、コードを生成したフォルダ(Flip)の**src/CMakeLists.txt**を以下のように編集します。
 
+```CMake
+set(comp_srcs Flip.cpp )
+set(standalone_srcs FlipComp.cpp)
+
+find_package(OpenCV REQUIRED) #追加
+
+if(${OPENRTM_VERSION_MAJOR} LESS 2)
+```
+
+```CMake
+add_dependencies(${PROJECT_NAME} ALL_IDL_TGT)
+target_link_libraries(${PROJECT_NAME} ${OPENRTM_LIBRARIES} ${OpenCV_LIBS}) #${OpenCV_LIBS}を追加
+
+add_executable(${PROJECT_NAME}Comp ${standalone_srcs}
+  ${comp_srcs} ${comp_headers} ${ALL_IDL_SRCS})
+add_dependencies(${PROJECT_NAME}Comp ALL_IDL_TGT)
+target_link_libraries(${PROJECT_NAME}Comp ${OPENRTM_LIBRARIES} ${OpenCV_LIBS}) #${OpenCV_LIBS}を追加
+```
+
+#### Visual Studioのプロジェクト生成(Ubuntuの場合はMakefile)
+CMake設定ファイルからVisual Studioのプロジェクト、Makefile等を作成できます。
+まずはcmake-guiを起動してください。Windows 10の場合は左下の「ここに入力して検索」にCMakeと入力してCMake(cmake-gui)を起動してください。
+
+![image](https://user-images.githubusercontent.com/6216077/57680534-cd9ff780-7668-11e9-946d-2f01153c077f.png)
+
+cmake-guiにFlip直下のCMakeLists.txtをドラッグアンドドロップしてください。
+これでcmake-guiの「Where is the source code」にFlipのディレクトリが設定されます。
+
+![image](https://user-images.githubusercontent.com/6216077/57680778-5d45a600-7669-11e9-9bd8-e251d6f0715a.png)
+
+「Where to build the binaries」にはFlip以下のbuildフォルダを指定してください。
+
+![image](https://user-images.githubusercontent.com/6216077/57680963-bc0b1f80-7669-11e9-940f-725729015f67.png)
+
+次に**Configure**ボタンを押します。
+この時、Flipコンポーネントのビルドに必要なライブラリの検出等を行います。
+
+![image](https://user-images.githubusercontent.com/6216077/57681012-ce855900-7669-11e9-8397-b0eeb5bba90e.png)
+
+コンパイラの種類を設定します。
+おそらくOpenRTM-aistの64bit版をインストールしているはずのため、「Optional Platform for genarator」には**x64**を設定してください。
+
+![image](https://user-images.githubusercontent.com/6216077/57681153-20c67a00-766a-11e9-8612-802cac532301.png)
+
+※cmake-guiのバージョンが古い場合は操作画面の構成が違っています。古いバージョンの場合は「Visual Stuidio 15 2017 Win64」等を設定してください。
+
+その後、Finishボタンを押すとConfigureを開始します。成功すると「Configuring done」と表示されます。
+
+ここで失敗する場合はVisual StudioのC++コンパイラがインストールされていない可能性があります。
+
+次に**Genarate**をクリックします。
+これでVisual Studioのプロジェクトファイルを生成できました。
+
+**Open Project**ボタンを押してVisual Studioのソリューションファイルを開いてください。
+
+Ubuntuの場合は以下のコマンドでMakefileを生成できます。
+
+```
+mkdir build
+cmake ..
+```
+
+#### ソースコードの編集
+Visual Studioのソリューションエクスプローラから**Flip.h**、**Flip.cpp**を開いて編集します。
+
+![image](https://user-images.githubusercontent.com/6216077/57681946-b31b4d80-766b-11e9-9276-bb23336d83c7.png)
+
+##### Flip.hの編集
+Flip.hの編集を行います。
+
+以下のようにOpenCVのヘッダーファイルをインクルードします。
+
+```CPP
+#include <rtm/idl/ExtendedDataTypesSkel.h>
+#include <rtm/idl/InterfaceDataTypesSkel.h>
+//OpenCV用インクルードファイルのインクルード
+#include <opencv2/opencv.hpp> //追加
+
+// Service implementation headers
+```
+
+反転した画像の保存するメンバー変数を追加します。
+
+```CPP
+ private:
+     // <rtc-template block="private_attribute">
+  
+     // </rtc-template>
+ 
+     // <rtc-template block="private_operation">
+  
+     // </rtc-template>
+         cv::Mat m_imageBuff; //追加
+         cv::Mat m_flipImageBuff; //追加
+```
+
+
+##### Flip.cppの編集
+Flip.cppの編集を行います。
+下記のように、onActivated()、onDeactivated()、onExecute() を実装します。
+
+```CPP
+ RTC::ReturnCode_t Flip::onActivated(RTC::UniqueId ec_id)
+ {
+ 
+        // OutPortの画面サイズの初期化
+        m_flippedImage.width = 0;
+        m_flippedImage.height = 0;
+ 
+        return RTC::RTC_OK;
+ }
+```
+
+```CPP
+ RTC::ReturnCode_t Flip::onDeactivated(RTC::UniqueId ec_id)
+ {
+        if (!m_imageBuff.empty())
+        {
+            // 画像用メモリの解放
+            m_imageBuff.release();
+            m_flipImageBuff.release();
+        }
+ 
+        return RTC::RTC_OK;
+ }
+```
+
+```CPP
+ RTC::ReturnCode_t Flip::onExecute(RTC::UniqueId ec_id)
+ {
+        // 新しいデータのチェック
+        if (m_originalImageIn.isNew()) {
+            // InPortデータの読み込み
+            m_originalImageIn.read();
+ 
+            // InPortとOutPortの画面サイズ処理およびイメージ用メモリの確保
+            if (m_originalImage.width != m_flippedImage.width || m_originalImage.height != m_flippedImage.height)
+            {
+                m_flippedImage.width = m_originalImage.width;
+                m_flippedImage.height = m_originalImage.height;
+ 
+                m_imageBuff.create(cv::Size(m_originalImage.width, m_originalImage.height), CV_8UC3);
+                m_flipImageBuff.create(cv::Size(m_originalImage.width, m_originalImage.height), CV_8UC3);
+ 
+             
+            }
+ 
+            // InPortの画像データをm_imageBuffにコピー
+            memcpy(m_imageBuff.data, (void *)&(m_originalImage.pixels[0]), m_originalImage.pixels.length());
+ 
+            // InPortからの画像データを反転する。 m_flipMode 0: X軸周り、1: Y軸周り、-1: 両方の軸周り
+            cv::flip(m_imageBuff, m_flipImageBuff, m_flipMode);
+ 
+            // 画像データのサイズ取得
+            int len = m_flipImageBuff.channels() * m_flipImageBuff.cols * m_flipImageBuff.rows;
+            m_flippedImage.pixels.length(len);
+ 
+            // 反転した画像データをOutPortにコピー
+            memcpy((void *)&(m_flippedImage.pixels[0]), m_flipImageBuff.data, len);
+ 
+            // 反転した画像データをOutPortから出力する。
+            m_flippedImageOut.write();
+        }
+ 
+      return RTC::RTC_OK;
+ }
+```
+
+画像反転処理はonExecute関数に実装しており、以下のように動作します。
+
+![image](https://user-images.githubusercontent.com/6216077/57682301-7dc32f80-766c-11e9-9073-718d2da96fb5.png)
+
+
+#### ビルド
+Visual Studioの「ビルド->ソリューションのビルド」を選択するとビルドします。
+
+
+![image](https://user-images.githubusercontent.com/6216077/57682519-0772fd00-766d-11e9-9d23-06189e4a674b.png)
+
+ビルドに成功すると`Flip/build/src/Release(もしくはDebug)`に**FlipComp.exe**が生成されます。
+
+Ubuntuの場合はmakeコマンドでビルドしてください。
+
+
+### 動作確認
+#### RT System Editorの起動
+Flipコンポーネントの動作確認には、Flipコンポーネントへ画像データの送信、変換後の画像データの受信するRTCが必要になります。
+またデータポートが通信を行うためにはコネクタを生成する必要があります。
+データポートの接続、RTCのアクティブ化等はRT System Editor等のツールで操作できます。
+
+OpenRTPの右上のパースペクティブを開くボタンを押してください。
+
+![image](https://user-images.githubusercontent.com/6216077/57675174-22894100-765c-11e9-8bc8-aa05744401a8.png)
+
+RT System Editorを選択して起動してください。
+
+![image](https://user-images.githubusercontent.com/6216077/57683266-49e90980-766e-11e9-8006-f5b68e83e0d5.png)
+
+#### ネームサーバー起動
+ネームサーバーは名前でオブジェクトを管理するための仕組みです。
+RTCは自身の参照をネームサーバーに登録することで名前でRTCを管理できるようになります。
+
+ネームサービスビューの以下のボタンで起動できます。
+
+![image](https://user-images.githubusercontent.com/6216077/57683500-c5e35180-766e-11e9-8e5b-618d56929491.png)
+
+#### OpenCVCameraコンポーネント、CameraViewerコンポーネントの起動
+OpenCVCameraコンポーネントはUSBカメラの画像をOutPortから送信するRTC、CameraViewerコンポーネントはInPortの入力画像をGUIに表示するRTCです。
+Windows 10の場合は右下の「ここに入力して検索」に**C++_OpenCV-Examples**を入力してサンプルコンポーネントをインストールしたフォルダを開きます。
+
+![image](https://user-images.githubusercontent.com/6216077/57683746-4b670180-766f-11e9-8e50-830f6ad4c951.png)
+
+
+OpenCVCamera.bat、CameraViewer.batをダブルクリックするとRTCが起動します。
+
+![image](https://user-images.githubusercontent.com/6216077/57683848-85380800-766f-11e9-913d-fa728eaa61ad.png)
+
+#### Flipコンポーネントの起動
+ビルドして作成した**FlipComo.exe**をダブルクリックして起動してください。
+
+#### データポートの接続
+RT System EditorのONと書かれたボタンを押してSystem Diagramを起動します。
+System Diagramにネームサーバーに登録されたRTCをドラッグアンドドロップします。
+
+![image](https://user-images.githubusercontent.com/6216077/57684359-9897a300-7670-11e9-8307-70888cd7c97c.png)
+
+
+ポートからポートにドラッグアンドドロップすることでコネクタを生成できます。これでOutPortとInPortが通信できるようになります。
+
+
+![image](https://user-images.githubusercontent.com/6216077/57684580-08a62900-7671-11e9-9931-4167e4d46ea8.png)
+
+以下のようにポートを接続してください。
+
+![image](https://user-images.githubusercontent.com/6216077/57684629-22477080-7671-11e9-9535-798950bea3b1.png)
+
+#### 動作確認
+##### RTCのアクティブ化
+以下のActivate Systemsボタンを押すとシステムダイアグラム上のRTCをアクティブ化します。
+RTCがアクティブ状態に遷移するとシステムダイアグラム上で緑色に変化します。
+
+![image](https://user-images.githubusercontent.com/6216077/57684754-620e5800-7671-11e9-8197-8db0fb3d2a0d.png)
+
+アクティブ化後、カメラ画像を反転させた画像がGUI上に表示されます。
+
+**Activate Systemsボタンが表示されない場合**
+OpenRTPを一旦終了、再起動してシステムダイアグラムの起動、RTCの配置をやり直してください。
+
+
+##### コンフィギュレーションパラメータの操作
+コンフィギュレーションパラメータを操作することで画像反転モードを変更できます。
+Flipコンポーネントをクリックして、Configuration Viewの編集ボタンを押してください。
+
+![image](https://user-images.githubusercontent.com/6216077/57684946-caf5d000-7671-11e9-908e-3ec1113f5d93.png)
+
+以下のラジオボタンを操作することで画像の反転方向を変更できます。
+
+![image](https://user-images.githubusercontent.com/6216077/57685115-2627c280-7672-11e9-8d51-c07085b17280.png)
+
+処理を中断する場合はDeactivate Systemsボタンを押してください。
+
+![image](https://user-images.githubusercontent.com/6216077/57685376-b49c4400-7672-11e9-9783-1c62bb3713a9.png)
+
+RTCを終了する場合はAll Exitボタンを押してください。
+
+![image](https://user-images.githubusercontent.com/6216077/57685439-d72e5d00-7672-11e9-8723-43cfb6d5d2ff.png)

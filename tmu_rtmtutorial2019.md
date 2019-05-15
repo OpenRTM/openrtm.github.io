@@ -5,7 +5,7 @@
 
 - [用語集](https://nobu19800.github.io/RTM-Lua/docs/glossary.html)
 
-## OpenRTM-aist 1.2.1のインストール
+## OpenRTM-aist 1.2.1(もしくは1.2.0)のインストール
 インストーラー一式を保存したUSBメモリを配布します。
 おそらく人数分は無いと思いますのでVisual Studioがインストールされていない人を優先してください。
 Visual Studioがインストール済みの人は以下のリンクから入手してください。
@@ -22,6 +22,7 @@ Visual Studioがインストール済みの人は以下のリンクから入手�
 * [OpenRTM-aist-1.2.1-RC1](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist-1.2.1-RC190514_x86_64.msi)
 
 **Visual Studioがインストール済みかの確認**
+
 Visual Studio 2008、2012、2013、2015、2017、2019がインストール済みの場合はここでのVisual Studioのインストールは必要ありません。
 既にインストール済みかどうか確認するためには、Windows 10の場合だと左下の「ここに入力して検索」にVisual Studioと入力して検索してください。
 
@@ -31,6 +32,7 @@ Windows 8の場合はスタート画面->アプリビューから探してくだ
 
 
 **OpenRTM-aist 1.1.2以前をインストールしている場合**
+
 研究室のノートPCの場合だと去年の授業などでインストールされている可能性があります。
 OpenRTM-aist 1.1.2以前をインストールしている場合はアンインストールしてください。
 Windowsだとコントロールパネルからプログラム->プログラムのアンインストールで設定してください。
@@ -170,6 +172,11 @@ originalImageで受信した画像データを反転した画像を送信しま�
 |---|---|
 |ポート名|flippedImage|
 |型|RTC::CameraImage|
+
+**RTC::CameraImage**は画像データを送受信するためのデータ型です。
+以下に現在使用可能なデータ型の一覧を記載してありますので参考にしてください。
+
+- [データ型一覧](https://nobu19800.github.io/DataTypeManual/docs/)
 
 以下はflipModeというコンフィギュレーションパラメータの仕様です。
 コンフィギュレーションパラメータはRT System Editor等のツールから実行中のRTCのパラメータを操作するための機能です。

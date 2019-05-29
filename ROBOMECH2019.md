@@ -60,11 +60,13 @@ Googleフォームが利用できない場合、e-mail: rtm-tutorial@aist.go.jp 
 以下のソフトウェアをインストールしてください。
 * [Visual Studio 2017](vs_install.md)
   * **Visual C++がインストールされているかは必ず確認してください。**
-  * Visual Studio 2019はOpenRTM-aistが未対応のため使用できません。
+  * ~~Visual Studio 2019はOpenRTM-aistが未対応のため使用できません。~~
 * [Python 2.7](https://www.python.org/ftp/python/2.7.16/python-2.7.16.amd64.msi)
 * [CMake](https://github.com/Kitware/CMake/releases/download/v3.14.1/cmake-3.14.1-win64-x64.msi)
 * [Doxygen](http://doxygen.nl/files/doxygen-1.8.14-setup.exe)
 * [OpenRTM-aist-1.2.0-RELEASE](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist-1.2.0-RELEASE_x86_64.msi)
+  * **Visual Studio 2019を使用する場合は[OpenRTM-aist-1.2.1-RC190514](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist-1.2.1-RC190514_x86_64.msi)をインストールしてください。**。
+
 
 
 ##### Ubuntuの場合

@@ -22,11 +22,18 @@ Thank you for your cooperation and understanding.
 - [ダウンロード](#download)
 - [既知の不具合](openrtm12_bugs.md)
 
+### (2019/06/05) RTミドルウェアサマーキャンプ
+- [RTミドルウェアサマーキャンプ(2019年7月29日～8月2日)](SUMMERCAMP.md)が行われます
+
+### (2019/06/05) RTミドルウェア強化月間
+- [RTミドルウェア強化月間](BOOTCAMP.md)が行われます
+
+### (2019/06/05) ROBOMECH2019 RTミドルウェア講習会
+- [ROBOMECH2019 RTM講習会(2019年6月5日)](ROBOMECH2019.md)が行われました
+
 ### (2019/05/15) 首都大学東京 RTM授業
 - [首都大学東京授業](tmu_rtmtutorial2019.md)
 
-### (2019/03/01) ROBOMECH2019 RTミドルウェア講習会のご案内
-- [ROBOMECH2019 RTM講習会](ROBOMECH2019.md)
 
 ### ダウンロード
 - [Linux Pakcages](#linux_packages)

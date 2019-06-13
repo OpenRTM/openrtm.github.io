@@ -35,6 +35,14 @@ Thank you for your cooperation and understanding.
 - [首都大学東京授業](tmu_rtmtutorial2019.md)
 
 
+### 過去のイベント
+- [RTミドルウェアコンテスト2018-表彰式の様子(2018/12/14)](contest2018-result)
+- [RTミドルウェアコンテスト2018-結果発表](contest2018)
+- [RTミドルウェア普及貢献賞授賞式](business_award2018)
+- [Japan Robot Week 2018 RTM講習会](jrw2018)
+- [RTミドルウェアサマーキャンプ2018(7/30〜8/2)](summercamp)
+
+
 ### ダウンロード
 - [Linux Pakcages](#linux_packages)
 - [Windows installer](#windows_packages)
@@ -46,12 +54,6 @@ Thank you for your cooperation and understanding.
 ### ドキュメント
 - [１０分ではじめよう！](10min_setup12.md)
 
-### 過去のイベント
-- [RTミドルウェアコンテスト2018-表彰式の様子(2018/12/14)](contest2018-result)
-- [RTミドルウェアコンテスト2018-結果発表](contest2018)
-- [RTミドルウェア普及貢献賞授賞式](business_award2018)
-- [Japan Robot Week 2018 RTM講習会](jrw2018)
-- [RTミドルウェアサマーキャンプ2018(7/30〜8/2)](summercamp)
 
 <!--
 - [RTミドルウェアサマーキャンプ2018(7/30〜8/2)成果発表](summercamp2018)

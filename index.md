@@ -28,10 +28,9 @@ Thank you for your cooperation and understanding.
 ### (2019/06/05) RTミドルウェア強化月間
 - [RTミドルウェア強化月間](https://openrtm.org/openrtm/ja/tutorial/bootcamp_2019)が行われます
 
-### (2019/06/05) ROBOMECH2019 RTミドルウェア講習会
-- [ROBOMECH2019 RTM講習会(2019年6月5日)](ROBOMECH2019.md)が行われました
 
 ### 過去のイベント
+- [ROBOMECH2019 RTM講習会(2019年6月5日)](ROBOMECH2019.md)
 - [首都大学東京授業](tmu_rtmtutorial2019.md)
 - [RTミドルウェアコンテスト2018-表彰式の様子(2018/12/14)](contest2018-result)
 - [RTミドルウェアコンテスト2018-結果発表](contest2018)
@@ -280,4 +279,3 @@ OpenRTM-aist (C++, Python, Java版) および Java版のコンパイル済みjar
 | C++版    | [OpenRTM-aist-1.2.0.tar.gz](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist-1.2.0.tar.gz) <br> [OpenRTM-aist-1.2.0.tar.bz2](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist-1.2.0.tar.bz2) <br> [OpenRTM-aist-1.2.0-win32.zip](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist-1.2.0-win32.zip) |
 | Python版 | [OpenRTM-aist-Python-1.2.0.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python-1.2.0.tar.gz) <br> [OpenRTM-aist-Python-1.2.0.zip](https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python-1.2.0.zip) |
 | Java版   | [OpenRTM-aist-Java-1.2.0-RELEASE-jar.zip](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/v1.2.0/OpenRTM-aist-Java-1.2.0-RELEASE-jar.zip) <br> [OpenRTM-aist-Java-1.2.0-RELEASE.tar.gz](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/v1.2.0/OpenRTM-aist-Java-1.2.0-RELEASE.tar.gz) <br> [OpenRTM-aist-Java-1.2.0-RELEASE.zip](https://github.com/OpenRTM/OpenRTM-aist-Java/releases/download/v1.2.0/OpenRTM-aist-Java-1.2.0-RELEASE.zip) |
-

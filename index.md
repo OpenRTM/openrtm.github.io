@@ -23,11 +23,12 @@ Thank you for your cooperation and understanding.
 - [既知の不具合](openrtm12_bugs.md)
 
 ### (2019/06/05) RTミドルウェアサマーキャンプ
-- [RTミドルウェアサマーキャンプ(2019年7月29日～8月2日)](summercamp2019.md) が行われます。
-  - [仮運用openrtm.orgページ)](https://openrtm.org/openrtm/ja/tutorial/summercamp2019)が行われます
+- [RTミドルウェアサマーキャンプ(2019年7月29日～8月2日)](summercamp2019) が行われます。
+  - [仮運用openrtm.orgページ](https://openrtm.org/openrtm/ja/tutorial/summercamp2019)が行われます
 
 ### (2019/06/05) RTミドルウェア強化月間
-- [RTミドルウェア強化月間](https://openrtm.org/openrtm/ja/tutorial/bootcamp_2019)が行われます
+- [RTミドルウェア強化月間](bootcamp2019)が行われます
+  - [仮運用openrtm.orgページ](https://openrtm.org/openrtm/ja/tutorial/bootcamp_2019)が行われます
 
 
 ### 過去のイベント

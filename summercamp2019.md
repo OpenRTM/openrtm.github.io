@@ -44,7 +44,7 @@
   - 東京駅から並木2丁目: [高速バス時刻表](http://time.jrbuskanto.co.jp/bk03080.html)
     - 東京駅八重洲南口高速バス乗り場からつくばセンター・筑波大学行きに乗り、並木2丁目停留所にて下車してください。
     - 東京駅から1時間：下りは渋滞が少なくほぼ時間通り到着します。
-  - 秋葉原駅からTXつくば駅経由: [産総研連絡バス時刻表](https://unit.aist.go.jp/tkb1/to_tsukuba_c_tx_bus20170401.pdf)
+  - 秋葉原駅からTXつくば駅経由: [産総研連絡バス時刻表](https://i.aist.go.jp/webc/ga-po/jigyousyo/dai1/service/syonaibin/bus_table_jp180319.pdf)
     - つくばエクスプレス秋葉原駅から終点つくば駅(快速：45分)まで乗車し、つくば駅から産総研連絡バスに乗車、つくば中央第1にて下車してください。
     - 連絡バス所用時間：20分から25分程度。
     - [連絡バス乗り場](http://www.aist.go.jp/aist_j/guidemap/tsukuba/tsukuba_c_express.html)

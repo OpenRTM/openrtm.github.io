@@ -10,7 +10,7 @@
 
 ![](https://tmp.openrtm.org/openrtm/sites/default/files/6548/syuugou2.jpg)
 
-- [成果発表](summercamp2018)を公開しました。
+- [成果発表](summercamp2018_results)を公開しました。
 - [講義資料](summercamp2018_resume)を公開しました。
 - [サマーキャンプ2018のアンケート](https://goo.gl/forms/j12HssiJ1mizVL7O2)にご協力お願いいたします(googleフォームに移動します)
 

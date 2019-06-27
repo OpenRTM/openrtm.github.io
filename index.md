@@ -5,8 +5,8 @@ layout: default
 # OpenRTM-aist web on the github
 
 このページは、github上に作成されたOpenRTM-aist臨時Webページです。
-Webサイトのセキュリティアップデートのため、2018年度いっぱいの予定でOpenRTM-aistの公式Webページを一時停止します。
-ご迷惑をおかけしますがご理解のほどよろしくお願いいたします。
+Webサイトのセキュリティアップデートのため、openrtm.orgが一時的に利用できなくなる場合があるためこちらからもダウンロード、イベント情報の参照をできるようにしています。
+
 
 This is the OpenRTM-aist official and templary website on the github.
 Due to security updates of the website, OpenRTM-aist website might be closed during April.

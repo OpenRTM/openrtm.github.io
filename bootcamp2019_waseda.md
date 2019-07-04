@@ -64,7 +64,7 @@ RTミドルウェア強化月間として、早稲田大学西早稲田キャン
 
 - Visual Studio 2017推奨：[Visual Studio のダウンロード](https://visualstudio.microsoft.com/ja/downloads/?utm_source=mscom&utm_campaign=msdocs)
   - **Visual C++がインストールされているかは必ず確認してください。**
-  - これからダウンロードされる場合、バージョンが2019となります。 [[Visual Studio Community 2019のインストール:/ja/vs_install_2019]] ページの手順でダウンロードできます。
+  - これからダウンロードされる場合、バージョンが2019となります。 [Visual Studio Community 2019のインストール](https://openrtm.org/openrtm/ja/vs_install_2019) ページの手順でダウンロードできます。
 - [Python 2.7](https://www.python.org/ftp/python/2.7.16/python-2.7.16.amd64.msi)
 - [CMake](https://github.com/Kitware/CMake/releases/download/v3.14.1/cmake-3.14.1-win64-x64.msi)
 - [Doxygen](http://doxygen.nl/files/doxygen-1.8.14-setup.exe)

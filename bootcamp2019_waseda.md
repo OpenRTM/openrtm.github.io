@@ -71,7 +71,7 @@ RTミドルウェア強化月間として、早稲田大学西早稲田キャン
 - [OpenRTM-aist-1.2.0-RELEASE](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist-1.2.0-RELEASE_x86_64.msi)
   - **Visual Studio 2019を使用する場合は** [OpenRTM-aist-1.2.1-RC190514](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist-1.2.1-RC190514_x86_64.msi) **をインストールしてください。**
   - デフォルト設定のままインストールして下さい。
-- [[OpenRTM-aistを10分で始めよう！](https://openrtm.org/openrtm/ja/node/6521) を参考に、事前にサンプルコンポーネントを起動して動作確認を行っておいてください。
+- [OpenRTM-aistを10分で始めよう！](https://openrtm.org/openrtm/ja/node/6521) を参考に、事前にサンプルコンポーネントを起動して動作確認を行っておいてください。
 
 ## 講習会申し込みフォーム
 

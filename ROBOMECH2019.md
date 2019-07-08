@@ -58,7 +58,7 @@ Googleフォームが利用できない場合、e-mail: rtm-tutorial@aist.go.jp 
 #### 資料
 説明資料等を講習会当日にUSBメモリで配布する予定ですが、何らかの理由によりUSBメモリを利用できない場合は以下のZIPファイルをダウンロードしてください。
 
-* [RTM_Tutorial_RaspberryPiMouse.zip](https://github.com/OpenRTM/RTM_Tutorial_RaspberryPiMouse/archive/master.zip)
+* [RTM_Tutorial_ROBOMECH2019.zip](https://github.com/OpenRTM/RTM_Tutorial_ROBOMECH2019/raw/master/RTM_Tutorial_ROBOMECH2019.zip)
 
 #### インストールするソフトウェア
 ##### Windowsの場合

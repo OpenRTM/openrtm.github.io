@@ -42,8 +42,12 @@ RTミドルウェア強化月間として、早稲田大学西早稲田キャン
 | 14:15 -17:00 | **第2部: RTコンポーネントの作成入門** <br/> **担当：** 宮本信彦(産総研) <br/> **概要：** RTシステムを設計するツールRTSystemEditorおよびRTコンポーネントを作成するツールRTCBuilderの使用方法について解説するとともに、RTCBuilderを使用したRTコンポーネントの作成方法を実習形式で体験していただきます。 <br/> [チュートリアル（Raspberry Pi Mouse、Windows編）](https://openrtm.org/openrtm/ja/node/6310) <br/> [チュートリアル（Raspberry Pi Mouse、Ubuntu編）](https://openrtm.org/openrtm//ja/node/6311) <br/> **講義資料**： |
 
 
+## 資料
+説明資料等を講習会当日にUSBメモリで配布する予定ですが、何らかの理由によりUSBメモリを利用できない場合は以下のZIPファイルをダウンロードしてください。
 
-### 必要機材
+* [RTM_Tutorial_RaspberryPiMouse.zip](https://github.com/OpenRTM/RTM_Tutorial_RaspberryPiMouse/archive/master.zip)
+
+## 必要機材
 - ノートPC
   - OS: Windowsを推奨します。
   - Eclipseが動作する程度のスペックが必要です
@@ -57,7 +61,10 @@ RTミドルウェア強化月間として、早稲田大学西早稲田キャン
 **※ セキュリティーソフトにもファイアウォールが設定されている場合がありますので、そちらもOFFにしておいてください。**
 
 
-### 必要ソフトウエア
+
+## 必要ソフトウエア
+
+### Windowsの場合
 
 あらかじめインストールしておくべきソフトウエアは以下のとおりです。以下のリンクをクリックし、ファイルをダウンロード・インストールしてください。(一部のリンクはダウンロードページへ飛びますので、飛んだ先のページ内で適切なファイルをそれぞれダウンロードしてください。
 
@@ -72,6 +79,111 @@ RTミドルウェア強化月間として、早稲田大学西早稲田キャン
   - **Visual Studio 2019を使用する場合は** [OpenRTM-aist-1.2.1-RC190514](https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist-1.2.1-RC190514_x86_64.msi) **をインストールしてください。**
   - デフォルト設定のままインストールして下さい。
 - [OpenRTM-aistを10分で始めよう！](https://openrtm.org/openrtm/ja/node/6521) を参考に、事前にサンプルコンポーネントを起動して動作確認を行っておいてください。
+
+
+### Ubuntuの場合
+
+* g++
+
+```shell
+$ sudo apt-get install gcc g++
+```
+* omniORB
+
+```shell
+$ sudo apt-get install libomniorb4-dev omniidl omniorb-nameserver
+$ sudo apt-get install python-omniorb-omg omniidl-python
+```
+* CMake
+
+```shell
+$ sudo apt-get install cmake
+```
+* Doxygen
+
+```shell
+$ sudo apt-get install doxygen
+```
+
+* JDK
+
+```shell
+# Ubuntu 18.04、18.10の場合
+$ sudo apt-get install openjdk-8-jdk
+# Ubuntu 16.04の場合
+$ sudo apt-get install default-jdk
+```
+
+Ubuntu 18.04、18.10の場合は以下のコマンドでjava8に切り替えます。
+
+```shell
+$ sudo update-alternatives --config java
+```
+
+* Premake
+
+```shell
+$ sudo apt-get install premake4
+```
+
+* GLUT
+
+```shell
+$ sudo apt-get install freeglut3-dev
+```
+
+* RaspberryPiMouseSimulator コンポーネント
+
+```shell
+$ wget https://raw.githubusercontent.com/OpenRTM/RTM_Tutorial_RaspberryPiMouse/master/script/install_raspimouse_simulator.sh
+$ sudo sh install_raspimouse_simulator.sh
+```
+
+
+* OpenRTM-aist
+
+```shell
+ubuntu 18.04 (64bit) の場合
+
+C++版のインストール
+wget https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz
+tar xf OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz
+cd OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package
+sudo sh install-openrtm-deb-packages.sh
+cd ..
+
+Python版のインストール
+wget https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package.tar.gz
+tar xf OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package.tar.gz
+cd OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package
+sudo sh install-openrtm-deb-packages.sh
+cd ..
+
+
+RTSystemEditor/RTCBuilderのインストール
+wget https://github.com/OpenRTM/OpenRTP-aist/releases/download/v1.2.0/OpenRTP-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz
+tar xf OpenRTP-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz
+cd OpenRTP-aist_1.2.0_ubuntu18.04_amd64_package
+sudo sh install-openrtm-deb-packages.sh
+cd ..
+```
+
+
+* Code::Blocks(任意)
+
+```shell
+$ sudo apt-get install codeblocks
+```
+
+
+
+* cmake-gui(任意)
+
+```shell
+$ sudo apt-get install cmake-qt-gui
+```
+
+
 
 ## 講習会申し込みフォーム
 

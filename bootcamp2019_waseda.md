@@ -127,26 +127,26 @@ $ sudo update-alternatives --config java
 ubuntu 18.04 (64bit) の場合
 
 C++版のインストール
-wget https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz
-tar xf OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz
-cd OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package
-sudo sh install-openrtm-deb-packages.sh
-cd ..
+$ wget https://github.com/OpenRTM/OpenRTM-aist/releases/download/v1.2.0/OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz
+$ tar xf OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz
+$ cd OpenRTM-aist_1.2.0_ubuntu18.04_amd64_package
+$ sudo sh install-openrtm-deb-packages.sh
+$ cd ..
 
 Python版のインストール
-wget https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package.tar.gz
-tar xf OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package.tar.gz
-cd OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package
-sudo sh install-openrtm-deb-packages.sh
-cd ..
+$ wget https://github.com/OpenRTM/OpenRTM-aist-Python/releases/download/v1.2.0/OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package.tar.gz
+$ tar xf OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package.tar.gz
+$ cd OpenRTM-aist-Python_1.2.0_ubuntu18.04_amd64_package
+$ sudo sh install-openrtm-deb-packages.sh
+$ cd ..
 
 
-RTSystemEditor/RTCBuilderのインストール
-wget https://github.com/OpenRTM/OpenRTP-aist/releases/download/v1.2.0/OpenRTP-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz
-tar xf OpenRTP-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz
-cd OpenRTP-aist_1.2.0_ubuntu18.04_amd64_package
-sudo sh install-openrtm-deb-packages.sh
-cd ..
+$ RTSystemEditor/RTCBuilderのインストール
+$ wget https://github.com/OpenRTM/OpenRTP-aist/releases/download/v1.2.0/OpenRTP-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz
+$ tar xf OpenRTP-aist_1.2.0_ubuntu18.04_amd64_package.tar.gz
+$ cd OpenRTP-aist_1.2.0_ubuntu18.04_amd64_package
+$ sudo sh install-openrtm-deb-packages.sh
+$ cd ..
 ```
 
 * Premake

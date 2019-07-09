@@ -120,25 +120,6 @@ Ubuntu 18.04、18.10の場合は以下のコマンドでjava8に切り替えま�
 $ sudo update-alternatives --config java
 ```
 
-* Premake
-
-```shell
-$ sudo apt-get install premake4
-```
-
-* GLUT
-
-```shell
-$ sudo apt-get install freeglut3-dev
-```
-
-* RaspberryPiMouseSimulator コンポーネント
-
-```shell
-$ wget https://raw.githubusercontent.com/OpenRTM/RTM_Tutorial_RaspberryPiMouse/master/script/install_raspimouse_simulator.sh
-$ sh install_raspimouse_simulator.sh
-```
-
 
 * OpenRTM-aist
 
@@ -167,6 +148,26 @@ cd OpenRTP-aist_1.2.0_ubuntu18.04_amd64_package
 sudo sh install-openrtm-deb-packages.sh
 cd ..
 ```
+
+* Premake
+
+```shell
+$ sudo apt-get install premake4
+```
+
+* GLUT
+
+```shell
+$ sudo apt-get install freeglut3-dev
+```
+
+* RaspberryPiMouseSimulator コンポーネント
+
+```shell
+$ wget https://raw.githubusercontent.com/OpenRTM/RTM_Tutorial_RaspberryPiMouse/master/script/install_raspimouse_simulator.sh
+$ sh install_raspimouse_simulator.sh
+```
+
 
 
 * Code::Blocks(任意)

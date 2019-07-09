@@ -136,7 +136,7 @@ $ sudo apt-get install freeglut3-dev
 
 ```shell
 $ wget https://raw.githubusercontent.com/OpenRTM/RTM_Tutorial_RaspberryPiMouse/master/script/install_raspimouse_simulator.sh
-$ sudo sh install_raspimouse_simulator.sh
+$ sh install_raspimouse_simulator.sh
 ```
 
 

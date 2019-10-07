@@ -4,13 +4,11 @@ layout: default
 
 # OpenRTM-aist web on the github
 
-このページは、github上に作成されたOpenRTM-aist臨時Webページです。
-Webサイトのセキュリティアップデートのため、openrtm.orgが一時的に利用できなくなる場合があるためこちらからもダウンロード、イベント情報の参照をできるようにしています。
+[OpenRTM-aist Official Website](https://openrtm.org) は[こちら](https://openrtm.org)です。
+このページは、github上に作成されたOpenRTM-aist臨時Webページですが現在は更新を停止しております。
 
-
-This is the OpenRTM-aist official and templary website on the github.
-Due to security updates of the website, OpenRTM-aist website might be closed during April.
-Thank you for your cooperation and understanding.
+This is [OpenRTM-aist Official Website](https://openrtm.org).
+This web page is a temporary website on the Github.
 
 <a name="news"></a>
 ## NEWS

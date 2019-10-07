@@ -8,7 +8,7 @@ layout: default
 このページは、github上に作成されたOpenRTM-aist臨時Webページですが現在は更新を停止しております。
 
 This is [OpenRTM-aist Official Website](https://openrtm.org).
-This web page is a temporary website on the Github.
+This web page is a temporary website on the Github. Currently, this site is currently out of service.
 
 <a name="news"></a>
 ## NEWS

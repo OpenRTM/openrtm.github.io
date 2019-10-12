@@ -12,7 +12,11 @@ This web page is a temporary website on the Github. Currently, this site is curr
 
 <a name="news"></a>
 ## NEWS
-### OpenRTM-aist-1.2リリース
+### (2019/1/01) openrtm.org復旧
+OpenRTMの公式Webサイト (openrtm.org)[https://openrtm.org] が復旧しました。
+今後は、こちらのWebページは更新停止します。ニュースやイベント情報は公式Webサイトをご覧ください。
+
+
 
 ### (2019/03/15) OpenRTM-aistの新バージョン、OpenRTM-aist-1.2 をリリースしました。
 - [リリースノート](#release_note)
@@ -29,7 +33,7 @@ This web page is a temporary website on the Github. Currently, this site is curr
   - [仮運用openrtm.orgページ](https://openrtm.org/openrtm/ja/tutorial/bootcamp_2019)
 
 
-### 過去のイベント
+## 過去のイベント
 - [ROBOMECH2019 RTM講習会(2019年6月5日)](ROBOMECH2019.md)
 - [首都大学東京授業](tmu_rtmtutorial2019.md)
 - [RTミドルウェアコンテスト2018-表彰式の様子(2018/12/14)](contest2018-result)
@@ -39,7 +43,7 @@ This web page is a temporary website on the Github. Currently, this site is curr
 - [RTミドルウェアサマーキャンプ2018(7/30〜8/2)](summercamp2018)
 
 
-### ダウンロード
+## ダウンロード
 - [Linux Pakcages](#linux_packages)
 - [Windows installer](#windows_packages)
 - [Source Code](#source_code)
@@ -47,7 +51,7 @@ This web page is a temporary website on the Github. Currently, this site is curr
 ### 旧バージョンのダウンロード
 - [OpenRTM-aist 1.1.2版 ダウンロード](v112_download.md)
 
-### ドキュメント
+## ドキュメント
 - [１０分ではじめよう！](10min_setup12.md)
 
 
@@ -59,7 +63,7 @@ This web page is a temporary website on the Github. Currently, this site is curr
 
 
 <a name="release_note"></a>
-## Release notes
+### Release notes
 
 |   | URL                                      |
 |:--------------|:-----------------------------------------| 

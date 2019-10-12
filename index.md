@@ -12,7 +12,7 @@ This web page is a temporary website on the Github. Currently, this site is curr
 
 <a name="news"></a>
 ## NEWS
-### (2019/1/01) openrtm.org復旧
+### (2019/10/01) openrtm.org復旧
 OpenRTMの公式Webサイト (openrtm.org)[https://openrtm.org] が復旧しました。
 今後は、こちらのWebページは更新停止します。ニュースやイベント情報は公式Webサイトをご覧ください。
 

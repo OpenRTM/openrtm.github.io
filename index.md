@@ -7,7 +7,7 @@ layout: default
 [OpenRTM-aist Official Website (https://openrtm.org)](https://openrtm.org) は[こちら](https://openrtm.org)です。
 このページは、OpenRTM Official Webサイト再開に伴い、現在は更新を停止しております。
 
-This is [OpenRTM-aist Official Website (https://openrtm.org)](https://openrtm.org).
+[OpenRTM-aist Official Website (https://openrtm.org)](https://openrtm.org) is [here](https://openrtm.org).
 Since OpenRTM Official Website recovered, this site is currently out of service.
 
 <a name="news"></a>

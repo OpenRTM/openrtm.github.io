@@ -4,19 +4,14 @@ layout: default
 
 # OpenRTM-aist web on the github
 
-[OpenRTM-aist Official Website (https://openrtm.org)](https://openrtm.org) は[こちら](https://openrtm.org)です。
-このページは、OpenRTM Official Webサイト再開に伴い、現在は更新を停止しております。
-
-[OpenRTM-aist Official Website (https://openrtm.org)](https://openrtm.org) is [here](https://openrtm.org).
-Since OpenRTM Official Website recovered, this site is currently out of service.
+このページはOpenRTM-aistのgithub pagesのWebページです。OpenRTM-aistのgithubに関する情報を掲示しています。
+OpenRTM-aist公式サイトは [https://openrtm.org](https://openrtm.org) です。
 
 <a name="news"></a>
 ## NEWS
 ### (2019/10/01) openrtm.org復旧
 OpenRTMの公式Webサイト [openrtm.org](https://openrtm.org)が復旧しました。
 今後は、こちらのWebページは更新停止します。ニュースやイベント情報は公式Webサイトをご覧ください。
-
-
 
 ### (2019/03/15) OpenRTM-aistの新バージョン、OpenRTM-aist-1.2 をリリースしました。
 - [リリースノート](#release_note)

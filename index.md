@@ -19,16 +19,9 @@ OpenRTMの公式Webサイト [openrtm.org](https://openrtm.org)が復旧しま�
 - [ダウンロード](#download)
 - [既知の不具合](openrtm12_bugs.md)
 
-### (2019/06/05) RTミドルウェアサマーキャンプ
-- [RTミドルウェアサマーキャンプ(2019年7月29日～8月2日)](summercamp2019.md) が行われます。
-  - [仮運用openrtm.orgページ](https://openrtm.org/openrtm/ja/tutorial/summercamp2019)
-
-### (2019/06/05) RTミドルウェア強化月間
-- [RTミドルウェア強化月間](bootcamp2019.md)が行われます
-  - [仮運用openrtm.orgページ](https://openrtm.org/openrtm/ja/tutorial/bootcamp_2019)
-
-
 ## 過去のイベント
+- [RTミドルウェアサマーキャンプ(2019年7月29日～8月2日)](summercamp2019.md)
+- [RTミドルウェア強化月間(2019/06/05)](bootcamp2019.md)
 - [ROBOMECH2019 RTM講習会(2019年6月5日)](ROBOMECH2019.md)
 - [首都大学東京授業](tmu_rtmtutorial2019.md)
 - [RTミドルウェアコンテスト2018-表彰式の様子(2018/12/14)](contest2018-result)

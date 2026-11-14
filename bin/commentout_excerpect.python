@@ -1,0 +1,21 @@
+import os
+import re
+
+for filename in os.listdir("."):
+    if filename.endswith(".md"):
+        with open(filename, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+
+        new_lines = []
+
+        for line in lines:
+            # すでにコメントアウトされていない excerpt 行
+            if re.match(r'^excerpt:\s*.*', line):
+                new_lines.append('# ' + line)
+            else:
+                new_lines.append(line)
+
+        with open(filename, "w", encoding="utf-8") as f:
+            f.writelines(new_lines)
+
+print("完了")

@@ -1,0 +1,397 @@
+.nav-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-menu li {
+  position: relative;
+}
+
+.nav-menu a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #ff0000;/*#fff; change 0402*/
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  min-width: 150px;
+  z-index: 1000;
+}
+
+/* Documentation ドロップダウンの背景を Community と同じにする */
+.dropdown-menu {
+  min-width: 190px;
+  background-color: #fff;   /* Communityと同じ色 */
+  border: 1px solid #ddd;   /* 枠線も揃える */
+  padding: 8px 10px; /* add 0402*/
+}
+
+.dropdown-content li a {
+  padding: 10px;
+  white-space: nowrap;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* ←3列 */
+  gap: 20px; /* 要素の間隔 */
+}
+
+.news-item {
+  border: 1px solid #ddd;
+  padding: 12px;
+  background: #fff;
+}
+
+.news-item img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+/* thumb size */
+
+.news-thumb {
+  width: 100%;
+  height: 160px;          /* サムネ枠の高さ */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f5f5;    /* 余白色 */
+  overflow: hidden;
+}
+
+.news-thumb img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/*.news-thumb {
+  aspect-ratio: 16 / 9;  /* 好きな比率 */
+/*  overflow: hidden;
+}
+
+/*.news-thumb img {
+  width: 100%;
+  height: 160%;
+  object-fit: contain;
+  background: #f5f5f5; /* 余白の色（任意） */
+/*  width: 100%;
+  height: 100%;
+   object-fit: cover;*/
+*/}*/
+
+.news-item h3 {
+  font-size: 1rem;
+  margin: 8px 0;
+}
+
+.news-item .date {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/*  */
+@media (max-width: 900px) {
+  .news-grid {
+    grid-template-columns: repeat(2, 1fr); /* タブレット：2列 */
+  }
+}
+
+@media (max-width: 600px) {
+  .news-grid {
+    grid-template-columns: 1fr; /* スマホ：1列 */
+  }
+}
+
+.right-align {
+  text-align: right;
+}
+
+.news-more-wrap {
+  text-align: right;
+}
+
+.news-more {
+  display: inline-block;      /* ←これ重要 */
+  background-color: #dc6226;  /* 背景色 */
+  color: #fff;                /* 白文字 */
+  padding: 8px 16px;          /* ←四角の大きさ */
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;         /* 角丸（任意） */
+}
+
+.news-more:hover {
+/* background-color: #c9541f;  /* hoverで少し暗く */
+ background-color: #dc143c;  /* hoverで少し暗く */
+}
+
+.news-title a {
+  color: #dc6226;        /* ←好きな色に変更 */
+  text-decoration: none; /* 下線消す（任意） */
+}
+
+.news-title a:hover {
+  color: #db2525;        /* ホバー時の色 */
+  text-decoration: underline;
+}
+
+.news-date-wrap {
+  display: block;
+  /*display: inline-block;*/
+  border-bottom: 1px solid #ccc;  /* ←下線 */
+  /*padding-bottom: 2px;            /* ←文字との間隔調整 */
+  padding-top: 15px; 
+}
+
+.news-date-day {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 2.2em;
+  height: 1.8em;
+
+  background-color: #aaaaaa;
+  color: #fff;
+
+  /*font-family: "MS P Gothic";*/
+  font-family: "Helvetica";
+  font-size: 20pt;
+  font-weight: bold;
+/*  border-radius: 6px;*/
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.news-date {
+  font-size: 15pt;
+  justify-content: center;
+  /*font-size: 0.85rem;*/
+  padding-right: 3px; 
+  padding-left: 3px; 
+}
+
+/*.news-more {
+  display: block;
+  width: 100%;
+  background-color: #dc6226;
+  text-align: right;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 16px;
+  box-sizing: border-box;
+}*/
+
+/*.news-more {
+background-color: #dc6226;
+text-align: right;
+}*/
+
+	.top-swiper .swiper-slide {
+  width: 100%;
+  height: 335px; /* 任意 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5; /* 余白用（任意） */
+}
+
+.top-swiper .swiper-slide img {
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.page-toc {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid #a3c1cc; /*5a6a70; /* ddd;*/
+  background: #f8f8f8;
+}
+
+.page-toc-title {
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.page-toc-list{
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.page-toc-list,
+.page-toc-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.page-toc-list .toc-item {
+  margin: 0.35rem 0;
+}
+
+.page-toc-list .toc-h2 {
+  margin-left: 0;
+}
+
+.page-toc-list .toc-h3 {
+  margin-left: 1rem;
+}
+
+.page-toc-list .toc-h4 {
+  margin-left: 2rem;
+}
+/* add for logo title nav-bar */
+/*.site-header-custom .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.site-header-top {
+  width: 30%;
+  width: 100%;
+  padding: 0.5rem 0 0.25rem;
+}
+*/
+/*.site-header-bottom {
+  width: 100%;
+}
+
+.site-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.site-brand-logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.site-brand-text {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.site-header-bottom .navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}*/
+
+/* add 0402*/
+/* ┌────────────────────────────┐*/
+/* │  [ロゴ]  OpenRTM-aist      │ ← 上段*/
+/* │  Home  Docs  About ...     │ ← 下段*/
+/* └────────────────────────────┘*/
+
+/* ===== ヘッダー全体 ===== */
+.site-header .container {
+  display: flex;
+  flex-direction: column;   /* ← 縦並びにする */
+}
+
+/* ===== 1段目 ===== */
+.site-header-top {
+  display: flex;
+  align-items: center;
+  padding: 0.6rem 0 0.3rem;
+}
+
+/* ロゴ + サイト名 */
+.site-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  text-decoration: none;
+}
+
+/* ロゴサイズ（ここで自由に変更） */
+.site-brand-logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+/* サイト名 */
+.site-brand-text {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #fff;
+  white-space: nowrap;
+}
+
+/* ===== 2段目 ===== */
+.site-header-bottom {
+  width: 100%;
+}
+
+/* ナビ横並び */
+.site-header-bottom .navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* 余白調整（任意） */
+.site-header-bottom .nav-link {
+  padding: 0.4rem 0.8rem;
+}
+/* header for 2 段*/
+header.navbar > .container {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+}
+
+header.navbar .navbar-collapse {
+  width: 100%;
+}
+/* lang-switch  css  */
+
+.lang-switch {
+  display: inline-flex;   /* ←ここ重要 */
+  align-items: center;
+  margin-left: 0.5rem;    /* タイトルとの間隔 */
+}
+
+.lang-link img {
+  display: inline-block;  /* block → inline-block に変更 */
+  width: 32px;
+  height: auto;
+  vertical-align: middle;
+}
+
+/* lang-switch  css  new */
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+
+.lang-link img {
+  display: inline-block;
+  width: 32px;
+  height: auto;
+  vertical-align: middle;
+}

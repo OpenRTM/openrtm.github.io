@@ -1,0 +1,32 @@
+<!--div class="sidebar-search">
+  <input type="text" id="sidebar-search-input" placeholder="haru1サイト内検索..." />
+  <ul id="sidebar-results"></ul>
+</div -->
+<!--div class="nav-search">
+  <input type="text" id="sidebar-search-input" placeholder="サイト内検索..." autocomplete="off" />
+  <ul id="sidebar-results" class="nav-search-results"></ul>
+</div-->
+<div class="nav-search">
+  <input id="sidebar-search-input" type="text" placeholder="サイト内検索..." autocomplete="off">
+  <ul id="sidebar-results" class="nav-search-results"></ul>
+</div>
+
+
+
+<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+<script>
+  // 同一ページに複数回初期化されるのを避ける（レイアウト構成次第で保険）
+  if (!window.__sidebarSearchInitialized) {
+    window.__sidebarSearchInitialized = true;
+
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('sidebar-search-input'),
+      resultsContainer: document.getElementById('sidebar-results'),
+      json: '{{ "/search.json" | relative_url }}',
+      searchResultTemplate: '<li id="sidebar-results" class="site-search__results"><a href="{url}">{title}</a></li>',
+      noResultsText: '見つかりませんでした',
+      limit: 10
+    });
+  }
+</script>
+

@@ -1,0 +1,28 @@
+import os
+import re
+
+for filename in os.listdir("."):
+    if filename.endswith(".md"):
+        with open(filename, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+
+        new_lines = []
+        inserted = False
+
+        for i, line in enumerate(lines):
+            new_lines.append(line)
+
+            # categories行を検出
+            if re.match(r'^categories:\s*.*', line) and not inserted:
+                # 次の行がすでにlangならスキップ
+                if i + 1 < len(lines) and re.match(r'^lang:\s*', lines[i + 1]):
+                    continue
+
+                new_lines.append("lang: en\n")
+                inserted = True
+
+        # 上書き保存
+        with open(filename, "w", encoding="utf-8") as f:
+            f.writelines(new_lines)
+
+print("完了")

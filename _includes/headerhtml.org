@@ -1,0 +1,61 @@
+{% assign current_lang = page.lang | default: site.default_lang | default: "ja" %}
+{% assign nav_items = site.data.nav.[current_lang] %}
+
+<link rel="stylesheet" href="{{ "/assets/css/hover-dropdown.css" | relative_url }}">
+
+<header class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+  <div class="container">
+    <div class="site-header-top"><!-- add div -->
+    <a class="navbar-brand" href="{{ '/' | absolute_url }}">
+	    <img src="{{ site.logo | relative_url }}" alt="{{ site.title }} logo" >
+	    <!-- height="32" width="32" class="site-brand-logo"-->
+	    <span class="site-brand-text">{{ site.title }}--{{ current_lang }}</span><!--add here -->
+    </a>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark site-header-bottom p-0"><!--add 0402-->
+    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+      aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      	<span class="navbar-toggler-icon"></span>
+    	</button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+	    <ul class="navbar-nav"><!--del 0402  mr-auto">
+	  {%- for link in nav_items.header -%}
+          {%- if link.url contains '://' -%}
+            {%- assign url = link.url -%}
+          {%- else -%}
+            {%- assign url = link.url | relative_url -%}
+	    {%- endif -%} -->
+        <!-- li class="nav-item">
+          <a class="nav-link" href="{{ url }}" {% if link.description %} title="{{ link.description}}"
+            {% endif %}>{{ link.title }}</a-->
+	    <li class="nav-item dropdown">
+  <!-- a class="nav-link dropdown-toggle" href="{{ link.url | relative_url }}" data-toggle="dropdown"-->
+		  <a class="nav-link" href="{{ link.url | relative_url }}">
+		    {{ link.title }}
+		  </a>
+	  {% if link.children %}
+		{% for child in link.children %}
+		  <ul class="dropdown-menu">
+			{% if child.title %}
+				{% for grand in link.children %}
+				<li><a href="{{site.baseurl}}{{grand.url}}">{{ grand.title }}</a></li>
+				{% endfor %}
+			{% endif %}
+		</ul>
+		{% endfor %}
+	  {% endif %}
+
+        </li>
+
+	<!-- {%- endfor -%}-->
+      </ul>
+    </div>
+  </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark site-header-bottom p-0"><!--add 0402-->
+	    <a>hogehogehoge-----</a>
+	{% include lang-switch.html %}
+  </nav>
+  </div>
+</header>

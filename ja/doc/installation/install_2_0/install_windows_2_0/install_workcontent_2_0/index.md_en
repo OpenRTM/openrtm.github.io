@@ -1,0 +1,73 @@
+---
+
+layout: page
+Title: OpenRTM-aist Installer Operations
+
+---
+
+<!-- Title: OpenRTM-aistインストーラ作業内容 -->
+
+<br>
+
+## Installer Operations
+
+The installer copies files and performs system configuration according to the operations listed below.
+The following information is provided as a reference when confirming whether installation and uninstallation have been performed correctly.
+
+- Copy various files under the installation directory (C:\Program Files)
+- Create the OpenRTM-aist folder under the Start Menu and configure various shortcuts
+- Environment variable settings (when OpenRTM-aist version 2.0.0 is installed with the default settings)
+
+```
+ RTM_BASE=C:\Program Files\OpenRTM-aist\\
+ RTM_ROOT=C:\Program Files\OpenRTM-aist\2.0.0\\
+ RTM_VC_VERSION=vc16  (* If Visual Studio version 2015 or 2017 is selected during installation, vc14)
+ RTM_JAVA_ROOT=C:\Program Files\OpenRTM-aist\2.0.0\\
+ RTM_IDL_DIR=C:\Program Files\OpenRTM-aist\2.0.0\rtm\idl\\
+ OMNI_ROOT=C:\Program Files\OpenRTM-aist\2.0.0\omniORB\4.2.5_vc16\\
+ OpenCV_DIR=C:\Program Files\OpenRTM-aist\2.0.0\OpenCV4.4\\
+ OpenRTM_DIR=C:\Program Files\OpenRTM-aist\2.0.0\cmake\\
+```
+
+- Additional PATH settings (when OpenRTM-aist version 2.0.0 is installed with the default settings)
+
+```
+ C:\Program Files\OpenRTM-aist\2.0.0\bin\vc16\\
+ C:\Program Files\OpenRTM-aist\2.0.0\omniORB\4.2.5_vc16\bin\x86_win32\\
+ C:\Program Files\OpenRTM-aist\2.0.0\OpenCV4.4\x64\vc16\bin\\
+```
+
+
+## Installed Files
+
+Files are installed with the following structure.<br>
+<!-- 上記のインストール環境の設定を確認する[[スクリプト:/ja/node/6092]]を実行すると、treeコマンドによるOpenRTM-aist下のディレクトリ構造をログファイルに保存しますので、詳細を確認できます。  -->
+
+```
+ <install_dir>
+   + OpenRTM-aist
+      + 1.x.x  : Legacy runtime
+      + 2.0.x
+         + bin: DLLs, libraries, and various commands
+         + cmake: OpenRTMConfig.cmake
+         + coil: coil header files
+         + Components
+            + C++
+               + Examples: C++ sample components
+               + OpenCV: OpenCV C++ sample components
+            + Java: Java sample components
+            + Python: Python sample components
+         + ext: Files for extension modules
+         + hrtm: HRTM wrapper libraries
+         + jar: JAR files
+         + jre: AdoptOpenJDK JRE
+         + omniORB 4.2.5
+         + OpenCV 4.4
+         + rtm: OpenRTM-aist header files
+            + idl: OpenRTM-aist IDL files
+         + util
+            + OpenRTP: RTCBuilder and RTSystemEditor tools
+            + RTSystemEditor: Files for RTSystem Editor only
+            + VCVerChanger: Tool for specifying the Visual Studio version in use
+```
+

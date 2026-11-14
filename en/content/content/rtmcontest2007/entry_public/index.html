@@ -1,0 +1,378 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0060)https://www.openrtm.org/rt/RTMcontest/2007/entry_public.html -->
+<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<title>RTミドルウエアコンテスト</title>
+
+<link rel="stylesheet" href="../rtmcontest2007_files/rtmcontest.css" type="text/css" media="screen,projection,tv">
+<link rel="stylesheet" href="../rtmcontest2007_files/print.css" type="text/css" media="print">
+</head>
+
+<body>
+<div id="mybody">
+<div id="logobox"><img src="../rtmcontest2007_files/RTM_logo.gif" alt="RT-middleware" title="" align="right" border="0"></div>
+<!-- logobox -->
+<div id="menubox">
+<center>
+<table bgcolor="#072441" cellpadding="2" width="100%">
+<tbody>
+<tr>
+<td align="center"><img src="../rtmcontest2007_files/RTM_logo.gif" alt="RT-middleware" title="" border="0" height="70" hspace="5" vspace="5" width="112"></td>
+</tr>
+</tbody>
+</table>
+<br>
+<small><small><a target="_blank" href="http://www.jara.jp/pressrelease/news/070109.html">ロボットビ
+ジネス推進協議会</a><br>
+／SICE <a target="_blank" href="http://www.sice.or.jp/%7Esi-div/">SI部門</a>
+<br>
+<small>RTシステムインテグレーション部会</small><br>
+／産業技術総合研究所<br>
+</small><a href="http://unit.aist.go.jp/is/index_j.html"><small>知
+能システム研究部門</small><br>
+</a></small><br>
+<!--
+<img
+src="/cgi-bin/Count.cgi?df=toku_rt_RTMcontest_rtmcontest.dat&amp;dd=B"
+alt="Count" height="20" width="90">
+-->
+</center>
+<hr><iframe src="../rtmcontest2007_files/menuitem.html" frameborder="0" width="140"></iframe>
+<hr>
+<center><font style="font-weight: bold;" size="-1"><a href="http://www.openrtm.org/rt/OpenRTM-aist/" target="_blank">RT
+ミドルウエアOpenRTM-aist</a></font><br>
+<font size="-1">のホームページへ</font><br>
+<hr><small>ホームページの管理者：<br>
+神徳徹雄<small> ( <a href="http://staff.aist.go.jp/t.kotoku/contact.html" target="_blank"><b>お問い合わせ</b></a> )</small>
+</small><br>
+</center>
+</div>
+<!-- menubox -->
+<div id="mainbox">
+<table bgcolor="#072441" width="100%">
+<tbody>
+<tr>
+<td><br>
+<b><big><big><big><font color="#ffffff">RT
+ミドルウエアコンテスト　2007<br>
+<small><small>http://www.openrtm.org/rt/RTMcontest/</small></small>&nbsp;</font></big></big></big></b></td>
+</tr>
+</tbody>
+</table>
+<hr><span style="font-weight: bold;"><a href="../">
+ホーム</a> ＞ 応募テーマ</span>
+<hr>
+<h2><b>応募テーマ： <small><small>&nbsp;[ <a>概要集</a>(no_pdf)，<a href="https://www.openrtm.org/rt/RTMcontest/2007/presentation.pdf">プレゼンテーション資料集</a>(pdf) ]</small></small></b></h2>
+誠に申し訳ありません。使い易く整備する予定ですが、年度末も近付き身動きが取れません。<br>
+とりあえず、参加者に応募いただいたそのままの形で<span style="font-weight: bold;">暫定
+的に</span>公開させていただきます。<br>
+それぞれの応募者の公開条件に従って活用いただき、技術的なフィードバックを共有いただければ幸いです。
+<dl>
+<dt style="font-weight: bold; color: rgb(51, 51, 255);"><big><a name="2007091701"></a>移
+動ロボット用の周辺ライブラリ　<small style="font-weight: normal; color: rgb(0, 0, 0);"><small>[2007091701]
+　</small></small></big></dt>
+<dd><span style="font-weight: bold;"> （個人参加）上村聡文<br>
+</span>[<a style="font-weight: bold;" href="2007091701.pdf">概
+要</a>]［<a target="_blank" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007091701p.pdf"><span style="font-weight: bold;">プレゼンテーション</span></a>］［<a style="font-weight: bold;" target="_blank" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007091701/">応募作品</a>］</dd>
+<dd><span style="font-weight: bold;"><br>
+</span><span style="color: rgb(255, 0, 0);">●</span>奨
+励賞（<a href="../award/">シグマ賞</a>、<a href="../award/">ベストコンセプト賞</a>）<br>
+移動ロボット「ビーゴ」に使うことを想定しつつ、可能な限り汎用的なミドルウェアの作成を行なう。
+主なライブラリとしては、<br>
+・走行制御<br>
+・測域センサ制御<br>
+・その他<br>
+などを想定している。</dd>
+<dd>&nbsp;</dd>
+<dd>＜審査委員のコメント＞<br>
+ソースコードはコメントも含めてかなりしっかり書かれている。
+autotoolsの使用、pimplイディオムの利用など、移植性、再利用性、拡張性、他の環境でのコンパイルのしやすさなどにも配慮され、
+再利用可能な部品としての価値は非常に高い。今回はURGコンポーネントのみの提供なのが残念である。システム全体の構想を評価
+するとともに、今後に期待したい。 <br>
+<br>
+</dd>
+<dt style="font-weight: bold; color: rgb(51, 51, 255);"><big><a name="2007092804"></a>屋
+外自律移動ロボットにおけるGPSコンポーネント<small style="font-weight: normal; color: rgb(0, 0, 0);"><small>
+[2007092804]　</small></small> </big></dt>
+<dd><span style="font-weight: bold;">芝浦工業大学
+ヒューマン・ロボット・インタラクション研究室（水川研究室） 佐藤大介・田中基雅<br>
+</span>[<a style="font-weight: bold;" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007092804.pdf">概
+要</a>]［<a href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007092804p.pdf"><span style="font-weight: bold;">プレゼンテーション</span></a>］［<a style="font-weight: bold;" target="_blank" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007092804/">応募作品</a>］</dd>
+<dd><br>
+<span style="color: rgb(255, 0, 0);">●</span>奨
+励賞（<a href="../award/#FHI">富士重工賞</a>、<a href="../award/#Kondo">近藤科学賞</a>）<br>
+本構想では，屋外での自律移動を行うことを想定しGPSコンポーネントを作成したので報告する．
+GPSコンポーネントは，GPSで受信したデータを入力しロボットが屋外で移動す
+るために必要な情報を出力し，屋外でのナビゲーションを容易にする．また，このコンポーネ
+ントはGPSの受信と処理を一つのコンポーネントとしないことでGPSから受信したデータをGPSコ
+ンポーネントの入力の構造にすることで様々なGPSの使用が可能となる．&nbsp;<br>
+<br>
+<span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;">new</span>
+ヒューマン・ロボット・インタラクション研究室のホームページにて
+（URL:<a target="_blank" href="http://www.hri.ee.shibaura-it.ac.jp/RTComponent.html">
+http://www.hri.ee.shibaura-it.ac.jp/RTComponent.html</a>）
+RTコンポーネントをダウンロードするページを開設しました．
+本研究室で発表しましたGPSナビゲーションコンポーネント（佐藤，田中）と
+CANコンポーネント（三浦）がダウンロード可能となっております．
+こちらでも随時，コンポーネントの更新を行っていく予定です． <br>
+<br>
+＜審査委員のコメント＞<br>
+コメント文等もしっかり記述してありソースコードは比較的きれいに書かれているが、
+メインのロジックが直接onExecuteに書かれている、グローバル変数が使われている等、
+ロジック部分の再利用性が低くなってしまっているのは残念。
+マニュアルは非常にわかりやすく丁寧に記述されている。
+コンポーネント自体は再利用しやすい単位でモジュール化されており評価できる。
+コンポーネントの名称についてはコンポーネントを利用するユーザの立場を考えて検討ください。<br>
+<br>
+</dd>
+<dt style="font-weight: bold; color: rgb(51, 51, 255);"><big><a name="2007092805"></a>分
+散制御ロボットにおけるCANコンポーネント<small style="font-weight: normal; color: rgb(0, 0, 0);"><small>
+[2007092805]　</small></small> </big></dt>
+<dd><span style="font-weight: bold;">芝浦工業大学
+ヒューマン・ロボット・インタラクション研究室（水川研究室） 三浦俊宏<br>
+</span>[<a style="font-weight: bold;" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007092805.pdf">概
+要</a>]［<a href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007092805p.pdf"><span style="font-weight: bold;">プレゼンテーション</span></a>］［<a style="font-weight: bold;" target="_blank" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007092805/">応募作品</a>]</dd>
+<dd><br>
+<span style="color: rgb(255, 0, 0);">●</span>奨
+励賞（<a href="../award/#KHI">Kawasaki Robot賞</a>）<br>
+本構想では，本研究室で研究開発を進めている分散制御ロボットで使用している体
+内ネットワークCANのコンポーネントを作成したので報告する．CANコンポーネントは各機能要
+素コンポーネントからのデータを入力することでCANバス上に接続された各デバイスとCAN通信
+を行い各デバイスの制御を行う．これにより，機能要素コンポーネントからのデータおよびCAN
+バス上に接続されたデバイスのデータを差異なく使用することが可能となる．&nbsp;<br>
+<br>
+<span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;">new</span>
+ヒューマン・ロボット・インタラクション研究室のホームページにて
+（URL:<a target="_blank" href="http://www.hri.ee.shibaura-it.ac.jp/RTComponent.html">
+http://www.hri.ee.shibaura-it.ac.jp/RTComponent.html</a>）
+RTコンポーネントをダウンロードするページを開設しました．
+本研究室で発表しましたGPSナビゲーションコンポーネント（佐藤，田中）と
+CANコンポーネント（三浦）がダウンロード可能となっております．
+こちらでも随時，コンポーネントの更新を行っていく予定です． <br>
+<br>
+＜審査委員のコメント＞<br>
+ソースコードは比較的きれいに書かれているが、メインのロジックが直接onExecuteに書かれている等、
+ロジック部分の再利用性が低くなってしまっている。
+マニュアルは非常にわかりやすく丁寧に記述されている。
+テスト用のコンポーネントも提供されている。
+開発したボードの実物を持参されていたのが素晴らしい。もっと積極的に宣伝されても良かったのでは？ <br>
+<br>
+</dd>
+<dt style="font-weight: bold; color: rgb(51, 51, 255);"><big><a name="2007092806"></a>ス
+クリプト言語によるRTコンポーネント用コネクタモジュール<small style="font-weight: normal; color: rgb(0, 0, 0);"><small>
+[2007092806]　</small></small> </big></dt>
+<dd><span style="font-weight: bold;">筑波大学大学院
+システム情報工学研究科 知能機能システム専攻 菅原隆行<br>
+</span>[<a style="font-weight: bold;" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007092806.pdf">概
+要</a>]［<a target="_blank" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007092806p.pdf"><span style="font-weight: bold;">プレゼンテーション</span></a>］［<a style="font-weight: bold;" target="_blank" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007092806/">応募作品</a>］</dd>
+<dd><br>
+<span style="color: rgb(255, 0, 0);">●</span>奨
+励賞（<a href="../award/#Mitsui">三井リース賞</a>）<br>
+OpenRTM-aistのサンプルSimpleIOでは，RTC-Linkを使用しないコンポーネント接続について示している．
+しかし，コンパイル言語での記述は，動的なコンポーネントの接続や，
+アクティビティの変更には適応しにくい．このような機能はコンポーネント開発において高頻度
+で行われることが想定されるため，ある程度の柔軟性が求められる．そこで，コンポーネント
+の接続，アクティビティの制御などを実現するRTコンポーネント用のコネクタモジュールとして、スクリプト
+言語による実装方法を提案する． <br>
+<br>
+＜審査委員のコメント＞<br>
+本作品はコンポーネントではなく、コンポーネントを使ったシステムを動作させる際に有用なツールであるという点は非常に面白く評価できる。
+マニュアルはサンプルの使い方のみ書かれているが、このようなツールの場合関数リファレンス的なものもあったほうが良い。
+英語版のマニュアルも用意されており、世界中の方に利用してもらいたいという意欲が良いと思います。 <br>
+<br>
+</dd>
+<dt style="font-weight: bold; color: rgb(51, 51, 255);"><big><a name="2007101907"></a>CLUEリーダコンポーネント<small style="font-weight: normal; color: rgb(0, 0, 0);"><small>
+[2007101907]&nbsp;</small></small> </big></dt>
+<dd><span style="font-weight: bold;">（個人参加）　</span><span style="color: rgb(153, 153, 153); font-weight: bold;"></span><span style="font-weight: bold;">大
+原賢一</span><br>
+[<a style="font-weight: bold;" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007101907.pdf">概
+要</a>]［<a target="_blank" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007101907p.pdf"><span style="font-weight: bold;">プレゼンテーション</span></a>］［<a target="_blank" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007101907/"><span style="font-weight: bold;">応募作品</span></a>］<br>
+<br>
+ロボットが作業をするためには、知識が必要である。
+近年こうした知識を環境に分散配置する研究がなされてきており、その中で、
+QRコードのような知識を保存できる媒体は重要な意味をもつ。
+本構想では、デンソーウェーブ社製QRコードリーダをRTコンポーネント化し、
+QRコードから得られる知識とQRコードの姿勢の情報を取得できるコンポーネントの設計指針と、
+具体的な利用方法について示す。 <br>
+<br>
+＜審査委員のコメント＞<br>
+ソースコードはメインロジック部分などを別クラスとするなど比較的しっかり書かれている。
+また、マニュアルに加え、シリアル通信クラスのリファレンスマニュアルもあり、
+再利用性を考慮している様子がうかがえる。
+ただし、メインロジックであるQD25クラスについてのクラスリファレンスがない、
+シリアルポートが固定であるなど再利用性が低くなってしまっている点が残念である。
+面白いデバイスをコンポーネント化して、誰でもすぐに使えるようにして紹介しているところを
+高く評価したい。 <br>
+<br>
+</dd>
+<dt style="font-weight: bold; color: rgb(51, 51, 255);"><big><a name="2007103108"></a>OpenCV
+を使った画像処理コンポーネントの作成例 <small style="font-weight: normal; color: rgb(0, 0, 0);"><small>[2007103108]
+　</small></small> </big></dt>
+<dd><span style="font-weight: bold;">大阪大学大学院基礎工学研究
+科新井研究室　田窪朋仁<br>
+</span>[<a href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007103108.pdf"><span style="font-weight: bold;">概要</span></a>]［<a href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007103108p.pdf"><span style="font-weight: bold;">プレゼンテー
+ション</span></a>］［<a style="font-weight: bold;" target="_blank" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007103108/">応募作品</a>］<br>
+<span style="color: rgb(255, 0, 0);"><br>
+●</span>奨
+励賞（<a href="../award/#AIST">知能モジュール賞</a>、<a href="../award/#JARA">日本ロボット工業会賞</a>）<br>
+
+研究室の技術の蓄積が進むと，新たにプログラムを学ぶ学生にとっては，共有しなくてはならない知識が膨大なものになっていく．
+ライブラリ化された有用な技術を容易に学生に使ってもらうためには，導入のしやすさが求められる．
+そこで，ＲＴミドルウェアによるグラフィカルなコンポーネント間の接続によるプログラムの構成を利用し，
+学生へのプログラム導入と画像処理の学習を兼ねて，OpenCVを使った画像処理コンポーネント群の作成例を示す．
+このようなツール群をそろえることで，RTミドルウェア構想で目指すRTシステムの簡易構築の足掛かりとなると考える． <br>
+<br>
+＜審査委員のコメント＞<br>
+13種類のコンポーネントがあり、画像処理の研究・実験をする上で非常に有用である。
+また、マニュアルもわかりやすく書かれており、ダウンロードしてすぐに試せるように配慮されている点が評価できる。
+残念なことに、内部のロジックはオブジェクト指向的に書かれておらず、グローバル変数を多用しているため、
+同一プロセスで同一種対の複数の起動することができないなどの問題が残っている。
+マニュアルがオンライン化されており、随時更新もされている。RTMの導入方法も記述されており、初心者にうれしい。
+教育現場へのＲＴミドルウエアの導入事例として高く評価したい。 <br>
+<br>
+</dd>
+<dt style="font-weight: bold; color: rgb(51, 51, 255);"><big><a name="2007103109"></a>VoiceCell<small style="font-weight: normal; color: rgb(0, 0, 0);"><small>
+[2007103109]　</small></small> </big></dt>
+<dd><span style="font-weight: bold;">（グループ参加）　MIKS</span><br>
+[<a href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007103109.pdf"><span style="font-weight: bold;">概要</span></a>]［プレゼンテー
+ション］［<a style="font-weight: bold;" target="_blank" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007103109/">応募作品</a>］<br>
+<br>
+RTモジュールの構成：<br>
+（１）音声入力コンポーネント：<br>
+　　PCのマイク入力を拾ってきて、RTCの出力として出す。<br>
+（２）音声出力コンポーネント：<br>
+　　RTCから入力したデータに基づいて、スピーカーに音を出す。<br>
+（３）ボイスチャットクライアント：<br>
+　　（１）と（２）のサンプルとして、（４）のサーバに接続し、他のクライアントと会話をする。<br>
+（４）ボイスチャットサーバ：<br>
+　　複数のクライアント（３）からの接続を受け付け、クライアント間の会話を可能にする。<br>
+<br>
+＜審査委員のコメント＞<br>
+VoiceInとVoiceOutとに分割した構成はコンポーネントの再利用性を考慮する上で評価できる。
+ただしVoiceServer、libsound.libが同封されていないので作品としては不完全である。
+また、再利用性を考慮する上では各コンポーネントのデータポートの仕様などの記述もマニュアルには必要であるが、
+そういったい記述がない点が残念である。
+成果発表会で実演にチャレンジしたことを高く評価したい。
+しかし、実演に際して途中休憩直後なのに準備に手間取っていたことが逆に印象を悪くしてしまったので残念。
+ビルドの手順の紹介など利用する立場でのマニュアルの充実を望みます。 <br>
+<br>
+</dd>
+<dt style="font-weight: bold; color: rgb(51, 51, 255);">
+<big><a name="2007110810"></a>複数CPUのための共有メモ
+リコンポーネント<small style="font-weight: normal; color: rgb(0, 0, 0);"><small>
+[2007110810]　</small></small> </big></dt>
+<dd><span style="font-weight: bold;">中央大学　國井研究室　小島隆
+史<br>
+</span>[<a style="font-weight: bold;" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007110810.pdf">概
+要</a>]［<a target="_blank" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007110810p.pdf"><span style="font-weight: bold;">プレゼンテーション</span></a>］［<a style="font-weight: bold;" target="_blank" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007110810/">応募作品</a>］<br>
+<br>
+<span style="color: rgb(255, 0, 0);">●</span>奨
+励賞（<a href="../award/#Tech-arts">コンポーネント指向設計賞</a>、<a href="../award/#Presentation">ベストプレゼンテーション賞</a>）<br>
+
+分散オブジェクトの考え方に基づき、複数のCPUによるシステム構築を行うと、
+高速なデータ共有方法である共有メモリが使用できない。
+そこで、共有メモリを擬似的に作成し、高速なデータ共有に対応させるコンポーネントを作成する。
+このコンポーネントは、要求があれば、動作コンポーネントのCPUに動的に共有メモリを確保し、
+他CPUにも同様な共有メモリを作成させる。それらを同期させることで、擬似的な共有メモリ機能を実現する。<br>
+<br>
+＜審査委員のコメント＞<br>
+この作品は、単なるコンポーネントにとどまらず、RTミドルウエアの標準的な機能としてぜひとも採用したい機能である。
+コンポーネント自体も、サービスポートやデータポートさらにはポートの動的な生成・削除機能など、
+現状のOpenRTM-aistの機能をフルに使いセマフォ付きの分散共有メモリを実現している。
+また、マニュアルに関してもメインのロジックであるSharedMemoryManagerのクラスリファレンスも添付されている等
+再利用性が高い作品である。
+VirtualH8コンポーネントが用意されており、実デバイスがなくとも試すことができるように配慮されている。
+RTコンポーネントとGUIとの融合に関しても配慮されている。サンプルの解説も加えて欲しいところ。
+研究室の残りの2つのプレゼンテーションも代理発表され、奮闘されているところを評価する。 <br>
+<br>
+</dd>
+<dt style="font-weight: bold; color: rgb(51, 51, 255);"><big><a name="2007111011"></a>GUIを用いたＵＳＢカメラとＵＲＧの制御モジュール<small style="font-weight: normal; color: rgb(0, 0, 0);"><small>[2007111011]
+　</small></small> </big></dt>
+<dd><span style="font-weight: bold;">中央大学 國井研究室</span><span style="color: rgb(192, 192, 192); font-weight: bold;"></span><span style="font-weight: bold;">　賀田寛夫<br>
+</span>[<a style="font-weight: bold;" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007111011.pdf">概
+要</a>]［プレゼンテーション］［<a style="font-weight: bold;" target="_blank" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007111011/">応募作品</a>］<br>
+<br>
+GUIから指示をセンサモジュール（レーザレンジファインダ、USBカメラ）に送り、
+それらのセンサが得た情報をGUIから見れるようにするもの。<br>
+<br>
+＜審査委員のコメント＞<br>
+マニュアルの記述が少なく、データポート等の仕様の記述がないなど、マニュアルとして不十分である。
+ソースコードに関しても、メインのロジックがクラス化されておらず、
+再利用性も低くなってしまっているのが残念である。
+コンポーネント化している対象は汎用性のあるものであり、今後に期待したい。 <br>
+<br>
+</dd>
+<dt style="font-weight: bold; color: rgb(51, 51, 255);">
+<big><a name="2007111012"></a>GPSを用いた誘導システム<small style="font-weight: normal; color: rgb(0, 0, 0);"><small>
+[2007111012]　</small></small> </big></dt>
+<dd><span style="font-weight: bold;">中央大学　理工学部　電気電
+子情報通信工学科　國井研究室<br>
+</span><span style="color: rgb(192, 192, 192); font-weight: bold;"></span>[<a href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007111012.pdf"><span style="font-weight: bold;">概要</span></a>]［プレゼンテー
+ション］［<a style="font-weight: bold;" target="_blank" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007111012/">応募作品</a>］<br>
+<span style="font-weight: bold;"></span><br>
+ＧＰＳで位置情報を取得し、目標位置までの距離と方向の情報をGUIを用いて提供するRTコンポーネント <br>
+<br>
+＜審査委員のコメント＞<br>
+マニュアルはもう少し詳細に記述してほしかった。メインのロジック部分がクラス化されておらず、
+onXXX()に直接ロジックの大半が記述されているのと、グローバル変数を多用しているため、
+再利用性が低くなってしまっているのが残念である。ソースコードのコメントが適切できれいである。
+GPSとのパラメータ（ボーレートなど）は、コンフィギュレーションを使うとよい。 <br>
+<br>
+</dd>
+<dt style="font-weight: bold; color: rgb(51, 51, 255);">
+<big><a name="2007111013"></a>分散レーザレンジファインダ
+のキャリブレーション支援<small style="font-weight: normal; color: rgb(0, 0, 0);"><small>
+[2007111013]　</small></small> </big></dt>
+<dd><span style="font-weight: bold;">東京大学
+生産技術研究所橋本研究室 佐々木毅<br>
+</span>[<span style="font-weight: bold;"><a href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007111013.pdf"><span style="font-weight: bold;">概要</span></a></span>]
+［<span style="font-weight: bold;"><a href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007111013p.pdf">プレゼンテー
+ショ</a><a href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007111013p.pdf">ン</a></span>］
+［<a style="font-weight: bold;" target="_blank" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007111013/">応募作品</a>]<span style="font-weight: bold;"><br>
+<br>
+</span><span style="color: rgb(255, 0, 0);">●</span><a href="../award/#SICE">計測自動制御学会ＲＴミドルウエア賞</a></dd>
+<dd><span style="color: rgb(255, 0, 0);">●</span>奨
+励賞（<a href="../award/#Hokuyo">ＵＲＧ賞</a>）<br>
+近年、環境に配置されたセンサによる空間観測が盛んに行われており、
+中でもレーザ レンジファインダ(LRF)は精度の高さと低価格化により主要なセンサの1つとして期待されている。
+しかし、多数のセンサを用いる場合には、如何にキャリブレーションを行うのかが問題となる。
+そこで、LRFから得られる物体のセンサ座標系での位置とその物体の基準座標系での位置の対応から
+それらの位置・姿勢の獲得を行うコンポーネントを開発する。 <br>
+<br>
+＜審査委員のコメント＞<br>
+URGセンサーのメインのロジックがクラス化されており、サービスポートも利用したコンポーネントとなっているため、
+再利用性は高い。また、作品全体で一つのアプリケーションとしてもほぼ完成されており、有用性も高い。
+マニュアルについても、操作方法だけでなく、データポートの仕様なども詳細に記述されており、
+再利用するユーザの立場に立って書かれている。コメントや例外処理(エラーの場合はRTC_ERRORを返す)など
+しっかり記述されたソースコードである。<br>
+北陽電機さんからもURGセンサのサンプルコード公開を成果発表会の場でご了承いただいたので、それを
+含めたソースコードの公開をお願いいたします。<br>
+<br>
+</dd>
+<dt style="font-weight: bold; color: rgb(51, 51, 255);">
+<big><a name="2007112014"></a>ＣＡＮコネクタ<small style="font-weight: normal; color: rgb(0, 0, 0);"><small>
+[2007112014]　</small></small> </big></dt>
+<dd><span style="font-weight: bold;">大道研究室　福森聡哲<br>
+</span>[<a href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007112014.pdf"><span style="font-weight: bold;">概要</span></a>]［<a style="font-weight: bold;" target="_blank" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007112014p.pdf">プレゼンテー
+ション</a>］［<a target="_blank" href="https://www.openrtm.org/rt/RTMcontest/2007/documents/2007112014/"><span style="font-weight: bold;">応募作品</span></a><span style="font-weight: bold;"></span>］<br>
+<br>
+CANコネクタは、機能をモジュール化することによって種々のセンサをCANネットワークに簡易に接続することができるコネクタである。
+また、CANを用いることによってPC等への接続を省配線化・分散制御を行うことができる。
+なお，対応モジュールはRTコンポーネントのI/O形式に準拠する。<br>
+<br>
+＜審査委員のコメント＞<br>
+ハードウエアまで含めたチャレンジングな提案として評価いたします。
+将来的に、RTコンポーネントとして相互運用性を持たせることができることを期待します。 <br>
+</dd>
+</dl>
+</div>
+</div>
+<!-- mybody -->
+<div id="footerbox">
+<hr size="2" width="100%">
+<address><big>&nbsp; &#169;
+Copyright&nbsp;2007-2008 <a target="_blank" href="http://staff.aist.go.jp/t.kotoku/">神徳徹雄</a>&nbsp;
+産業技術総合研究所<br>
+</big></address>
+</div>
+<!-- footerbox -->
+</body></html>

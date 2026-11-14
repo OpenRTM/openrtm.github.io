@@ -1,0 +1,61 @@
+{% if page.swiper_images and page.swiper_images.size > 0 %}
+<div class="top-swiper swiper">
+  <div class="swiper-wrapper">
+
+    {% for item in page.swiper_images %}
+      <div class="swiper-slide">
+
+        <div
+          class="slide-blur-bg"
+          style="background-image: url('{{ item.src | relative_url }}');">
+        </div>
+
+        {% if item.link %}
+          <a href="{{ item.link | relative_url }}" class="slide-link">
+            <img
+              src="{{ item.src | relative_url }}"
+              alt="{{ item.alt }}">
+          </a>
+        {% else %}
+          <div class="slide-image-wrap">
+            <img
+              src="{{ item.src | relative_url }}"
+              alt="{{ item.alt }}">
+          </div>
+        {% endif %}
+
+      </div>
+    {% endfor %}
+
+  </div>
+
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-pagination"></div>
+</div>
+{% endif %}
+
+<!-- 
+{% if page.swiper_images and page.swiper_images.size > 0 %}
+<div class="top-swiper swiper">
+  <div class="swiper-wrapper">
+	  {% for item in page.swiper_images %}
+	    <div class="swiper-slide">
+		<div class="slide-blur-bg" style="background-image: url('{{ slide.image | relative_url }}');"></div>
+	      {% if item.link %}
+	        <a href="{{ item.link | relative_url }}">
+	          <img src="{{ item.src | relative_url }}" alt="{{ item.alt }}">
+	        </a>
+	      {% else %}
+	        <img src="{{ item.src | relative_url }}" alt="{{ item.alt }}">
+	      {% endif %}
+	    </div>
+	  {% endfor %}
+  </div>
+
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-pagination"></div>
+</div>
+{% endif %}
+-->

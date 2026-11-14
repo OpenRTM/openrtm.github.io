@@ -1,0 +1,72 @@
+# header links
+header:
+  - title: "ホーム"
+    url: "/ja/"
+  - title: "ダウンロード"
+    url: "/ja/download/"
+  - title: "ドキュメント"
+    url: "/ja/doc/"
+    children:
+      - title: "OpenRTM-aistとは？"
+        url: "/ja/doc/aboutopenrtm/rtmiddleware/"
+      - title: "インストール"
+        url: "/ja/doc/installation/"
+      - title: "ツール"
+        url: "/ja/doc/toolmanuals/"
+      - title: "デベロッパーズガイド"
+        url: "/ja/doc/developersguide/"
+      - title: "クラスリファレンス"
+        url: "/ja/doc/openrtm-aist_class_reference/"
+      - title: "ケーススタディ"
+        url: "/ja/doc/casestudy/"
+      - title: "CORBA"
+        url: "/ja/doc/corba/"
+      - title: "よくある質問"
+        url: "/ja/doc/faq/"
+      - title: "過去文書"
+        url: "/ja/doc/old_documents/"
+  - title: "コミュニティ"
+    url: "/ja/community/"
+    children:
+      - title: "講習会"
+        url: "/ja/tutorials/"
+        description: "講習会"
+      - title: "イベント"
+        url: "/ja/content/content/"
+        description: "イベント"
+  - title: "研究開発"
+    url: "/ja/doc/aboutopenrtm/researchanddevel"
+  - title: "プレス"
+    url: "/ja/publication"
+  - title: "プロジェクト"
+    url: "/ja/project/"
+  - title: "ハードウエア"
+    url: "/ja/hardware/"
+
+# footer links
+footer:
+  - owner: "OpenRTM-aist"
+    url: # link if any
+    description: # tool tip for your url
+    bio: "I am awesome" # short bio
+    address: # location
+  - social:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: # github link
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: # linkedin profile link
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: # twitter profile link
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: # instagram profile link
+  - feed:
+    - label: "Sitemap"
+      icon: "fas fa-sitemap"
+      url: "/sitemap.xml"
+    - label: "RSS"
+      icon: "fas fa-fw fa-rss-square"
+      url: "/feed.xml"

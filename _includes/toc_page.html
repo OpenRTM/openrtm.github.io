@@ -1,0 +1,125 @@
+{% if page.toc != false %}
+
+  {% assign levels = page.toc_levels | default: "h2,h3" | split: "," %}
+  {% assign heading_parts = include.content | split: "<h" %}
+
+  {% assign has_items = false %}
+
+  {% comment %}
+    現在処理中の h2 を保持する変数
+  {% endcomment %}
+  {% assign current_h2_text = "" %}
+  {% assign current_h2_id = "" %}
+  {% assign current_h2_children = "" %}
+
+  {% capture toc_items %}
+
+    {% for part in heading_parts offset:1 %}
+      {% assign level_num = part | slice: 0, 1 %}
+      {% assign heading_level = "h" | append: level_num %}
+
+      {% assign tag_chunks = part | split: ">" %}
+      {% assign open_tag = tag_chunks[0] %}
+      {% assign heading_html = tag_chunks[1] %}
+      {% assign closing_tag = "</" | append: heading_level | append: ">" %}
+      {% assign heading_text = heading_html | split: closing_tag | first | strip_html | strip %}
+
+      {% assign anchor_id = "" %}
+      {% if open_tag contains 'id="' %}
+        {% assign id_parts = open_tag | split: 'id="' %}
+        {% assign id_tail = id_parts[1] | split: '"' %}
+        {% assign anchor_id = id_tail[0] %}
+      {% endif %}
+
+      {% if anchor_id == "" %}
+        {% assign anchor_id = heading_text | slugify %}
+      {% endif %}
+
+      {% comment %}
+        h2 の処理
+      {% endcomment %}
+      {% if heading_level == "h2" and levels contains "h2" %}
+
+        {% comment %}
+          すでに前の h2 があれば、ここで出力する
+        {% endcomment %}
+        {% if current_h2_text != "" %}
+          {% assign has_items = true %}
+          <li class="toc-item toc-h2">
+            {% if current_h2_children != "" %}
+              <details open>
+                <summary><a href="#{{ current_h2_id }}">{{ current_h2_text }}</a></summary>
+		<ul>{{ current_h2_children }}</ul>
+              </details>
+            {% else %}
+              <a href="#{{ current_h2_id }}">{{ current_h2_text }}</a>
+            {% endif %}
+          </li>
+        {% endif %}
+
+        {% comment %}
+          新しい h2 を現在の親として保存
+        {% endcomment %}
+        {% assign current_h2_text = heading_text %}
+        {% assign current_h2_id = anchor_id %}
+        {% assign current_h2_children = "" %}
+      {% endif %}
+
+      {% comment %}
+        h3 の処理
+      {% endcomment %}
+      {% if heading_level == "h3" and levels contains "h3" %}
+        {% if current_h2_text != "" %}
+          {% capture new_child %}
+<li class="toc-item toc-h3">
+  <a href="#{{ anchor_id }}">{{ heading_text }}</a>
+</li>
+          {% endcapture %}
+          {% assign current_h2_children = current_h2_children | append: new_child %}
+        {% else %}
+          {% comment %}
+            h2 が無いまま h3 が来たときは単独出力
+          {% endcomment %}
+          {% assign has_items = true %}
+          <li class="toc-item toc-h3">
+            <a href="#{{ anchor_id }}">{{ heading_text }}</a>
+          </li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% comment %}
+      ループ終了後、最後の h2 を出力
+    {% endcomment %}
+    {% if current_h2_text != "" %}
+      {% assign has_items = true %}
+      <li class="toc-item toc-h2">
+        {% if current_h2_children != "" %}
+          <details open>
+            <summary>
+              <a href="#{{ current_h2_id }}">{{ current_h2_text }}</a>
+            </summary>
+            <ul>
+              {{ current_h2_children }}
+            </ul>
+          </details>
+        {% else %}
+          <a href="#{{ current_h2_id }}">{{ current_h2_text }}</a>
+        {% endif %}
+      </li>
+    {% endif %}
+
+  {% endcapture %}
+
+  {% if has_items %}
+  <nav class="page-toc" aria-label="目次">
+    <div class="page-toc-title">Contents</div>
+    <ul class="page-toc-list">
+      {{ toc_items }}
+    </ul>
+  </nav>
+  <div><a href=""></a></div> <!-- やっつけ。これを無効にするとcontentsの直下の文章がlinkになります -->
+  {% endif %}
+
+{% endif %}
+

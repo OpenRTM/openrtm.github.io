@@ -1,0 +1,400 @@
+---
+layout: page
+title: rtミドルウェアコンテスト2019
+---
+No English version available.
+<div align="left"><img src="contest2019_title.png" width="80%;" align="center"></div>
+
+<br>
+
+RTMコンテスト2019 受賞者が決定しました！！詳細は[[こちら:#program]]。
+
+<br>
+
+<div align="center"><a href="#overview"><img src="../images/contest2013_overview.png" width="10%;"></a>
+<a href="#program"><img src="../images/contest2013_program.png" width="10%;"></a>
+<a href="/contests/2019"><img src="../images/contest2013_worklist.png" width="10%;"></a>
+<a href="#evaluation"><img src="../images/contest2013_evaluation.png" width="10%;"></a></div>
+<div align="center"><a href="#award"><img src="../images/contest2013_award.png" width="10%;"></a>
+<a href="#pastwork"><img src="../images/contest2013_pastworks.png" width="10%;"></a>
+<a href="#registration"><img src="../images/contest2013_registration.png" width="10%;"></a>
+<a href="#contact"><img src="../images/contest2013_contactpng.png" width="10%;"></a></div>
+
+<br>
+
+#contents
+
+いつも、RTミドルウエアへの技術フィードバックをいただき、ありがとうございます。ロボット技術のモジュール化の普及企画として、コミュニティの醸成を期待してRTミドルウエアコンテストを実施させていただいております。 今年も皆さんのご支援とご協力をいただきながら開催させていただくよう準備を進めておりますので、ソースコードを公開して技術の蓄積を図る試みに積極的にエントリいただくようお願い申し上げます。
+
+## 最新情報
+<!-- - コンテストの日程が確定いたしました。(2017.07.28) -->
+- Webページをオープンいたしました。(2019.06.11)
+<!-- - 応募手順を掲載しました。(2017.MM.DD) -->
+- エントリーは締め切りとなりました．多数のご応募ありがとうございました。(2019.08.16)
+<!-- -コンテスト作品の登録方法について掲載しました(2017.MM.DD) -->
+<!-- -コンテスト応募の皆様には個別で連絡申し上げましたが、''&color(red){コンテスト作品のページ登録締め切り日は10月31日まです．};''期限内での登録をお願い申し上げます．(2017.MM.DD) -->
+- コンテストの作品一覧とプレゼンテーションのプログラムを掲載しました。(2017.MM.DD)
+- RTコンテスト2019成果発表会を盛況に開催することができました。審査結果は[[プログラム>#program]]をご覧下さい。(2019.12.12)
+
+<!-- ------------------------------------------------------------- -->
+&aname(overview){};
+## 開催案内 
+
+### 趣旨
+
+RTミドルウエアは、ロボットを構成する様々な要素をモジュール化し、容易に組み合わせることができるようにするソフトウエア基盤としてのロボット用ミドルウエアです。モジュール化技術は、他の研究者などが開発した様々なアルゴリズムやセンサモジュールを統合してシステムを構築するのに適した技術です。しかし、その普及には便利なモジュールが提供されていることが不可欠であり、必要な部品が揃っていないと、開発者にはRTミドルウエアに対応する手間が増えるだけで、導入に躊躇することになります。
+
+現在、RTミドルウエアのフレームワークとなるコンポーネントモデルはソフトウエアの国際標準化団体であるOMGに おいて標準仕様として採用された状況で、ロボット技術を国際的にリードするためにも国内での普及が不可欠です。そこで、ロボット技術の共有と蓄積を図るために、有益なコンポーネントを充実させるべく本コンテストを開催することにしました。また、このコンテストを通して、これからのロボットソフトウエア開発者に不可欠なRTミドルウエアに精通する技術者も育成できるものと期待しています。
+
+### 開催概要
+
+[計測自動制御学会(SICE)](http://www.sice.org)のシステムインテグレーション部門講演会 (SI2019) の特別セッションとしての開催を予定しております。詳細が決まり次第こちらのページでご案内いたします。
+
+
+- 日時: 2019年 12月 12日（木）12:30-16:00
+- 場所: サンポート高松、タワー棟5F、F室（BBスクエア）
+  - [アクセス](https://sice-si.org/conf/si2019/access.html)
+- 申込締切: 2019年 8月16日（金）
+- 原稿〆切: 2019年 9月24日（火）
+- 参加者：約70名
+
+### 募集作品
+
+本年度も、昨年に引き続き、システム構築に便利なソフトウェアライブラリやハードウェア要素の部品化（RTコンポーネント化）、RTミドルウエア技術を利用した開発ツールを対象とするとともに、既開発の部品（RTコンポーネント）を組み合わせたシステムによるロボットサービスの実現も募集対象とします。
+
+### 応募資格
+
+制限はありません。高専・大学等の学生や教員、企業・公設研等の技術者・研究者、個人の趣味で取り組まれている方、どなたでも結構です。
+
+コンテストの趣旨の普及を図る点から、ソースコード（システム構成情報を含む）の公開をあらかじめご承諾ください。ソフトウエアの著作権に関しては著者が責任を持つと共に、**利用者のためにライセンスを明示**いただくようお願い致します（制約がある場合を除いて、BSDやLGPL等のよく使われているオープンソースライセンスをお勧めします）。 市販製品や他のオープンソースなどのライブラリを利用する場合は、それを明示するとともに利用者にその入手先が分かるようにしてください。知財権などの問題がありますので、学生さんは**指導教員を共著者に加えて、事前に参加許可**を得てからお申し込みください。
+
+
+### 主催・協賛
+- [共同主催]　[日本ロボット工業会](http://www.jara.jp/)
+- [共同共催］ [公益社団法人 計測自動制御学会](http://www.sice.jp/) [システムインテグレーション部門](http://www.sice-si.org)
+- [共同共催］ [国立研究開発法人産業技術総合研究所](http://www.aist.go.jp/) [ロボットイノベーション研究センター](https://unit.aist.go.jp/rirc/)
+- [協賛］ 奨励賞を提供いただく団体、個人など　(協賛賞募集中)
+<!-- （詳細は''[[表彰(協賛)ページ>http://www.openrtm.org/openrtm/ja/node/5406/]]''参照） -->
+
+### 実行委員会
+- 実行委員長　：大原賢一 (名城大学）
+- 実行副委員長：塩沢恵子（(株)アドイン研究所）
+- 実行副委員長：末廣尚士（国立大学法人 電気通信大学）
+- 審査委員長　：原功（国立研究開発法人 産業技術総合研究所）
+- 広報委員長　：安藤慶昭（国立研究開発法人 産業技術総合研究所）
+
+&aname(program){};
+## プログラム
+
+<table class="table-alt">
+  <tr>
+    <td>></td>
+    <td>第F室　第2スロット<br>司会：</td>
+    <td>著者</td>
+    <td>受賞情報</td>
+  </tr>
+  <tr>
+    <td>番号</td>
+    <td>タイトル</td>
+    <td>所属・氏名</td>
+    <td>受賞情報</td>
+  </tr>
+  <tr>
+    <td>12:30-14:30頃</td>
+    <td>></td>
+    <td>></td>
+    <td>発表</td>
+  </tr>
+  <tr>
+    <td>12:30-12:40</td>
+    <td><a href="/ja/node/6902">ゴミ捨て動作により映像が変化するディスプレイ付きゴミ箱の開発</a>(No corresponding English project page available.)</td>
+    <td>芝浦工業大学附属高校 久保田 浩平</td>
+    <td>アドイン賞</td>
+  </tr>
+  <tr>
+    <td>12:40-12:50</td>
+    <td><a href="/ja/node/6906">ロボット人材育成を目的とした実践的ロボットプログラミング教材の開発</a>(No corresponding English project page available.)</td>
+    <td>会津大学 中村 啓太</td>
+    <td>ベストサポート賞, 日本ロボット工業会賞​</td>
+  </tr>
+  <tr>
+    <td>12:50-13:00</td>
+    <td><a href="/ja/node/6892">圧力計測と音声出力を組み合わせた生活を彩るアプリケーション群の開発</a>(No corresponding English project page available.)</td>
+    <td>芝浦工業大学附属高等学校 玉置 晴太</td>
+    <td>RTミドルウェア普及しま賞</td>
+  </tr>
+  <tr>
+    <td>13:00-13:10</td>
+    <td><a href="/ja/node/6908">歩行時特徴抽出RTCを用いた人物追従ロボットの追従精度の向上</a>(No corresponding English project page available.)</td>
+    <td>芝浦工業大学 浅田 郁弥</td>
+    <td>サマーキャンプ賞</td>
+  </tr>
+  <tr>
+    <td>13:10-13:20</td>
+    <td><a href="/ja/node/6907">ヒューマノイドロボットによる高齢者のためのトレーニングガイドRTC</a>(No corresponding English project page available.)</td>
+    <td>芝浦工業大学 新田 怜香</td>
+    <td>Cooperative Intelligence賞, 女流RTコンポーネント賞​</td>
+  </tr>
+  <tr>
+    <td>13:20-13:30</td>
+    <td><a href="/ja/node/6909">ROSで動作するロボットをクラウドで管理し任意のノードを実行可能なWebシステムの開発と応用</a>(No corresponding English project page available.)</td>
+    <td>明治大学 末永 良太</td>
+    <td>RTミドルウェア技術開発賞</td>
+  </tr>
+  <tr>
+    <td>13:30-13:40</td>
+    <td><a href="/ja/node/6917">サービスロボットによるプレゼンテーション代行</a>(No corresponding English project page available.)</td>
+    <td>名城大学大学院 辻 大靖</td>
+    <td>**<span style="color:red;">計測自動制御学会学会​RTミドルウェア賞</span>;**, システムズエンジニアリング賞​, パナソニック アドバンスト​テクノロジー 株式会社賞​</td>
+  </tr>
+  <tr>
+    <td>13:40-13:50</td>
+    <td><a href="/ja/node/6919">触覚と3次元視覚を備えたロボットアームのためのプログラミング教材</a>(No corresponding English project page available.)</td>
+    <td>大阪電気通信大学 澤﨑 悠太</td>
+    <td>ダイナミクセル トライアル賞, グローバルアシスト賞</td>
+  </tr>
+  <tr>
+    <td>13:50-14:00</td>
+    <td><a href="/ja/node/6918">3次元での自己位置同定のためのRTコンポーネント</a>(No corresponding English project page available.)</td>
+    <td>名城大学 岩井 舞香</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>14:00-14:10</td>
+    <td><a href="/ja/node/6920">把持対象物の三次元物体認識コンポーネント群の開発</a>(No corresponding English project page available.)</td>
+    <td>名城大学 深尾 真行</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>14:10-14:20</td>
+    <td><a href="/ja/node/6916">Kubernetes を利用した RTC 開発フレームワーク</a>(No corresponding English project page available.)</td>
+    <td>産総研 黒瀬 竜一</td>
+    <td>SUGAR SWEET ROBOTICS賞, 便利ツール賞, 世界一リッチな​RTコンポーネント賞</td>
+  </tr>
+  <tr>
+    <td>14:30-15:30頃</td>
+    <td>></td>
+    <td>></td>
+    <td>審査委員会</td>
+  </tr>
+  <tr>
+    <td>15:30-15:55</td>
+    <td>></td>
+    <td>></td>
+    <td>表彰式</td>
+  </tr>
+</table>
+
+
+<!-- | 12:30-12:40 | ゴミ捨て動作により映像が変化するディスプレイ付きゴミ箱の開発 | 芝浦工業大学附属高校 久保田 浩平 | | -->
+<!-- | 12:40-12:50 | ロボット人材育成を目的とした実践的ロボットプログラミング教材の開発 | 会津大学 中村 啓太 | | -->
+<!-- | 12:50-13:00 | 圧力計測と音声出力を組み合わせた生活を彩るアプリケーション群の開発 | 芝浦工業大学附属高等学校 玉置 晴太 | | -->
+<!-- | 13:00-13:10 | 歩行時特徴抽出RTCを用いた人物追従ロボットの追従精度の向上 | 芝浦工業大学 浅田 郁弥 | | -->
+<!-- | 13:10-13:20 | ヒューマノイドロボットによる高齢者のためのトレーニングガイドRTC | 芝浦工業大学 新田 怜香 | | -->
+<!-- | 13:20-13:30 | 深層強化学習に基づく移動ロボットの実環境での自律走行が可能になるWebベース教育システムの開発 | 明治大学 末永 良太 | | -->
+<!-- | 13:30-13:40 | サービスロボットによるプレゼンテーション代行 | 名城大学大学院 辻 大靖 | | -->
+<!-- | 13:40-13:50 | 触覚と3次元視覚を備えたロボットアームのためのプログラミング教材 | 大阪電気通信大学 澤﨑 悠太 | | -->
+<!-- | 13:50-14:00 | 3次元での自己位置同定のためのRTコンポーネント | 名城大学 岩井 舞香 | | -->
+<!-- | 14:00-14:10 | 把持対象物の三次元物体認識コンポーネント群の開発 | 名城大学 深尾 真行 | | -->
+<!-- | 14:10-14:20 | Kubernetes を利用した RTC 開発フレームワーク | 産総研 黒瀬 竜一 | | -->
+
+&aname(evaluation){};
+## 作品を評価する 
+
+RTミドルウエアコンテストは、コミュニティの皆で作り上げるイベントです。作品を応募するのもひとつの貢献方法ですが、応募された作品を評価して技術フィードバックをすることや、協賛として課題を設定した奨励賞を提供することなど、皆さんのご協力をお待ちしております。
+
+### 作品へコメントする
+応募作品が集まりましたら、本Webサイト上で掲示いたします。
+
+応募作品を実際に動かしてみるなどして試していただき、どのような環境で動作したか/しなかったか、バグやその修正のためのパッチ情報、作品に対するコメントや感想を作品のプロジェクトページに書き込み、作者にフィードバックすることが出来ます。
+これらのフィードバックを元に応募者が改良を加え、SI2019でのプレゼンテーションまでに、より良い作品になるようご協力ください。
+- [コメントの書き方ガイド]({{ site.baseurl }}/en/content/content/rtmcontest_commentguide)
+<!--  -->
+<!-- - [[コンテスト作品一覧へ（ただいま準備中です）]] -->
+- [コンテスト作品一覧へ](/contests/2019)(No corresponding English project page available.)
+
+### 奨励賞を提供する
+
+趣旨に賛同いただく企業（一口 2万円）、個人（一口 1万円）の協賛金で、どのような作品を期待しているかを指定した奨励賞を提供することができます。また、副賞として自社製品を提供する特別協賛や賞品協賛にもご協力ください。製品の宣伝とともに、その製品を使用したRTコンポーネントを募集するといった双方にメリットのある奨励賞に出来ればと考えています。奨励賞に関するお問い合わせは当ページ一番下に記載しました、日本ロボット工業会事務局でお願い申し上げます。
+
+<!-- 詳細は準備中です。 -->
+
+お申し込みは、奨励賞申し込み書の送付または以下のオンラインフォーム、いずれからでも結構です。
+
+- 冠賞スポンサー依頼・奨励賞申し込み書: (no_link)
+<!-- div align="center"><a href="RTMContestSponsorForm2019.doc"><img src="RTMContestSponsorForm2019.doc" width="60%;"></a></div>;-->
+- [奨励賞登録フォーム](https://forms.gle/8mFStkjKRPswdZ8i6)(googleフォームに移動します)
+<!-- -- ※当webサイトにてユーザログインしないと入力フォームが表示されませんので、ユーザ登録がまだの方は当Webページのユーザ登録をお願いします。[[ユーザ登録はこちら>http://openrtm.org/openrtm/ja/user/register]] -->
+
+&aname(award){};
+## 表彰 
+
+ロボット技術の蓄積と共有を促進することを狙って、優れた開発成果を表彰いたします。 
+
+- 最優秀賞（学会賞) : 1件、副賞10万円
+- 奨励賞（賞品協賛）: 若干、製品提供
+- 奨励賞 (団体協賛) : 若干、副賞２万円
+- 奨励賞 (個人協賛) : 若干、副賞１万円
+
+総合評価として一番優秀な成果に対して、最優秀賞として「計測自動制御学会RTミドルウエア賞」を、 また、それぞれのスポンサーの視点から魅力的な開発成果に対して奨励賞を表彰いたします。多くの支持を集めた魅力的な作品ほど数多く奨励賞を獲得する、一種の投票システムになっています。
+
+- [奨励賞一覧](../rtmcontest2019-award)
+
+
+
+### 主なスケジュール
+- **7月29日～8月2日**: RTミドルウエアサマーキャンプ
+- **8月16日（金）**: エントリ〆切　（SI2019講演申込み〆切）
+- **9月24日（火）**: 原稿〆切（SI2019原稿〆切）
+- **10月中旬頃**: ホームページにてソフトウエア登録開始（一般ユーザへの公開開始）
+<!-- - ''10月31日'': 作品登録締め切り -->
+<!-- - ''11月下旬～12月12日'': オンライン評価期間 (一般ユーザによるオンライン評価期間) -->
+- **11月下旬～**: オンライン評価期間 (一般ユーザによるオンライン評価期間)
+- **12月12日**: SI2019会場にて、プレゼンテーションと表彰者発表　
+- **12月13日**: SI2019授賞式にて最優秀者表彰
+
+### 応募手順
+
+- [SI2019への発表申込](https://sice-si.org/conf/si2019/)
+<!-- https://ssl.si-sice.org/si2017/sys/reg_login.html -->
+申込セッションとして「特別OS：RTミドルウエアコンテスト2019」、講演の種類として「一般講演」をそれぞれ選択し、講演題目のところに開発したRTコンポーネントや関連技術の名称を、著者のところに開発者の情報をそれぞれ記入お願いいたします。学生さんがエントリする場合は**事前に指導教員の了承**を得るとともに、指導教員を共著者として登録いただくようお願いいたします。~
+※申し込み締切日が決まってますので、**エントリー登録を決意した方はSI2019の講演申し込みを先に進めてください**。
+
+- [SI2019への予稿原稿の投稿](https://sice-si.org/conf/si2019/)（9月24日締切）~ 
+投稿規定に従って、講演予稿集のための2～6ページの原稿を作成し、投稿ください。
+- [SI2019への参加登録](https://sice-si.org/conf/si2019/) ~
+事前参加登録の〆切りまでに参加登録を行い、参加費支払手続きをしていただくとお得です。
+- Githubサイトへの作品登録**(10月31日)**
+  - ソースコード
+  - マニュアル
+  - 概要説明のスライド
+  - 作品紹介の動画等
+
+が必要となります。特に、SI2019への参加には参加登録料が必要となりますことを予めご了承ください。また、SI2019の会場にてプレゼンテーションを行うことが求められます。
+SI2019の申込方法、申込および原稿〆切および具体的な開催日時やプログラムは [SI2019のホームページ](https://sice-si.org/conf/si2019/) にてご確認下さい。
+
+<!-- - 概要説明のスライドダウンロード &ref(RTMContestCatalog2013.ppt); -->
+
+### OpenRTM-aist Webサイトへの作品の登録
+発表する作品は、
+
+- github等の上に登録し以下の要件を満たすこと。(URLを rtm-contest@aist.go.jp へお知らせください。)
+- 作品を紹介するページを作成すること。 (github では MarkdownでWebページを作成することができます。 参考：[昨年優勝者のページ](https://github.com/Nobu19800/RTM-Lua)、 [プロジェクトのドキュメント①](https://github.com/Nobu19800/RTM-Lua/blob/master/README.md)、 [プロジェクトのドキュメント②](https://nobu19800.github.io/RTM-Lua/docs/)）
+ソースコードをオープンにすること。
+- 分かりやすいマニュアルを添付し、できるだけ第三者が結果を再現できるようにすること。
+- 参考にしたRTコンポーネントやソースコードがある場合は、マニュアル・論文中で出典を明記してオリジナル作者に敬意を払うこと。
+- 参考にした論文などがある場合、マニュアル、論文中で出典を明記すること
+
+論文の参考文献のように、お互いに成果を尊重し合う文化を醸成し、論文のインパクトファクターのソースコード版が将来的に実現できればと考えています。
+
+&aname(pastwork){};
+## 過去のコンテスト情報 
+
+- [RTミドルウエアコンテスト2007]({{ site.baseurl }}/en/content/content/rtmcontest2007)(no_link)
+<!-- （[応募作品]({{ site.baseurl }}/en/content/content/rtmcontest2007/entry_public)）-->
+  - （[応募作品]()）(no_link)
+- [RTミドルウエアコンテスト2008]({{ site.baseurl }}/en/content/content/rtmcontest2008)(no_link)
+<!--（[応募作品]({{ site.baseurl }}/en/content/content/rtmcontest2008/entry_public)）-->
+  - （[応募作品]()）(no_link)
+- [RTミドルウエアコンテスト2009]({{ site.baseurl }}/en/content/content/rtmcontest2009)(no_link)
+<!--（[応募作品](http://openrtm.sakura.ne.jp/cgi-bin/wiki/wiki.cgi/2009?page=%B1%FE%CA%E7%A5%C6%A1%BC%A5%DE)）-->
+  - （[応募作品]()）(no_link)
+- [RTミドルウエアコンテスト2010]({{ site.baseurl }}/en/content/content/rtmcontest2010)(no_link)
+<!-- （[応募作品](http://openrtm.sakura.ne.jp/cgi-bin/wiki/wiki.cgi/2010?page=%B1%FE%CA%E7%A5%C6%A1%BC%A5%DE)）-->
+  - （[応募作品]()）(no_link)
+- [RTミドルウエアコンテスト2011]({{ site.baseurl }}/en/content/content/rtmcontest2011) (no_link)
+<!--（[応募作品](http://www.openrtm.org/openrtm/contests/2011)(No corresponding English project page available.)）-->
+  - （[応募作品]()）(no_link)
+- [RTミドルウエアコンテスト2012]({{ site.baseurl }}/en/content/content/rtmcontest2012) (no_link)
+<!-- （[応募作品](http://www.openrtm.org/openrtm/contests/2012)(No corresponding English project page available.)）-->
+  - （[応募作品]()）(no_link)
+- [RTミドルウエアコンテスト2013](../rtmcontest2013) 
+<!--（[応募作品](http://www.openrtm.org/openrtm/contests/2013)(No corresponding English project page available.)）-->
+  - （[応募作品]()）(no_link)
+- [RTミドルウエアコンテスト2014](../rtmcontest2014) 
+<!--（[応募作品](http://www.openrtm.org/openrtm/contests/2014)(No corresponding English project page available.)）-->
+  - （[応募作品]()）(no_link)
+- [RTミドルウエアコンテスト2015](../rtmcontest2015) 
+<!--（[応募作品](http://www.openrtm.org/openrtm/contests/2015)(No corresponding English project page available.)）-->
+  - （[応募作品]()）(no_link)
+- [RTミドルウエアコンテスト2016](../rtmcontest2016) 
+<!--（[応募作品](http://www.openrtm.org/openrtm/contests/2016)(No corresponding English project page available.)）-->
+  - （[応募作品]()）(no_link)
+- [RTミドルウエアコンテスト2017](../rtmcontest2017) 
+<!--（[応募作品](http://www.openrtm.org/openrtm/contests/2017)(No corresponding English project page available.)）-->
+  - （[応募作品]()）(no_link)
+- [RTミドルウエアコンテスト2018](../rtmcontest2018) 
+<!--（[応募作品](http://www.openrtm.org/openrtm/contests/2018)(No corresponding English project page available.)）-->
+  - （[応募作品]()）(no_link)
+
+<!-- &aname(registration){}; -->
+<!-- ** コンテスト作品のwebへの登録方法  -->
+
+### プロジェクトページへの作品登録
+<span style="color:red;">事務局よりID発行後より，作品登録が可能になります．連絡があるまで，しばらくお待ちください．</span>;~
+応募作品は期日までにプロジェクトページに登録する必要があります。
+
+- [プロジェクトページ]()(No corresponding page available.)
+  - [プロジェクト作成マニュアル](http://openrtm.org/openrtm/ja/node/1554)(No corresponding English project page (How to Register) available.)(No corresponding English project page (How to Register) available.)
+  - [新規プロジェクトの作成](http://openrtm.org/openrtm/ja/node/1553)(No corresponding English project page (How to Create) available.)(No corresponding English project page (How to Create) available.)
+
+上記のプロジェクト作成マニュアルに則り、作品を登録してください。
+RTミドルウエアコンテストでは、プロジェクト登録されたコンポーネントなどがコンテスト応募作品であるかどうかを明確にするために以下のルールを取っております。下記ルールに従い作品を登録してください。
+
+1. ボキャブラリ **RTM contest 2019** を設定する
+  - プロジェクト登録画面にボキャブラリと呼ばれるタグを設定する画面が現れますが、そこで **RTM contest 2019** を選択してください。これによりRTMコンテスト参加作品であることがわかります。
+1. プロジェクト名をSIの発表タイトルとできるだけ同じ名前に設定する
+  - 審査の都合上、SIの発表タイトルとプロジェクト名をひも付ける必要があります。可能であればSI2017での発表タイトルと同じ名前でプロジェクトの登録をお願いいたします。ただし、論文タイトルが 「○○の□□コンポーネントの実装」のようなものの場合、プロジェクト名は 「○○の□□コンポーネント」としていただいた方が、プロジェクトページとしては妥当かと思われます。発表タイトルとプロジェクトの関係がわかる程度でプロジェクト名を設定していただきますようよろしくお願いいたします。
+1. プロジェクト情報「Short project name」をcontest2019_<番号>としてください．
+  - 番号は講演申し込み完了後，参加者に対して事務局よりご連絡いたします．
+  - 上記だけだと、論文・発表とプロジェクトの対応が一意に取れませんので、プロジェクト情報の「Short project name」を下記のフォーマットで入力してください
+```
+     contest2019_X
+```
+  - Xは事務局よりご連絡した番号になります。これによりURLは
+http://openrtm.org/openrtm/ja/project/contest2019_X
+となります。
+
+&aname(contact){};
+## お問い合わせ 
+
+まず、[コンテストのFAQ](../rtmcontest_faq)を確認いただき、問い合わせ内容に応じて下記に連絡ください。<br>
+※スパムメール対策のため、以下に記載したメールアドレスで<at>の部分は@に読み替えて下さい。
+
+- 応募に関すること：~
+
+RTミドルウエアコンテスト事務局: rtm-contest<at>aist.go.jp
+
+- 冠賞のスポンサー申込に関すること：~
+ロボットビジネス推進協議会事務局: rtm-contest@aist.go.jp
+
+```
+ RTミドルウエアコンテスト2018 事務局
+ 〒305-8568 茨城県つくば市梅園１－１－１
+ 産業技術総合研究所　ロボットイノベーション研究センター
+ rtm-contest<at>aist.go.jp
+```
+
+
+## エントリー登録（エントリーされる方は必須） 
+<!-- &color(red){既に終了しました。}; -->
+エントリー希望者は、個別に連絡が取れるように、以下のフォームを使って事前登録して下さい（SI2019の講演申込も確認できた時点で正式登録となります）。また、重要な案内をお送りするための事前登録も兼ねてますので、**エントリを迷っている時は先にこちらだけ事前登録**してください）
+
+- 当webサイトにてユーザログインしないと入力フォームが表示されませんので、ユーザ登録がまだの方は当Webページのユーザ登録をお願いします。[ユーザ登録はこちら]()(No corresponding page available.)
+- 当Webサイトにログイン済みの方は<span style="color:red;">名前の欄にユーザ登録されたユーザ名が出ますが、必ず、氏名に書き換え</span>;てください。~
+<span style="color:red;">※お手数ですが、ログインしていただくと、登録フォームが表示されます</span>;
+- そのほか、入力フォームにしたがって性別、エントリー歴（該当する年にチェック。初めての方はチェックを入れないでください）、奨励賞受賞歴（あり/なし）も入力して下さい。[各種奨励賞](../rtmcontest2019-award)選考の参考とさせていただきます。
+
+## コンテスト当日の様子
+
+<div align="center"><a href="191212-01.jpg"><img src="191212-01.jpg" width="60%;"></a></div>
+
+<div align="center"><a href="191212-02.jpg"><img src="191212-02.jpg" width="60%;"></a></div>
+
+<div align="center"><a href="191212-03.jpg"><img src="191212-03.jpg" width="60%;"></a></div>
+
+<div align="center"><a href="191212-04.jpg"><img src="191212-04.jpg" width="60%;"></a></div>
+
+<div align="center"><a href="191212-05.jpg"><img src="191212-05.jpg" width="60%;"></a></div>
+
+

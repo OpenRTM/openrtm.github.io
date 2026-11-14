@@ -1,0 +1,155 @@
+---
+layout: page
+title: "システム環境変数設定ツールの使い方"
+---
+<!-- Title: システム環境変数設定ツールの使い方 -->
+#contents
+
+## VCVerChanger
+
+### 概要
+
+本ツールは、OpenRTM-aist 1.2.0 版以降のインストーラーに含まれており、下記のケースに対応しています。
+- OpenRTM-aist で使用する Visual Studio のバージョンを変更したい
+- OpenRTM-aist の32bit 版、64bit 版を両方インストールしているが、切り替えて使いたい。
+
+OpenRTM-aistは、32bit 版も64bit 版も同じ名前のシステム環境を利用しています。またパスを通すために PATH にも追加しています。
+このため、32bit 版、64bit 版の両方をインストールしたり、一方をアンインストールしたりすると、システム環境変数の書き換えが必要となる場合があります。
+
+このような場合に本ツールを起動して [確認] ボタンをクリックすると、正しいシステム環境変数に修正します。
+
+本ツールのログを、起動画面に示している先に出力しています。毎回上書きしているので直前の実行内容だけですが確認することができます。
+<br>
+
+### インストールおよび起動
+
+インストール後にスタートメニューから起動できます。VCVerChanger で検索しての起動もできます。
+
+<table class="table-alt">
+  <tr>
+    <td><div align="center"><a href="VCVerChanger_01.png"><img src="VCVerChanger_01.png" width="70%;"></a></div></td>
+    <td><div align="center"><a href="VCVerChanger_02.png"><img src="VCVerChanger_02.png" width="70%;"></a></div></td>
+  </tr>
+  <tr>
+    <td><div align="center">スタートから OpenRTM-aist xxx（1.2.0以降）</div></td>
+    <td><div align="center">VCVerChanger</div></td>
+  </tr>
+</table>
+
+
+### Visual Studio のバージョン更新手順
+
+本ツールを起動し、[確認] ボタンをクリックします。ここで示している画像は、OpenRTM-aist の 32bit 版だけをインストールしている環境での結果です。
+<br>
+<br>
+
+<div align="center"><a href="VCVerChanger_03.jpg"><img src="VCVerChanger_03.jpg" width="70%;"></a></div>
+<br>
+<br>
+
+現在のシステム環境変数の設定が表示されます。一番上の Visual Studio Version がインストールしているバージョンと一致しているか確認します。
+<span style="color:red;">一致していて変更する必要がない場合でも、インストール直後であれば、[更新] ボタンをクリックして下さい。</span>;
+この操作により、システム環境変数の値が確実に反映されます。
+<br>
+<br>
+
+<div align="center"><a href="VCVerChanger_04.jpg"><img src="VCVerChanger_04.jpg" width="70%;"></a></div>
+<br>
+<br>
+
+変更する場合は、下記のようにリストから選択し、[更新] ボタンをクリックします。
+<br>
+<br>
+
+<div align="center"><a href="VCVerChanger_05.jpg"><img src="VCVerChanger_05.jpg" width="70%;"></a></div>
+<br>
+<br>
+
+変更後の設定が表示されますので、指定した RTM_VC_VERSION の値がパスに反映されていることを確認し、[終了] ボタンをクリックします。
+<br>
+<br>
+
+<div align="center"><a href="VCVerChanger_06.jpg"><img src="VCVerChanger_06.jpg" width="70%;"></a></div>
+<br>
+<br>
+
+### OpenRTM-aist の 32bit、64bit パスの切替手順
+
+32bit 版と 64bit 版を続けてインストールした場合、本ツールを起動して [確認] ボタンをクリックします。
+現在のシステム環境変数の設定が表示され、PATH に両方の設定が混ざって追加されていることを確認できます。
+<br>
+<br>
+
+<div align="center"><a href="VCVerChanger_07.jpg"><img src="VCVerChanger_07.jpg" width="70%;"></a></div>
+<br>
+<br>
+
+32bit、64bit のどちらかを選択し、[切替] ボタンをクリックします。
+<br>
+<br>
+
+<div align="center"><a href="VCVerChanger_08.jpg"><img src="VCVerChanger_08.jpg" width="70%;"></a></div>
+<br>
+<br>
+
+切り替え後の設定が表示されますので、パスを確認し [終了] ボタンをクリックします。
+<br>
+<br>
+
+<div align="center"><a href="VCVerChanger_09.jpg"><img src="VCVerChanger_09.jpg" width="70%;"></a></div>
+<br>
+<br>
+
+## OpenRTM-aist 1.1.2版用のツール OpenRTMEnvTool
+
+### ダウンロード
+
+本ツールの実行には、mfc の dll が必要です。この dll を別途インストールせずともツールを実行するために、2種類の実行ファイルを用意しています。
+ご使用の Visual Studio のバージョンに合わせてダウンロードしてください。
+
+<table class="table-alt">
+  <tr>
+    <td>Visual Studio 2008,2010,2012 向け</td>
+    <td><a href="http://openrtm.org/pub/Windows/OpenRTM-aist/tools/OpenRTMEnvTool_vc10.exe">OpenRTMEnvTool_vc10.exe</a></td>
+  </tr>
+  <tr>
+    <td>Visual Studio 2013,2015 向け</td>
+    <td><a href="http://openrtm.org/pub/Windows/OpenRTM-aist/tools/OpenRTMEnvTool_vc12.exe">OpenRTMEnvTool_vc12.exe</a></td>
+  </tr>
+</table>
+
+### 使い方
+
+ダウンロードした exe ファイルを実行すると以下の画面が表示されるので、[確認] ボタンをクリックします。
+<br>
+<br>
+
+<div align="center"><a href="RTMEnvTool_01.jpg"><img src="RTMEnvTool_01.jpg" width="70%;"></a></div>
+<br>
+<br>
+
+現在のシステム環境変数の設定が表示されるので、一番上の「RTM_VC_VERSION」の設定がインストールしている Visual Studio のバージョンと一致しているか確認します。
+<br>
+<br>
+
+<div align="center"><a href="RTMEnvTool_02.jpg"><img src="RTMEnvTool_02.jpg" width="70%;"></a></div>
+<br>
+<br>
+
+「RTM_VC_VERSION」の設定を vc14 (vc2015用）に変更する場合は、下記のように指定し、[更新] ボタンをクリックします。
+<br>
+<br>
+
+<div align="center"><a href="RTMEnvTool_03.jpg"><img src="RTMEnvTool_03.jpg" width="70%;"></a></div>
+<br>
+<br>
+
+変更後の設定が表示されますので、指定した RTM_VC_VERSION の値がパスに反映されていることを確認し、[終了] ボタンをクリックします。
+<br>
+<br>
+
+<div align="center"><a href="RTMEnvTool_04.jpg"><img src="RTMEnvTool_04.jpg" width="70%;"></a></div>
+<br>
+<br>
+
+

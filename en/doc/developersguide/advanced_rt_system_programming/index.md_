@@ -1,0 +1,38 @@
+---
+layout: page
+title: " デベロッパーズガイド"
+---
+
+<!-- Title: デベロッパーズガイド -->
+<div align="right"><img src="devguide.png" width="20%;" align="right"></div>
+
+RTコンポーネント開発者向けのドキュメント。RTCを作る方法および、RTCを組み合わせてシステムを作る方法について、「入門編」と「応用編」に分けて解説します。
+また、OpenRTM-aistのより詳細な内部構造についても解説します。
+
+
+## RTCプログラミング入門
+
+- [データポート (基礎編)](./basic_rtc_programming/dataport)
+- [サービスポート (基礎編)](./basic_rtc_programming/servcieport)
+- [コンフィギュレーション(基礎編)](./basic_rtc_programming/configuration)
+- [設定ファイルとコマンドラインオプション (基礎編)](./basic_rtc_programming/configuration_file_commandlineoption)
+- [マネージャ (基礎編)執筆中](./basic_rtc_programming/manager)
+- [rtc.conf設定項目一覧](./basic_rtc_programming/rtc_conf_reference)
+- [component.conf 設定項目一覧](./basic_rtc_programming/comp_conf_reference)
+
+
+## [RTシステム開発入門・執筆中](./rt_system_development/)
+
+## RTCプログラミング (応用編)
+
+- [データポート (応用編)](./advanced_rtc_programming/dataport_advanced)
+- [サービスポート (応用編)](./advanced_rtc_programming/serviceport_adavanced)
+- [コンフィギュレーション (応用編)](./advanced_rtc_programming/configuration_adavanced)
+- [SDO サービス](./advanced_rtc_programming/sdo_service)
+
+
+## RTシステム開発 (応用編)
+## インサイドOpenRTM-aist
+
+
+

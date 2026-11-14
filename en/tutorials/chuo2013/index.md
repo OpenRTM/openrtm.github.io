@@ -1,0 +1,160 @@
+---
+layout: page
+title: rtミドルウェア強化月間(第1弾)：中央大学・rtミドルウェア講習会(2013年7月10日)
+---
+
+<!--- jp page!! --->
+
+<br>
+<a>No English version available.
+</a>
+
+<div align="left"><img src="bootcamp_chuo2013_bannera.png" width="60%;"></div>
+
+#contents
+
+## RTミドルウェア強化月間(第1弾)：中央大学・RTミドルウェア講習会
+
+2013年7月10日(水)に中央大学後楽園キャンパスにおいて、RTミドルウェア講習会を開催いたしました。
+
+<!-- RTミドルウェア強化月間第1弾として、2013年7月10日(水)に中央大学後楽園キャンパスにおいて，RTミドルウェア講習会を開催します。&br; -->
+<!-- 受講者には各自ノートPCをお持ちいただき、実習形式で実際にRTコンポーネントを作成、既存のコンポーネントなどと組み合わせて簡単なシステムを構築していただきます。&br; -->
+<!-- 本講習会を受講することで、RTコンポーネント設計方法、実装の仕方、システムの作り方をマスターすることができます。&br; -->
+
+## 日時・場所
+- **日時**: 2013年7月10日(水), 13:00～17:00
+- **場所**: [中央大学後楽園キャンパス](http://www.chuo-u.ac.jp/chuo-u/campusmap/korakuen_j.html)、6号館4階　6413教室
+  - アクセス: [交通アクセス](http://www.chuo-u.ac.jp/chuo-u/access/access_korakuen_j.html)
+- **主催**: (独)産業技術総合研究所
+<!-- -''聴講料'': 無料  -->
+<!-- -''定員'': 5名程度を予定しております。定員になり次第申し込みは終了させていただきます。 -->
+- **参加者**: 10名（+講師・スタッフ3名）
+<!-- -''参加登録'': [[参加登録フォームはこちら>#entry]] -->
+<!-- -- 参加登録には当Webページのユーザ登録が必要です。[[ユーザ登録はこちら:http://openrtm.org/openrtm/ja/user/register]] -->
+<!-- -- [[メーリングリスト:http://www.openrtm.org/mailman/listinfo/openrtm-users]]への登録をお勧めします。必須ではありませんが、Webでご案内する事前準備についてはメーリングリストにてお知らせします。 -->
+<!-- -- なお、登録の際に問題が生じた場合は、 [[こちら（support@openrtm.org）:mailto:support@openrtm.org]] までお問い合わせください。 -->
+
+### 他の強化月間講習会
+
+- [RTミドルウェア強化月間(第2弾)：大阪大学・RTミドルウェア講習会(2013年7月11日)](../osaka2013)
+- [RTミドルウェア強化月間(第3弾)：名城大学・RTミドルウェア講習会(2013年7月19日)](../meijo2013)
+- [RTミドルウェア強化月間(第4弾)：早稲田大学・RTミドルウェア講習会(2013年7月24日)](../waseda2013)
+
+
+## プログラム
+
+<table class="table-alt">
+  <tr>
+    <td>13:00 -13:30</td>
+    <td>**第1部：RTミドルウエア: OpenRTM-aist概要** <br> **担当**：安藤慶昭 (産総研)<br> **概要**：RTミドルウエアはロボットシステムをコンポーネント指向で構築するソフトウエアプラットフォームです。RTミドルウエアを利用することで、既存のコンポーネントを再利用し、モジュール指向の柔軟なロボットシステムを構築することができます。RTミドルウエアの産総研による実装であるOpenRTM-aistについてその概要について説明します。 <br> **講義資料**:<a href="./130710-01.pdf">130710-01.pdf</a></td>
+  </tr>
+  <tr>
+    <td>13:30 -14:30</td>
+    <td>**第2部: RTコンポーネントの作成入門**<br> **担当**：安藤慶昭 (産総研)<br> **概要**：RTCBuilderを使用したRTコンポーネントの作成方法を説明します。 <br> **講義資料**:<a href="./130710-01.pdf">130710-01.pdf</a></td>
+  </tr>
+  <tr>
+    <td>14:45 -17:00</td>
+    <td>**第3部：プログラミング実習** <br> 担当：宮本晴美 (産総研) <br> **概要**：OpenRTM-aistを利用してコンポーネントを作成し、他のコンポーネントと組み合わせて動作させてみます。 <br> **講義資料**:<a href="./130710-02.pdf">130710-02.pdf</a></td>
+  </tr>
+</table>
+<br>
+<br>
+
+- [RTC.xml](./RTC.xml)
+- [Flipコンポーネントの作成]()
+
+<!-- ** 講習会に参加される方へ -->
+### 必要機材
+- ノートPC
+  - OS: Windowsを推奨します。応用コースの方は自分で対処出来る場合はどちらでも結構です
+  - Eclipseが動作する程度のスペックが必要です
+  - メモリ: 1GB以上
+  - CPU: Core2Duo以上
+  - HDD空き: 5GB以上 (Visual C++ Expressの場合)
+- USBカメラ (USBカメラ無しで申込まれた方には貸与いたします)
+
+<span style="color:red;">Windowsのファイアウォールは必ず切っておいてください。</span>;
+
+### 必要ソフトウエア
+
+あらかじめインストールしておくべきソフトウエアは以下のとおりです。以下のリンクをクリックし、ファイルをダウンロード・インストールしてください。(一部のリンクはダウンロードページへ飛びますので、飛んだ先のページ内で適切なファイルをそれぞれダウンロードしてください。
+
+- Visual C++ 2010
+  - 無料のExpress版が [こちら](http://www.microsoft.com/visualstudio/jpn/downloads#d-2010-express) からダウンロードできます。
+  - インストールには時間がかかりますので、ご注意ください。
+  - VC2012には対応していません。また、VC2008は少々古いのでお勧めいたしません。
+- [OpenRTM-aist-1.1.0 C++版]({{ site.baseurl }}/en/download/openrtm-aist-cpp/openrtm-aist-cpp_1_1_0_release)
+  - <span style="color:red;">インストールされているVCに一致するバージョンをダウンロードしてください。</span>;
+  - 64bit版はPythonとの相性が悪いので、32bit版をお勧めします。
+- [OpenRTM-aist-1.1.0-RC1 Python](http://www.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.1.0-RC1.msi)
+- [Python 2.6(32bit)](http://www.python.org/ftp/python/2.6.6/python-2.6.6.msi)
+- [PyYAML](http://pyyaml.org/download/pyyaml/PyYAML-3.10.win32-py2.6.exe)
+- [CMake](http://www.cmake.org/files/v2.8/cmake-2.8.8-win32-x86.exe)
+- [Doxygen](http://ftp.stack.nl/pub/users/dimitri/doxygen-1.8.1-setup.exe)
+- [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
+  - 32bit版をお勧めします。
+- [Eclipse全部入り]()(No corresponding page available.)
+  - [Windows用32bit版全部入り]()(No corresponding page available.)を推奨します。
+  - インストール後、メニューの「ヘルプ」→「新規ソフトウエアのインストール」を選択、更新サイトに http://openrtm.org/pub/openrtp/releases/updates を入力してRTSystemEditorとRTCBuilderをアップデートしておくことをお勧めします。
+- [TeraTerm](http://sourceforge.jp/projects/ttssh2/downloads/58215/teraterm-4.77.exe/)
+- Bonjour: インストール方法については[こちら]({{ site.baseurl }}/en/doc/installation/other/raspberrypi_casestudy/raspi_init_setting#toc8)
+  - [iTunes](http://www.apple.com/jp/itunes/download/)や[Bonjour Print Services for Windows](http://support.apple.com/kb/DL999?viewlocale=ja_JP)がインストールされていれば不要です。
+- 使い慣れたエディタ: EclipseやPythonに付属のエディタでも構いませんが、使い慣れたエディタが入っていた方が良いでしょう
+
+### 講義資料
+
+#### 第1部 RTミドルウエア: OpenRTM-aist概要
+#### 第2部 RTコンポーネントの作成入門
+- [第1部、第2部 講義資料(PDF)](./130710-01.pdf)
+
+<!-- Invalid YouTube URL: http://www.slideshare.net/24122116 -->
+{% include slideshare.html
+   src="https://www.slideshare.net/slideshow/embed_code/key/EsagdW75iZSunu"
+%}
+
+
+
+
+#### 第3部 プログラミング実習
+- [第3部 講義資料(PDF)](./130710-02.pdf)
+
+<!-- Invalid YouTube URL: http://www.slideshare.net/24122207 -->
+{% include slideshare.html
+   src="https://www.slideshare.net/slideshow/embed_code/key/m7t5tQG2xLho2B"
+%}
+
+
+<!-- **** 実習で必要なファイル -->
+<!-- - [[RTC.xml:http://www.openrtm.org/openrtm/sites/default/files/5235/RTC.xml]] -->
+
+
+
+<!-- &aname(entry); -->
+<!-- **講習会申し込みフォーム -->
+
+<!-- 以下のフォームから講習会へお申し込みください。 -->
+<!-- - 参加登録するまえに当Webページのユーザ登録をお願いします。[[ユーザ登録はこちら:http://openrtm.org/openrtm/ja/user/register]] -->
+<!-- - 当Webサイトにログイン済みの方は&color(red){名前の欄のユーザ名を氏名に書き換えてください};。 -->
+<!-- - フォーム送信後、確認メールをお送りいたします。1日たっても確認メールが届かない場合は、[[こちら（support@openrtm.org）:mailto:support@openrtm.org]] までお問い合わせください。 -->
+
+<!-- &color(red){定員に達しましたので申し込みを締め切らせていただきました。ありがとうございました。なお、見学だけであれば参加可能ですので、当日、会場までお越しください。}; -->
+
+
+## 講習会の様子
+<div align="center"><a href="130710-01.jpg"><img src="130710-01.jpg" width="60%;"></a></div>
+<br>
+
+<div align="center"><a href="130710-02.jpg"><img src="130710-02.jpg" width="60%;"></a></div>
+<br>
+
+<div align="center"><a href="130710-03.jpg"><img src="130710-03.jpg" width="60%;"></a></div>
+<br>
+
+<div align="center"><a href="130710-04.jpg"><img src="130710-04.jpg" width="60%;"></a></div>
+<br>
+
+<div align="center"><a href="130710-05.jpg"><img src="130710-05.jpg" width="60%;"></a></div>
+<br>
+
+&aname(comment);
+

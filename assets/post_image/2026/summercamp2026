@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+
+<!--[if IE 8 ]><html lang="ja" dir="ltr"  class="no-js ie ie8 lt-ie9"><![endif]-->
+<!--[if IE 9 ]><html lang="ja" dir="ltr"  class="no-js ie ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="ja" dir="ltr"  class="no-js"><!--<![endif]--><head>
+	<meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/openrtm/ja/tutorial/summercamp2026" />
+<link rel="shortlink" href="/openrtm/ja/node/7361" />
+<link rel="shortcut icon" href="https://openrtm.org/openrtm/sites/default/files/favicon.ico2" type="application/octet-stream" />
+
+	<!--[if lte IE 8]>
+		<div style=' text-align:center; clear: both; padding:0 0 0 15px; position: relative;'>
+			<a href="//windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+				<img src="//storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today.">
+			</a>
+		</div>
+	<![endif]-->
+
+	<title>RTミドルウェアサマーキャンプ2026 | OpenRTM-aist</title>
+
+	<link type="text/css" rel="stylesheet" href="https://openrtm.org/openrtm/sites/default/files/css/css_KJyHl1hSJsEdkBASgPIekhH_AKCUnouJ6iBeWdvCB4o.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://openrtm.org/openrtm/sites/default/files/css/css_ArLuzM5BHlgFoqj-OHHU6N-g8-F57ykMZudmPTbcBdw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://openrtm.org/openrtm/sites/default/files/css/css_u9kW64KVqORl17S6qVAoaz-TFZ9ywb48alg74boORSo.css" media="all" />
+<style type="text/css" media="screen">
+<!--/*--><![CDATA[/*><!--*/
+body{font-size:75%  !important;}body.textsize-50{font-size:50% !important;}body.textsize-55{font-size:55% !important;}body.textsize-60{font-size:60% !important;}body.textsize-65{font-size:65% !important;}body.textsize-70{font-size:70% !important;}body.textsize-75{font-size:75% !important;}body.textsize-80{font-size:80% !important;}body.textsize-85{font-size:85% !important;}body.textsize-90{font-size:90% !important;}body.textsize-95{font-size:95% !important;}body.textsize-100{font-size:100% !important;}body.textsize-105{font-size:105% !important;}body.textsize-110{font-size:110% !important;}body.textsize-115{font-size:115% !important;}body.textsize-120{font-size:120% !important;}body.textsize-125{font-size:125% !important;}body.textsize-130{font-size:130% !important;}body.textsize-135{font-size:135% !important;}body.textsize-140{font-size:140% !important;}body.textsize-145{font-size:145% !important;}body.textsize-150{font-size:150% !important;}
+
+/*]]>*/-->
+</style>
+<link type="text/css" rel="stylesheet" href="https://openrtm.org/openrtm/sites/default/files/css/css_fXSZ8RxE79y-nKzp2fDPMyqOy9AHUPYvzxgY7d7kHA4.css" media="all" />
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+.panels-flexible-new .panels-flexible-region {
+  padding: 0;
+}
+
+.panels-flexible-new .panels-flexible-region-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.panels-flexible-new .panels-flexible-region-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-new .panels-flexible-region-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-new .panels-flexible-column {
+  padding: 0;
+}
+
+.panels-flexible-new .panels-flexible-column-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.panels-flexible-new .panels-flexible-column-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-new .panels-flexible-column-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-new .panels-flexible-row {
+  padding: 0 0 0.5em 0;
+  margin: 0;
+}
+
+.panels-flexible-new .panels-flexible-row-last {
+  padding-bottom: 0;
+}
+
+.panels-flexible-column-new-main {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-new-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-new {
+  width: auto;
+}
+
+.panels-flexible-region-new-center {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-row-new-main-row-inside {
+  padding-right: 0px;
+}
+
+
+/*]]>*/-->
+</style>
+<link type="text/css" rel="stylesheet" href="https://openrtm.org/openrtm/sites/default/files/css/css_B2XKKJT3s6bUTIGVxNPCtY6gp-fWRu4aJBTGLqT7fYY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://openrtm.org/openrtm/sites/default/files/css/css_9Rwt5UrnEdyfS205I72Q5tQLJ3HnzFBbetAdPuju4LI.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="https://openrtm.org/openrtm/sites/default/files/css/css_I17rPTKs_WiCjgKmJXmFABhBk_MqgAeiIY1SIyDdJ84.css" media="all" />
+<script type="text/javascript" src="https://openrtm.org/openrtm/sites/default/files/js/js_s7yA-hwRxnKty__ED6DuqmTMKG39xvpRyrtyCrbWH4M.js"></script>
+<script type="text/javascript" src="https://openrtm.org/openrtm/sites/default/files/js/js_CHyih5wYCJakJEd60obUewTPHjsfkt9FBCocSm7nnm4.js"></script>
+<script type="text/javascript" src="https://openrtm.org/openrtm/sites/default/files/js/js_i_msAU5XDV6XNFAO124fjuB5WFJbUIxp-jTXEznK5mc.js"></script>
+<script type="text/javascript" src="https://openrtm.org/openrtm/sites/default/files/js/js_PL_fpGwEK1vZZm7p8mM3TrRAIIjq4_USYnirOiNtyRA.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+  var textsizeCookieExpires = 365;
+  var textsizeCookieDomain = "/openrtm/";
+  var textsizeElement = "body";
+  var textsizeElementClass = "";
+  var textsizeIncrement = 5;
+  var textsizeNormal = 75;
+  var textsizeMinimum = 50;
+  var textsizeMaximum = 150;
+  var textsizeIncrementDisplay = 7;
+  var textsizeNormalDisplay = 100;
+  var textsizeDisplay = 1;
+  var textsizeMinT = "<abbr title=\"最小\" class=\"textsize\">Min.</abbr> ";
+  var textsizeMaxT = "<abbr title=\"最大\" class=\"textsize\">Max.</abbr> ";
+  var textsizeCurrentText = "Current Size";
+  var textsizeReset = 0;
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://openrtm.org/openrtm/sites/default/files/js/js_EGPVXmVCMfxbKesmPPeLpPP12gIjDlTr7tk5AxsXOgo.js"></script>
+<script type="text/javascript" src="https://openrtm.org/openrtm/sites/default/files/googleanalytics/js?tlhx9e"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "UA-772771-2", {"groups":"default","cookie_domain":".openrtm.org","anonymize_ip":true});
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://openrtm.org/openrtm/sites/default/files/js/js_XQCWAJ04ZcxWHSj8lIUX8Wd5bsl_3Bv0IMUjTvDhqgs.js"></script>
+<script type="text/javascript" src="https://openrtm.org/openrtm/sites/default/files/js/js_q_JceOZiGxlu0vuxz_bWtbw4h_eBWRZLeCMu9tY7f64.js"></script>
+<script type="text/javascript" src="https://openrtm.org/openrtm/sites/default/files/js/js_vR22exJf36SHgS7c394Jdf4eiDe3KmrEzc_88iV-uF4.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/openrtm\/","pathPrefix":"ja\/","setHasJsCookie":0,"ajaxPageState":{"theme":"theme935","theme_token":"O_54ER7_zjVf9iqgORU08LYavhiK8z8z4JNv0c3mkyo","jquery_version":"1.8","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/form-single-submit.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/entityreference\/js\/entityreference.js":1,"sites\/all\/modules\/project_issue\/js\/project-issue.js":1,"public:\/\/languages\/ja_jOnCplnBC--xjz0l8AIHej5LnXnRgVARvAOcslVTjck.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"0":1,"sites\/all\/modules\/textsize\/jquery.textsize.js":1,"misc\/jquery.cookie.js":1,"sites\/default\/modules\/tm_animate\/js\/wow.js":1,"sites\/default\/modules\/node_helper\/node_helper.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"https:\/\/openrtm.org\/openrtm\/sites\/default\/files\/googleanalytics\/js?tlhx9e":1,"1":1,"sites\/default\/modules\/tm_block_bg\/js\/tm_block_bg_parallax.js":1,"sites\/default\/modules\/tm_block_bg\/js\/tm_block_bg_video.js":1,"sites\/default\/modules\/tm_block_bg\/js\/jquery.mb.YTPlayer.js":1,"sites\/default\/modules\/tm_block_bg\/js\/jquery.stellar.min.js":1,"sites\/all\/modules\/views\/js\/base.js":1,"misc\/progress.js":1,"sites\/all\/modules\/views\/js\/ajax_view.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/sfsmallscreen.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"sites\/all\/themes\/theme935_org\/js\/theme935.core.js":1,"sites\/all\/themes\/theme935_org\/js\/jquery.loader.js":1,"sites\/all\/themes\/theme935_org\/js\/jquery.debouncedresize.js":1,"sites\/all\/themes\/theme935_org\/js\/jquery.mobilemenu.js":1,"sites\/all\/themes\/theme935_org\/js\/jquery.easing.js":1,"sites\/all\/themes\/theme935_org\/js\/jquery.ui.totop.js":1,"sites\/all\/themes\/theme935_org\/js\/jquery.cookie.js":1,"sites\/all\/themes\/theme935_org\/js\/tm-stick-up.js":1,"sites\/all\/themes\/theme935_org\/js\/tformer.js":1,"sites\/all\/themes\/theme935_org\/js\/device.min.js":1,"sites\/all\/themes\/theme935_org\/js\/jquery.mousewheel.min.js":1,"sites\/all\/themes\/theme935_org\/js\/jquery.simplr.smoothscroll.min.js":1,"sites\/all\/themes\/theme935_org\/js\/migrate.js":1,"public:\/\/cpn\/global.js":1,"public:\/\/cpn\/superfish-2.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/footnotes\/footnotes.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/youtube\/css\/youtube.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/project_issue\/project_issue.css":1,"sites\/all\/modules\/project\/release\/project_release.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/geshifilter\/geshifilter.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/pearwiki_filter\/pearwiki_filter.css":1,"0":1,"sites\/all\/modules\/textsize\/textsize.css":1,"sites\/default\/modules\/tm_animate\/css\/animate.css":1,"sites\/default\/modules\/tm_font_awesome\/css\/font-awesome.css":1,"modules\/locale\/locale.css":1,"sites\/all\/modules\/panels\/plugins\/layouts\/threecol_33_34_33_stacked\/threecol_33_34_33_stacked.css":1,"sites\/all\/modules\/panels\/plugins\/layouts\/flexible\/flexible.css":1,"1":1,"sites\/all\/modules\/panels\/plugins\/layouts\/onecol\/onecol.css":1,"sites\/default\/modules\/tm_follow\/css\/tm_follow.css":1,"sites\/all\/modules\/addtoany\/addtoany.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-smallscreen.css":1,"sites\/all\/themes\/theme935_org\/css\/boilerplate.css":1,"sites\/all\/themes\/theme935_org\/css\/style.css":1,"sites\/all\/themes\/theme935_org\/css\/maintenance-page.css":1,"sites\/all\/themes\/theme935_org\/css\/skeleton.css":1,"sites\/all\/themes\/theme935_org\/css\/custom.css":1,"cpn_global":1,"cpn_type_webform":1,"public:\/\/cpn\/superfish-2.css":1,"public:\/\/cpn\/search-form.css":1,"public:\/\/cpn\/tm_follow-site.css":1,"public:\/\/cpn\/system-user-menu.css":1,"public:\/\/cpn\/locale-language.css":1,"public:\/\/cpn\/panels_mini-front_page_block.css":1,"public:\/\/cpn\/views-mews_new-mini_block.css":1,"public:\/\/cpn\/user-login.css":1}},"colorbox":{"opacity":"0.85","current":"{current} \/ {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"\u9589\u3058\u308b","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px","file_public_path":"\/openrtm\/sites\/default\/files","specificPagesDefaultValue":"admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*"},"node_helper":{"select_required_function":{"#value":{"hide_the_form_in_preview":0,"hide_the_teaser_in_preview":0,"make_a_node_editing_tab_to_screw_icon":0}},"author_user_reference":{"#value":""},"search_field_name":{"#value":""},"the_nest_of_these_form_the_table":{"#value":""},"the_nest_of_these_form_the_table_container":{"#value":""},"the_nest_of_these_form_the_table_item":{"#value":""},"add_class_into_form_tag":{"#value":""},"simplify_the_control_of_the_date_field":{"#value":""},"simplify_the_multi_field":{"#value":""},"class_for_actions":{"#value":""},"class_for_submit":{"#value":""},"class_for_preview":{"#value":""},"class_for_delete":{"#value":""},"class_for_cancel":{"#value":""}},"views":{"ajax_path":"\/openrtm\/ja\/views\/ajax","ajaxViews":{"views_dom_id:f90c5208f5e5115ed758c95053bcfb70":{"view_name":"mews_new","view_display_id":"mini_block","view_args":"","view_path":"node\/4003","view_base_path":"news\/new","view_dom_id":"f90c5208f5e5115ed758c95053bcfb70","pager_element":0}}},"urlIsAjaxTrusted":{"\/openrtm\/ja\/views\/ajax":true,"\/openrtm\/ja\/tutorial\/summercamp2026":true,"\/openrtm\/ja\/tutorial\/summercamp2026?destination=node\/7361":true},"googleanalytics":{"account":["UA-772771-2"],"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1,"trackDomainMode":1},"superfish":{"2":{"id":"2","sf":{"animation":{"opacity":"show","height":"show"},"speed":"fast"},"plugins":{"smallscreen":{"mode":"window_width","breakpointUnit":"px","expandText":"\u5c55\u958b","collapseText":"\u6298\u308a\u305f\u305f\u3080","title":"OpenRTM-aist (ja)"},"supposition":true,"supersubs":true}}}});
+//--><!]]>
+</script>
+
+	<!--[if LT IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<script>
+		if (jQuery.cookie('the_cookie') != 0) {
+			document.write('<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">')
+		} else {
+			document.write('<meta name="viewport" content="width=device-width">')
+		}
+	</script>
+	
+	
+	<link rel="stylesheet" href="/openrtm/sites/all/themes/theme935_org/css/style-mobile.css" media="screen" id="style-mobile">
+	<link rel="stylesheet" href="/openrtm/sites/all/themes/theme935_org/css/skeleton-mobile.css" media="screen" id="skeleton-mobile">
+</head>
+<body id="body" class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-7361 node-type-webform i18n-ja page-summercamp2026 section-tutorial" >
+	
+
+
+<a href="#content" class="element-invisible element-focusable">Skip to main content</a>
+
+
+<div id="page-wrapper" class="page-wrapper">
+	<div id="page" class="page">
+		
+		<!-- Header
+		======================================================================================= -->
+		<header id="header" class="header page-header clearfix" role="banner">
+			<!-- Region Header Top -->
+			
+			<div class="stickup header-section-1"> <!-- Sticky menu wrapper -->
+				<div class="container-12">
+					<div class="grid-12">
+						<div class="col1">
+							<!-- Logo -->
+															<div id="logo" class="logo">
+																			<a href="/openrtm/ja" title="ホーム" rel="home" id="img-logo" class="img-logo">
+											<img src="https://openrtm.org/openrtm/logo.png" alt="ホーム">
+										</a>
+																			<h1 title="OpenRTM-aist" id="site-name" class="site-name">
+											<a href="/openrtm/ja" title="OpenRTM-aist">OpenRTM-aist</a>
+										</h1>
+																			<div title="The power to connect" id="slogan" class="slogan">
+											The power to connect										</div>
+																	</div><!-- /#name-and-slogan -->
+													</div>
+						
+						<div class="col2">
+							<!-- Region Menu -->
+							  <div class="region region-menu">
+    
+<div id="block-superfish-2" class="block-superfish-2 block block-superfish block-odd">
+	<!-- Block title -->
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<ul  id="superfish-2" class="menu sf-menu sf-menu-side-menu-ja sf-horizontal sf-style-none sf-total-items-8 sf-parent-items-5 sf-single-items-3"><li id="menu-946-2" class="first odd sf-item-1 sf-depth-1 sf-no-children"><a href="/openrtm/ja" title="OpenRTM-aist official website" class="sf-depth-1">ホーム</a></li><li id="menu-1329-2" class="middle even sf-item-2 sf-depth-1"><a href="/openrtm/ja/node/7332" title="ダウンロード" class="sf-depth-1">ダウンロード</a></li><li id="menu-1331-2" class="middle odd sf-item-3 sf-depth-1 sf-total-children-9 sf-parent-children-7 sf-single-children-2 menuparent"><a href="/openrtm/ja/doc" title="ドキュメント" class="sf-depth-1 menuparent">ドキュメント</a><ul><li id="menu-1535-2" class="first odd sf-item-1 sf-depth-2 sf-total-children-9 sf-parent-children-0 sf-single-children-9 menuparent"><a href="/openrtm/ja/doc/aboutopenrtm" title="OpenRTM-aistとは？" class="sf-depth-2 menuparent">OpenRTM-aistとは？</a><ul><li id="menu-2459-2" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/aboutopenrtm/rtmiddleware" title="RTミドルウエア" class="sf-depth-3">RTミドルウエア</a></li><li id="menu-2460-2" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/aboutopenrtm/license" title="ライセンス" class="sf-depth-3">ライセンス</a></li><li id="menu-2461-2" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/aboutopenrtm/specification" title="OpenRTM-aist 諸元" class="sf-depth-3">OpenRTM-aist 諸元</a></li><li id="menu-2524-2" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/aboutopenrtm/rtc_architecture" title="RTコンポーネントアーキテクチャ" class="sf-depth-3">RTCアーキテクチャ</a></li><li id="menu-2526-2" class="middle odd sf-item-5 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/aboutopenrtm/rtc_developmentflow" title="RTC開発の流れ" class="sf-depth-3">RTC開発の流れ</a></li><li id="menu-2528-2" class="middle even sf-item-6 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/aboutopenrtm/rts_developmentflow" title="RTシステム開発の流れ" class="sf-depth-3">RTシステム開発の流れ</a></li><li id="menu-15094-2" class="middle odd sf-item-7 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/aboutopenrtm/rts_developmentflow" title="" class="sf-depth-3">RTS開発の流れ</a></li><li id="menu-15095-2" class="middle even sf-item-8 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/aboutopenrtm/researchanddevel" title="" class="sf-depth-3">研究開発</a></li><li id="menu-18215-2" class="last odd sf-item-9 sf-depth-3 sf-no-children"><a href="/openrtm/ja/node/7240" title="" class="sf-depth-3">docker_test</a></li></ul></li><li id="menu-738-2" class="middle even sf-item-2 sf-depth-2 sf-total-children-8 sf-parent-children-4 sf-single-children-4 menuparent"><a href="/openrtm/ja/doc/installation" title="インストール" class="sf-depth-2 menuparent">インストール</a><ul><li id="menu-12237-2" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/installation/lets_start" title="OpenRTM-aistを10分で始めよう！" class="sf-depth-3">OpenRTM-aistを10分で始めよう！</a></li><li id="menu-493763-2" class="middle even sf-item-2 sf-depth-3 sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent"><a href="/openrtm/ja/doc/installation/install_2_1" title="" class="sf-depth-3 menuparent">2.1系のインストール</a><ul><li id="menu-493801-2" class="first odd sf-item-1 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/installation/install_2_1/install_win_2_1" title="" class="sf-depth-4">Windows</a></li><li id="menu-493808-2" class="middle even sf-item-2 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/installation/install_2_1/install_linux_2_1" title="" class="sf-depth-4">Linux</a></li><li id="menu-493815-2" class="last odd sf-item-3 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/installation/install_2_1" title="" class="sf-depth-4">Raspberry Pi OS</a></li></ul></li><li id="menu-14954-2" class="middle odd sf-item-3 sf-depth-3 sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent"><a href="/openrtm/ja/doc/installation/install_2_0" title="OpenRTM-aist 2.0系のインストール" class="sf-depth-3 menuparent">2.0系のインストール</a><ul><li id="menu-14965-2" class="first odd sf-item-1 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/installation/install_2_0/install_win_2_0" class="sf-depth-4">Windows</a></li><li id="menu-17646-2" class="middle even sf-item-2 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/installation/install_2_0/install_linux_2_0" class="sf-depth-4">Linux</a></li><li id="menu-18026-2" class="last odd sf-item-3 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/installation/install_2_0/install_raspbian_2_0" class="sf-depth-4">Raspberry Pi OS</a></li></ul></li><li id="menu-1812-2" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/installation/sample_components" title="OpenRTM付属のサンプルについて" class="sf-depth-3">OpenRTM付属のサンプルコンポーネント</a></li><li id="menu-15911-2" class="middle odd sf-item-5 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/installation/install_rtshell" class="sf-depth-3">rtshellのインストール</a></li><li id="menu-15177-2" class="middle even sf-item-6 sf-depth-3 sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent"><a href="/openrtm/ja/doc/installation/install_1_2" title="OpenRTM-aist 1.2系のインストール" class="sf-depth-3 menuparent">1.2系のインストール</a><ul><li id="menu-14961-2" class="first odd sf-item-1 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/installation/install_1_2/cpp_1_2" title="OpenRTM-aist(C++版)1.2系のインストール" class="sf-depth-4">C++版1.2系</a></li><li id="menu-14962-2" class="middle even sf-item-2 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/installation/install_1_2/python_1_2" title="OpenRTM-aist(Python版)1.2系のインストール" class="sf-depth-4">Python版1.2系</a></li><li id="menu-14963-2" class="middle odd sf-item-3 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/installation/install_1_2/java_1_2" title="OpenRTM-aist (Java版) 1.2系のインストール" class="sf-depth-4">Java版 1.2系</a></li><li id="menu-15020-2" class="last even sf-item-4 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/installation/install_1_2/eclipse" title="OpenRTM Eclipse tools のインストール" class="sf-depth-4">OpenRTP 1.2系</a></li></ul></li><li id="menu-14952-2" class="middle odd sf-item-7 sf-depth-3 sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent"><a href="/openrtm/ja/doc/installation/install_1_1" title="OpenRTM-aist 1.1系のインストール" class="sf-depth-3 menuparent">1.1系のインストール</a><ul><li id="menu-1969-2" class="first odd sf-item-1 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/installation/install_1_1/cpp_1_1" title="OpenRTM-aist (C++版) 1.1系のインストール" class="sf-depth-4">C++版 1.1系</a></li><li id="menu-1516-2" class="middle even sf-item-2 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/installation/install_1_1/python_1_1" title="OpenRTM-aist(Python版) 1.1系のインストール" class="sf-depth-4">Python版 1.1系</a></li><li id="menu-1521-2" class="middle odd sf-item-3 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/installation/install_1_1/java_1_1" title="OpenRTM-aist (Java版) 1.1系のインストール" class="sf-depth-4">Java版 1.1系</a></li><li id="menu-2207-2" class="last even sf-item-4 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/installation/install_1_1/openrtm_eclipse_tools_1_1" title="OpenRTM Eclipse tools のインストール" class="sf-depth-4">OpenRTM Eclipse tools のインストール 1.1系</a></li></ul></li><li id="menu-2706-2" class="last even sf-item-8 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/installation/other" title="その他" class="sf-depth-3">その他</a></li></ul></li><li id="menu-761-2" class="middle odd sf-item-3 sf-depth-2 sf-total-children-8 sf-parent-children-0 sf-single-children-8 menuparent"><a href="/openrtm/ja/doc/toolmanuals" title="ツールマニュアル" class="sf-depth-2 menuparent">ツール</a><ul><li id="menu-15046-2" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/toolmanuals/rtsystemeditor-1_2_0" class="sf-depth-3">RTSystemEditor-1.2.0</a></li><li id="menu-15048-2" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/toolmanuals/rtc_builder-1_2_0" class="sf-depth-3">RTCBuilder-1.2.0</a></li><li id="menu-5969-2" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/toolmanuals/rtsystemeditor-1_1_0" title="RTSystemEditor-1.1.0" class="sf-depth-3">RTSystemEditor-1.1.0</a></li><li id="menu-5560-2" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/toolmanuals/rtcbuilder-1_1_0" title="RTCBuilder-1.1.0" class="sf-depth-3">RTCBuilder-1.1.0</a></li><li id="menu-15118-2" class="middle odd sf-item-5 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/toolmanuals/rtsystemeditor-1_0_0" title="RTSystemEditor-1.0.0" class="sf-depth-3">RTSystemEditor-1.0.0</a></li><li id="menu-2235-2" class="middle even sf-item-6 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/toolmanuals/rtcbuilder-1_0_0" title="RTCBuilder-1.0.0" class="sf-depth-3">RTCBuilder-1.0.0</a></li><li id="menu-2443-2" class="middle odd sf-item-7 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/toolmanuals/rtshell" title="rtcshell/rtsshell" class="sf-depth-3">rtshell</a></li><li id="menu-1824-2" class="last even sf-item-8 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/toolmanuals/rostransport" title="ROSトランスポート(rosport)" class="sf-depth-3">ROSトランスポート(rosport)</a></li></ul></li><li id="menu-794-2" class="middle even sf-item-4 sf-depth-2 sf-total-children-5 sf-parent-children-2 sf-single-children-3 menuparent"><a href="/openrtm/ja/doc/developersguide" title="OpenRTM-aistデベロッパーズガイド" class="sf-depth-2 menuparent">OpenRTM-aistデベロッパーズガイド</a><ul><li id="menu-795-2" class="first odd sf-item-1 sf-depth-3 sf-total-children-8 sf-parent-children-0 sf-single-children-8 menuparent"><a href="/openrtm/ja/doc/developersguide/basic_rtc_programming" title="RTCプログラミング入門" class="sf-depth-3 menuparent">RTCプログラミング入門</a><ul><li id="menu-2664-2" class="first odd sf-item-1 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/developersguide/basic_rtc_programming/rtcdevelflow" title="RTCプログラミングの流れ" class="sf-depth-4">プログラミングの流れ</a></li><li id="menu-2659-2" class="middle even sf-item-2 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/developersguide/basic_rtc_programming/dataport" title="データポート (基礎編)" class="sf-depth-4">データポート</a></li><li id="menu-2665-2" class="middle odd sf-item-3 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/developersguide/basic_rtc_programming/servcieport" title="サービスポート (基礎編)" class="sf-depth-4">サービスポート</a></li><li id="menu-2667-2" class="middle even sf-item-4 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/developersguide/basic_rtc_programming/configuration" title="コンフィギュレーション (基礎編)" class="sf-depth-4">コンフィギュレーション</a></li><li id="menu-2670-2" class="middle odd sf-item-5 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/developersguide/basic_rtc_programming/configuration_file_commandlineoption" title="設定ファイルとコマンドラインオプション" class="sf-depth-4">設定ファイルとコマンドラインオプション</a></li><li id="menu-2671-2" class="middle even sf-item-6 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/developersguide/basic_rtc_programming/manager" title="マネージャ (基礎編)" class="sf-depth-4">マネージャ</a></li><li id="menu-2688-2" class="middle odd sf-item-7 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/developersguide/basic_rtc_programming/rtc_conf_reference" title="rtc.conf設定項目一覧" class="sf-depth-4">rtc.conf設定項目一覧</a></li><li id="menu-16053-2" class="last even sf-item-8 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/developersguide/basic_rtc_programming/comp_conf_reference" class="sf-depth-4">component.conf 設定項目一覧</a></li></ul></li><li id="menu-2675-2" class="middle even sf-item-2 sf-depth-3 sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent"><a href="/openrtm/ja/doc/developersguide/advanced_rtc_programming" title="RTCプログラミング (応用編)" class="sf-depth-3 menuparent">RTCプログラミング (応用編)</a><ul><li id="menu-2661-2" class="first odd sf-item-1 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/developersguide/dataport_advanced" title="データポート (応用編)" class="sf-depth-4">データポート (応用編)</a></li><li id="menu-2676-2" class="middle even sf-item-2 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/developersguide/serviceport_adavanced" title="サービスポート (応用編)" class="sf-depth-4">サービスポート (応用編)</a></li><li id="menu-15213-2" class="middle odd sf-item-3 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/developersguide/sdo_service" class="sf-depth-4">SDO サービス編</a></li><li id="menu-2677-2" class="last even sf-item-4 sf-depth-4 sf-no-children"><a href="/openrtm/ja/doc/developersguide/configuration_adavanced" title="コンフィギュレーション (応用編)" class="sf-depth-4">コンフィギュレーション (応用編)</a></li></ul></li><li id="menu-2673-2" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/developersguide/rt_system_development" title="RTシステム開発入門" class="sf-depth-3">RTシステム開発入門</a></li><li id="menu-751-2" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/developersguide/advanced_rt_system_programming" title="RTシステム開発 (応用編)" class="sf-depth-3">RTシステム開発 (応用編)</a></li><li id="menu-760-2" class="last odd sf-item-5 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/developersguide/inside_openrtm-aist" title="インサイドOpenRTM-aist" class="sf-depth-3">インサイドOpenRTM-aist</a></li></ul></li><li id="menu-758-2" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="/openrtm/ja/doc/openrtm-aist_class_reference" title="OpenRTM-aist クラスリファレンス" class="sf-depth-2">OpenRTM-aist クラスリファレンス</a></li><li id="menu-748-2" class="middle even sf-item-6 sf-depth-2 sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent"><a href="/openrtm/ja/doc/casestudy" title="ケーススタディ" class="sf-depth-2 menuparent">ケーススタディ</a><ul><li id="menu-14067-2" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/casestudy/opencv_comp_development" title="画像処理コンポーネントの作成" class="sf-depth-3">画像処理コンポーネントの作成</a></li><li id="menu-14068-2" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/casestudy/rtc_development" title="RTコンポーネントの作成" class="sf-depth-3">RTコンポーネントの作成</a></li><li id="menu-9287-2" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/casestudy/guitool_and_rtc" title="GUI ツールキットとRTCの連携" class="sf-depth-3">GUI ツールキットとRTCの連携</a></li><li id="menu-12238-2" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/casestudy/lego_mindstorm" title="LEGO Mindstorms EV3 活用事例" class="sf-depth-3">LEGO Mindstorms EV3 活用事例</a></li><li id="menu-11814-2" class="middle odd sf-item-5 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/casestudy/leapmotion_choreonoid" title="LeapMotionでChoreonoidの制御" class="sf-depth-3">LeapMotionでChoreonoidの制御</a></li><li id="menu-11331-2" class="middle even sf-item-6 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/casestudy/vpn_setup_for_rtmnetwork" title="VPNを利用したRTMネットワーク設定方法" class="sf-depth-3">VPNを利用したRTMネットワーク設定方法</a></li><li id="menu-14073-2" class="last odd sf-item-7 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/casestudy/raspberypi_mouse" title="Raspberry Pi Mouse 活用事例" class="sf-depth-3">Raspberry Pi Mouse 活用事例</a></li></ul></li><li id="menu-711-2" class="middle odd sf-item-7 sf-depth-2 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent"><a href="/openrtm/ja/doc/corba" title="CORBA" class="sf-depth-2 menuparent">CORBA</a><ul><li id="menu-715-2" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/corba/ccm" title="CCM" class="sf-depth-3">CCM</a></li><li id="menu-713-2" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/corba/idlcompiler" title="IDLコンパイラ" class="sf-depth-3">IDLコンパイラ</a></li><li id="menu-716-2" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/corba/mico_ccm" title="MICO_CCM" class="sf-depth-3">MICO_CCM</a></li><li id="menu-712-2" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/corba/type" title="_var_type, _ptr_type" class="sf-depth-3">_var_type, _ptr_type</a></li><li id="menu-714-2" class="last odd sf-item-5 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/corba/rules_to_pass_variable" title="変数受渡規則" class="sf-depth-3">変数受渡規則</a></li></ul></li><li id="menu-717-2" class="middle even sf-item-8 sf-depth-2 sf-total-children-10 sf-parent-children-0 sf-single-children-10 menuparent"><a href="/openrtm/ja/doc/faq" title="FAQ" class="sf-depth-2 menuparent">よくある質問</a><ul><li id="menu-719-2" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/faq/faq_rtm_openrtm-aist" title="RTミドルウェア/OpenRTM-aistについて" class="sf-depth-3">RTミドルウェア / OpenRTM-aist について</a></li><li id="menu-13961-2" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/faq/faq_common_license" title="一般・ライセンスに関する FAQ" class="sf-depth-3">一般・ライセンスに関する FAQ</a></li><li id="menu-13938-2" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/faq/faq_install" title="インストールに関する FAQ" class="sf-depth-3">インストールに関する FAQ</a></li><li id="menu-13934-2" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/faq/faq_rtc_creation" title="RTコンポーネント作成に関する FAQ" class="sf-depth-3">RTコンポーネント作成に関する FAQ</a></li><li id="menu-13935-2" class="middle odd sf-item-5 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/faq/faq_openrtm_cpp" title="OpenRTM-aist (C++版) に関する FAQ" class="sf-depth-3">OpenRTM-aist (C++版) に関する FAQ</a></li><li id="menu-13936-2" class="middle even sf-item-6 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/faq/faq_openrtm_python" title="OpenRTM-aist (Python版) に関する FAQ" class="sf-depth-3">OpenRTM-aist (Python版) に関する FAQ</a></li><li id="menu-13937-2" class="middle odd sf-item-7 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/faq/faq_openrtm_java" title="OpenRTM-aist (Java版) に関する FAQ" class="sf-depth-3">OpenRTM-aist (Java版) に関する FAQ</a></li><li id="menu-724-2" class="middle even sf-item-8 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/faq/faq_rtp_tools" title="RTSystemEditor、RTCBuilder、rtshell 等ツールに関する FAQ" class="sf-depth-3">RTSystemEditor、RTCBuilder、rtshell 等ツールに関する FAQ</a></li><li id="menu-13940-2" class="middle odd sf-item-9 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/faq/faq_other" title="その他 FAQ" class="sf-depth-3">その他 FAQ</a></li><li id="menu-13941-2" class="last even sf-item-10 sf-depth-3 sf-no-children"><a href="/openrtm/ja/doc/faq/faq_old" title="過去に掲載した FAQ" class="sf-depth-3">過去に掲載した FAQ</a></li></ul></li><li id="menu-15610-2" class="last odd sf-item-9 sf-depth-2 sf-no-children"><a href="/openrtm/ja/doc/old_document" title="過去文書" class="sf-depth-2">過去文書</a></li></ul></li><li id="menu-1334-2" class="active-trail middle even sf-item-4 sf-depth-1 sf-total-children-4 sf-parent-children-2 sf-single-children-2 menuparent"><a href="/openrtm/ja/community" title="コミュニティ" class="sf-depth-1 menuparent">コミュニティ</a><ul><li id="menu-4449-2" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/openrtm/ja/community/mailinglist_ja" title="メーリングリスト" class="sf-depth-2">メーリングリスト</a></li><li id="menu-4235-2" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/openrtm/ja/community/forum_ja" title="フォーラム" class="sf-depth-2">フォーラム</a></li><li id="menu-797-2" class="active-trail middle odd sf-item-3 sf-depth-2 sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent"><a href="/openrtm/ja/tutorials" title="講習会" class="sf-depth-2 menuparent">講習会</a><ul><li id="menu-525489-2" class="active-trail first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/openrtm/ja/tutorial/summercamp2026" class="sf-depth-3 active">RTミドルウェア サマーキャンプ2026</a></li><li id="menu-525470-2" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/openrtm/ja/tutorial/robomech2026" title="" class="sf-depth-3">ROBOMECH2026講習会 (2026年6月29日(月))</a></li><li id="menu-320233-2" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/openrtm/ja/tutorial/summercamp2025" class="sf-depth-3">RTミドルウェアサマーキャンプ2025</a></li><li id="menu-296705-2" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/openrtm/ja/tutorial/robomech2025" class="sf-depth-3">ROBOMECH2025講習会 (2025年6月4日(水))</a></li><li id="menu-172128-2" class="middle odd sf-item-5 sf-depth-3 sf-no-children"><a href="/openrtm/ja/tutorial/summercamp2024" class="sf-depth-3">RTミドルウェアサマーキャンプ2024</a></li><li id="menu-84281-2" class="middle even sf-item-6 sf-depth-3 sf-no-children"><a href="/openrtm/ja/tutorial/robomech2024" class="sf-depth-3">ROBOMECH2024講習会 (2024年5月29日(水))</a></li><li id="menu-18211-2" class="last odd sf-item-7 sf-depth-3 sf-no-children"><a href="/openrtm/ja/node/7233/" title="" class="sf-depth-3">RTミドルウェアサマーキャンプ2023</a></li></ul></li><li id="menu-798-2" class="last even sf-item-4 sf-depth-2 sf-total-children-12 sf-parent-children-12 sf-single-children-0 menuparent"><a href="/openrtm/ja/content/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88-0" title="イベント" class="sf-depth-2 menuparent">イベント</a><ul><li id="menu-514470-2" class="first odd sf-item-1 sf-depth-3 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent"><a href="/openrtm/ja/content/rtmcontest2026" title="" class="sf-depth-3 menuparent">RTミドルウェアコンテスト2026</a><ul><li id="menu-514471-2" class="firstandlast odd sf-item-1 sf-depth-4 sf-no-children"><a href="/openrtm/ja/content/rtmcontest2026-award" title="" class="sf-depth-4">RTミドルウェアコンテスト2026奨励賞一覧</a></li></ul></li><li id="menu-317844-2" class="middle even sf-item-2 sf-depth-3 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent"><a href="/openrtm/ja/content/rtmcontest2025" class="sf-depth-3 menuparent">RTミドルウェアコンテスト2025</a><ul><li id="menu-363116-2" class="firstandlast odd sf-item-1 sf-depth-4 sf-no-children"><a href="https://openrtm.org/openrtm/ja/node/7311/" title="" class="sf-depth-4">RTミドルウェアコンテスト2025奨励賞一覧</a></li></ul></li><li id="menu-196489-2" class="middle odd sf-item-3 sf-depth-3 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent"><a href="/openrtm/ja/content/rtmcontest2024" class="sf-depth-3 menuparent">RTミドルウェアコンテスト2024</a><ul><li id="menu-246629-2" class="firstandlast odd sf-item-1 sf-depth-4 sf-no-children"><a href="/openrtm/ja/content/rtmcontest2024-award" class="sf-depth-4">RTミドルウェアコンテスト2024奨励賞一覧</a></li></ul></li><li id="menu-18213-2" class="middle even sf-item-4 sf-depth-3 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent"><a href="/openrtm/ja/content/rtmcontest2023" class="sf-depth-3 menuparent">RTミドルウェアコンテスト2023</a><ul><li id="menu-18214-2" class="firstandlast odd sf-item-1 sf-depth-4 sf-no-children"><a href="/openrtm/ja/content/rtmcontest2023-award" class="sf-depth-4">RTミドルウェアコンテスト2023奨励賞一覧</a></li></ul></li><li id="menu-18206-2" class="middle odd sf-item-5 sf-depth-3 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent"><a href="/openrtm/ja/content/rtmcontest2022" class="sf-depth-3 menuparent">RTミドルウェアコンテスト2022</a><ul><li id="menu-18207-2" class="firstandlast odd sf-item-1 sf-depth-4 sf-no-children"><a href="/openrtm/ja/content/rtmcontest2022-award" class="sf-depth-4">RTミドルウェアコンテスト2022奨励賞一覧</a></li></ul></li><li id="menu-16263-2" class="middle even sf-item-6 sf-depth-3 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent"><a href="/openrtm/ja/content/rtmcontest2021" class="sf-depth-3 menuparent">RTミドルウェアコンテスト2021</a><ul><li id="menu-16351-2" class="firstandlast odd sf-item-1 sf-depth-4 sf-no-children"><a href="/openrtm/ja/content/rtmcontest2021-award" class="sf-depth-4">RTミドルウェアコンテスト2021奨励賞一覧</a></li></ul></li><li id="menu-15996-2" class="middle odd sf-item-7 sf-depth-3 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent"><a href="https://openrtm.org/openrtm/ja/content/rtmcontest2020" title="" class="sf-depth-3 menuparent">RTミドルウェアコンテスト2020</a><ul><li id="menu-15997-2" class="firstandlast odd sf-item-1 sf-depth-4 sf-no-children"><a href="/openrtm/ja/content/rtmcontest2020-award" class="sf-depth-4">RTミドルウェアコンテスト2020奨励賞一覧</a></li></ul></li><li id="menu-15082-2" class="middle even sf-item-8 sf-depth-3 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent"><a href="/openrtm/ja/content/rtmcontest2019" title="RTミドルウェアコンテスト2019" class="sf-depth-3 menuparent">RTミドルウェアコンテスト2019</a><ul><li id="menu-15552-2" class="firstandlast odd sf-item-1 sf-depth-4 sf-no-children"><a href="/openrtm/ja/content/rtmcontest2019-award" class="sf-depth-4">RTミドルウェアコンテスト2019奨励賞一覧</a></li></ul></li><li id="menu-14088-2" class="middle odd sf-item-9 sf-depth-3 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent"><a href="/openrtm/ja/content/rtmcontest2018" title="RTミドルウェアコンテスト2018" class="sf-depth-3 menuparent">RTミドルウェアコンテスト2018</a><ul><li id="menu-14089-2" class="firstandlast odd sf-item-1 sf-depth-4 sf-no-children"><a href="/openrtm/ja/content/rtmcontest2018-award" title="RTミドルウェアコンテスト2018奨励賞一覧" class="sf-depth-4">RTミドルウェアコンテスト2018奨励賞一覧</a></li></ul></li><li id="menu-13737-2" class="middle even sf-item-10 sf-depth-3 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent"><a href="/openrtm/ja/content/rtmcontest2017" title="RTミドルウェアコンテスト2017" class="sf-depth-3 menuparent">RTミドルウェアコンテスト2017</a><ul><li id="menu-13738-2" class="firstandlast odd sf-item-1 sf-depth-4 sf-no-children"><a href="/openrtm/ja/content/rtmcontest2017-award" title="RTミドルウェアコンテスト2017奨励賞一覧" class="sf-depth-4">RTミドルウェアコンテスト2017奨励賞一覧</a></li></ul></li><li id="menu-12258-2" class="middle odd sf-item-11 sf-depth-3 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent"><a href="/openrtm/ja/content/rtmcontest2016" title="RTミドルウェアコンテスト2016" class="sf-depth-3 menuparent">RTミドルウェアコンテスト2016</a><ul><li id="menu-12277-2" class="firstandlast odd sf-item-1 sf-depth-4 sf-no-children"><a href="/openrtm/ja/content/rtmcontest2016-award" title="RTミドルウェアコンテスト2016奨励賞一覧" class="sf-depth-4">RTミドルウェアコンテスト2016奨励賞一覧</a></li></ul></li><li id="menu-11805-2" class="last even sf-item-12 sf-depth-3 sf-total-children-1 sf-parent-children-0 sf-single-children-1 menuparent"><a href="/openrtm/ja/content/rtmcontest2015" title="RTミドルウェアコンテスト2015" class="sf-depth-3 menuparent">RTミドルウェアコンテスト2015</a><ul><li id="menu-12049-2" class="firstandlast odd sf-item-1 sf-depth-4 sf-no-children"><a href="/openrtm/ja/content/rtmcontest2015-award" title="RTミドルウェアコンテスト2015奨励賞一覧" class="sf-depth-4">RTミドルウェアコンテスト2015奨励賞一覧</a></li></ul></li></ul></li></ul></li><li id="menu-2563-2" class="middle odd sf-item-5 sf-depth-1 sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent"><a href="/openrtm/ja/doc/aboutopenrtm/researchanddevel" title="研究開発" class="sf-depth-1 menuparent">研究開発</a><ul><li id="menu-634-2" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/openrtm/ja/publication" title="論文・受賞" class="sf-depth-2">論文・受賞</a></li><li id="menu-839-2" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/openrtm/ja/content/%E3%83%97%E3%83%AC%E3%82%B9%E3%83%BB%E5%A0%B1%E9%81%93" title="プレス・報道" class="sf-depth-2">プレス・報道</a></li><li id="menu-832-2" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/openrtm/ja/content/%E6%8A%80%E8%A1%93%E7%A7%BB%E8%BB%A2-1" title="技術移転" class="sf-depth-2">技術移転</a></li><li id="menu-14386-2" class="last even sf-item-4 sf-depth-2 sf-no-children"><a href="/openrtm/ja/content/%E6%A8%99%E6%BA%96%E5%8C%96" class="sf-depth-2">標準化</a></li></ul></li><li id="menu-4476-2" class="middle even sf-item-6 sf-depth-1 sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent"><a href="/openrtm/ja/project/projects_ja" title="プロジェクト" class="sf-depth-1 menuparent">プロジェクト</a><ul><li id="menu-4478-2" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/openrtm/ja/content/rt%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%8D%E3%83%B3%E3%83%88" title="RTコンポーネント" class="sf-depth-2">RTコンポーネント</a></li><li id="menu-4477-2" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/openrtm/ja/content/rt%E3%83%9F%E3%83%89%E3%83%AB%E3%82%A6%E3%82%A7%E3%82%A2" title="RTミドルウェア" class="sf-depth-2">RTミドルウェア</a></li><li id="menu-4479-2" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/openrtm/ja/content/%E3%83%84%E3%83%BC%E3%83%AB" title="ツール" class="sf-depth-2">ツール</a></li><li id="menu-4480-2" class="last even sf-item-4 sf-depth-2 sf-no-children"><a href="/openrtm/ja/content/%E4%BB%95%E6%A7%98%E3%83%BB%E6%96%87%E6%9B%B8%E7%AD%89" title="仕様・文書等" class="sf-depth-2">仕様・文書等</a></li></ul></li><li id="menu-6722-2" class="middle odd sf-item-7 sf-depth-1 sf-no-children"><a href="/openrtm/ja/content/%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%82%A2" title="RTCとともに利用可能なハードウエアのリスト" class="sf-depth-1">ハードウエア</a></li><li id="menu-8868-2" class="last even sf-item-8 sf-depth-1 sf-no-children"><a href="/openrtm/ja/content/pukiwiki%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB" title="Pukiwikiマニュアル" class="sf-depth-1">Pukiwikiマニュアル</a></li></ul>	</div>
+</div>
+<div id="block-search-form" class="block-search-form block block-search block-even">
+	<!-- Block title -->
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<form action="/openrtm/ja/tutorial/summercamp2026" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">検索フォーム</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">検索 </label>
+ <input title="検索したいキーワードを入力してください" type="search" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="検索" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-5jfwLpOi3OQaMPRAldlXzjaXUvg9OrOqrU_m-JRZpeg" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>	</div>
+</div>  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Region Slider content -->
+			
+			<!-- Region Header -->
+						<!-- Region Header bottom -->
+			
+		</header>
+
+		<!-- Content
+		======================================================================================= -->
+		<div id="main-wrapper" class="main-wrapper clearfix" role="main">
+			<!-- Region Header bottom -->
+						<!-- Region content top -->
+			<div id="content_top_wrapper" class="content_top_wrapper">
+<div class="container-12"><div class="grid-12">  <div class="region region-content-top">
+    
+<div id="block-tm-follow-site" class="block-tm-follow-site block block-tm-follow block-odd">
+	<!-- Block title -->
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<div class='tm-follow-links clearfix site'><span class='tm-follow-link-wrapper tm-follow-link-wrapper-facebook without-label'><a href="http://www.facebook.com/openrtm" class="tm-follow-link tm-follow-link-facebook tm-follow-link-site"></a>
+</span><span class='tm-follow-link-wrapper tm-follow-link-wrapper-youtube without-label'><a href="https://www.youtube.com/user/OpenRTM" class="tm-follow-link tm-follow-link-youtube tm-follow-link-site"></a>
+</span><span class='tm-follow-link-wrapper tm-follow-link-wrapper-twitter without-label'><a href="https://twitter.com/openrtm" class="tm-follow-link tm-follow-link-twitter tm-follow-link-site"></a>
+</span><span class='tm-follow-link-wrapper tm-follow-link-wrapper-github without-label'><a href="https://github.com/openrtm" class="tm-follow-link tm-follow-link-github tm-follow-link-site"></a>
+</span></div>	</div>
+</div>
+<div id="block-system-user-menu" class="block-system-user-menu block block-system block-menu block-even">
+	<!-- Block title -->
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<ul class="menu clearfix"><li class="first leaf github-pages mid-14950"><a href="https://openrtm.github.io/" title="">Github Pages</a></li>
+<li class="last leaf id- mid-13672"><a href="/openrtm/ja/user/login">ログイン</a></li>
+</ul>	</div>
+</div>
+<div id="block-locale-language" class="block-locale-language block block-locale block-odd">
+	<!-- Block title -->
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<ul class="language-switcher-locale-url"><li class="ja first active"><a href="/openrtm/ja/tutorial/summercamp2026" class="language-link active" xml:lang="ja"><img class="language-icon" src="https://openrtm.org/openrtm/sites/all/modules/languageicons/flags/ja.png" width="16" height="12" alt="日本語" title="日本語" /></a></li>
+<li class="en last"><span class="language-link locale-untranslated" xml:lang="en"><img class="language-icon" src="https://openrtm.org/openrtm/sites/all/modules/languageicons/flags/en.png" width="16" height="12" alt="English" title="English" /></span></li>
+</ul>	</div>
+</div>  </div>
+</div></div></div>			
+			<div class="container-12">
+				<div class="grid-12">
+					<div id="main" class="main clearfix">
+						
+						<!-- Page content -->
+						<div id="content" class="content content-main grid-8 alpha">
+															<header id="content-header" class="content-header">
+																			<!-- System messages -->
+										<div id="messages" class="messages-wrapper clearfix">
+											<div class="messages status">
+<h2 class="element-invisible">Status message</h2>
+このフォームは閉じられました。</div>
+										</div>
+									
+									
+																			<!-- Breadcrumbs -->
+										<div id="breadcrumb" class="breadcrumb clearfix"><h2 class="element-invisible">現在地</h2><a href="/openrtm/ja">ホーム</a> &#187; <a href="/openrtm/ja/community" title="コミュニティ">コミュニティ</a> &#187; <a href="/openrtm/ja/tutorials" title="講習会">講習会</a> &#187; RTミドルウェア サマーキャンプ2026</div>
+									
+																				<!-- Page title -->
+											<h2 id="page-title" class="title page-title" >RTミドルウェアサマーキャンプ2026</h2>
+										
+									
+									
+																	</header>
+							
+							<!-- Page content -->
+							  <div class="region region-content">
+    
+<div id="block-system-main" class="block-system-main block block-system block-even">
+	<!-- Block title -->
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<div id="node-7361" class="node node-webform node-promoted node-odd published with-comments promote node-full clearfix node-7361" role="article">
+			<header class="node-header clearfix">
+			<!-- Node title -->
+			
+			<!-- Node meta -->
+							<div class="submitted node-submitted" role="contentinfo">
+					
+											<span class="node-author"><span class="fa fa-user"></span> <span class="username">root</span></span>
+											<time class="node-time" datetime="2026-07-06T12:21:49">
+							<span class="fa fa-calendar"></span> 月, 2026-07-06 12:21						</time>
+					
+					<span class="node-views">
+						<span class="fa fa-eye"></span>
+						1539 view(s)					</span>
+
+									</div>
+					</header>
+	
+	<div class="content node-content">
+		
+		<!-- Node content -->
+		
+<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fopenrtm.org%2Fopenrtm%2Fja%2Ftutorial%2Fsummercamp2026&amp;layout=standard&amp;show_faces=true&amp;width=350&amp;font=arial&amp;height=40&amp;action=like&amp;colorscheme=light&amp;locale=ja_JP&amp;send=false&amp;share=false" scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 350px; height: 40px; " allowTransparency="true"></iframe>
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><div class="pearwiki_align_center"><a href="/openrtm/sites/default/files/7361/camp2026.png"><img src="/openrtm/sites/default/files/7361/camp2026.png" alt="camp2026.png" title="camp2026.png" width="1280" height="386" /></a></div></p>
+
+<ul class="toc-list"><li><a href="#toc0">開催報告</a><ul><li><a href="#toc1">開催のご案内</a><li><a href="#toc2">開催要旨</a><ul><li><a href="#toc5">参加資格</a><li><a href="#toc6">参加人数</a><li><a href="#toc7">参加費</a><li><a href="#toc8">実施概要</a></li></ul><li><a href="#toc9">プログラム</a><li><a href="#toc10">実行委員会</a><li><a href="#toc11">講義資料</a><li><a href="#toc12">開発成果</a><ul><li><a href="#toc13">グループ1</a><li><a href="#toc14">グループ2</a></li></ul><li><a href="#toc15">サマーキャンプの様子</a></li></ul></li></ul>
+<h1 id="toc0">開催報告</h1>
+<p>名城大学の大原先生のご尽力と多くの特別講師やサポートスタッフのご支援のおかげで、7名の参加者と共に、今年もサマーキャンプを作り上げて行くことが出来ました。皆さまに御礼申し上げます。 対面での設計ディスカッションや分散開発を通じて、ミドルウェアの利点をあらためて確認でき、また、それぞれ持ち寄った課題解決やスキルの向上につながっていたようです。この合宿研修の成果を、RTミドルウエアコンテストで発表いただけることを期待しております。</p>
+
+
+<h2 id="toc1">開催のご案内</h2>
+<p>今年で16回目となりました、RTミドルウエアサマーキャンプを8月24日から28日の5日間、産総研つくばセンターにて開催いたします。RTミドルウエアやロボット開発に精通する講師陣のもとで、RTミドルウエアを用いた様々なロボットシステム開発を体験する機会を5日間にわたり提供します。RTミドルウエアを用いたプログラミングの方法や、実践的なロボットシステムへの応用、RTミドルウエアコンテストでの必勝法等、様々な講義を予定しています。一緒に参加した仲間とともに密度の濃い開発経験を通して、より実践的なロボットシステム構築方法を身に付けることができます。</p>
+
+<p><strong>参加資格は、少なくとも1回以上RTミドルウエア講習会を受講した経験があるか、同等以上のプログラミングスキルを身に着けていることを条件とします。また、参加者は12月に行われるRTミドルウエアコンテストへの参加が期待されています。</strong></p>
+
+
+<h2 id="toc2">開催要旨</h2>
+<p>本サマーキャンプでは、RTミドルウエアやロボット開発に精通する講師陣のもとで、RTミドルウエアやROSを用いた様々なロボットシステム開発を体験する機会を提供します。この企画により、一緒に参加した仲間とともに密度の濃い開発経験を通して、より実践的なロボットシステム構築方法を身に付けることを目的としています。</p>
+
+
+<h4 id="toc3">主催</h4>
+<ul>
+    <li> 産業技術総合研究所　情報・人間工学領域　インテリジェントシステム研究部門</li>
+    <li>（公社）計測自動制御学会SI部門　RTシステムインテグレーション部会</li>
+    <li>（一社）日本ロボット工業会・ロボットビジネス推進協議会</li>
+</ul>
+
+
+<h4 id="toc4">日時・場所</h4>
+<ul>
+    <li> 2026年8月24日（月）～8月28日（金）<ul>
+        <li> 産業技術総合研究所　中央事業所2群　２ー１棟８階大会議室（D棟）</li>
+        <li> 原則として対面でのご参加をお願いしておりますが、やむを得ない事情により現地へのご来場が難しい場合は、個別にご相談いただければ幸いです。　</li>
+    </ul></li>
+</ul>
+
+
+<h3 id="toc5">参加資格</h3>
+<p>RTミドルウェア講習会に参加したことがある，もしくは同等程度の経験を有していること．</p>
+
+<p>または、オンラインの講習会にご参加ください。</p>
+
+<ul>
+    <li> <a href="https://connpass.com/event/399791/">https://connpass.com/event/399791/</a></li>
+</ul>
+
+<p>これまで講習会を受講したことがない場合は、以下のチュートリアルを自習することで参加資格を満たしたことにいたします。</p>
+
+<ul>
+    <li> <a href="/openrtm/doc/installation/lets_start">RTミドルウェアを10分で始めよう</a> (インストールとサンプルの動作確認)</li>
+    <li> <a href="/openrtm/ja/node/7151">画像処理コンポーネントの作成</a> (画像処理コンポーネントの作成練習、USBカメラor内蔵カメラが必要)</li>
+</ul>
+
+
+<h3 id="toc6">参加人数</h3>
+<ul>
+    <li> 参加者：7名</li>
+    <li> 講師・スタッフ：8名</li>
+</ul>
+
+
+<h3 id="toc7">参加費</h3>
+<p>無料</p>
+
+
+<h3 id="toc8">実施概要</h3>
+<p>個人またはグループで一つのロボットシステムやツールを開発し、最終日に成果発表とデモンストレーションをしていただきます。 可能であれば、開発した作品は、SI2026で行われるRTミドルウェアコンテストへエントリーしていただきたいと考えています。 参加にあたって、それぞれ目的意識を持ち、個人またはグループによる話し合いを通じて一つの課題を設定、SysMLを用いた要求分析・システム分析を行い、開発作業の見積もり・開発の分担をした上で開発作業を進めていただきます。</p>
+
+<p>IT分野の勉強会で一般に「もくもく会」（集まって個人個人が黙々とコーディングをする会）と呼ばれる物がありますが、そのような形態を想定しています。 また、事前にグルーピング及び開発対象についてヒアリングを行い、PCや簡単なセンサ、小型のロボットなどは要望があれば貸し出しします。</p>
+
+<p>過去のサマーキャンプの様子は以下のリンクからご覧いただけますので参考にしてください。</p>
+
+（参考） <ul>
+    <li> <a href="/openrtm/ja/node/3850">サマーキャンプ2011</a></li>
+    <li> <a href="/openrtm/ja/node/5048">サマーキャンプ2012</a></li>
+    <li> <a href="/openrtm/ja/tutorial/summercamp2013">サマーキャンプ2013</a></li>
+    <li> <a href="/openrtm/ja/tutorial/summercamp2014">サマーキャンプ2014</a></li>
+    <li> <a href="/openrtm/ja/tutorial/summercamp2015">サマーキャンプ2015</a></li>
+    <li> <a href="/openrtm/ja/tutorial/summercamp2016">サマーキャンプ2016</a></li>
+    <li> <a href="/openrtm/ja/tutorial/summercamp2017">サマーキャンプ2017</a></li>
+    <li> <a href="/openrtm/ja/tutorial/summercamp2018">サマーキャンプ2018</a></li>
+    <li> <a href="/openrtm/ja/tutorial/summercamp2019">サマーキャンプ2019</a></li>
+    <li> <a href="/openrtm/ja/tutorial/summercamp2020">サマーキャンプ2020</a></li>
+    <li> <a href="/openrtm/ja/tutorial/summercamp2021">サマーキャンプ2021</a></li>
+    <li> <a href="/openrtm/ja/tutorial/summercamp2022">サマーキャンプ2022</a></li>
+    <li> <a href="/openrtm/ja/tutorial/summercamp2023">サマーキャンプ2023</a></li>
+    <li> <a href="/openrtm/ja/tutorial/summercamp2024">サマーキャンプ2024</a></li>
+    <li> <a href="/openrtm/ja/tutorial/summercamp2025">サマーキャンプ2025</a></li>
+</ul>
+
+
+<h2 id="toc9">プログラム</h2>
+
+
+<div class="pearwiki_table_block"><table class="pearwiki_table">
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150"><strong>事前学習</strong></td>
+        <td class="pearwiki_td pearwiki_align_center" colspan="2" width="400"><strong>サマーキャンプ開始までに視聴しておいてください。</strong></td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150"></td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">講演: SysML講習会 <br />
+<a href="/openrtm/sites/default/files/6048/2016SummerCamp-021.pdf">講義資料</a> <br />
+ <a href="https://www.youtube.com/watch?v=ffiMVreS95s">動画</a></td>
+        <td class="pearwiki_td pearwiki_align_left" width="200"></td>
+    </tr>
+</table></div>
+
+
+
+<div class="pearwiki_table_block"><table class="pearwiki_table">
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150"><strong>8月24日(月)&quot;</td>
+        <td class="pearwiki_td pearwiki_align_center" colspan="2" width="400"></strong>第1日目''</td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">13:00-13:05</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">開催の挨拶</td>
+        <td class="pearwiki_td pearwiki_align_left" width="200">大原 賢一 <br />
+(名城大)</td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">13:05-13:30</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">RTミドルウェアサマーキャンプガイダンス</td>
+        <td class="pearwiki_td pearwiki_align_left" width="200">大原 賢一<br />
+(名城大)</td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">13:30 - 15:00</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">自己紹介・決意表明</td>
+        <td class="pearwiki_td pearwiki_align_left" width="200">-</td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">15:00 - 15:50</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">講演: SysMLを利用したロボット開発<br />
+ <br />
+講義資料:<a href="/openrtm/sites/default/files/7361/2026RTM_SC_GA.pdf">2026RTM_SC_GA.pdf</a></td>
+        <td class="pearwiki_td pearwiki_align_left" width="200">坂本武志<br />
+(グローバルアシスト)</td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">16:00 - 17:30</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">RTシステムモデル化実習</td>
+        <td class="pearwiki_td pearwiki_align_left" width="200">グループに分かれて構築するシステムのモデル化を行います。</td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">18:00 -</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">懇親会</td>
+        <td class="pearwiki_td pearwiki_align_left" width="200">-</td>
+    </tr>
+</table></div>
+
+
+
+<div class="pearwiki_table_block"><table class="pearwiki_table">
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150"><strong>8月25日(火)</strong></td>
+        <td class="pearwiki_td pearwiki_align_center" colspan="2" width="400"><strong>第2日目</strong></td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">9:30-10:10</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">未定</td>
+        <td class="pearwiki_td pearwiki_align_left" width="200">菅 佑樹  <br />
+(Sugar Sweet Robotics)</td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">10:10-11:00</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">RTミドルウェアツール紹介1: <br />
+ rtshellの使い方について<br />
+ <br />
+<strong>講義資料</strong>:<a href="/openrtm/sites/default/files/7300/rtshell_2025.pdf">rtshell_2025.pdf</a></td>
+        <td class="pearwiki_td pearwiki_align_left" width="200">安藤 慶昭  <br />
+(産業技術総合研究所)</td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">11:00-11:50</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">RTミドルウェアツール紹介2：<br />
+ 利用可能なRTコンポーネントやツールについて<br />
+ <br />
+<strong>講義資料</strong>:<a href="/openrtm/sites/default/files/7361/2026SummerCamp-04.pdf">2026SummerCamp-04.pdf</a></td>
+        <td class="pearwiki_td pearwiki_align_left" width="200">宮本 信彦<br />
+ (産業技術総合研究所)</td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">11:50-13:00</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">昼休み</td>
+        <td class="pearwiki_td pearwiki_align_left" width="200"></td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">13:00-15:10</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">ロボットシステム開発とモデリング</td>
+        <td class="pearwiki_td pearwiki_align_left" width="200">坂本武志(グローバルアシスト)</td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">15:10-16:00</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">開発目標システム発表</td>
+        <td class="pearwiki_td pearwiki_align_left" width="200">今後開発するシステムに付いてグループごとに発表してもらいます。</td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">16:00-18:00</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">RTシステム構築実習1</td>
+        <td class="pearwiki_td pearwiki_align_left" width="200">実際のシステム構築に取り組んでもらいます。</td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">18:00-22:00</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">夜の部</td>
+        <td class="pearwiki_td pearwiki_align_left" width="200">希望者は引き続き開発作業可能</td>
+    </tr>
+</table></div>
+
+
+
+<div class="pearwiki_table_block"><table class="pearwiki_table">
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150"><strong>8月26日(水) </strong></td>
+        <td class="pearwiki_td pearwiki_align_center" colspan="2" width="400"><strong>第3日目</strong></td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">9:00 - 16:30</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">RTシステム構築実習2</td>
+        <td class="pearwiki_td pearwiki_align_left" width="200">-</td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">16:30 - 17:00</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">各チームの進捗報告</td>
+        <td class="pearwiki_td pearwiki_align_left" width="200">-</td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">17:00-22:00</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">夜の部</td>
+        <td class="pearwiki_td pearwiki_align_left" width="200">希望者は引き続き開発作業可能</td>
+    </tr>
+</table></div>
+
+
+
+<div class="pearwiki_table_block"><table class="pearwiki_table">
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150"><strong>8月27日(木) </strong></td>
+        <td class="pearwiki_td pearwiki_align_center" colspan="2" width="400"><strong>第4日目</strong></td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">9:00 - 16:30</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">RTシステム構築実習3</td>
+        <td class="pearwiki_td pearwiki_align_left" width="200">-</td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">16:30 - 17:00</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">各チームの進捗報告</td>
+        <td class="pearwiki_td pearwiki_align_left" width="200">-</td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">17:00-22:00</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">夜の部</td>
+        <td class="pearwiki_td pearwiki_align_left" width="200">希望者は引き続き開発作業可能</td>
+    </tr>
+</table></div>
+
+
+
+<div class="pearwiki_table_block"><table class="pearwiki_table">
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150"><strong>8月28日(金) </strong></td>
+        <td class="pearwiki_td pearwiki_align_center" colspan="2" width="400"><strong>第5日目</strong></td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">9:00 - 15:00</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">RTシステム構築実習4</td>
+        <td class="pearwiki_td pearwiki_align_left" width="200">-</td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">15:00 - 17:00</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">成果報告会</td>
+        <td class="pearwiki_td pearwiki_align_left" width="200">-</td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">17:00 - 17:10</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">閉会の挨拶</td>
+        <td class="pearwiki_td pearwiki_align_left" width="200"></td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="150">17:10 - 18:00</td>
+        <td class="pearwiki_td pearwiki_align_left" width="400">片付け</td>
+        <td class="pearwiki_td pearwiki_align_left" width="200"></td>
+    </tr>
+</table></div>
+
+<p>(敬称略)</p>
+
+<p>※本サマーキャンプでの成果物（作品・スライド）や成果発表の動画等は、ホームページで公開します。</p>
+
+
+<h2 id="toc10">実行委員会</h2>
+
+
+<div class="pearwiki_table_block"><table class="pearwiki_table">
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="100">実行委員長</td>
+        <td class="pearwiki_td pearwiki_align_left" width="100">大原　賢一</td>
+        <td class="pearwiki_td pearwiki_align_left"><a href="https://wwwms.meijo-u.ac.jp/kohara/">名城大学理工学部ロボットシステムデザイン研究室　教授</a></td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="100">幹事</td>
+        <td class="pearwiki_td pearwiki_align_left" width="100">宮本　信彦</td>
+        <td class="pearwiki_td pearwiki_align_left">産業技術総合研究所 情報・人間工学領域 インテリジェントシステム研究部門 研究員</td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="100">委員</td>
+        <td class="pearwiki_td pearwiki_align_left" width="100">安藤　慶昭</td>
+        <td class="pearwiki_td pearwiki_align_left">日本ロボット工業会・ロボットビジネス推進協議会・RTミドルウェアWG 主査  <br />
+ 産業技術総合研究所 インテリジェントシステム研究部門 研究部門長</td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="100">委員</td>
+        <td class="pearwiki_td pearwiki_align_left" width="100">鈴木昭二</td>
+        <td class="pearwiki_td pearwiki_align_left">SICE SI部門RTシステムインテグレーション部会主査</td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="100">委員</td>
+        <td class="pearwiki_td pearwiki_align_left" width="100">菅　佑樹</td>
+        <td class="pearwiki_td pearwiki_align_left"><a href="http://sugarsweetrobotics.com/">株式会社 SUGAR SWEET ROBOTICS</a></td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="100">委員</td>
+        <td class="pearwiki_td pearwiki_align_left" width="100">神徳　徹雄</td>
+        <td class="pearwiki_td pearwiki_align_left"><a href="https://www.aist-solutions.co.jp/">株式会社 AIST Solutions</a></td>
+    </tr>
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td pearwiki_align_center" width="100">委員</td>
+        <td class="pearwiki_td pearwiki_align_left" width="100">坂本　武志</td>
+        <td class="pearwiki_td pearwiki_align_left"><a href="https://globalassist.co.jp/">株式会社 グローバルアシスト</a></td>
+    </tr>
+</table></div>
+
+
+<h2 id="toc11">講義資料</h2>
+<ul>
+    <li> 準備中</li>
+</ul>
+
+
+<h2 id="toc12">開発成果</h2>
+<a id="summercamp2026_group1"></a> 
+<h3 id="toc13">グループ1</h3>
+<ul>
+    <li> <strong>課題</strong>: 音声認識による風船割りロボットシステム<ul>
+        <li> <a href="/openrtm/ja/project/summercamp2026-1">プロジェクトページ</a></li>
+    </ul></li>
+</ul>
+
+<ul><ul>
+        <li> 開発モデル発表<ul>
+            <li> <a href="https://youtu.be/vY32AytYdzU">動画（Youtube）</a></li>
+        </ul></li>
+    </ul></li>
+</ul>
+
+<ul><ul>
+        <li> 成果報告<ul>
+            <li> <a href="https://youtu.be/xBht2Bhxfdw">動画（Youtube）</a></li>
+        </ul></li>
+    </ul></li>
+</ul>
+
+<ul><ul>
+        <li> デモ動画<ul>
+            <li>  <a href="https://youtu.be/ebDL8OxUnX8">動画（Youtube）</a></li>
+        </ul></li>
+    </ul></li>
+</ul>
+
+<a id="summercamp2026_group2"></a> 
+<h3 id="toc14">グループ2</h3>
+<ul>
+    <li> <strong>課題</strong>: Micro-Convey-System<ul>
+        <li> <a href="/openrtm/ja/project/summercamp2026-2">プロジェクトページ</a></li>
+    </ul></li>
+</ul>
+
+<ul><ul>
+        <li> 開発モデル発表<ul>
+            <li>  <a href="https://youtu.be/r-XcdCvNgvg">動画（Youtube）</a></li>
+        </ul></li>
+    </ul></li>
+</ul>
+
+<ul><ul>
+        <li> 成果報告<ul>
+            <li>  <a href="https://youtu.be/VBaTzh5bVCE">動画（Youtube）</a></li>
+        </ul></li>
+    </ul></li>
+</ul>
+
+<ul><ul>
+        <li> デモ動画<ul>
+            <li>  <a href="https://youtu.be/_Wdh-sE46P8">動画（Youtube）</a></li>
+        </ul></li>
+    </ul></li>
+</ul>
+
+
+<h2 id="toc15">サマーキャンプの様子</h2>
+<div class="pearwiki_align_center"><img src="/openrtm/sites/default/files/7361/summercamp2026_01.jpg" alt="summercamp2026_01.jpg" title="summercamp2026_01.jpg" width="1984" height="1488" /></div> <br />
+<div class="pearwiki_align_center"><img src="/openrtm/sites/default/files/7361/summercamp2026_02.jpg" alt="summercamp2026_02.jpg" title="summercamp2026_02.jpg" width="1984" height="1488" /></div> <br />
+<div class="pearwiki_align_center"><img src="/openrtm/sites/default/files/7361/summercamp2026_03.jpg" alt="summercamp2026_03.jpg" title="summercamp2026_03.jpg" width="1984" height="1488" /></div> <br />
+<div class="pearwiki_align_center"><img src="/openrtm/sites/default/files/7361/summercamp2026_04.jpg" alt="summercamp2026_04.jpg" title="summercamp2026_04.jpg" width="1984" height="1488" /></div> <br />
+<div class="pearwiki_align_center"><img src="/openrtm/sites/default/files/7361/sc2026_06.jpg" alt="sc2026_06.jpg" title="sc2026_06.jpg" width="907" height="1209" /></div> <br />
+<div class="pearwiki_align_center"><img src="/openrtm/sites/default/files/7361/sc2026_07.jpg" alt="sc2026_07.jpg" title="sc2026_07.jpg" width="1209" height="907" /></div> <br />
+<div class="pearwiki_align_center"><img src="/openrtm/sites/default/files/7361/sc2026_08.jpeg" alt="sc2026_08.jpeg" title="sc2026_08.jpeg" width="1209" height="907" /></div> <br />
+<div class="pearwiki_align_center"><img src="/openrtm/sites/default/files/7361/sc2026_09.jpg" alt="sc2026_09.jpg" title="sc2026_09.jpg" width="907" height="1209" /></div> <br />
+<div class="pearwiki_align_center"><img src="/openrtm/sites/default/files/7361/summercamp2026_05.jpg" alt="summercamp2026_05.jpg" title="summercamp2026_05.jpg" width="907" height="1209" /></div> <br />
+
+
+</div></div></div>	</div>
+
+			<footer class="footer node-footer" role="contentinfo">
+			<!-- Node tags -->
+						
+			<!-- Node links -->
+					</footer>
+	</div>	</div>
+</div>  </div>
+						</div>
+
+													<!-- Right sidebar -->
+							<aside id="sidebar-second" class="sidebar-second sidebar grid-4 omega" role="complementary">
+								<div class="section">
+									  <div class="region region-sidebar-second">
+    
+<div id="block-menu-block-2" class="block-menu-block-2 block block-menu-block block-odd">
+	<!-- Block title -->
+			<h2 class="title block-title"><a href="/openrtm/ja/tutorials" title="講習会" class="sf-depth-2 menuparent active-trail">講習会</a></h2>
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<div class="menu-block-wrapper menu-block-2 menu-name-menu-side-menu-ja parent-mlid-0 menu-level-3">
+  <ul class="menu clearfix"><li class="first leaf active-trail active menu-mlid-525489 rt-2026 mid-525489"><a href="/openrtm/ja/tutorial/summercamp2026" class="sf-depth-3 active-trail active">RTミドルウェア サマーキャンプ2026</a></li>
+<li class="leaf menu-mlid-525470 robomech2026-2026-6-29- mid-525470"><a href="/openrtm/ja/tutorial/robomech2026" title="" class="sf-depth-3">ROBOMECH2026講習会 (2026年6月29日(月))</a></li>
+<li class="leaf menu-mlid-320233 rt-2025 mid-320233"><a href="/openrtm/ja/tutorial/summercamp2025" class="sf-depth-3">RTミドルウェアサマーキャンプ2025</a></li>
+<li class="leaf menu-mlid-296705 robomech2025-2025-6-4- mid-296705"><a href="/openrtm/ja/tutorial/robomech2025" class="sf-depth-3">ROBOMECH2025講習会 (2025年6月4日(水))</a></li>
+<li class="leaf menu-mlid-172128 rt-2024 mid-172128"><a href="/openrtm/ja/tutorial/summercamp2024" class="sf-depth-3">RTミドルウェアサマーキャンプ2024</a></li>
+<li class="leaf menu-mlid-84281 robomech2024-2024-5-29- mid-84281"><a href="/openrtm/ja/tutorial/robomech2024" class="sf-depth-3">ROBOMECH2024講習会 (2024年5月29日(水))</a></li>
+<li class="last leaf menu-mlid-18211 rt-2023 mid-18211"><a href="/openrtm/ja/node/7233/" title="">RTミドルウェアサマーキャンプ2023</a></li>
+</ul></div>
+	</div>
+</div>  </div>
+								</div>
+							</aside>
+											</div>
+				</div>
+			</div>
+			
+			<!-- Region Content bottom -->
+			<div id="content_bottom_wrapper" class="content_bottom_wrapper">
+<div class="container-12"><div class="grid-12">  <div class="region region-content-bottom">
+    
+<div id="block-panels-mini-front-page-block" class="block-panels-mini-front-page-block block block-panels-mini block-even">
+	<!-- Block title -->
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<div class="panel-display panel-3col-33-stacked  clearfix" id="mini-panel-front_page_block">
+  
+  <div class="center-wrapper">
+    <div class="panel-panel panel-col-first">
+      <div class="inside"><div class="panel-pane pane-block pane-block-10 pane-block"  >
+  
+        <h2 class="pane-title">
+      ダウンロード    </h2>
+    
+  
+  <div class="pane-content">
+    
+<h1 id="toc16">最新バージョン : 2.1.0-RELESE</h1>
+
+
+<div class="pearwiki_table_block"><table class="pearwiki_table">
+    <tr class="pearwiki_tr">
+        <td class="pearwiki_td ">2.1.0-RELESE</td>
+        <td class="pearwiki_td "><a href="/openrtm/node/7332">ダウンロードページ</a></td>
+    </tr>
+</table></div>
+
+
+
+  </div>
+
+  
+  </div>
+</div>
+    </div>
+
+    <div class="panel-panel panel-col">
+      <div class="inside"><div class="panel-pane pane-block pane-block-38 pane-block"  >
+  
+        <h2 class="pane-title">
+      統計    </h2>
+    
+  
+  <div class="pane-content">
+    
+<center><b>Webサイト統計</b></center>
+<table class="pearwiki_table">
+<tr><td><b>ユーザ数:</b></td><td align="right">3399</td></tr>
+<!-- tr><td><b>ページビュー/日:</b></td><td align="right"></td></tr -->
+<!-- tr><td><b>訪問者数/日:</b></td><td align="right"></td></tr -->
+</table>
+
+<center><b>プロジェクト統計</b></center>
+<table class="pearwiki_table">
+<tr><td><a href="http://www.openrtm.org/openrtm/ja/content/rt%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%8D%E3%83%B3%E3%83%88">RTコンポーネント</a></td><td align="right">309</td></tr>
+<tr><td><a href="http://www.openrtm.org/openrtm/ja/content/rt%E3%83%9F%E3%83%89%E3%83%AB%E3%82%A6%E3%82%A7%E3%82%A2">RTミドルウエア</a></td><td align="right">35</td></tr>
+<tr><td><a href="http://www.openrtm.org/openrtm/ja/content/%E3%83%84%E3%83%BC%E3%83%AB">ツール</td><td align="right"></a>25</td></tr>
+<tr><td><a href="http://www.openrtm.org/openrtm/ja/content/%E4%BB%95%E6%A7%98%E3%83%BB%E6%96%87%E6%9B%B8%E7%AD%89">文書・仕様書</a></td><td align="right">2</td></tr>
+</table>
+
+
+  </div>
+
+  
+  </div>
+</div>
+    </div>
+
+    <div class="panel-panel panel-col-last">
+      <div class="inside"><div class="panel-pane pane-block pane-block-12 pane-block"  >
+  
+      
+  
+  <div class="pane-content">
+    
+<h2 id="toc17"><a href="http://github.com/OpenRTM">OpenRTM@Github</a></h2>
+<p>OpenRTM-aist GitHubサイト</p>
+
+
+<h2 id="toc18"><a href="http://www.ros.org">ROS</a></h2>
+<p>Robot Operating System</p>
+
+
+<h2 id="toc19"><a href="http://choreonoid.org/ja/">Choreonoid</a></h2>
+<p>モーションエディタ/シミュレータ</p>
+
+
+<h2 id="toc20"><a href="http://daqmw.kek.jp/">DAQ-Middleware</a></h2>
+<p>ネットワーク分散環境でデータ収集用ソフトウェアを容易に構築するためのソフトウェア・フレームワーク</p>
+
+<p>産総研が提供するRTC集</p>
+
+<p>東京オープンソースロボティクス協会</p>
+
+
+
+  </div>
+
+  
+  </div>
+</div>
+    </div>
+  </div>
+
+  </div>
+	</div>
+</div>  </div>
+</div></div></div>		</div>
+
+		<!-- Footer
+		======================================================================================= -->
+		<footer id="footer" class="footer page-footer" role="contentinfo">
+			<!-- Region Footer top -->
+			
+						<div class="footer-section-1">
+				<div class="container-12">
+					<div class="grid-12 border-1">
+						<div id="footer-left" class=" grid-8 alpha">
+							<!-- Footer Left -->
+															  <div class="region region-footer-left">
+    
+<div id="block-panels-mini-footer-navigation" class="block-panels-mini-footer-navigation block block-panels-mini block-odd">
+	<!-- Block title -->
+			<h2 class="title block-title">Navigation</h2>
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<div class="panel-flexible panels-flexible-new clearfix" id="mini-panel-footer_navigation">
+<div class="panel-flexible-inside panels-flexible-new-inside">
+<div class="panels-flexible-region panels-flexible-region-new-center panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-new-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-menu-tree pane-menu-navibar-ja"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-ctools-menu-navibar-ja-1 menu-name-menu-navibar-ja parent-mlid-0 menu-level-1">
+  <ul class="menu clearfix"><li class="first leaf menu-mlid-1631 id- mid-1631"><a href="/openrtm/ja" title="ホーム">ホーム</a></li>
+<li class="leaf menu-mlid-1628 id- mid-1628"><a href="/openrtm/ja/node/619" title="ダウンロード">ダウンロード</a></li>
+<li class="leaf menu-mlid-1629 id- mid-1629"><a href="/openrtm/ja/doc" title="ドキュメント">ドキュメント</a></li>
+<li class="leaf menu-mlid-1630 id- mid-1630"><a href="/openrtm/ja/community" title="コミュニティ">コミュニティ</a></li>
+<li class="leaf menu-mlid-4493 id- mid-4493"><a href="/openrtm/ja/project/projects_ja" title="">プロジェクト</a></li>
+<li class="last leaf menu-mlid-6721 id- mid-6721"><a href="/openrtm/ja/content/%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%82%A2" title="RTCとともに利用可能なハードウエアのリスト">ハードウエア</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+  </div>
+</div>
+</div>
+</div>
+	</div>
+</div>
+<div id="block-views-mews-new-mini-block" class="block-views-mews-new-mini-block block block-views block-even">
+	<!-- Block title -->
+			<h2 class="title block-title">News</h2>
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<div class="view view-mews-new view-id-mews_new view-display-id-mini_block attachment view-dom-id-f90c5208f5e5115ed758c95053bcfb70">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div  class="ds-1col node node-news node-odd published with-comments view-mode-list_item_3 clearfix">
+
+  
+  <div class="field field-name-news-date-very-short field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><span class="date-very-short">16 Sep</span></div></div></div><div class="field field-name-title-very-short field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/openrtm/ja/news/rt_summercamp2026_250916_ja">RTミドルウエアサマーキャンプ202...</a></div></div></div></div>
+
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div  class="ds-1col node node-news node-even published with-comments view-mode-list_item_3 clearfix">
+
+  
+  <div class="field field-name-news-date-very-short field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><span class="date-very-short">8 Jul</span></div></div></div><div class="field field-name-title-very-short field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/openrtm/ja/node/7362">サマーキャンプ2026の参加受付を...</a></div></div></div></div>
+
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <div  class="ds-1col node node-news node-odd published with-comments view-mode-list_item_3 clearfix">
+
+  
+  <div class="field field-name-news-date-very-short field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><span class="date-very-short">4 Jun</span></div></div></div><div class="field field-name-title-very-short field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/openrtm/ja/news/20260604_openrtm-aist_2_1_0_release">OpenRTM-aist 2.1.0 をリリースし...</a></div></div></div></div>
+
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+    <div  class="ds-1col node node-news node-even published with-comments view-mode-list_item_3 clearfix">
+
+  
+  <div class="field field-name-news-date-very-short field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><span class="date-very-short">10 Dec</span></div></div></div><div class="field field-name-title-very-short field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/openrtm/ja/node/7318">RTミドルウエアコンテスト2025が...</a></div></div></div></div>
+
+  </div>
+  <div class="views-row views-row-5 views-row-odd">
+    <div  class="ds-1col node node-news node-odd published with-comments view-mode-list_item_3 clearfix">
+
+  
+  <div class="field field-name-news-date-very-short field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><span class="date-very-short">30 Sep</span></div></div></div><div class="field field-name-title-very-short field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/openrtm/ja/node/7312">RTMコンテスト2025の申込みを受付...</a></div></div></div></div>
+
+  </div>
+  <div class="views-row views-row-6 views-row-even views-row-last">
+    <div  class="ds-1col node node-news node-even published with-comments view-mode-list_item_3 clearfix">
+
+  
+  <div class="field field-name-news-date-very-short field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><span class="date-very-short">11 Sep</span></div></div></div><div class="field field-name-title-very-short field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/openrtm/ja/news/20250911_gpg_pubkey_ja">GPG公開鍵を更新しました</a></div></div></div></div>
+
+  </div>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/openrtm/ja/news/new">
+    その他のNews  </a>
+</div>
+  
+  
+  
+</div>	</div>
+</div>
+<div id="block-panels-mini-about-us" class="block-panels-mini-about-us block block-panels-mini block-odd">
+	<!-- Block title -->
+			<h2 class="title block-title">About us</h2>
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<div class="panel-display panel-1col clearfix" id="mini-panel-about_us">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-block pane-block-24 pane-block"  >
+  
+      
+  
+  <div class="pane-content">
+    <p><a href="/openrtm/node/1016">サイトポリシー</a> | <a href="/openrtm/node/247">サービス利用規約</a> | <a href="/openrtm/node/1185">個人情報保護方針</a></p>
+
+
+
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+	</div>
+</div>  </div>
+													</div>
+													<!-- Footer Right -->
+							<aside id="footer-right" class="grid-4 omega">
+								  <div class="region region-footer-right">
+    
+<div id="block-user-login" class="block-user-login block block-user block-even">
+	<!-- Block title -->
+			<h2 class="title block-title">u-login</h2>
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<form action="/openrtm/ja/tutorial/summercamp2026?destination=node/7361" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">ユーザー名 <span class="form-required" title="このフィールドは必須です。">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">パスワード <span class="form-required" title="このフィールドは必須です。">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first"><a href="/openrtm/ja/user/touroku" title="新規ユーザアカウントの作成">アカウントの作成</a></li>
+<li class="last"><a href="/openrtm/ja/user/password" title="パスワードを再発行するためのメールをリクエスト">パスワードの再発行</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-QCt6um0yn72sqxwXYWCeHNbQ7dYZQK2CJVdYpKcLpBE" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions--3"><input type="submit" id="edit-submit--3" name="op" value="ログイン" class="form-submit" /></div></div></form>	</div>
+</div>
+<div id="block-block-75" class="block-block-75 block block-block block-odd">
+	<!-- Block title -->
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<p><a href="https://openrtm.github.io/">GitHub Pages（Webサイト）</a></p>
+
+<p><a href="https://github.com/OpenRTM">github リポジトリ</a></p>
+
+
+
+	</div>
+</div>
+<div id="block-menu-menu-user-login" class="block-menu-menu-user-login block block-menu block-even">
+	<!-- Block title -->
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<ul class="menu clearfix"><li class="first last leaf id- mid-13923"><a href="/openrtm/ja/user/login" title="">ログイン</a></li>
+</ul>	</div>
+</div>  </div>
+							</aside>
+											</div>
+				</div>
+			</div>
+						<div class="container-12">
+				<div class="grid-12 clearfix">
+					<div class="footer-wrapper clearfix">
+						<!-- Region Footer -->
+						  <div class="region region-footer">
+    
+<div id="block-slack-invite-slack-invite-send-request" class="block-slack-invite-slack-invite-send-request block block-slack-invite block-odd">
+	<!-- Block title -->
+			<h2 class="title block-title">Join our slack</h2>
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<form action="/openrtm/ja/tutorial/summercamp2026" method="post" id="slack-invite-send-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-slack-email">
+  <label for="edit-slack-email">Email </label>
+ <input type="text" id="edit-slack-email" name="slack_email" value="" size="60" maxlength="128" class="form-text" />
+<div class="description">Enter email address for slack invite.</div>
+</div>
+<input type="submit" id="edit-submit--4" name="op" value="送信" class="form-submit" /><input type="hidden" name="form_build_id" value="form-e_tjfs2BeHjzLTnR0Y5ck5DZjbz9HqNVg1m2F6VtkbU" />
+<input type="hidden" name="form_id" value="slack_invite_send_form" />
+</div></form>	</div>
+</div>
+<div id="block-block-72" class="block-block-72 block block-block block-even">
+	<!-- Block title -->
+	
+	<!-- Block content -->
+	<div class="content block-content">
+		<p>Copyright © 2005-2020 National Institute of Advanced Industrial Science and Technology, Japan. All Rights Reserved.</p>
+
+
+
+	</div>
+</div>  </div>
+
+											</div>
+				</div>
+			</div>
+			<!-- Region map content -->
+					</footer>
+	</div>
+</div></body>
+</html>

@@ -1,0 +1,32 @@
+<nav class="site-nav" aria-label="Main">
+  <ul class="menu">
+    {% assign items = site.data.navigation %}
+    {% for item in items %}
+      <li class="menu-item{% if item.children %} has-children{% endif %}">
+        <a class="menu-link" href="{{ item.url | relative_url }}">{{ item.title }}--01</a>
+
+        {% if item.children %}
+          <ul class="submenu" role="menu">
+            {% for child in item.children %}
+              <li class="submenu-item{% if child.children %} has-children{% endif %}">
+                <a class="submenu-link" href="{{ child.url | relative_url }}">{{ child.title }}--02</a>
+
+                {% if child.children %}
+                  <ul class="submenu level-2" role="menu">
+                    {% for grand in child.children %}
+                      <li class="submenu-item">
+                        <a class="submenu-link" href="{{ grand.url | relative_url }}">{{ grand.title }}--03</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
+

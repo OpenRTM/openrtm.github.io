@@ -1,0 +1,342 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0058)https://www.openrtm.org/rt/RTMcontest/2007/rtmcontest.html -->
+<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<title>RTミドルウエアコンテスト</title>
+
+<link rel="stylesheet" href="./rtmcontest2007_files/rtmcontest.css" type="text/css"></head>
+<body>
+<div id="mybody">
+<div id="menubox">
+<center>
+<table bgcolor="#072441" cellpadding="2" width="100%">
+<tbody>
+<tr>
+<td align="center"><img src="./rtmcontest2007_files/RTM_logo.gif" alt="RT-middleware" title="" border="0" height="70" hspace="5" vspace="5" width="112"></td>
+</tr>
+</tbody>
+</table>
+<br>
+<small><small><a target="_blank" href="http://www.roboness.jp/">
+ロボットビジネス推進協議会</a><br>
+／SICE <a target="_blank" href="http://www.sice.or.jp/%7Esi-div/">SI部門</a>
+<br>
+<small>RTシステムインテグレーション部会</small><br>
+／産業技術総合研究所 <br>
+<a href="http://unit.aist.go.jp/is/index_j.html">
+知能システム研究部門<br>
+</a></small></small><br>
+<!-- img src="./rtmcontest2007_files/Count.cgi" alt="counter" height="20" width="90"></center-->
+<hr><iframe src="./rtmcontest2007_files/menuitem.html" frameborder="0" width="140"></iframe>
+<hr><br>
+<center><font style="font-weight: bold;" size="-1"><a href="http://www.openrtm.org/rt/OpenRTM-aist/" target="_blank">RT
+ミドルウエアOpenRTM-aist</a></font><br>
+<font size="-1">のホームページへ</font><br>
+<hr><small><small>ホームページの管理者：<br>
+神徳徹雄&nbsp;( <a href="http://staff.aist.go.jp/t.kotoku/contact.html" target="_blank"><b>お問い合わせ</b></a> ) </small></small><br>
+</center>
+</div>
+<div id="mainbox">
+<table bgcolor="#072441" width="100%">
+<tbody>
+<tr>
+<td><br>
+<b><big><big><big><font color="#ffffff">RT
+ミドルウエアコンテスト　2007<br>
+<small><small>http://www.openrtm.org/rt/RTMcontest/</small></small></font>
+</big></big></big></b></td>
+</tr>
+</tbody>
+</table>
+<span style="font-weight: normal;"></span><span style="color: rgb(255, 0, 0);"></span>
+<h3>What's New<br></h3>諸般の事情による産総研知能システム研究部門サーバ(www.is.aist.go.jp)の運用停止に伴い、 OpenRTMサーバ(www.openrtm.org)に引っ越しいたしました。リンク切れなどを見つけましたら連絡いただくようお願いいたします。<br><span style="color: rgb(255, 0, 0);"></span><h3><span style="color: rgb(255, 0, 0);">御礼</span>：</h3>
+皆さまのご支援のおかげで、盛況に成果報告会・表彰式を開催することができました。初めての試みのために不慣れなところもあり、いろいろご迷惑をおかけい
+たしましたが、今回の経験を活かしてＲＴミドルウエアコンテストをロボットのソフトウエア技術を共有し、蓄積していくひとつの場としていきたいと考えてお
+ります。是非、皆で育てていただくようお願いいたします。<br>
+<br>
+会場を提供いただいた、SI2007の実行委員会、プログラム委員会の皆さま、初めての試みにも関わらず果敢にチャレンジいただいた参加者の皆さま、趣旨
+に賛同し奨励賞を提供いただいたスポンサーの皆さま、成果報告会の狭い会場にも関わらず熱心に発表を聞き、質疑応答に加わっていただいた皆様に、御礼申し
+上げます。<br>
+<br>
+今後の運営の改善を図りたいと思いますので、今回の試みの感想やご意見を( <a href="http://staff.aist.go.jp/t.kotoku/contact.html" target="_blank"><b>お問い合わせ</b></a>
+)にてご連絡いただくようお願いいたします。<br>
+（ホームページに内容を掲載させていただくことをあらかじめご了承ください）
+<h3><b>新着情報：</b></h3>
+● <a target="_top" href="./entry_public/"><span style="font-weight: bold;">応募テーマ</span>の
+ページ</a>でコンテスト作品を公開させていただきました。<span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;">new</span>
+<br>
+● <a href="./remark/">感想・苦労話・改善提案のページ</a>が用意できました。<span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;">new</span>
+<br>
+● <a target="_blank" href="./presentation.pdf"><span style="font-weight: bold;">プレゼンテーション資料集</span>(pdf)</a>が
+用意できました。［提供いただいた分のみ]<span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;">new</span>
+<br>
+● <a href="./abstracts.pdf"><span style="font-weight: bold;">概要集</span>(pdf)</a>が用意
+できました。(2007.12.27) <span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;">new</span>
+<br>
+● <a target="_blank" href="http://www.si-sice.org/si2007/">ＳＩ２００７</a>の
+会場（広島）にて成果発表会・表彰式をおこないました。予想以上の参加者を集め、立ち見が出るほど盛況でした。結果は<a href="./award/">表彰（協賛）ページ</a>または<a href="./entry_public/">応募テーマ</a>のページを参照ください。
+(2007.12.22) <span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;">new</span>
+<br>
+● 『ＲＴミドルウエアの開発と国際標準化活動』に対して、計測自動制御学会<a target="_blank" href="http://www.sice.or.jp/%7Esi-div/award/index.html">システムイ
+ンテグレーション部門技術業績賞</a>を頂きました。(2007.12.21)<span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;">new</span>
+<br>
+●&nbsp;国際ロボット展対応のために、資料提出準備が遅れていることをお詫びいたします。
+週明けに改めて連絡させていただきます。(2007.12.01)<span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;"></span><br>
+● RTミドルウエアが<a target="_blank" href="http://www.robotaward.jp/release_071127.pdf">「今年のロボット」大
+賞2007優秀賞</a>に選ばれました（2007.11.27発表）。
+<br>
+● &nbsp;応募者全員に12月の成果発表報告をしていただきますので、プログラムおよび資料提出〆切を<span style="font-weight: bold;">12月1日</span>に延長します。
+(2007.11.10)&nbsp;<span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;"></span><br>
+●　現在<span style="font-weight: bold;">12</span>件
+の奨励賞の申込をいただきました。<a href="./award/"><span style="font-weight: bold;">表彰（協賛）</span></a>ページを参
+照下さい(2007.10.25)&nbsp;<span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;"></span><br>
+● &nbsp;奨励賞のご案内が遅れたため、参加登録（構想申込）締切を<span style="font-weight: bold;">10月31日</span>まで延長します。
+(2007.09.29)&nbsp;<span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;"></span><br>
+●　<a target="_top" href="./faq/"><span style="font-weight: bold;">FAQ（よくある質問とその回答）</span></a>を
+用意いたしました(2007.09.21)&nbsp;<span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;"></span><br>
+●&nbsp;参
+加登録（開発構想の登録）を開始いたしました (2007.09.19)&nbsp;</span><br>
+● <a style="font-weight: bold;" href="./cfp/">公募開
+始</a>致しました (2007.09.13)<br>
+● <a style="font-weight: bold;" target="_blank" href="./sponsor/">協賛募集</a>：
+随時協賛者を募集しております。皆さまのご連絡をお待ちしております。<span style="text-decoration: underline;"><br>
+<br>
+</span>
+<hr width="100%">
+<h3>主催・協賛：</h3>
+<div style="margin-left: 40px;">[主催]　<a target="_blank" href="http://www.roboness.jp/">
+ロボットビジネス推進協議会</a><br>
+[共催］　（社）<a target="_blank" href="http://www.sice.or.jp/">
+計測自動制御学会</a>　<a target="_blank" href="http://www.sice.or.jp/%7Esi-div/">システムインテグレーション部門</a><br>
+[共催］　（独）<a target="_blank" href="http://www.aist.go.jp/">
+産業技術総合研究所</a>　<a target="_blank" href="http://unit.aist.go.jp/is/index_j.html">知能システム研究部門</a><br>
+[協賛］ 冠賞を提供いただく団体、個人など　（詳細は<a style="font-weight: bold;" href="./award/">表彰(協賛)</a>ページ参照）<br>
+<a target="_blank" href="http://www.khi.co.jp/robot/">
+川崎重工業</a>（株）、
+<a target="_blank" href="http://www.kondo-robot.com/">近
+藤科学</a>（株）、
+<a target="_blank" href="http://www.sigma-k.co.jp/">シ
+グマ</a>（株）、
+（株）<a target="_blank" href="http://www.sec.co.jp/">
+セック</a>、
+（株）<a target="_blank" href="http://www.tech-arts.co.jp/">
+テクノロジックアート</a>、
+<a target="_blank" href="http://www.nihonbinary.co.jp/">日
+本バイナリー</a>（株）、
+（社）<a target="_blank" href="http://www.jara.jp/">
+日本ロボット工業会</a>、
+<a target="_blank" href="http://www.fhi.co.jp/">富士重工
+業</a>（株）、
+<a target="_blank" href="http://www.hokuyo-aut.co.jp/">北
+陽電機</a>（株）、
+（株）<a target="_blank" href="http://www.mayekawa.co.jp/">前
+川製作所</a>、
+<a target="_blank" href="http://www.mitsuilease.co.jp/">三
+井リース事業</a>（株）、
+他匿名企業1社　<small>［あいうえお順］</small><br>
+</div>
+<hr style="width: 100%; height: 2px;">
+<h3>スケジュール:</h3>
+<div style="margin-left: 40px;">9月13日（木）　公募開始<br>
+<span style="text-decoration: line-through;">
+9月28日（金）</span>　10月31日（水）　参加登録（プロジェクト構想申込締切）<small style="font-weight: bold; color: rgb(255, 0, 0);">　［締切延長］</small><br>
+<span style="text-decoration: line-through;">11月10日（土）</span>　12
+月1日（土）　プログラム及び資料登録締め切り<small style="font-weight: bold; color: rgb(255, 0, 0);">　［締切延長］</small>
+<br>
+<span style="text-decoration: line-through;">11月20日頃　　1次審査結
+果発表</span>　<br>
+12月22日（土）午後　<a target="_blank" href="http://www.si-sice.org/si2007/">SI2007</a>会場（広島）に
+て、プレゼンテーションと表彰式　<br>
+</div>
+<hr size="2" width="100%">
+<h3>趣旨:</h3>
+RTミドルウエアは、ロボットを構成する様々な要素をモジュール化し、容易に組み合わせることができるようにするソフトウエア基盤としてのロボット用ミド
+ルウエアです。モジュール化技術は、他の研究者などが開発した様々なアルゴリズムやセンサモジュールを統合してシステムを構築するのに適した技術です。し
+かし、その普及には便利なモジュールが提供されていないと、開発者にはRTミドルウエアに対応する手間が増え、導入に躊躇することになります。<br>
+&nbsp;現在、RTミドルウエアはロボットソフトウエアの国際標準に採用される状況で、ロボット技術を国際的にリードするためにも国内での普
+及が不可
+欠です。そこで、ロボット技術の共有と蓄積を図るために、有益なコンポーネントを充実させるべく本コンテストを開催することにしました。また、このコンテ
+ストを通して、これからのロボットソフトウエア開発者に不可欠なRTミドルウエアに精通する技術者も育成できるものと期待しています。 <br>
+<br>
+</div>
+<!-- mainbox -->
+<div id="footerbox">
+<hr size="2" width="100%">
+<address>&nbsp; &#169;
+Copyright&nbsp;2007 -2008 <a target="_blank" href="http://staff.aist.go.jp/t.kotoku/">神徳徹雄</a>&nbsp;
+産業技術総合研究所<br>
+</address>
+</div>
+<!-- footerbox -->
+</div>
+<!-- mybody -->
+</body></html><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja"><head>
+<meta content="text/html; charset=Shift_JIS" http-equiv="content-type"><title>RTミドルウエアコンテスト</title>
+
+<link rel="stylesheet" href="./rtmcontest2007_files/rtmcontest.css" type="text/css"></head>
+<body>
+<div id="mybody">
+<div id="menubox">
+<center>
+<table bgcolor="#072441" cellpadding="2" width="100%">
+<tbody>
+<tr>
+<td align="center"><img src="./rtmcontest2007_files/RTM_logo.gif" alt="RT-middleware" title="" border="0" height="70" hspace="5" vspace="5" width="112"></td>
+</tr>
+</tbody>
+</table>
+<br>
+<small><small><a target="_blank" href="http://www.roboness.jp/">
+ロボットビジネス推進協議会</a><br>
+／SICE <a target="_blank" href="http://www.sice.or.jp/%7Esi-div/">SI部門</a>
+<br>
+<small>RTシステムインテグレーション部会</small><br>
+／産業技術総合研究所 <br>
+<a href="http://unit.aist.go.jp/is/index_j.html">
+知能システム研究部門<br>
+</a></small></small><br>
+<!--img src="/cgi-bin/Count.cgi?df=toku_rt_RTMcontest_2007_rtmcontest.dat&amp;dd=B" alt="counter" height="20" width="90"></center-->
+<hr><iframe src="./rtmcontest2007_files/menuitem.html" frameborder="0" width="140"></iframe>
+<hr><br>
+<center><font style="font-weight: bold;" size="-1"><a href="http://www.openrtm.org/rt/OpenRTM-aist/" target="_blank">RT
+ミドルウエアOpenRTM-aist</a></font><br>
+<font size="-1">のホームページへ</font><br>
+<hr><small><small>ホームページの管理者：<br>
+神徳徹雄&nbsp;( <a href="http://staff.aist.go.jp/t.kotoku/contact.html" target="_blank"><b>お問い合わせ</b></a> ) </small></small><br>
+</center>
+</div>
+<div id="mainbox">
+<table bgcolor="#072441" width="100%">
+<tbody>
+<tr>
+<td><br>
+<b><big><big><big><font color="#ffffff">RT
+ミドルウエアコンテスト　2007<br>
+<small><small>http://www.openrtm.org/rt/RTMcontest/</small></small></font>
+</big></big></big></b></td>
+</tr>
+</tbody>
+</table>
+<span style="font-weight: normal;"></span><span style="color: rgb(255, 0, 0);"></span>
+<h3>What's New<br></h3>諸般の事情による産総研知能システム研究部門サーバ(www.is.aist.go.jp)の運用停止に伴い、 OpenRTMサーバ(www.openrtm.org)に引っ越しいたしました。リンク切れなどを見つけましたら連絡いただくようお願いいたします。<br><span style="color: rgb(255, 0, 0);"></span><h3><span style="color: rgb(255, 0, 0);">御礼</span>：</h3>
+皆さまのご支援のおかげで、盛況に成果報告会・表彰式を開催することができました。初めての試みのために不慣れなところもあり、いろいろご迷惑をおかけい
+たしましたが、今回の経験を活かしてＲＴミドルウエアコンテストをロボットのソフトウエア技術を共有し、蓄積していくひとつの場としていきたいと考えてお
+ります。是非、皆で育てていただくようお願いいたします。<br>
+<br>
+会場を提供いただいた、SI2007の実行委員会、プログラム委員会の皆さま、初めての試みにも関わらず果敢にチャレンジいただいた参加者の皆さま、趣旨
+に賛同し奨励賞を提供いただいたスポンサーの皆さま、成果報告会の狭い会場にも関わらず熱心に発表を聞き、質疑応答に加わっていただいた皆様に、御礼申し
+上げます。<br>
+<br>
+今後の運営の改善を図りたいと思いますので、今回の試みの感想やご意見を( <a href="http://staff.aist.go.jp/t.kotoku/contact.html" target="_blank"><b>お問い合わせ</b></a>
+)にてご連絡いただくようお願いいたします。<br>
+（ホームページに内容を掲載させていただくことをあらかじめご了承ください）
+<h3><b>新着情報：</b></h3>
+● <a target="_top" href="entry_public.html"><span style="font-weight: bold;">応募テーマ</span>の
+ページ</a>でコンテスト作品を公開させていただきました。<span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;">new</span>
+<br>
+● <a href="remark.html">感想・苦労話・改善提案のページ</a>が用意できました。<span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;">new</span>
+<br>
+● <a target="_blank" href="presentation.pdf"><span style="font-weight: bold;">プレゼンテーション資料集</span>(pdf)</a>が
+用意できました。［提供いただいた分のみ]<span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;">new</span>
+<br>
+● <a href="abstracts.pdf"><span style="font-weight: bold;">概要集</span>(pdf)</a>が用意
+できました。(2007.12.27) <span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;">new</span>
+<br>
+● <a target="_blank" href="http://www.si-sice.org/si2007/">ＳＩ２００７</a>の
+会場（広島）にて成果発表会・表彰式をおこないました。予想以上の参加者を集め、立ち見が出るほど盛況でした。結果は<a href="award.html">表彰（協賛）ページ</a>または<a href="entry_public.html">応募テーマ</a>のページを参照ください。
+(2007.12.22) <span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;">new</span>
+<br>
+● 『ＲＴミドルウエアの開発と国際標準化活動』に対して、計測自動制御学会<a target="_blank" href="http://www.sice.or.jp/%7Esi-div/award/index.html">システムイ
+ンテグレーション部門技術業績賞</a>を頂きました。(2007.12.21)<span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;">new</span>
+<br>
+●&nbsp;国際ロボット展対応のために、資料提出準備が遅れていることをお詫びいたします。
+週明けに改めて連絡させていただきます。(2007.12.01)<span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;"></span><br>
+● RTミドルウエアが<a target="_blank" href="http://www.robotaward.jp/release_071127.pdf">「今年のロボット」大
+賞2007優秀賞</a>に選ばれました（2007.11.27発表）。
+<br>
+● &nbsp;応募者全員に12月の成果発表報告をしていただきますので、プログラムおよび資料提出〆切を<span style="font-weight: bold;">12月1日</span>に延長します。
+(2007.11.10)&nbsp;<span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;"></span><br>
+●　現在<span style="font-weight: bold;">12</span>件
+の奨励賞の申込をいただきました。<a href="award.html"><span style="font-weight: bold;">表彰（協賛）</span></a>ページを参
+照下さい(2007.10.25)&nbsp;<span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;"></span><br>
+● &nbsp;奨励賞のご案内が遅れたため、参加登録（構想申込）締切を<span style="font-weight: bold;">10月31日</span>まで延長します。
+(2007.09.29)&nbsp;<span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;"></span><br>
+●　<a target="_top" href="faq.html"><span style="font-weight: bold;">FAQ（よくある質問とその回答）</span></a>を
+用意いたしました(2007.09.21)&nbsp;<span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;"></span><br>
+●&nbsp;<a style="font-weight: bold;" href="submit.html">参
+加登録（開発構想の登録）</a>を開始いたしました (2007.09.19)&nbsp;<span style="font-style: italic; color: rgb(255, 0, 0); font-weight: bold;"></span><br>
+● <a style="font-weight: bold;" href="cfp.html">公募開
+始</a>致しました (2007.09.13)<br>
+● <a style="font-weight: bold;" target="_blank" href="sponsor.html">協賛募集</a>：
+随時協賛者を募集しております。皆さまのご連絡をお待ちしております。<span style="text-decoration: underline;"><br>
+<br>
+</span>
+<hr width="100%">
+<h3>主催・協賛：</h3>
+<div style="margin-left: 40px;">[主催]　<a target="_blank" href="http://www.roboness.jp/">
+ロボットビジネス推進協議会</a><br>
+[共催］　（社）<a target="_blank" href="http://www.sice.or.jp/">
+計測自動制御学会</a>　<a target="_blank" href="http://www.sice.or.jp/%7Esi-div/">システムインテグレーション部門</a><br>
+[共催］　（独）<a target="_blank" href="http://www.aist.go.jp/">
+産業技術総合研究所</a>　<a target="_blank" href="http://unit.aist.go.jp/is/index_j.html">知能システム研究部門</a><br>
+[協賛］ 冠賞を提供いただく団体、個人など　（詳細は<a style="font-weight: bold;" href="award.html">表彰(協賛)</a>ページ参照）<br>
+<a target="_blank" href="http://www.khi.co.jp/robot/">
+川崎重工業</a>（株）、
+<a target="_blank" href="http://www.kondo-robot.com/">近
+藤科学</a>（株）、
+<a target="_blank" href="http://www.sigma-k.co.jp/">シ
+グマ</a>（株）、
+（株）<a target="_blank" href="http://www.sec.co.jp/">
+セック</a>、
+（株）<a target="_blank" href="http://www.tech-arts.co.jp/">
+テクノロジックアート</a>、
+<a target="_blank" href="http://www.nihonbinary.co.jp/">日
+本バイナリー</a>（株）、
+（社）<a target="_blank" href="http://www.jara.jp/">
+日本ロボット工業会</a>、
+<a target="_blank" href="http://www.fhi.co.jp/">富士重工
+業</a>（株）、
+<a target="_blank" href="http://www.hokuyo-aut.co.jp/">北
+陽電機</a>（株）、
+（株）<a target="_blank" href="http://www.mayekawa.co.jp/">前
+川製作所</a>、
+<a target="_blank" href="http://www.mitsuilease.co.jp/">三
+井リース事業</a>（株）、
+他匿名企業1社　<small>［あいうえお順］</small><br>
+</div>
+<hr style="width: 100%; height: 2px;">
+<h3>スケジュール:</h3>
+<div style="margin-left: 40px;">9月13日（木）　公募開始<br>
+<span style="text-decoration: line-through;">
+9月28日（金）</span>　10月31日（水）　参加登録（プロジェクト構想申込締切）<small style="font-weight: bold; color: rgb(255, 0, 0);">　［締切延長］</small><br>
+<span style="text-decoration: line-through;">11月10日（土）</span>　12
+月1日（土）　プログラム及び資料登録締め切り<small style="font-weight: bold; color: rgb(255, 0, 0);">　［締切延長］</small>
+<br>
+<span style="text-decoration: line-through;">11月20日頃　　1次審査結
+果発表</span>　<br>
+12月22日（土）午後　<a target="_blank" href="http://www.si-sice.org/si2007/">SI2007</a>会場（広島）に
+て、プレゼンテーションと表彰式　<br>
+</div>
+<hr size="2" width="100%">
+<h3>趣旨:</h3>
+RTミドルウエアは、ロボットを構成する様々な要素をモジュール化し、容易に組み合わせることができるようにするソフトウエア基盤としてのロボット用ミド
+ルウエアです。モジュール化技術は、他の研究者などが開発した様々なアルゴリズムやセンサモジュールを統合してシステムを構築するのに適した技術です。し
+かし、その普及には便利なモジュールが提供されていないと、開発者にはRTミドルウエアに対応する手間が増え、導入に躊躇することになります。<br>
+&nbsp;現在、RTミドルウエアはロボットソフトウエアの国際標準に採用される状況で、ロボット技術を国際的にリードするためにも国内での普
+及が不可
+欠です。そこで、ロボット技術の共有と蓄積を図るために、有益なコンポーネントを充実させるべく本コンテストを開催することにしました。また、このコンテ
+ストを通して、これからのロボットソフトウエア開発者に不可欠なRTミドルウエアに精通する技術者も育成できるものと期待しています。 <br>
+<br>
+</div>
+<!-- mainbox -->
+<div id="footerbox">
+<hr size="2" width="100%">
+<address>&nbsp; &#169;
+Copyright&nbsp;2007 -2008 <a target="_blank" href="http://staff.aist.go.jp/t.kotoku/">神徳徹雄</a>&nbsp;
+産業技術総合研究所<br>
+</address>
+</div>
+<!-- footerbox -->
+</div>
+<!-- mybody -->
+</body></html>

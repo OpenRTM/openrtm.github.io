@@ -1,0 +1,47 @@
+/* add inaba 11_28 */
+/* PCサイズ（lg以上）では hover & focus でメニューを開く */
+@media (min-width: 992px) {
+  .navbar .dropdown:hover > .dropdown-menu,
+  .navbar .dropdown:focus-within > .dropdown-menu {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    overflow: visible;  /* add harumi 0108 */
+  }
+
+  /* 矢印の向き（任意） */
+  .navbar .dropdown-toggle::after {
+    transition: transform .2s;
+  }
+  .navbar .dropdown:hover .dropdown-toggle::after {
+    transform: rotate(180deg);
+  }
+
+  /* 余計なズレを防ぐ（BootstrapのJS挙動を上書き） */
+  .navbar .dropdown-menu {
+    margin-top: 0;
+    position: absolute; /* 念のため */
+    z-index: 200000;
+  }
+}
+
+/* ネスト（第2階層以降）に使う場合 */
+.dropdown-submenu { position: relative; }
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+}
+
+/* キーボード操作でも開く（全幅共通の補助） */
+.navbar .dropdown:focus-within > .dropdown-menu {
+  display: block;
+}
+
+/* 子ナビを縦並びにする  add 2025.12.17*/
+.dropdown-menu .dropdown-item {
+  display: block;
+  width: 100%;
+}
+
+

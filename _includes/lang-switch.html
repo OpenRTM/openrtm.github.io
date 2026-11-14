@@ -1,0 +1,28 @@
+{%- assign current_url = page.url -%}
+
+{%- assign ja_url = current_url -%}
+{%- assign en_url = current_url -%}
+
+{%- if current_url contains '/ja/' -%}
+  {%- assign current_lang = 'ja' -%}
+  {%- assign en_url = current_url | replace_first: '/ja/', '/en/' -%}
+  {%- assign ja_url = current_url -%}
+{%- elsif current_url contains '/en/' -%}
+  {%- assign current_lang = 'en' -%}
+  {%- assign ja_url = current_url | replace_first: '/en/', '/ja/' -%}
+  {%- assign en_url = current_url -%}
+{%- endif -%}
+
+<nav class="lang-switch" aria-label="Language">
+  {%- if current_lang == 'ja' -%}
+    <span class="lang-link is-current" aria-current="page">日本語</span>
+    <span class="lang-separator" aria-hidden="true">/</span>
+    <a href="{{ en_url | relative_url }}" class="lang-link">English</a>
+
+  {%- elsif current_lang == 'en' -%}
+    <a href="{{ ja_url | relative_url }}" class="lang-link">日本語</a>
+    <span class="lang-separator" aria-hidden="true">/</span>
+    <span class="lang-link is-current" aria-current="page">English</span>
+  {%- endif -%}
+</nav>
+

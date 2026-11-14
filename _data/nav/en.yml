@@ -1,0 +1,71 @@
+# header links
+header:
+  - title: "Home"
+    url: "/en/"
+  - title: "Download"
+    url: "/en/download/"
+  - title: "Documentation"
+    url: "/en/doc/"
+    children:
+      - title: "What's OpenRTM-aist?"
+        url: "/en/doc/aboutopenrtm/rtmiddleware/"
+      - title: "Installation"
+        url: "/en/doc/installation/"
+      - title: "Tool manuals"
+        url: "/en/doc/toolmanuals/"
+      - title: "Developersguide"
+        url: "/en/doc/developersguide/"
+      - title: "Class Reference"
+        url: "/en/doc/openrtm-aist_class_reference/"
+      - title: "Casestudy"
+        url: "/en/doc/casestudy/"
+      - title: "CORBA"
+        url: "/en/doc/corba/"
+        description: "CORBA"
+      - title: "FAQ"
+        url: "/en/doc/faq/"
+      - title: "Old Documents"
+        url: "/en/doc/old_documents/"
+  - title: "Community"
+    url: "/en/community/"
+    children:
+      - title: "Workshop"
+        url: "/en/tutorials/"
+      - title: "Event"
+        url: "/en/content/content/"
+        description: "イベント"
+  - title: "Research and Development"
+    url: "/en/doc/aboutopenrtm/researchanddevel"
+  - title: "Press"
+    url: "/en/publication"
+  - title: "Project"
+    url: "/en/project/"
+  - title: "Hardware"
+    url: "/en/hardware/"
+
+footer:
+  - owner: "OpenRTM-aist"
+    url: # link if any
+    description: # tool tip for your url
+    bio: "I am awesome" # short bio
+    address: # location
+  - social:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: # github link
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: # linkedin profile link
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: # twitter profile link
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: # instagram profile link
+  - feed:
+    - label: "Sitemap"
+      icon: "fas fa-sitemap"
+      url: "/sitemap.xml"
+    - label: "RSS"
+      icon: "fas fa-fw fa-rss-square"
+      url: "/feed.xml"

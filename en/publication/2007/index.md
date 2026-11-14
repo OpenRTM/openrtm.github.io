@@ -1,0 +1,37 @@
+---
+layout: page
+title: paper(2007)
+---
+
+## Domestic Conference
+1. 原 佑輔, 高橋 新吾, 國井 康晴, 安藤 慶昭, "RTミドルウエアを利用したモジュールの階層化構成による遠隔移動ロボットのシステム検討及び開発", 第12回 ロボティクスシンポジア, pp.498-503, 2007.03
+1. 土屋 裕, 水川 真, 末廣 尚士, 安藤 慶昭, 中本 啓之, 池添 明宏, "RTミドルウエアを用いた分散制御型ロボットの開発", 第12回 ロボティクスシンポジア, pp.504-509, 2007.03
+1. 尹 祐根, 安藤 慶昭, 末廣 尚士, 北垣 高成, 神徳 徹雄, "OpenRTM aist による実時間制御を考慮したRTコンポーネント", 日本機械学会 ロボティクス・メカトロニクス講演会2007, p.1P1-A01, 2007.05, 秋田県, 秋田市 [[PDF](ROBOMEC07_Yoon_1P1-A01.pdf)]
+1. 安藤 慶昭, 神徳 徹雄, 末廣 尚士, 北垣 高成, "OMG RTC 標準仕様に準拠したRT ミドルウエアの実装 OpenRTM-aist-0.4.0 新機能の紹介", 日本機械学会 ロボティクス・メカトロニクス講演会2007, p.1P1-A02, 2007.05, 秋田県, 秋田市 [[PDF](ROBOMEC07_Ando_1P1-A02.pdf)]
+1. 安藤 慶昭, 神徳 徹雄, 末廣 尚士, 北垣 高成, "RTミドルウエアを基盤としたロボット統合開発環境", 日本機械学会 ロボティクス・メカトロニクス講演会2007, p.1P1-A03, 2007.05, 秋田県, 秋田市 [[PDF](ROBOMEC07_Ando_1P1-A03.pdf)]
+1. 玄葉 誠, 中村 健, 安藤 慶昭, 神徳 徹雄, "RT ミドルウェアによる学習・推論コンポーネント", 日本機械学会 ロボティクス・メカトロニクス講演会2007, p.1P1-B05, 2007.05, 秋田県, 秋田市 [[PDF](ROBOMEC07_Genba_1P1-B05.pdf)]
+1. 安藤 慶昭, 神徳 徹雄, 坂本 武志, 山下 智也, 長瀬 嘉秀, "RT ミドルウェア用開発環境の構築", 日本機械学会 ロボティクス・メカトロニクス講演会2007, p.1P1-D04, 2007.05, 秋田県, 秋田市 [[PDF](ROBOMEC07_Sakamoto_1P1-D04.pdf)]
+1. 都島 良久, 新妻 実保子, 安藤 慶昭, 橋本　秀紀, "RT ミドルウェアによる情報提示システムの構成", 日本機械学会 ロボティクス・メカトロニクス講演会2007, p.2A2-K02, 2007.05, 秋田県, 秋田市 [[PDF](ROBOMEC07_Toshima_2A2-K02.pdf)]
+1. 比留川博久, 金広 文男, 中岡 慎一郎, 末廣 尚士, 神徳 徹雄, 安藤 慶昭, 中村 仁彦, 山根 克, 斎藤 元, 川角 祐一郎, "分散コンポーネント型ロボットシミュレータOpenHRP3", 第25回 日本ロボット学会学術講演会予稿集, p.1I22, 2007.09, 千葉工業大学, 千葉県 [[PDF](RSJ2007_Hirukawa_1I22.pdf)]
+1. 安藤 慶昭, 金広 文男, 中岡 慎一郎, 神徳 徹雄, 末廣 尚士, 比留川 博久, "分散コンポーネント型ロボットシミュレータOpenHRP3 -RTコンポーネントを用いた実機と可換な制御ソフトウェア開発機能-", 第25回 日本ロボット学会学術講演会予稿集, p.1I23, 2007.09, 千葉工業大学, 千葉県 [[PDF](RSJ2007_Ando_1I23.pdf)]
+1. 鈴木 喬, 大原 賢一, 安藤 慶昭, 和田 和義, 大場 光太郎, 谷江 和雄, "OMGモデルに準拠した軽量RTコンポーネント：RTComponent-Lite-0.4.0の開発", 第25回 日本ロボット学会学術講演会予稿集, p.2I11, 2007.09, 千葉工業大学, 千葉県 [[PDF](RSJ2007_Suzuki_2I11.pdf)]
+1. 菅原 隆行, 李 在勲, 大原 賢一, 音田 弘, 友國 伸保, 金 奉根, 安藤 慶昭, 大場 光太郎, "OpenRTM-aist-0.4.0を用いたモバイルマニピュレータの基本コンポーネントの検討", 第25回 日本ロボット学会学術講演会予稿集, p.2I12, 2007.09, 千葉工業大学, 千葉県 [[PDF](RSJ2007_Sugawara_2I12.pdf)]
+1. 山野辺 夏樹, 安藤 慶昭, 原 功, 大場 光太郎, 神徳 徹雄, 末廣 尚士, 蔵田 英之, 中本 啓之, 神田 真司, "天気情報取得コンポーネントの開発 -RTミドルウエアグループとロボットサービスイニシアチブとの連携-", 第25回 日本ロボット学会学術講演会予稿集, p.2I13, 2007.09, 千葉工業大学, 千葉県 [[PDF](RSJ2007_Yamanobe_2I13.pdf)]
+1. 安藤 慶昭, 清水 昌幸, 尹 祐根, 神徳 徹雄, "RTコンポーネントのリアルタイム化を実現する実行コンテキストの拡張", 第25回 日本ロボット学会学術講演会予稿集, p.2I14, 2007.09, 千葉工業大学, 千葉県 [[PDF](RSJ2007_Ando_2I14.pdf)]
+1. 清水 昌幸, 安藤 慶昭, 尹 祐根, 音田 弘, 神徳 徹雄, "OpenRTM-aist-0.4.0によるヒューマノイドロボットHRP2のRTコンポーネント開発", 第25回 日本ロボット学会学術講演会予稿集, p.2I15, 2007.09, 千葉工業大学, 千葉県 [[PDF](RSJ2007_Shimizu_2I15.pdf)]
+1. 鈴木 喬, 大原 賢一, 下山 直紀, 安藤 慶昭, 大場 光太郎, 和田 一義, "ユビキタス・ロボット・インタフェース “FUSEN”の提案 第1報　基盤ソフトウエアプラットフォームの検討", 計測自動制御学会 システムインテグレーション部門 講演会 2007 (SI2007), p.1C2-2, 2007.12 [[PDF](SI2007_Suzuki_1C2_2.pdf)]
+1. 山野辺 夏樹, 安藤 慶昭, 神徳 徹雄, "OpenRTM-aistによるWebサービスサーバ型RTコンポーネントの開発", 計測自動制御学会 システムインテグレーション部門 講演会 2007 (SI2007), p.1L3-2, 2007.12 [[PDF](SI2007_Yamanobe_1L3_2.pdf"><img src="SI2007_Yamanobe_1L3_2.pdf)]
+1. 神徳 徹雄, 比留川博久, 中岡 慎一郎, 末廣 尚士, 安藤 慶昭, 中村 仁彦, 山根 克, 斎藤 元, 川角 祐一郎, "分散コンポーネント型ロボットシミュレータOpenHRP3 ", 計測自動制御学会 システムインテグレーション部門 講演会 2007 (SI2007), p.3A1-2, 2007.12 [[PDF](SI2007_Kotoku_3A1_2.pdf)]
+1. 安藤 慶昭, 清水 昌幸, 尹 祐根, 神徳 徹雄, 安藤 慶昭, "RTコンポーネントの多様な実行を実現する実行コンテキストの拡張", 計測自動制御学会 システムインテグレーション部門 講演会 2007 (SI2007), p.3A1-5, 2007.12 [[PDF](SI2007_Ando_3A1_5.pdf)]
+
+## About the Paper Publication Policy
+
+On this page, we publish paper manuscripts as much as possible in accordance with the publication policies of each academic society.
+
+- [Robotics Society of Japan](http://www.rsj.or.jp/data_rules/L-02.pdf)
+ - Publication is permitted as long as the author publishes it on their own or their affiliated institution’s web page.
+- [Japan Society of Mechanical Engineers](http://www.jsme.or.jp/conrule.htm)
+ - Publication is permitted as long as the author publishes it on their own or their affiliated institution’s web page.
+- [The Society of Instrument and Control Engineers](http://www.sice.jp/)
+ - Publication is possible if a reprint (reuse) permission request is submitted to the SICE office and approval is obtained. [Reprint Permission Certificate](../tensai_kyoka_201311.pdf)
+

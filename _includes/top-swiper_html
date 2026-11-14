@@ -1,0 +1,178 @@
+{% comment %}
+  ============================================================
+  toc.html
+  HTML化後の本文(include.content)から <h2>, <h3>, <h4> を拾って
+  目次を作る include
+
+  対応するフロントマター例:
+
+  1)
+  toc: true
+  toc_levels: "h2,h3"
+
+  2)
+  toc: false
+
+  3) toc が無い場合
+     -> 目次を表示する
+     -> toc_levels は "h2,h3" をデフォルトにする
+  ============================================================
+{% endcomment %}
+
+{% comment %}
+  ------------------------------------------------------------
+  ① 目次を表示するか判定
+     - toc: false のときだけ非表示
+     - toc: true または toc未指定 のときは表示
+  ------------------------------------------------------------
+{% endcomment %}
+{% if page.toc != false %}
+
+  {% comment %}
+    ----------------------------------------------------------
+    ② 目次に含める見出しレベルを取得
+       未指定なら "h2,h3" を使う
+       例:
+         "h2,h3" -> ["h2", "h3"]
+    ----------------------------------------------------------
+  {% endcomment %}
+  {% assign levels = page.toc_levels | default: "h2,h3" | split: "," %}
+
+  {% comment %}
+    ----------------------------------------------------------
+    ③ include.content は HTML化後の本文
+       その中から <h... で分割して見出しタグを探す
+
+       例:
+         <h2 id="intro">はじめに</h2>
+       のような部分を拾う
+    ----------------------------------------------------------
+  {% endcomment %}
+  {% assign heading_parts = include.content | split: "<h" %}
+
+  {% comment %}
+    ----------------------------------------------------------
+    ④ 目次本体
+       has_items は「1件でも見出しが見つかったか」の確認用
+    ----------------------------------------------------------
+  {% endcomment %}
+  {% assign has_items = false %}
+  {% capture toc_items %}
+
+    {% for part in heading_parts offset:1 %}
+
+      {% comment %}
+        ------------------------------------------------------
+        ⑤ split後の part の先頭1文字は見出しレベル番号になる想定
+           例:
+             "2 id="intro">はじめに</h2..."
+             ↑ 先頭は "2"
+        ------------------------------------------------------
+      {% endcomment %}
+      {% assign level_num = part | slice: 0, 1 %}
+
+      {% comment %}
+        ------------------------------------------------------
+        ⑥ "2" -> "h2" のような形に変換
+        ------------------------------------------------------
+      {% endcomment %}
+      {% assign heading_level = "h" | append: level_num %}
+
+      {% comment %}
+        ------------------------------------------------------
+        ⑦ この見出しレベルを目次に含めるか判定
+           page.toc_levels の設定に含まれているものだけ出す
+        ------------------------------------------------------
+      {% endcomment %}
+      {% if levels contains heading_level %}
+
+        {% comment %}
+          ----------------------------------------------------
+          ⑧ part を ">" で分割
+             例:
+               2 id="intro">はじめに</h2...
+             ->
+
+             tag_chunks[0] = 2 id="intro"
+             tag_chunks[1] = はじめに</h2...
+          ----------------------------------------------------
+        {% endcomment %}
+        {% assign tag_chunks = part | split: ">" %}
+
+        {% comment %}
+          開始タグ部分
+          例: 2 id="intro"
+        {% endcomment %}
+        {% assign open_tag = tag_chunks[0] %}
+
+        {% comment %}
+          見出しの中身部分（HTMLを含むことがある）
+          例: はじめに</h2...
+        {% endcomment %}
+        {% assign heading_html = tag_chunks[1] %}
+
+        {% comment %}
+          ----------------------------------------------------
+          ⑨ 見出し文字列を取り出す
+             閉じタグ以降を落として、さらに strip_html でタグ除去
+          ----------------------------------------------------
+        {% endcomment %}
+        {% assign closing_tag = "</" | append: heading_level | append: ">" %}
+        {% assign heading_text = heading_html | split: closing_tag | first | strip_html | strip %}
+
+        {% comment %}
+          ----------------------------------------------------
+          ⑩ id属性を取り出す
+             例:
+               open_tag = 2 id="intro"
+             のとき
+               anchor_id = intro
+
+             id が無い場合は heading_text を slugify して代用
+          ----------------------------------------------------
+        {% endcomment %}
+        {% assign anchor_id = "" %}
+        {% if open_tag contains 'id="' %}
+          {% assign id_parts = open_tag | split: 'id="' %}
+          {% assign id_tail = id_parts[1] | split: '"' %}
+          {% assign anchor_id = id_tail[0] %}
+        {% endif %}
+
+        {% if anchor_id == "" %}
+          {% assign anchor_id = heading_text | slugify %}
+        {% endif %}
+
+        {% comment %}
+          ----------------------------------------------------
+          ⑪ 目次項目を出力
+             見出しレベルごとに class を付与
+          ----------------------------------------------------
+        {% endcomment %}
+        {% if heading_text != "" %}
+          {% assign has_items = true %}
+
+		<li class="toc-item toc-{{ heading_level }}">
+		  <a href="#{{ anchor_id }}">{{ heading_text }}</a>
+		</li>
+        {% endif %}
+
+      {% endif %}
+    {% endfor %}
+
+  {% endcapture %}
+
+  {% comment %}
+    ----------------------------------------------------------
+    ⑫ 1件でも見出しがあれば目次を表示
+    ----------------------------------------------------------
+  {% endcomment %}
+  {% if has_items %}
+  <nav class="page-toc" aria-label="目次">
+    <div class="page-toc-title">Contents</div>
+    <ul class="page-toc-list">
+      {{ toc_items }}
+    </ul>
+  </nav>
+  {% endif %}
+
+{% endif %}

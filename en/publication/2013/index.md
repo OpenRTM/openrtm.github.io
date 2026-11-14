@@ -1,0 +1,45 @@
+---
+layout: page
+title: paper (2013)
+---
+
+## Journal
+
+### 解説記事
+1. 神徳 徹雄, 安藤 慶昭, 山下 智輝, "RTミドルウエアコンテストの狙い", 計測と制御, Vol.52, No.9, pp.772-777, 2013.09, ISSN 0453-4662 [[PDF](KeisokutoSeigyo_Vol52Nop09-02_Contest.pdf)]
+1. 安藤 慶昭, 神徳 徹雄, 末廣 尚士, "RTミドルウェアの展開－技術開発と国際標準化戦略－", 計測と制御, Vol.52, No.9, pp.778-781, 2013.09, ISSN 0453-4662 [[PDF](KeisokutoSeigyoVol52No09-03_OpenRTM.pdf)]
+1. 安藤 慶昭, "組込み機器用RTコンポーネント開発環境 ATDE for OpenRTM-aist: NTTデータ賞", 計測と制御, Vol.52, No.9, p.805, 2013.09, ISSN 0453-4662 [[PDF](KeisokutoSeigyoVol52No09-21_NTTAward.pdf)]
+
+
+<!-- ** 国際学会 -->
+
+
+## Domestic Conference
+1. 関山 守, 鍛冶 良作, 安藤 慶昭, 村上 青児, 梶谷 勇, 阪口 健, 神徳 徹雄, 谷川 民生, "RTルームデモシステムにおけるRaspberryPiの連続運用のための予備評価", 第31回 日本ロボット学会学術講演会予稿集, p.2J1-01 
+, 2013.09, 首都大学東京, 南大沢キャンパス [[PDF](2J1-01_RTRoom_Sekiyama.pdf)]
+1. 村上 青児, 安藤 慶昭, 関山 守, 村上 青児, 鍛冶 良作, 谷川 民生, 神徳 徹雄, "組込み用Linuxボード，BeagleBone Blackにおける RTミドルウェアの動作と開発支援ツール", 第31回 日本ロボット学会学術講演会予稿集, p.2J1-02, 2013.09, 首都大学東京, 南大沢キャンパス [[PDF](2J1-02_BeagleBone_Murakami.pdf)]
+1. 安藤 慶昭, 関山 守, 神徳 徹雄, 深澤 篤史, 片見 剛人, "RaspberryPi用拡張入出力ボード：PiRT-Unit", 第31回 日本ロボット学会学術講演会予稿集, p.2J1-03, 2013.09, 首都大学東京, 南大沢キャンパス [[PDF](2J1-03_PiRT-Unit_Ando.pdf)]
+1. 関山 守, 安藤 慶昭, 原 功, 神徳 徹雄, 片見 剛人, 深澤 篤史, 谷川 民生, "RaspberryPi用拡張ボードPiRT-Unitを用いたI2CデバイスのRTコンポーネント実装", 第31回 日本ロボット学会学術講演会予稿集, p.2J1-04, 2013.09, 首都大学東京, 南大沢キャンパス [[PDF](2J1-04_PiRT-Unit-I2C_Sekiyama.pdf)]
+1. 岩永 寿来, 安藤 慶昭, ビグズ ジェフ, "ロボットシステム開発におけるSysMLの活用", 第31回 日本ロボット学会学術講演会予稿集, p.2J2-04, 2013.09, 首都大学東京, 南大沢キャンパス [[PDF](2J2-04_SysML_Iwanaga.pdf)]
+1. 原 功, "RTミドルウェアを用いたシステム開発環境のクラウド化について", 第31回 日本ロボット学会学術講演会予稿集, p.2J2-03, 2013.09, 首都大学東京, 南大沢キャンパス [[PDF](2J2-03_Hara_Cloud.pdf)]
+1. 関山 守, 穴田 啓樹, 鍛冶 良作, 谷川 民生, 梶谷 勇, 阪口 健, 神徳 徹雄, "RTシステム開発における設計支援ツールZIPCの運用連係に関する評価", 第31回 日本ロボット学会学術講演会予稿集, p.2J2-02, 2013.09, 首都大学東京, 南大沢キャンパス [[PDF](2J2-02_Sekiyama_ZIPC.pdf)]
+1. 井上栄二，千代浩司，長坂康史，味村周平，神徳徹雄，安藤慶昭，和田正樹, "Debian DAQミドルウェアおよびOpenStack", 日本物理学会2013年秋季大会, 日本物理学会講演概要集, 第68巻, 第2号, 第1分冊, p.27, 2013.09, 高知大学, 朝倉キャンパス
+1. 神徳 徹雄, 安藤 慶昭, 大原 賢一, 山下 智輝, 菅 佑樹, 畑 能正, 濱田 彰一, 末広 尚士, 植木 美和, 佐々木 毅, 村上 弘記, 長瀬 雅之, 平井 成興, "RTミドルウェアコンテスト2013の狙い", 計測自動制御学会 システムインテグレーション部門 講演会 2013 (SI2013), p.1B1-1, 2013.12, 兵庫県神戸市, 神戸国際会議場
+1. 村上 青児, 原 功, 安藤 慶昭, 関山 守, 谷川 民生, 神徳 徹雄, "小型移動体のSLAM検証を行う環境を整える6自由度マニピュレータ", 計測自動制御学会 システムインテグレーション部門 講演会 2013 (SI2013), p.1B3-6, 2013.12, 兵庫県神戸市, 神戸国際会議場
+1. 大原 賢一, 安藤 慶昭, 原 功, 菅 佑樹, 山下 智輝, 谷川 民生, 平井 成興, "RTミドルウェアサマーキャンプ2013の開催報告", 計測自動制御学会 システムインテグレーション部門 講演会 2013 (SI2013), p.3G1-1, 2013.12, 兵庫県神戸市, 神戸国際会議場
+
+
+<!-- ** 国際学会 -->
+<!-- **受賞 -->
+
+## About the Paper Publication Policy 
+
+On this page, we publish paper manuscripts as much as possible in accordance with the publication policies of each academic society.
+
+- [Robotics Society of Japan](http://www.rsj.or.jp/data_rules/L-02.pdf) 
+ - Publication is permitted as long as the author publishes it on their own or their affiliated institution’s web page. 
+- [Japan Society of Mechanical Engineers](http://www.jsme.or.jp/conrule.htm)
+ - Publication is permitted as long as the author publishes it on their own or their affiliated institution’s web page.
+- [The Society of Instrument and Control Engineers](http://www.sice.jp/)
+ - Publication is possible if a reprint (reuse) permission request is submitted to the SICE office and approval is obtained. [Reprint Permission Certificate](../tensai_kyoka_201311.pdf)
+

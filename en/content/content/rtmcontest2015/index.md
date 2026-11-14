@@ -1,0 +1,401 @@
+---
+layout: page
+title: rtミドルウェアコンテスト2015
+---
+
+No English version available.
+
+<div align="left"><a href="{{ site.baseurl }}/en/./RTMContest2015Banner.png"><img src="RTMContest2015Banner.png" width="60%;" align="center"></a></div>
+
+<br>
+
+<div align="center"><a href="#overview"><img src="../images/contest2013_overview.png" width="10%;"></a>
+<a href="#program"><img src="../images/contest2013_program.png" width="10%;"></a>
+<a href="/contests/2015"><img src="../images/contest2013_worklist.png" width="10%;"></a>
+<a href="#evaluation"><img src="../images/contest2013_evaluation.png" width="10%;"></a></div>
+<div align="center"><a href="#award"><img src="../images/contest2013_award.png" width="10%;"></a>
+<a href="#pastwork"><img src="../images/contest2013_pastworks.png" width="10%;"></a>
+<a href="#registration"><img src="../images/contest2013_registration.png" width="10%;"></a>
+<a href="#contact"><img src="../images/contest2013_contactpng.png" width="10%;"></a></div>
+
+<br>
+
+#contents
+
+いつも、RTミドルウエアへの技術フィードバックをいただき、ありがとうございます。ロボット技術のモジュール化の普及企画として、コミュニティの醸成を期待してRTミドルウエアコンテストを実施させていただいております。 今年も皆さんのご支援とご協力をいただきながら開催させていただくよう準備を進めておりますので、ソースコードを公開して技術の蓄積を図る試みに積極的にエントリいただくようお願い申し上げます。
+
+## 最新情報
+- Webページをオープンいたしました。(2015.5.7)
+- 応募手順を掲載しました。(2015.8.4)
+- ''SI2015からのエントリーは締め切りとなりました．多数のご応募ありがとうございました。(2015.8.27)
+- コンテスト作品の登録方法について掲載しました(2015.9.16)
+- コンテスト応募の皆様には個別で連絡申し上げましたが、**<span style="color:red;">コンテスト作品の登録締め切り日は10月31日まです．</span>;**期限内での登録をお願い申し上げます．(2015.10.29)
+- コンテストの作品一覧とプレゼンテーションのプログラムを掲載しました。(2015.11.7)
+- 成果発表会を盛況に開催することができました。審査結果は[[プログラム>#program]]をご覧下さい。(2015.12.14)
+
+<!-- ------------------------------------------------------------- -->
+&aname(overview){};
+## 開催案内 
+
+### 趣旨
+
+RTミドルウエアは、ロボットを構成する様々な要素をモジュール化し、容易に組み合わせることができるようにするソフトウエア基盤としてのロボット用ミドルウエアです。モジュール化技術は、他の研究者などが開発した様々なアルゴリズムやセンサモジュールを統合してシステムを構築するのに適した技術です。しかし、その普及には便利なモジュールが提供されていることが不可欠であり、必要な部品が揃っていないと、開発者にはRTミドルウエアに対応する手間が増えるだけで、導入に躊躇することになります。
+
+現在、RTミドルウエアのフレームワークとなるコンポーネントモデルはソフトウエアの国際標準化団体であるOMGに おいて標準仕様として採用された状況で、ロボット技術を国際的にリードするためにも国内での普及が不可欠です。そこで、ロボット技術の共有と蓄積を図るために、有益なコンポーネントを充実させるべく本コンテストを開催することにしました。また、このコンテストを通して、これからのロボットソフトウエア開発者に不可欠なRTミドルウエアに精通する技術者も育成できるものと期待しています。
+
+### 開催概要
+
+[計測自動制御学会(SICE)](http://www.sice.org)のシステムインテグレーション部門講演会 (SI2015) の特別セッションとしての開催を予定しております。詳細が決まり次第こちらのページでご案内いたします。
+
+
+- 日時: 2015年12月14日（月）（SI2015の1セッションとして開催予定）※変更の可能性あり
+- 場所: [名古屋国際会議場](http://www.nagoya-congress-center.jp/)
+- 申込締切: 2015年 8月21日（金）
+- 原稿〆切: 2015年 9月25日（金）
+
+### 募集作品
+
+本年度も、昨年に引き続き、システム構築に便利なソフトウェアライブラリやハードウェア要素の部品化（RTコンポーネント化）、RTミドルウエア技術を利用した開発ツールを対象とするとともに、既開発の部品（RTコンポーネント）を組み合わせたシステムによるロボットサービスの実現も募集対象とします。
+
+### 応募資格
+
+制限はありません。高専・大学等の学生や教員、企業・公設研等の技術者・研究者、個人の趣味で取り組まれている方、どなたでも結構です。
+
+コンテストの趣旨の普及を図る点から、ソースコード（システム構成情報を含む）の公開をあらかじめご承諾ください。ソフトウエアの著作権に関しては著者が責任を持つと共に、**利用者のためにライセンスを明示**いただくようお願い致します（制約がある場合を除いて、BSDやLGPL等のよく使われているオープンソースライセンスをお勧めします）。 市販製品や他のオープンソースなどのライブラリを利用する場合は、それを明示するとともに利用者にその入手先が分かるようにしてください。知財権などの問題がありますので、学生さんは**指導教員を共著者に加えて、事前に参加許可**を得てからお申し込みください。
+
+
+### 主催・協賛
+- [共同主催]　[ロボットビジネス推進協議会](http://www.roboness.jp/)
+- [共同共催］ [公益社団法人 計測自動制御学会](http://www.sice.jp/)　[システムインテグレーション部門](http://www.si-sice.org/si_div/)
+- [共同共催］ [国立研究開発法人産業技術総合研究所](http://www.aist.go.jp/) [ロボットイノベーション研究センター](https://unit.aist.go.jp/rirc/)
+- [協賛］ 奨励賞を提供いただく団体、個人など　(協賛賞募集中)
+<!-- （詳細は''[[表彰(協賛)ページ>http://www.openrtm.org/openrtm/ja/node/5406/]]''参照） -->
+
+### 実行委員会
+- 実行委員長　：平井成興 (ロボットビジネス推進協議会）
+- 実行副委員長：大原賢一 (名城大学・SlCE RTシステムインテグレーション部会主査）
+- 実行副委員長：塩沢恵子（(株)アドイン研究所）
+- 審査委員長　：安藤慶昭（産総研）
+- 広報委員長　：山下智輝（(株)前川製作所）
+
+&aname(program){};
+## プログラム
+<table class="table-alt">
+  <tr>
+    <td>></td>
+    <td>第O室　第1スロット</td>
+    <td>著者</td>
+    <td>受賞情報</td>
+  </tr>
+  <tr>
+    <td>1O1-1 <br>(10:30 - 10:45)</td>
+    <td><a href="http://www.openrtm.org/openrtm/ja/project/contest2015_03">Kinect v2の人物検出・追跡機能のRTコンポーネント化</a>(No corresponding English project page available.)</td>
+    <td>羽根青玄（東京理科大），小木津武樹（東京理科大），溝口博（東京理科大）</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1O1-2 <br>(10:45 - 11:00)</td>
+    <td><a href="http://www.openrtm.org/openrtm/ja/project/contest2015_09">遠隔操縦でボールを追いかけるロボットの開発</a>(No corresponding English project page available.)</td>
+    <td>伊藤誠人(産業技術短期大)，二井見博文(産業技術短期大)</td>
+    <td>サマーキャンプ賞</td>
+  </tr>
+  <tr>
+    <td>1O1-3 <br>(11:00 - 11:15)</td>
+    <td><a href="http://www.openrtm.org/openrtm/ja/project/contest2015_16">フォースフィードバック型ステアリングホイールRTC化の研究</a>(No corresponding English project page available.)</td>
+    <td>陳佑樹（東京理科大），羽根青玄（東京理科大），小木津武樹（東京理科大），溝口博（東京理科大）</td>
+    <td>システムズエンジニアリング賞</td>
+  </tr>
+  <tr>
+    <td>1O1-4 <br>(11:15 - 11:30)</td>
+    <td><a href="http://www.openrtm.org/openrtm/ja/project/contest2015_01">複合コンポーネント作成支援ツールの開発</a>(No corresponding English project page available.)</td>
+    <td>宮本信彦（個人参加）</td>
+    <td>便利ツール賞<br>SUGAR SWEET ROBOTICS賞</td>
+  </tr>
+  <tr>
+    <td>1O1-5 <br>(11:30 - 11:45)</td>
+    <td><a href="http://www.openrtm.org/openrtm/ja/project/contest2015_02">RTミドルウェア学習用ロボットアーム制御RTコンポーネント群の開発</a>(No corresponding English project page available.)</td>
+    <td>宮本信彦（個人参加）</td>
+    <td>組込みシステム技術協会賞</td>
+  </tr>
+</table>
+
+
+<table class="table-alt">
+  <tr>
+    <td>></td>
+    <td>第O室　第2スロット</td>
+    <td>著者</td>
+    <td>受賞情報</td>
+  </tr>
+  <tr>
+    <td>1O2-1 <br>(13:30 - 13:45)</td>
+    <td><a href="http://www.openrtm.org/openrtm/ja/project/contest2015_11">XML台本に基づく複数ロボットの同期制御コンポーネント</a>(No corresponding English project page available.)</td>
+    <td>青木哲（甲南大），秋山和寛（甲南大），林拓実（甲南大），原口 和貴（甲南大），真下遼（甲南大），梅谷智弘（甲南大），北村 達也（甲南大），灘本明代（甲南大）</td>
+    <td>ウィン電子工業賞</td>
+  </tr>
+  <tr>
+    <td>1O2-2 <br>(13:45 - 14:00)</td>
+    <td><a href="http://www.openrtm.org/openrtm/ja/project/contest2015_04">USBメモリに搭載したポータブルRTM環境を用いたロボット教育ツール</a>(No corresponding English project page available.)</td>
+    <td>野際章人（埼玉大），藤間瑞樹（埼玉大），程島竜一（埼玉大），琴坂信哉（埼玉大）</td>
+    <td>計測自動制御学会RTミドルウェア賞</td>
+  </tr>
+  <tr>
+    <td>1O2-3 <br>(14:00 - 14:15)</td>
+    <td><a href="http://www.openrtm.org/openrtm/ja/project/contest2015_14">自動運転研究用の市販乗用車へのRTMの導入</a>(No corresponding English project page available.)</td>
+    <td>堀佑大朗（東京理科大），陳祐樹（東京理科大），羽根青玄（東京理科大），小木津武樹（東京理科大），竹村裕（東京理科大），溝口 博（東京理科大）</td>
+    <td>RTミドルウェアを普及しま賞<br>グローバルアシスト賞</td>
+  </tr>
+  <tr>
+    <td>1O2-4 <br>(14:15 - 14:30)</td>
+    <td><a href="http://www.openrtm.org/openrtm/ja/project/contest2015_05">家電の電源状態を検出してON/OFFを制御する赤外線リモコン</a>(No corresponding English project page available.)</td>
+    <td>倉部紘一（名城大），辰野恭市（名城大）</td>
+    <td>チェンジビジョン賞<br>日本ロボット工業会賞</td>
+  </tr>
+  <tr>
+    <td>1O2-5 <br>(14:30 - 14:45)</td>
+    <td><a href="http://www.openrtm.org/openrtm/ja/project/contest2015_06">モーションキャプチャによるボールキャッチ可能なロボット制御コンポーネント群の開発</a>(No corresponding English project page available.)</td>
+    <td>湯口彰重（奈良先端大），松浦亮太（奈良先端大），馬場隆造（奈良先端大），袴田有哉（奈良先端大），山崎亘（奈良先端大），El Hafi, Lotfi（奈良先端大），Von Drigalski, Felix, Wolf Hans Erich（奈良先端大），築地原里樹（奈良先端大），丁明（奈良先端大），高松淳（奈良先端大），小笠原司（奈良先端大）</td>
+  </tr>
+    <td>></td>
+  <tr>
+    <td>1O2-6 <br>(14:45 - 15:00)</td>
+    <td><a href="http://www.openrtm.org/openrtm/ja/project/contest2015_13">歩行パターンを利用した人検出RTコンポーネント</a>(No corresponding English project page available.)</td>
+    <td>池田貴政（芝浦工大），野見山　大基（芝浦工大），松日楽信人（芝浦工大），新井初実（東京女子大），木村純麗（東京女子大），坂井栞（東京女子大），薮井えりか（東京女子大），山崎友希（東京女子大），加藤由花（東京女子大）</td>
+    <td>アドイン賞<br>インタラクションRTM賞</td>
+  </tr>
+</table>
+
+
+
+<table class="table-alt">
+  <tr>
+    <td>></td>
+    <td>第O室　第3スロット</td>
+    <td>著者</td>
+    <td>受賞情報</td>
+  </tr>
+  <tr>
+    <td>1O3-1 <br>(15:15 - 15:30)</td>
+    <td><a href="http://www.openrtm.org/openrtm/ja/project/contest2015_18">喋っど 〜sha-bed〜</a>(No corresponding English project page available.)</td>
+    <td>光崎 将人（奈良先端大），中田彩（奈良先端大），澤邊太志（奈良先端大）</td>
+    <td>></td>
+  </tr>
+  <tr>
+    <td>1O3-2 <br>(15:30 - 15:45)</td>
+    <td><a href="http://www.openrtm.org/openrtm/ja/project/contest2015_08">オーディオ・アニマトロニクスのためのRTC</a>(No corresponding English project page available.)</td>
+    <td>堀川隆弘（CURIOSITY）</td>
+    <td>ベストサポート賞</td>
+  </tr>
+  <tr>
+    <td>1O3-3 <br>(15:45 - 16:00)</td>
+    <td><a href="http://www.openrtm.org/openrtm/ja/project/contest2015_10">LEGO Mindstorms EV3を用いたロボットプログラミング教材の開発</a>(No corresponding English project page available.)</td>
+    <td>安藤慶昭（産業技術総合研究所）</td>
+    <td>></td>
+  </tr>
+  <tr>
+    <td>1O3-4 <br>(16:00 - 16:15)</td>
+    <td><a href="http://www.openrtm.org/openrtm/ja/project/contest2015_12">多目的利用が可能な画像出力RTコンポーネント</a>(No corresponding English project page available.)</td>
+    <td>下山未来（芝浦工大），藤本一真（芝浦工大），安田福啓（芝浦工大），松日楽信人（芝浦工大）</td>
+    <td>女流RTコンポーネント賞<br>RSi賞</td>
+  </tr>
+  <tr>
+    <td>1O3-5 <br>(16:15 - 16:30)</td>
+    <td><a href="http://www.openrtm.org/openrtm/ja/project/contest2015_07">MediA-RTコミュニティ活動を通したメディアアート制作</a>(No corresponding English project page available.)</td>
+    <td>土屋彩茜（芝浦工大），小山拓馬（芝浦工大），中沢真太郎（芝浦工大），中田航平（芝浦工大），佐々木毅（芝浦工大）</td>
+    <td>ベストコンセプト賞<br>優秀RT技術賞<br>セック特別賞</td>
+  </tr>
+</table>
+
+
+
+
+&aname(evaluation){};
+## 作品を評価する 
+
+RTミドルウエアコンテストは、コミュニティの皆で作り上げるイベントです。作品を応募するのもひとつの貢献方法ですが、応募された作品を評価して技術フィードバックをすることや、協賛として課題を設定した奨励賞を提供することなど、皆さんのご協力をお待ちしております。
+
+### 作品へコメントする
+応募作品が集まりましたら、本Webサイト上で掲示いたします。
+応募作品を実際に動かしてみるなどして試していただき、どのような環境で動作したか/しなかったか、バグやその修正のためのパッチ情報、作品に対するコメントや感想を作品のプロジェクトページに書き込み、作者にフィードバックすることが出来ます。
+これらのフィードバックを元に応募者が改良を加え、SI2014でのプレゼンテーションまでに、より良い作品になるようご協力ください。
+- [コメントの書き方ガイド]({{ site.baseurl }}/en/content/content/rtmcontest_commentguide)
+- [コンテスト作品一覧へ](/contests/2015)(No corresponding English project page available.)
+
+### 奨励賞を提供する
+
+趣旨に賛同いただく企業（一口 2万円）、個人（一口 1万円）の協賛金で、どのような作品を期待しているかを指定した奨励賞を提供することができます。また、副賞として自社製品を提供する特別協賛や賞品協賛にもご協力ください。製品の宣伝とともに、その製品を使用したRTコンポーネントを募集するといった双方にメリットのある奨励賞に出来ればと考えています。奨励賞に関するお問い合わせは当ページ一番下に記載しました、ロボットビジネス推進協議会事務局までお願い申し上げます。
+
+<!-- - [[奨励賞登録フォーム:https://docs.google.com/forms/d/1_gvztEri7wISA-qfYLTmvIK59q__va8ISEAtgpH4600/viewform]] -->
+
+
+&aname(award){};
+## 表彰 
+
+ロボット技術の蓄積と共有を促進することを狙って、優れた開発成果を表彰いたします。 
+
+- 最優秀賞（学会賞) : 1件、副賞10万円
+- 奨励賞（賞品協賛）: 若干、製品提供
+- 奨励賞 (団体協賛) : 若干、副賞２万円
+- 奨励賞 (個人協賛) : 若干、副賞１万円
+
+総合評価として一番優秀な成果に対して、最優秀賞として「計測自動制御学会RTミドルウエア賞」を、 また、それぞれのスポンサーの視点から魅力的な開発成果に対して奨励賞を表彰いたします。多くの支持を集めた魅力的な作品ほど数多く奨励賞を獲得する、一種の投票システムになっています。
+
+- [奨励賞一覧](../rtmcontest2015-award)
+
+
+
+### 主なスケジュール
+
+- **5月頃**: 各種奨励賞・審査基準開示
+- **5月17日**: ROBOMECH2015にてRTM講習会開催
+- **6月～7月**: RTミドルウェア強化月間（東京2回、名古屋1回講習会開催予定）
+- **8月3日～7日**: RTミドルウエアサマーキャンプ
+- **8月21日（金）**: エントリ〆切　（SI2015講演申込み〆切） 
+- **9月25日（金）**: 原稿〆切（SI2015原稿〆切）
+- **10月中旬頃**:　　ホームページにてソフトウエア登録開始（一般ユーザへの公開開始）
+- **10月31日**：　作品登録締め切り
+- **11月下旬～14日**: オンライン評価期間 (一般ユーザによるオンライン評価期間)
+- **12月14日(予定)**：SI2015会場にて、プレゼンテーションと表彰者発表　
+- **12月15日(予定)**：SI2015総会にて最優秀者表彰　
+
+### 応募手順
+- [SI2015への発表申込](https://ssl.si-sice.org/si2015/sys/reg_login.html)（8月21日）~
+申込セッションとして「特別OS：RTミドルウエアコンテスト2015」、講演の種類として「一般講演」をそれぞれ選択し、講演題目のところに開発したRTコンポーネントや関連技術の名称を、著者のところに開発者の情報をそれぞれ記入お願いいたします。学生さんがエントリする場合は**事前に指導教員の了承**を得るとともに、指導教員を共著者として登録いただくようお願いいたします。~
+※申し込み締切日が決まってますので、**エントリー登録を決意した方はSI2015の講演申し込みを先に進めてください**。
+- ** 当webサイトでのエントリー登録 **~
+このページの一番下に連絡先の登録フォームを設けます。先にOpenRTMユーザIDでログインを行ってから登録フォームに必要事項を記入してください。なお、OpenRTM webサイトのユーザIDを持ってない方はこちら[(OpenRTMユーザ登録サイト)]()(No corresponding page available.)にアクセスしてユーザ登録を行って下さい。~
+なお、コンテストに関する重要情報を連絡するための連絡先登録も兼ねてますので、エントリーを迷っている方は先にこちらだけ登録いただいても構いません。
+<!-- ''入力フィールドに不具合が見つかりましたので，当webでのエントリー登録を一時停止しております．誠に申し訳ありません．''~ -->
+<!-- SI2015での登録が完了しましたら、以下の必要事項を記入の上、RTMコンテスト実行委員会(contest2015<at>openrtm.org．スパムメール対策のため@を<at>と表記してます)までメールでご一報いただければ幸いです．~ -->
+<!-- ~ -->
+<!-- ＜登録フォーム：返信先contest2015<at>openrtm.org＞~ -->
+<!-- ・メールアドレス：~ -->
+<!-- ・名前（ふりがな）：~ -->
+<!-- ・性別（男/女）：~ -->
+<!-- ・過去のエントリー経験（2007～2014，初投稿）：~ -->
+<!-- ・過去の受賞歴（あり/なし）：~ -->
+<!-- ~ -->
+<!-- ~ -->
+<!-- 入力フィールドの不具合が解消次第、いただいた情報に基づいて実行委員会で登録手続きをさせていただきます． -->
+- 作品登録用IDの通知（9月上旬）~
+作品登録用のIDを参加者宛に通知します．
+- [SI2015への予稿原稿の投稿](http://www.si-sice.org/si2015)（9月25日）~
+投稿規定に従って、講演予稿集のための2～6ページの原稿を作成し、投稿ください。
+- [SI2015への参加登録](http://www.si-sice.org/si2015) ~
+事前参加登録の〆切りまでに参加登録を行い、参加費支払手続きをしていただくとお得です。
+<!-- - [[OpenRTM-aist Webサイト:openrtm.org]]への作品登録（10月下旬予定） -->
+- OpenRTM-aist Webサイトへの作品登録**(10月31日)**
+  - ソースコード
+  - マニュアル
+  - 概要説明のスライド
+  - 作品紹介の動画等
+
+が必要となります。特に、SI2015への参加には参加登録料が必要となりますことを予めご了承ください。また、SI2015の会場にてプレゼンテーションを行うことが求められます。
+SI2015の申込方法、申込および原稿〆切および具体的な開催日時やプログラムは [SI2015のホームページ](http://www.si-sice.org/si2015) にてご確認下さい。
+
+<!-- - 概要説明のスライドダウンロード &ref(RTMContestCatalog2013.ppt); -->
+
+### OpenRTM-aist Webサイトへの作品の登録
+発表する作品は、
+
+- OpenRTM-aist Webサイトの[プロジェクト]()(No corresponding page available.)として登録すること。（プロジェクトページに紹介ビデオを掲載することを推奨）
+- ソースコードをオープンにすること。
+- 分かりやすいマニュアルを添付し、できるだけ第三者が結果を再現できるようにすること。
+- 参考にしたRTコンポーネントやソースコードがある場合は、マニュアル・論文中で出典を明記してオリジナル作者に敬意を払うこと。
+- 参考にした論文などがある場合、マニュアル、論文中で出典を明記すること。
+
+論文の参考文献のように、お互いに成果を尊重し合う文化を醸成し、論文のインパクトファクターのソースコード版が将来的に実現できればと考えています。
+
+
+
+&aname(pastwork){};
+## 過去のコンテスト情報 
+
+- [RTミドルウエアコンテスト2007](../rtmcontest2007/)
+ - （[応募作品]()(no_link)）
+<!-- （[応募作品]({{ site.baseurl }}/en/content/content/rtmcontest2007/entry_public)）-->
+- [RTミドルウエアコンテスト2008](../rtmcontest2008/)
+ - （[応募作品]()(no_link)）
+<!-- （[応募作品]({{ site.baseurl }}/en/content/content/rtmcontest2008/entry_public)）-->
+- [RTミドルウエアコンテスト2009](../rtmcontest2009/)
+ - （[応募作品]()(no_link)）
+<!-- （[応募作品](http://openrtm.sakura.ne.jp/cgi-bin/wiki/wiki.cgi/2009?page=%B1%FE%CA%E7%A5%C6%A1%BC%A5%DE)）-->
+- [RTミドルウエアコンテスト2010](../rtmcontest2010/)
+ - （[応募作品]()(no_link)）
+<!-- （[応募作品](http://openrtm.sakura.ne.jp/cgi-bin/wiki/wiki.cgi/2010?page=%B1%FE%CA%E7%A5%C6%A1%BC%A5%DE)）-->
+- [RTミドルウエアコンテスト2011](../rtmcontest2011/) 
+ - （[応募作品]()(no_link)）
+<!-- （[応募作品](http://www.openrtm.org/openrtm/contests/2011)(No corresponding English project page available.)）-->
+- [RTミドルウエアコンテスト2012](../rtmcontest2012) 
+ - （[応募作品]()(no_link)）
+<!-- （[応募作品](http://www.openrtm.org/openrtm/contests/2012)(No corresponding English project page available.)）-->
+- [RTミドルウエアコンテスト2013](../rtmcontest2013) 
+ - （[応募作品]()(no_link)）
+<!-- （[応募作品](http://www.openrtm.org/openrtm/contests/2013)(No corresponding English project page available.)）-->
+- [RTミドルウエアコンテスト2014](../rtmcontest2014) 
+ - （[応募作品]()(no_link)）
+<!--（[応募作品](http://www.openrtm.org/openrtm/contests/2014)(No corresponding English project page available.)）-->
+
+&aname(registration){};
+## コンテスト作品のwebへの登録方法 
+
+### プロジェクトページへの作品登録
+<span style="color:red;">事務局よりID発行後より，作品登録が可能になります．連絡があるまで，しばらくお待ちください．</span>;~
+応募作品は期日までにプロジェクトページに登録する必要があります。
+
+- [プロジェクトページ]()(No corresponding page available.)
+  - [プロジェクト作成マニュアル](http://openrtm.org/openrtm/ja/node/1554)(No corresponding English project page (How to Register) available.)(No corresponding English project page (How to Register) available.)
+  - [新規プロジェクトの作成](http://openrtm.org/openrtm/ja/node/1553)(No corresponding English project page (How to Create) available.)(No corresponding English project page (How to Create) available.)
+
+上記のプロジェクト作成マニュアルに則り、作品を登録してください。
+RTミドルウエアコンテストでは、プロジェクト登録されたコンポーネントなどがコンテスト応募作品であるかどうかを明確にするために以下のルールを取っております。下記ルールに従い作品を登録してください。
+
+1. ボキャブラリ **RTM contest 2015** を設定する
+  - プロジェクト登録画面にボキャブラリと呼ばれるタグを設定する画面が現れますが、そこで **RTM contest 2015** を選択してください。これによりRTMコンテスト参加作品であることがわかります。
+1. プロジェクト名をSIの発表タイトルとできるだけ同じ名前に設定する
+  - 審査の都合上、SIの発表タイトルとプロジェクト名をひも付ける必要があります。可能であればSI2015での発表タイトルと同じ名前でプロジェクトの登録をお願いいたします。ただし、論文タイトルが 「○○の□□コンポーネントの実装」のようなものの場合、プロジェクト名は 「○○の□□コンポーネント」としていただいた方が、プロジェクトページとしては妥当かと思われます。発表タイトルとプロジェクトの関係がわかる程度でプロジェクト名を設定していただきますようよろしくお願いいたします。
+1. プロジェクト情報「Short project name」をcontest2015_<番号>としてください．
+  - 番号は講演申し込み完了後，参加者に対して事務局よりご連絡いたします．
+  - 上記だけだと、論文・発表とプロジェクトの対応が一意に取れませんので、プロジェクト情報の「Short project name」を下記のフォーマットで入力してください
+```
+     contest2015_X
+```
+  - Xは事務局よりご連絡した番号になります。これによりURLは
+http://openrtm.org/openrtm/ja/project/contest2015_X
+となります。
+
+
+
+
+&aname(contact){};
+## お問い合わせ 
+
+まず、[コンテストのFAQ]({{ site.baseurl }}/en/content/content/rtmcontest_faq)を確認いただき、問い合わせ内容に応じて下記に連絡ください。<br>
+※スパムメール対策のため、以下に記載したメールアドレスで<at>の部分は@に読み替えて下さい。
+
+- 応募に関すること：~
+RTミドルウエアコンテスト事務局: contest2015<at>openrtm.org
+
+- 冠賞のスポンサー申込に関すること：~
+ロボットビジネス推進協議会事務局: contest2015<at>openrtm.org
+
+- RTミドルウエアの技術的なご相談：~
+RTミドルウエアの[フォーラム]({{ site.baseurl }}/en/community/forum)や、
+[メーリングリスト]()(No corresponding page (mailinglist) available.) [ rtm-users<at>openrtm.org ：要事前登録] にお問い合わせいただき、情報の共有に御協力ください。
+
+```
+ RTミドルウエアコンテスト2015 事務局
+ 〒305-8568 茨城県つくば市梅園１－１－１
+ 産業技術総合研究所　ロボットイノベーション研究センター
+ contest2015<at>openrtm.org
+```
+
+                                                      - 
+
+## エントリー登録（エントリーされる方は必須） <span style="color:red;">既に終了しました。</span>;
+エントリー希望者は、個別に連絡が取れるように、以下のフォームを使って事前登録して下さい（SI2015の講演申込も確認できた時点で正式登録となります）。また、重要な案内をお送りするための事前登録も兼ねてますので、**エントリを迷っている時は先にこちらだけ事前登録**してください）
+
+- 当webサイトにてユーザログインしないと入力フォームが表示されませんので、ユーザ登録がまだの方は当Webページのユーザ登録をお願いします。[ユーザ登録はこちら]()(No corresponding page available.)
+- 当Webサイトにログイン済みの方は<span style="color:red;">名前の欄にユーザ登録されたユーザ名が出ますが、必ず、氏名に書き換え</span>;てください。~
+<!-- &color(red){※お手数ですが、ログインしていただくと、登録フォームが表示されます}; -->
+- そのほか、入力フォームにしたがって性別、エントリー歴（該当する年にチェック。初めての方はチェックを入れないでください）、奨励賞受賞歴（あり/なし）も入力して下さい。[各種奨励賞]({{ site.baseurl }}/en/content/content/rtmcontest2015-award)選考の参考とさせていただきます。

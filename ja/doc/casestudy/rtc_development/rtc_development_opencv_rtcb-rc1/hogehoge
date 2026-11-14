@@ -1,0 +1,667 @@
+---
+layout: page
+title: RTコンポーネント作成(OpenCV編 for RTCB-RC1)
+---
+
+<!-- Title: RTコンポーネント作成(OpenCV編 for RTCB-RC1) -->
+#contents
+
+## はじめに
+ここでは、OpenCV ライブラリを VC９ にて RTコンポーネント化する手順を紹介します。
+
+### OpenCVとは 
+
+[OpenCV](http://opencv.jp/)とはインテルが開発・公開しているオープンソースのコンピュー>タービジョン向けライブラリです。
+
+[Wikipedia](http://ja.wikipedia.org/wiki/OpenCV)より抜粋。
+
+### 作成する RTコンポーネント 
+
+- Flip コンポーネント: OpenCV ライブラリのうち、cvFlip() 関数を用いて画像の反転を行う RTコンポーネント。
+
+- ObjectTracking コンポーネント: OpenCV ライブラリを使用し、マウスで選択した対象物を追
+跡するコンポーネント。
+追跡中の画像表示、追跡画像を OutPort から出力、追跡対象の移動量を OutPort から出力など
+の機能を持つ。
+
+## OpenCV ライブリの RTコンポーネント化 (Flipコンポーネント) 
+ここでは、OpenCV ライブラリのうち、画像の反転を行う cvFlip() を VC９ にて RTコンポーネ
+ント化します。
+
+以下は、作業の流れです。
+
+- cvFlip 関数について
+- コンポーネントの概要
+- 動作環境・開発環境
+- Flip コンポーネントの雛型の生成
+- アクティビティ処理の実装
+- コンポーネントの動作確認
+
+### cvFlip 関数について
+
+cvFlip 関数は、2次元配列を垂直、水平、または両軸で反転します。
+
+```
+ void cvFlip(IplImage* src, IplImage* dst=NULL, int flip_mode=0);
+ #define cvMirror cvFlip
+
+ src       入力配列
+ dst       出力配列。もし dst=NULL であれば、src が上書きされます。
+ flip_mode 配列の反転方法の指定内容:
+ 　flip_mode = 0: X軸周りでの反転(上下反転)
+ 　flip_mode > 0: Y軸周りでの反転(左右反転)
+ 　flip_mode < 0: 両軸周りでの反転(上下左右反転)
+```
+### コンポーネントの概要 
+InPort からの入力画像を反転し OutPort から出力するコンポーネント。
+<br>
+反転の対象軸は、RTCのコンフィギュレーション機能を使用して flip_mode という名前のパラメ
+ーターで指定します。
+
+flip_mode は、反転したい方向に応じて下記のように指定してください。
+
+- 上下反転したい場合、0
+
+- 左右反転したい場合、1
+
+- 上下左右反転したい場合、-1
+
+<br>
+
+作成する RTC の仕様は以下のとおりです。
+
+- InPort
+  - キャプチャされた画像データ (TimedOctetSeq)
+
+- OutPort
+  - 反転した画像データ (TimedOctetSeq)
+
+- Configuration
+  - 反転方法の指定 (int)
+※ TimedOctetSeq型は、OpenRTM-aist の BasicDataType.idl にて下記のように定義されている>データ型です。
+
+※ octet型とは、CORBA　IDL の基本型で、転送時にいかなるデータ変換も施されないことが保証
+されている８ビット値です。
+
+```
+   struct Time
+  {
+        unsigned long sec;    // sec
+        unsigned long nsec;   // nano sec
+  };
+
+   struct TimedOctetSeq
+  {
+        Time tm;
+        sequence<octet> data;
+  };
+```
+
+
+<br>
+図1は、それぞれのflip_mode での画像処理のイメージ図です。
+
+<br>
+
+<br>
+
+<div align="center"><a href="cvFlip_and_FlipRTC.png"><img src="cvFlip_and_FlipRTC.png" width="70%;"></a></div>
+<div align="center"><strong>図1. Flip コンポーネントのflip_mode の指定パターン</strong></div>
+<br>
+
+### 動作環境・開発環境
+- OS: Windows XP SP2
+- コンパイラ: [Visual C++ 2008 Express Edition 日本語版](http://www.microsoft.com/japan/msdn/vstudio/express/default.aspx)
+- [omniORB: version 4.1.2](http://www.openrtm.org/pub/Windows/omniORB/omniORB-4.1.2_vc9.msi)
+- [OpenCV: version 1.0](http://downloads.sourceforge.net/opencvlibrary/OpenCV_1.0.exe?modtime=1161287502&big_mirror=1)
+- [OpenRTM-aist: version 1.0.0-RC1](http://www.openrtm.org/pub/Windows/OpenRTM-aist/cxx/OpenRTM-aist-1.0.0-RC1-jp_vc9.msi)
+
+- [OpenCV サンプルRTC](http://www.openrtm.org/OpenRTM-aist/download/IREX2009/OpenCV_RTC-1.0_vc9_jp.msi)
+
+- RTSystemEditor 1.0
+- RTCBuilder 1.0
+  - [全部入りパッケージ](http://www.openrtm.org/OpenRTM-aist/download/IREX2009/eclipse.zip_)
+
+- [解凍ツール(Lhaplus)](http://www.forest.impress.co.jp/lib/arc/archive/archiver/lhaplus.html)
+
+### Flip コンポーネントの雛型の生成
+
+Flip コンポーネントの雛型の生成は、RTCBuilder を用いて行います。
+
+### RTCBuilder の起動
+新規ワークスペースを指定して Eclipse を起動すると、以下の「ようこそ」画面が表示されま>す。
+この 「ようこそ」画面の左上の「X」をクリックすると以下の画面が表示されます。
+<br>
+
+<div align="center"><a href="fig1-1EclipseInit.png"><img src="fig1-1EclipseInit.png" width="70%;"></a></div>
+<!-- CENTER:''図 1-1 Eclipseの初期起動時の画面'' -->
+<div align="center"><strong>図2. Eclipse の初期起動時の画面</strong></div>
+<br>
+右上の [Open Perspective] ボタンをクリックし、プルダウンの「Other…」を選択します。
+<br>
+
+<div align="center"><a href="fig2-2PerspectiveSwitch.png"><img src="fig2-2PerspectiveSwitch.png" width="70%;"></a></div>
+<!-- CENTER:''図 2-2 パースペクティブの切り替え'' -->
+<div align="center"><strong>図3. パースペクティブの切り替え</strong></div>
+<br>
+「RTC Builder」を選択し、[OK] ボタンをクリックします。
+
+<div align="center"><a href="fig2-3PerspectiveSelection.png"><img src="fig2-3PerspectiveSelection.png" width="30%;"></a></div>
+<!-- CENTER:''図 2-3　パースペクティブの選択'' -->
+<div align="center"><strong>図4. パースペクティブの選択</strong></div>
+<br>
+RTCBuilder が起動します。
+<br>
+
+<div align="center"><a href="fig2-4RTCBuilderInit.png"><img src="fig2-4RTCBuilderInit.png" width="80%;"></a></div>
+<!-- CENTER:''図 2-4 RTC Builder の初期起動時画面'' -->
+<div align="center"><strong>図5. RTC Builder の初期起動時画面</strong></div>
+<br>
+
+#### RTCBuilder 用プロジェクトの作成
+まず最初に、RT コンポーネントを作成するための Eclipse プロジェクトを作成します。
+画面上部のメニューから[ファイル] > [新規] > [プロジェクト] を選択します。
+<br>
+
+<div align="center"><a href="fig2-5CreateProject.png"><img src="fig2-5CreateProject.png" width="70%;"></a></div>
+<!-- CENTER:''図 2-5 RTC Builder 用プロジェクトの作成　１'' -->
+<div align="center"><strong>図6. RTC Builder 用プロジェクトの作成　１</strong></div>
+<br>
+表示された｢新規プロジェクト｣画面において、[その他] > [RTC ビルダ] を選択し、[次へ] を>クリックします。
+<br>
+
+<div align="center"><a href="fig2-6CreateProject2.png"><img src="fig2-6CreateProject2.png" width="70%;"></a></div>
+<!-- CENTER:''図 2-6 RTC Builder 用プロジェクトの作成　２'' -->
+<div align="center"><strong>図7. RTC Builder 用プロジェクトの作成　２</strong></div>
+<br>
+｢プロジェクト名｣欄に作成するプロジェクト名を入力して [完了] をクリックします。
+<br>
+
+<div align="center"><a href="fig2-7CreteProject3.PNG"><img src="fig2-7CreteProject3.PNG" width="70%;"></a></div>
+<!-- CENTER:''図 2-7 RTC Builder 用プロジェクトの作成　３'' -->
+<div align="center"><strong>図8. RTC Builder 用プロジェクトの作成　３</strong></div>
+<br>
+指定した名称のプロジェクトが生成され、パッケージエクスプローラー内に追加されます。
+<br>
+
+<div align="center"><a href="fig2-8CreateProject4.png"><img src="fig2-8CreateProject4.png" width="70%;"></a></div>
+<!-- CENTER:''図 2-8 RTC Builder 用プロジェクトの作成　４'' -->
+<div align="center"><strong>図9. RTC Builder 用プロジェクトの作成　４</strong></div>
+<br>
+生成したプロジェクト内には、デフォルト値が設定された RTC プロファイル XML(RTC.xml) が>自動的に生成されます。
+
+#### データポートで使用するデータタイプ定義ファイルの在り処の設定
+
+データポートやサービスポートで使用するデータ型が定義された IDL ファイルが置いてある場>所を予め設定しておく必要があります。
+<br>
+※ ここでの設定内容は、ワークスペースを変更しない限り有効ですので、プロジェクト毎に設定
+する必要はありません。
+<br>
+下記の手順にて、データ型が定義されている IDL ファイルの在り処を設定して下さい。
+<br>
+
+```
+ 1. メニューバーの [ウィンドウ] > [設定] をクリックし、設定ダイアログを表示させます。
+ 2. [RtcBuilder] > [Data Type] をクリックし、図12の Data Type 入力画面を出します。
+ 3. Data Type入力画面の [Add] ボタンをクリックし、"IDL File Directories"を入力します。
+     OpenRTM-aist で定義されているデータ型の IDL ファイルはデフォルトでは下記にインス>トールされます。
+
+      C:\Program Files\OpenRTM-aist\1.0\rtm\idl
+
+ 4. [OK] ボタンをクリックし、設定を終了します。
+```
+
+<br>
+
+<div align="center"><a href="RTCBuilder_datatype_setup.png"><img src="RTCBuilder_datatype_setup.png" width="80%;"></a></div>
+<!-- CENTER:''図 2-10 File メニューから Open New Builder Editor'' -->
+<div align="center"><strong>図12. データ型定義ファイルの在り処設定</strong></div>
+
+#### RTC プロファイルエディタの起動
+RTC プロファイルエディタを開くには、ツールバーの [Open New RtcBuilder Editor] ボタンを
+クリックするか、メニューの [ファイル] > [Open New Builder Editor] を選択します。
+<br>
+
+<div align="center"><a href="fig2-9ToolsBarOpenNewRtcBuilder.png"><img src="fig2-9ToolsBarOpenNewRtcBuilder.png" width="30%;"></a></div>
+
+<!-- CENTER:''図 2-9 ツールバーから Open New RtcBuilder Editor'' -->
+<div align="center"><strong>図10. ツールバーから Open New RtcBuilder Editor</strong></div>
+<br>
+<br>
+
+<div align="center"><a href="fig2-10FileMenuOpenNewBuilder.png"><img src="fig2-10FileMenuOpenNewBuilder.png" width="30%;"></a></div>
+<!-- CENTER:''図 2-10 File メニューから Open New Builder Editor'' -->
+<div align="center"><strong>図11. File メニューから Open New Builder Editor</strong></div>
+<br>
+
+#### コンポーネントのプロファイル情報入力とコードの生成
+
+### コンポーネントのプロファイル情報入力とコードの生成
+
+1. 「基本」タブを選択し、基本情報を入力します。
+
+<br>
+- Module name: Flip
+- Module description: Flip image component
+- Module version: 1.0.0
+- Module vender: AIST
+- Module category: Category
+- Component type: STATIC
+- Component's activity type: PERIODIC
+- Component kind: DataFlowComponent
+- Number of maximum instance: 1
+- Execution type: PeriodicExecutionContext
+- Execution Rate: 1.0
+<br>
+- Output Project: Flip
+
+
+<br>
+
+<div align="center"><a href="RTCBuilder_base.png"><img src="RTCBuilder_base.png" width="80%;"></a></div>
+<div align="center"><strong>図13. 基本情報の入力</strong></div>
+<br>
+
+2. 「アクティビティ」タブを選択し、使用するアクションコールバックを指定します。
+
+Flipコンポーネントでは、onActivated()、onDeactivated()、onExecute() コールバックを使用
+しますので、
+図14のようにon_activated、on_deactivated、on_executeの３つにチェックを入れます。
+
+<br>
+
+<div align="center"><a href="RTCBuilder_activity.png"><img src="RTCBuilder_activity.png" width="80%;"></a></div>
+<div align="center"><strong>図14. アクティビティコールバックの選択</strong></div>
+<br>
+
+3. 「データポート」タブを選択し、データポートの情報を入力します。
+
+<br>
+
+- InPort Profile:
+  - Port Name: original_image
+  - Data Type: TimedOctetSeq
+  - Var Name:  image_orig
+  - Disp. Position: left
+
+<br>
+
+- OutPort Profile:
+  - Port Name: fliped_image
+  - Data Type: TimedOctetSeq
+  - Var Name:  image_flip
+  - Disp. Position: right
+
+<br>
+
+<div align="center"><a href="RTCBuilder_dataport.png"><img src="RTCBuilder_dataport.png" width="80%;"></a></div>
+<div align="center"><strong>図15. データポート情報の入力</strong></div>
+<br>
+
+4.　「コンフィギュレーション」タブを選択し、Configuration の変数を入力します。
+
+<br>
+
+- flip_mode
+  - Name: flip_mode
+  - TYpe: int
+  - Default Value: 1
+  - 変数名: flip_mode
+
+<br>
+
+<br>
+
+- image_height
+  - Name: image_height
+  - TYpe: int
+  - Default Value: 240
+  - 変数名: img_height
+
+<br>
+
+- image_width
+  - Name: image_width
+  - TYpe: int
+  - Default Value: 320
+  - 変数名: img_width
+
+<br>
+
+<div align="center"><a href="RTCBuilder_config.png"><img src="RTCBuilder_config.png" width="80%;"></a></div>
+<div align="center"><strong>図16. コンフィグレーション情報の入力</strong></div>
+<br>
+
+5.　「言語・環境」タブを選択し、プログラミング言語を選択します。
+
+今回は、C++(言語) を選択します。
+
+<br>
+
+<div align="center"><a href="RTCBuilder_lang.png"><img src="RTCBuilder_lang.png" width="80%;"></a></div>
+<div align="center"><strong>図17. プログラミング言語の選択</strong></div>
+<br>
+
+6.　「基本」タブにある [コード生成] ボタンをクリックし、コンポーネントの雛型を生成しま
+す。
+
+<br>
+
+<div align="center"><a href="RTCBuilder_base.png"><img src="RTCBuilder_base.png" width="80%;"></a></div>
+<div align="center"><strong>図18. 雛型の生成(Generate)</strong></div>
+<br>
+
+<span style="color:red;">※ 生成されるコード群は、Eclipse 起動時に指定したワークスペー>スフォルダーの中に生成されます。現在のワークスペースは、[ファイル] > [ワークスペースの
+切り替え] で確認することができます。</span>;
+
+### アクティビティ処理の実装
+
+Flip コンポーネントでは、InPort から受け取った画像を画像保存用バッファに保存し、その保
+存した画像を OpenCV の cvFlip() 関数にて変換します。その後、変換された画像を OutPort >から送信します。
+<br>
+
+<br>
+onActivated()、onExecute()、onDeactivated()での処理内容を図19に示します。
+<br>
+
+<div align="center"><a href="FlipRTC_State.png"><img src="FlipRTC_State.png" width="70%;"></a></div>
+<div align="center"><strong>図19. アクティビティ処理の概要</strong></div>
+<br>
+
+onExecute() での処理を図20に示します。
+
+<br>
+
+<div align="center"><a href="FlipRTC.png"><img src="FlipRTC.png" width="70%;"></a></div>
+<div align="center"><strong>図20. onExucete()での処理内容</strong></div>
+<br>
+
+
+#### OpenCV 用ユーザープロパティシートのコピー
+
+プロパティシートとは、コンパイルに必要な種々のオプション（インクルードパス、ライブラリ
+ロードバス、ライブラリ）やマクロを記述した VC の設定ファイルの一種です。
+RTCBuilder や rtc-template で生成した VC 用のプロジェクトでは、VC のプロパティシートを
+使用して各種オプションを与えています。また、ユーザーがオプションを追加できるように、ユ
+ーザー定義のプロパティシートもインクルードするようになっています。
+- rtm_config.vsprop：OpenRTM に関する情報を含むプロパティシート。インストールされてい>る OpenRTM-aist に依存するファイルであるため、copyprops.bat を使用して OpenRTM のシス>テムディレクトリーからカレントのプロジェクトへコピーします。
+- user_config.vsprops：ユーザー定義のプロパティシート。デフォルトでは空っぽです。使い>方は、ソースコード：OpenRTM-aist/win32/OpenRTM-aist/example/USBCamera の中に入っている
+ user_config.vsprops (OpenCV 用の設定)を参考にしてください。
+
+以下の内容を user_config.vsprops というファイル名で保存し、Flip フォルダーにコピーして
+ください。
+
+もしくは、下記より vsprops ファイルをダウンロードし、Flip フォルダーに保存してください
+。
+
+<br>
+[user_config.vsprops](http://www.openrtm.org/OpenRTM-aist/download/ROBOMEC2009/user_config.vsprops)
+
+※　既にFlipフォルダーには user_config.vsprops ファイルが存在しておりますが、上書きして
+構いません。
+
+<br>
+```
+ <?xml version="1.0" encoding="shift_jis"?>
+ <VisualStudioPropertySheet
+    ProjectType="Visual C++"
+    Version="8.00"
+    Name="OpenCV"
+    >
+    <Tool
+        Name="VCCLCompilerTool"
+        AdditionalIncludeDirectories="$(cv_includes)"
+    />
+    <Tool
+        Name="VCLinkerTool"
+        AdditionalLibraryDirectories="$(cv_libdir)"
+    />
+    <UserMacro
+        Name="user_lib"
+        Value="$(cv_lib)"
+    />
+    <UserMacro
+        Name="user_libd"
+        Value="$(cv_libd)"
+    />
+    <UserMacro
+        Name="cv_root"
+        Value="C:\Program Files\OpenCV"
+
+    />
+    <UserMacro
+        Name="cv_includes"
+        Value="&quot;$(cv_root)\cv\include&quot;;&quot;$(cv_root)\cvaux\include&quot;;&quot;$(cv_root)\cxcore\include&quot;;&quot;$(cv_root)\otherlibs\highgui&quot;;&quot;$(cv_root)\otherlibs\cvcam\include&quot;"
+    />
+    <UserMacro
+        Name="cv_libdir"
+        Value="&quot;$(cv_root)\lib&quot;"
+    />
+    <UserMacro
+        Name="cv_bin"
+        Value="$(cv_root)\bin"
+    />
+    <UserMacro
+        Name="cv_lib"
+        Value="cv.lib cvcam.lib highgui.lib cxcore.lib"
+    />
+    <UserMacro
+        Name="cv_libd"
+        Value="cv.lib cvcam.lib highgui.lib cxcore.lib"
+    />
+ </VisualStudioPropertySheet>
+```
+#### copyprops.bat の実行
+
+copyprops.bat というファイルを実行することで、rtm_config.vsprops というファイルがコピ>ーされます。
+
+rtm_config.vsprops ファイルは、RTコンポーネントを VC++ でビルドするために必要なインク>ルードパスやリンクするライブラリ等が記述されたファイルです。
+
+#### ヘッダファイルの編集
+- OpenCV のライブラリを使用するため、OpenCV のインクルードファイルをインクルードします
+。
+
+```
+ //OpenCV 用インクルードファイルのインクルード
+ #include<cv.h>
+ #include<cxcore.h>
+ #include<highgui.h>
+```
+
+- この cvFlip コンポーネントでは、画像領域の確保、Flip 処理、確保した画像領域の解放の>それぞれの処理を行います。これらの処理は、それぞれ onActivated()、onDeactivated()、onExecute() のコールバック関数で呼ぶことにしますので、これら3つの関数のコメントアウトを解
+除します。
+
+```
+   /***
+    *
+    * The activated action (Active state entry action)
+    * former rtc_active_entry()
+    *
+    * @param ec_id target ExecutionContext Id
+    *
+    * @return RTC::ReturnCode_t
+    *
+    *
+    */
+   virtual RTC::ReturnCode_t onActivated(RTC::UniqueId ec_id);
+
+   /***
+    *
+    * The deactivated action (Active state exit action)
+    * former rtc_active_exit()
+    *
+    * @param ec_id target ExecutionContext Id
+    *
+    * @return RTC::ReturnCode_t
+    * 
+    * 
+    */
+   virtual RTC::ReturnCode_t onDeactivated(RTC::UniqueId ec_id);
+
+   /***
+    *
+    * The execution action that is invoked periodically
+    * former rtc_active_do()
+    *
+    * @param ec_id target ExecutionContext Id
+    *
+    * @return RTC::ReturnCode_t
+    * 
+    * 
+    */
+   virtual RTC::ReturnCode_t onExecute(RTC::UniqueId ec_id);
+```
+
+- 反転した画像の保存用にメンバー変数を追加します。
+
+```
+   IplImage* m_image_buff;
+   IplImage* m_flip_image_buff;
+```
+
+#### ソースファイルの編集 
+
+下記のように、onActivated()、onDeactivated()、onExecute()を実装します。
+
+```
+ RTC::ReturnCode_t Flip::onActivated(RTC::UniqueId ec_id)
+ {
+   // イメージ用メモリーの確保
+   m_image_buff = cvCreateImage(cvSize(m_img_width, m_img_height), IPL_DEPTH_8U, 3);
+   m_flip_image_buff = cvCreateImage(cvSize(m_img_width, m_img_height), IPL_DEPTH_8U, 3);
+   return RTC::RTC_OK;
+ }
+
+
+ RTC::ReturnCode_t Flip::onDeactivated(RTC::UniqueId ec_id)
+ {
+   // イメージ用メモリーの解放
+   cvReleaseImage(&m_image_buff);
+   cvReleaseImage(&m_flip_image_buff);
+   return RTC::RTC_OK;
+ }
+
+
+ RTC::ReturnCode_t Flip::onExecute(RTC::UniqueId ec_id)
+ {
+   // 新しいデータのチェック
+   if (m_image_origIn.isNew()) {
+     // InPortデータの読み込み
+     m_image_origIn.read();
+
+     // InPortの画像データをIplImageのimageDataにコピー
+     memcpy(m_image_buff->imageData,(void *)&(m_image_orig.data[0]),m_image_orig.data.length());
+ 
+     // InPortからの画像データを反転する。 m_flip_mode 0: X軸周り, 1: Y軸周り, -1: 両>方の軸周り
+     cvFlip(m_image_buff, m_flip_image_buff, m_flip_mode);
+ 
+     // 画像データのサイズ取得
+     int len = m_flip_image_buff->nChannels * m_flip_image_buff->width * m_flip_image_buff->height;
+     m_image_flip.data.length(len);
+ 
+     // 反転した画像データを OutPort にコピー
+     memcpy((void *)&(m_image_flip.data[0]),m_flip_image_buff->imageData,len);
+ 
+     // 反転した画像データを OutPort から出力する。
+     m_image_flipOut.write();
+   }
+   return RTC::RTC_OK;
+ }
+
+```
+#### ビルドの実行
+
+図21のようにし、コンポーネントのビルドを行います。
+
+<br>
+
+<div align="center"><a href="VC++_build.png"><img src="VC++_build.png" width="70%;"></a></div>
+<div align="center"><strong>図21. ビルドの実行</strong></div>
+<br>
+
+#### Flip コンポーネントの動作確認
+
+ここでは、OpenRTM-aist のサンプルコンポーネントに含まれている USBCameraAqcuireComp コ>ンポーネントと、USBCameraMonitorCom コンポーネント、それと、Flip コンポーネントを接続>し動作確認を行います。
+
+#### NameService の起動
+
+omniORB のネームサービスを起動します。
+
+<br>
+[スタート] > [すべてのプログラム] > [OpenRTM-aist] > [C++] > [examples] をクリックし、
+[Start Naming Service] をクリックしてください。
+
+#### rtc.conf の作成
+
+RTコンポーネントでは、ネームサーバーのアドレスやネームサーバーへの登録フォーマットなど
+の情報を rtc.conf というファイルで指定する必要があります。
+
+下記の内容を rtc.conf というファイル名で保存し、Flip\FlipComp\Debug (もしくは、Release) フォルダーに置いてください。
+
+```
+ corba.nameservers: localhost
+ naming.formats: %n.rtc
+```
+
+#### Flip コンポーネントの起動
+
+Flip コンポーネントを起動します。
+
+先程 rtc.conf ファイルを置いたフォルダーにある、FlipComp.exe ファイルを実行してくださ>い。
+
+#### USBCameraAqcuire、USBCameraMonitor コンポーネントの起動 
+
+USB カメラのキャプチャ画像を OutPort から出力する USBCameraAqcuireComp コンポーネント>と、InPort で受け取った画像を画面に表示する USBCameraMonitorCOmp コンポーネントを起動>します。
+
+これら２つのコンポーネントは、下記の手順にて起動できます。
+
+[スタート] > [すべてのプログラム] > [OpenRTM-aist] > [C++] > [examples] をクリックし、
+「USBCameraAqcuireComp」と「USBCameraMonitorCOmp」をそれぞれクリックして実行します。
+
+#### コンポーネントの接続
+
+図22のように、RTSystemEditor にて USBCameraAqcuireComp,Flip、USBCameraMonitorComp コン
+ポーネントを接続します。
+
+<br>
+
+<div align="center"><a href="RTSystemEditor_connection_flip.png"><img src="RTSystemEditor_connection_flip.png" width="70%;"></a></div>
+<div align="center"><strong>図22. コンポーネントの接続</strong></div>
+<br>
+
+#### Flip コンポーネントのコンフィギュレーションの変更
+
+図23のようにコンフィギュレーションビューにてコンフィギュレーションを変更することができ
+ます。
+
+ELECOM製 の UCAM-DLM 130HWH (白いUSBカメラ) を使用の場合は、image_height と image_width パラメーターを下記のように変更してください。
+
+```
+ image_height : 480
+ image_width  : 640
+```
+
+また、ELECOM製 の UCAM-DLM 130HWH (白いUSBカメラ) を使用の場合は、USBCameraMonitor の image_height,image_width パラメーターも
+上記のように変更する必要があります。
+
+<br>
+
+<div align="center"><a href="RTSystemEditor_config_edit.png"><img src="RTSystemEditor_config_edit.png" width="70%;"></a></div>
+<div align="center"><strong>図23. コンフィギュレーションパラメータの変更</strong></div>
+<br>
+
+#### コンポーネントの Activate
+
+RTSystemEditor の上部にあります「ALL」というアイコンをクリックし、全てのコンポーネント
+をアクティベートします。
+
+正常にアクティベートされた場合、図24のように黄緑色でコンポーネントが表示されます。
+
+<br>
+
+<div align="center"><a href="RTSystemEditor_activate.png"><img src="RTSystemEditor_activate.png" width="70%;"></a></div>
+<div align="center"><strong>図24. コンポーネントのアクティベート</strong></div>
+<br>
+
+#### 動作確認
+

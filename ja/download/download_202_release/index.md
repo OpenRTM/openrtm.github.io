@@ -21,7 +21,7 @@ title: "download"
 
 <table class="table-alt">
   <tr>
-    <th><a href="https://openrtm.org/pub/Windows/OpenRTM-aist/2.0/OpenRTM-aist-2.0.2-RELEASE_x86_64.msi">OpenRTM-aist-2.0.2-RELEASE_x86_64.msi </a></th>
+    <th><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/2.0/OpenRTM-aist-2.0.2-RELEASE_x86_64.msi">OpenRTM-aist-2.0.2-RELEASE_x86_64.msi </a></th>
     <th>MD5:a03eebe388dd4d63f4b91bf98afc5884</th>
     <th>2024/06/07</th>
   </tr>
@@ -107,7 +107,7 @@ Bullseye（32bit、64bit環境）、Bookworm（32bit、64bit環境）では、�
 
 <table class="table-alt">
   <tr>
-    <th><a href="https://openrtm.org/pub/Windows/OpenRTM-aist/2.1/OpenRTM-aist-2.1.0-RELEASE_x86_64.msi">OpenRTM-aist-2.1.0-RELEASE_x86_64.msi </a></th>
+    <th><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/2.1/OpenRTM-aist-2.1.0-RELEASE_x86_64.msi">OpenRTM-aist-2.1.0-RELEASE_x86_64.msi </a></th>
     <th>MD5:e1804a5aaa4fab85a5cdc777bd9c48c1</th>
     <th>2026/06/02</th>
   </tr>

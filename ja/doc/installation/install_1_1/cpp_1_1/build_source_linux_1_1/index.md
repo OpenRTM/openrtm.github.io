@@ -49,9 +49,9 @@ UbuntuやFedora等特定のディストリビューション向けには、以�
 ### ソースのダウンロード
 
 OpenRTM-aist のソースをダウンロードします。
-ソースコードは、http://www.openrtm.org/pub/OpenRTM-aist/cxx/ の下のバージョン番号フォルダ以下からダウンロードできます。
+ソースコードは、https://packages.openrtm.org/pub/OpenRTM-aist/cxx/ の下のバージョン番号フォルダ以下からダウンロードできます。
 バージョン1.1.2のソースコードは以下の場所にあります。
-- http://www.openrtm.org/pub/OpenRTM-aist/cxx/1.1.2/
+- https://packages.openrtm.org/pub/OpenRTM-aist/cxx/1.1.2/
 
 ### ソースコードの展開 
 

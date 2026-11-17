@@ -28,7 +28,7 @@ openrtm.org をパッケージリポジトリとして追加するために、/e
 ```
  deb http://ftp.debian.org/debian jessie main contrib non-free
  deb http://ev3dev.org/debian jessie main
- deb http://openrtm.org/pub/Linux/debian jessie main ← この行を追加
+ deb https://packages.openrtm.org/pub/Linux/debian jessie main ← この行を追加
 ```
 
 この例のように、最下行に openrtm.org のリポジトリを追加します。

@@ -59,7 +59,7 @@ OpenRTM-aistのビルドにはomniORB 4.2.3(2019/05/17現在)のライブラリ�
 openrtm.org が提供するビルド済みバイナリパッケージを下記リンク先に用意してあります。
 環境に合わせて適切なものをダウンロードし、適当な場所(以下の説明ではC:\workspace\omniORBとしています)に展開してください。
 
-- [openrtm.org提供バイナリパッケージ](http://openrtm.org/pub/omniORB/win32/)
+- [openrtm.org提供バイナリパッケージ](https://packages.openrtm.org/pub/omniORB/win32/)
 
 
 #### 環境変数: OMNI_ROOT
@@ -101,7 +101,7 @@ OpenRTM-aistのビルドにはOpenSSL 1.1.0(2019/05/17現在)のライブラリ�
 openrtm.orgが提供するビルド済みバイナリパッケージを下記リンク先に用意してあります。
 環境に合わせて適切なものをダウンロードし、適当な場所 (以下の説明ではC:\workspace\OpenSSLとしています)に展開してください。
 
-- [openrtm.org提供バイナリパッケージ](https://openrtm.org/pub/OpenSSL/)
+- [openrtm.org提供バイナリパッケージ](https://packages.openrtm.org/pub/OpenSSL/)
 
 #### 環境変数: SSL_ROOT
 SSL_ROOT に設定したディレクトリ以下は以下のような構造になっている必要があります。

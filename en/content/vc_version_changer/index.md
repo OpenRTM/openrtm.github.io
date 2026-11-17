@@ -137,11 +137,11 @@ Please download it according to your version of Visual Studio.
   </tr>
   <tr>
     <td>Visual Studio 2008, 2010, 2012</td>
-    <td><a href="http://openrtm.org/pub/Windows/OpenRTM-aist/tools/OpenRTMEnvTool_vc10.exe">OpenRTMEnvTool_vc10.exe</a></td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/tools/OpenRTMEnvTool_vc10.exe">OpenRTMEnvTool_vc10.exe</a></td>
   </tr>
   <tr>
     <td>Visual Studio 2013, 2015</td>
-    <td><a href="http://openrtm.org/pub/Windows/OpenRTM-aist/tools/OpenRTMEnvTool_vc12.exe">OpenRTMEnvTool_vc12.exe</a></td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/tools/OpenRTMEnvTool_vc12.exe">OpenRTMEnvTool_vc12.exe</a></td>
   </tr>
 </table>
 

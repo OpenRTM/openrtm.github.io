@@ -49,7 +49,7 @@ To install using OpenRTM-aist-Python-1.1.0.msi, Python version 2.4, 2.5 or 2.6 i
 <table class="table-alt">
   <tr>
     <td>Windows installer</td>
-    <td><a href="http://www.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.1.0-RC1.msi">OpenRTM-aist-Python-1.1.0-RC1.msi</a> <br> MD5:1faaf9c25bcb879628da3d23f851a4cd</td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.1.0-RC1.msi">OpenRTM-aist-Python-1.1.0-RC1.msi</a> <br> MD5:1faaf9c25bcb879628da3d23f851a4cd</td>
     <td>11/010/04</td>
   </tr>
   <tr>
@@ -85,17 +85,17 @@ Openrtm.org provides repositories containing packages for Debian, Ubuntu. Please
     <td>Install script</td>
   </tr>
 </table>
-<!-- | Fedora | 11, 12 (i386/x86_64) |[[pkg_install_python_fedora.sh >http://www.openrtm.org/pub/OpenRTM-aist/python/install_scripts/pkg_install_python_fedora.sh]]| -->
+<!-- | Fedora | 11, 12 (i386/x86_64) |[[pkg_install_python_fedora.sh >https://packages.openrtm.org/pub/OpenRTM-aist/python/install_scripts/pkg_install_python_fedora.sh]]| -->
 <table class="table-alt">
   <tr>
     <th>Ubuntu</th>
     <th>8.04, 10.04, 10.10, 11.04 (i386/x86_64)</th>
-    <th><a href="http://www.openrtm.org/pub/OpenRTM-aist/python/install_scripts/pkg_install_python_ubuntu.sh">pkg_install_python_ubuntu.sh </a></th>
+    <th><a href="https://packages.openrtm.org/pub/OpenRTM-aist/python/install_scripts/pkg_install_python_ubuntu.sh">pkg_install_python_ubuntu.sh </a></th>
   </tr>
   <tr>
     <td>Debian</td>
     <td>5.0 (i386, x86_64)</td>
-    <td><a href="http://www.openrtm.org/pub/OpenRTM-aist/python/install_scripts/pkg_install_python_debian.sh">pkg_install_python_debian.sh </a></td>
+    <td><a href="https://packages.openrtm.org/pub/OpenRTM-aist/python/install_scripts/pkg_install_python_debian.sh">pkg_install_python_debian.sh </a></td>
   </tr>
 </table>
 

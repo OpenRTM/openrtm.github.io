@@ -27,12 +27,12 @@ title: openrtm-aist-java-1.1.0-release
 <table class="table-alt">
   <tr>
     <td>32RTM</td>
-    <td>[OpenRTM-aist-Java_1.1.0-RELEASE_x86.msi](http://openrtm.org/pub/Windows/OpenRTM-aist/java/OpenRTM-aist-Java_1.1.0-RELEASE_x86.msi) <br> MD5: ad8a1c6f714956c948d54236f049f91f</td>
+    <td>[OpenRTM-aist-Java_1.1.0-RELEASE_x86.msi](https://packages.openrtm.org/pub/Windows/OpenRTM-aist/java/OpenRTM-aist-Java_1.1.0-RELEASE_x86.msi) <br> MD5: ad8a1c6f714956c948d54236f049f91f</td>
     <td>2015.03.20</td>
   </tr>
   <tr>
     <td>(G)For 64bit</td>
-    <td>[OpenRTM-aist-Java_1.1.0-RELEASE_x86_64.msi](http://openrtm.org/pub/Windows/OpenRTM-aist/java/OpenRTM-aist-Java_1.1.0-RELEASE_x86_64.msi)<br>MD5: e941147d648dbd9e0452ae9e36533683</td>
+    <td>[OpenRTM-aist-Java_1.1.0-RELEASE_x86_64.msi](https://packages.openrtm.org/pub/Windows/OpenRTM-aist/java/OpenRTM-aist-Java_1.1.0-RELEASE_x86_64.msi)<br>MD5: e941147d648dbd9e0452ae9e36533683</td>
     <td>2015.03.20</td>
   </tr>
 </table>

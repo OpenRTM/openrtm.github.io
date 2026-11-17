@@ -16,7 +16,7 @@ Obtain the OpenRTM-aist source code from the following repository.
 
 Download the prebuilt omniORB package from the following location.
 
-- [https://openrtm.org/pub/omniORB/win32/](https://openrtm.org/pub/omniORB/win32/)
+- [https://packages.openrtm.org/pub/omniORB/win32/](https://packages.openrtm.org/pub/omniORB/win32/)
 
 Move to the checked-out OpenRTM-aist directory and execute the following commands.
 
@@ -112,7 +112,7 @@ Since cross-compilation is performed, executable tools such as the IDL compiler 
 
 Download the x86 build of omniORB from the following location.
 
-- [http://openrtm.org/pub/omniORB/win32/omniORB-4.2.2/](http://openrtm.org/pub/omniORB/win32/omniORB-4.2.2/)
+- [https://packages.openrtm.org/pub/omniORB/win32/omniORB-4.2.2/](https://packages.openrtm.org/pub/omniORB/win32/omniORB-4.2.2/)
 
 Copy the contents of **bin/x86_win32** from the extracted ZIP archive into **bin/x86_win32** of the extracted **omniORB-4.2.2.tar.bz2** directory.
 

@@ -27,7 +27,7 @@ title: openrtm-aist-python-1.1.2-release
 <table class="table-alt">
   <tr>
     <td>Windows 用インストーラー<br> (OpenRTM-aist C++、Python、Java版<br> および OpenRTP、rtshell (4.1.0) 含む)</td>
-    <td><a href="http://openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86.msi">OpenRTM-aist-1.1.2-RELEASE_x86.msi</a> <br>MD5:59be8603f3fc007c2aed4476052886ce</td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86.msi">OpenRTM-aist-1.1.2-RELEASE_x86.msi</a> <br>MD5:59be8603f3fc007c2aed4476052886ce</td>
     <td>2016/05/27</td>
   </tr>
   <tr>
@@ -45,7 +45,7 @@ title: openrtm-aist-python-1.1.2-release
 <table class="table-alt">
   <tr>
     <td>Windows 用インストーラー<br> (OpenRTM-aist C++、Python、Java版<br> および OpenRTP、rtshell (4.1.0) 含む)</td>
-    <td><a href="http://openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86_64.msi">OpenRTM-aist-1.1.2-RELEASE_x86_64.msi</a> <br>MD5:ee8db7c1682cb21dce963207e0484fb3</td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86_64.msi">OpenRTM-aist-1.1.2-RELEASE_x86_64.msi</a> <br>MD5:ee8db7c1682cb21dce963207e0484fb3</td>
     <td>2016/05/27</td>
   </tr>
   <tr>
@@ -120,12 +120,12 @@ Ubuntu、Debian、Fedora の各ディストリビューション用パッケー�
 <table class="table-alt">
   <tr>
     <td>Python版ソースコード</td>
-    <td><a href="http://openrtm.org/pub/OpenRTM-aist/python/1.1.2/OpenRTM-aist-Python-1.1.2.tar.gz">OpenRTM-aist-Python-1.1.2.tar.gz</a> <br>MD5:15e107e73dd5a60bebb675b561b86633</td>
+    <td><a href="https://packages.openrtm.org/pub/OpenRTM-aist/python/1.1.2/OpenRTM-aist-Python-1.1.2.tar.gz">OpenRTM-aist-Python-1.1.2.tar.gz</a> <br>MD5:15e107e73dd5a60bebb675b561b86633</td>
     <td>2016/05/27</td>
   </tr>
   <tr>
     <td>Python版ソースコード(Win32)</td>
-    <td><a href="http://openrtm.org/pub/OpenRTM-aist/python/1.1.2/OpenRTM-aist-Python-1.1.2.zip">OpenRTM-aist-Python-1.1.2.zip</a> <br>MD5:0641a1e6f3f21b89ac62e35ffcf8d73d</td>
+    <td><a href="https://packages.openrtm.org/pub/OpenRTM-aist/python/1.1.2/OpenRTM-aist-Python-1.1.2.zip">OpenRTM-aist-Python-1.1.2.zip</a> <br>MD5:0641a1e6f3f21b89ac62e35ffcf8d73d</td>
     <td>2016/05/27</td>
   </tr>
 </table>

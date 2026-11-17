@@ -44,7 +44,7 @@ However, when running CMake, specify the OpenRTM-aist installation folder so tha
 
 Also, extract the OpenSSL header files and libraries to an appropriate location.
 
-- https://openrtm.org/pub/OpenSSL/1.1.0/
+- https://packages.openrtm.org/pub/OpenSSL/1.1.0/
 
 #### Building and Installing Choreonoid
 

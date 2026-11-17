@@ -29,7 +29,7 @@ Open `/etc/apt/sources.list` with vi and add the following line:
 ```bash
 deb http://ftp.debian.org/debian jessie main contrib non-free
 deb http://ev3dev.org/debian jessie main
-deb http://openrtm.org/pub/Linux/debian jessie main  ← Add this line
+deb https://packages.openrtm.org/pub/Linux/debian jessie main  ← Add this line
 ```
 
 As shown above, add the OpenRTM repository at the end of the file.

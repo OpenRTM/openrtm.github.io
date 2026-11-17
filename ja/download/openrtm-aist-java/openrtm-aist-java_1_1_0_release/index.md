@@ -17,7 +17,7 @@ title: openrtm-aist-java-1.1.0-release
 <table class="table-alt">
   <tr>
     <td>jar ファイルおよびサンプル</td>
-    <td><a href="http://openrtm.org/pub/OpenRTM-aist/java/1.1.0/OpenRTM-aist-Java-1.1.0-RELEASE-jar.zip">OpenRTM-aist-Java-1.1.0-RELEASE-jar.zip </a><br>MD5: 6e71dabe304301b4af88826741e77347</td>
+    <td><a href="https://packages.openrtm.org/pub/OpenRTM-aist/java/1.1.0/OpenRTM-aist-Java-1.1.0-RELEASE-jar.zip">OpenRTM-aist-Java-1.1.0-RELEASE-jar.zip </a><br>MD5: 6e71dabe304301b4af88826741e77347</td>
     <td>2015.03.20</td>
   </tr>
 </table>
@@ -29,12 +29,12 @@ title: openrtm-aist-java-1.1.0-release
 <table class="table-alt">
   <tr>
     <td>32bit 用</td>
-    <td><a href="http://openrtm.org/pub/Windows/OpenRTM-aist/java/OpenRTM-aist-Java_1.1.0-RELEASE_x86.msi">OpenRTM-aist-Java_1.1.0-RELEASE_x86.msi</a><br>MD5: ad8a1c6f714956c948d54236f049f91f</td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/java/OpenRTM-aist-Java_1.1.0-RELEASE_x86.msi">OpenRTM-aist-Java_1.1.0-RELEASE_x86.msi</a><br>MD5: ad8a1c6f714956c948d54236f049f91f</td>
     <td>2015.03.20</td>
   </tr>
   <tr>
     <td>64bit 用</td>
-    <td><a href="http://openrtm.org/pub/Windows/OpenRTM-aist/java/OpenRTM-aist-Java_1.1.0-RELEASE_x86_64.msi">OpenRTM-aist-Java_1.1.0-RELEASE_x86_64.msi</a><br>MD5: e941147d648dbd9e0452ae9e36533683</td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/java/OpenRTM-aist-Java_1.1.0-RELEASE_x86_64.msi">OpenRTM-aist-Java_1.1.0-RELEASE_x86_64.msi</a><br>MD5: e941147d648dbd9e0452ae9e36533683</td>
     <td>2015.03.20</td>
   </tr>
 </table>

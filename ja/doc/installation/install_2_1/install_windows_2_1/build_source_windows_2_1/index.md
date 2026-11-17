@@ -28,7 +28,7 @@ OpenRTM-aist本体に改修を加えてWindows上で利用したい場合は、O
 openrtm.org が提供するビルド済みバイナリパッケージを下記リンク先に omniORB-4.3.4-x64-vc16-pyXX.zip という名称で用意してあります。
 XXをインストールするpythonのバージョンに読み替えて適切なものをダウンロードし、適当な場所(以下の説明ではC:\workspace\omniORBとしています)に展開してください。
 
-- [openrtm.org提供バイナリパッケージ](https://openrtm.org/pub/omniORB/win32/omniORB-4.3.4/)
+- [openrtm.org提供バイナリパッケージ](https://packages.openrtm.org/pub/omniORB/win32/omniORB-4.3.4/)
 
 他のライブラリを使ってのビルドについては、 [RTシステム開発 (応用編)・OpenRTM-aist(C++版)のCMakeによるビルド手順]({{ site.baseurl }}/ja/doc/developersguide/advanced_rt_system_programming/openrtm_cpp_cmake_build) をご覧ください。
 

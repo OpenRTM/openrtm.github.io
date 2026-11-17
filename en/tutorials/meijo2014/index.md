@@ -79,7 +79,7 @@ title: rtミドルウェア強化月間（第1弾）名城大学・rtミドル�
   - 64bit版はPythonとの相性が悪いので、32bit版をお勧めします。
 - [Python 2.6(32bit)](http://www.python.org/ftp/python/2.6.6/python-2.6.6.msi) 
   - <span style="color:red;">OpenRTM-aistのPython版やPyYAMLをインストールする前にインストールしてください．</span>;
-- [OpenRTM-aist-1.1.0-RC1 Python](http://www.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.1.0-RC1.msi)
+- [OpenRTM-aist-1.1.0-RC1 Python](https://packages.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.1.0-RC1.msi)
 - [PyYAML](http://pyyaml.org/download/pyyaml/PyYAML-3.10.win32-py2.6.exe)
 - [CMake](http://www.cmake.org/files/v2.8/cmake-2.8.8-win32-x86.exe)
 - [Doxygen](http://ftp.stack.nl/pub/users/dimitri/doxygen-1.8.1-setup.exe)
@@ -87,7 +87,7 @@ title: rtミドルウェア強化月間（第1弾）名城大学・rtミドル�
   - 32bit版をお勧めします。
 - [Eclipse全部入り]()(No corresponding page available.)
   - [Windows用32bit版全部入り]()(No corresponding page available.)を推奨します。
-  - インストール後、メニューの「ヘルプ」→「新規ソフトウエアのインストール」を選択、更新サイトに http://openrtm.org/pub/openrtp/releases/updates を入力してRTSystemEditorとRTCBuilderをアップデートしておくことをお勧めします。
+  - インストール後、メニューの「ヘルプ」→「新規ソフトウエアのインストール」を選択、更新サイトに https://packages.openrtm.org/pub/openrtp/releases/updates を入力してRTSystemEditorとRTCBuilderをアップデートしておくことをお勧めします。
 - 使い慣れたエディタ: EclipseやPythonに付属のエディタでも構いませんが、使い慣れたエディタが入っていた方が良いでしょう
 <!-- - [[RTC.xml:http://www.openrtm.org/openrtm/sites/default/files/5235/RTC.xml]] 第2部で使用します。 -->
 

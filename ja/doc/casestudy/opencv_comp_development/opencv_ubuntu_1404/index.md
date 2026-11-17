@@ -60,7 +60,7 @@ OepnRTP の実行には Java も必要となりますので default-jre パッ�
 
 ```
  $ apt-get install default-jre
- $ wget http://openrtm.org/pub/openrtp/packages/1.1.0.rc5v20150317/eclipse381-openrtp110rc5v20150317-ja-linux-gtk-x86_64.tar.gz
+ $ wget https://packages.openrtm.org/pub/openrtp/packages/1.1.0.rc5v20150317/eclipse381-openrtp110rc5v20150317-ja-linux-gtk-x86_64.tar.gz
  $ tar xvzf eclipse381-openrtp110rc5v20150317-ja-linux-gtk-x86_64.tar.gz
  $ cd eclipse
 ```
@@ -96,7 +96,7 @@ OpenCV および OpenCV のコンポーネントをインストールします�
 OpenCV RTC のパッケージは下記 URL にありますので、手動でダウンロードして、dpkg コマンドでインストールします。
 
 ```
- $ wget http://openrtm.org/pub/Linux/ubuntu/dists/trusty/main/binary-amd64/imageprocessing-1.1.0.deb
+ $ wget https://packages.openrtm.org/pub/Linux/ubuntu/dists/trusty/main/binary-amd64/imageprocessing-1.1.0.deb
  $ sudo dpkg -i imageprocessing-1.1.0.deb
  $ ls /usr/share/openrtm-1.1/components/c++/opencv-rtcs/
  AffineComp                       FlipComp               RockPaperScissorsComp

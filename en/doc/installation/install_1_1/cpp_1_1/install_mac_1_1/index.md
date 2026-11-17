@@ -50,8 +50,8 @@ Portfile のダウンロード、展開、ビルドを一括でおこなうス�
  $ sh port_install100_mac.sh
  sh port_install.sh
  file:///Users/n-ando/ports/
- Getting Portfile from:  http://www.openrtm.org/pub/MacOSX/macports//ports.tgz
- --2010-07-27 23:21:06--  http://www.openrtm.org/pub/MacOSX/macports//ports.tgz
+ Getting Portfile from:  https://packages.openrtm.org/pub/MacOSX/macports//ports.tgz
+ --2010-07-27 23:21:06--  https://packages.openrtm.org/pub/MacOSX/macports//ports.tgz
  Resolving www.openrtm.org (www.openrtm.org)... 182.48.18.55
  Connecting to www.openrtm.org (www.openrtm.org)|182.48.18.55|:80... connected.
  HTTP request sent, awaiting response... 200 OK

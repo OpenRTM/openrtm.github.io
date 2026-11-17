@@ -342,8 +342,8 @@ Fedora　の場合
 <!-- &br; -->
 <!-- ***MacPorts -->
 <!-- MacPorts 用 Portfile が利用可能です。あらかじめ Xcode および MacPorts をインストールした上でご利用ください。 -->
-<!-- - [[Portfile (ports.tgz) :http://www.openrtm.org/pub/MacOSX/macports/ports.tgz]] -->
-<!-- - [[インストールスクリプト (port_install.sh) :http://www.openrtm.org/pub/MacOSX/macports/port_install.sh]]: ports.tgz のダウンロード、OpenRTM-aist のビルド・インストールまで自動で行います。 -->
+<!-- - [[Portfile (ports.tgz) :https://packages.openrtm.org/pub/MacOSX/macports/ports.tgz]] -->
+<!-- - [[インストールスクリプト (port_install.sh) :https://packages.openrtm.org/pub/MacOSX/macports/port_install.sh]]: ports.tgz のダウンロード、OpenRTM-aist のビルド・インストールまで自動で行います。 -->
 
 <!-- ** ツール -->
 
@@ -354,7 +354,7 @@ Fedora　の場合
 ## リリースノート: 1.2.0-RELEASE
 OpenRTM-aist Official Website からソースコード、Windows インストーラー、Linux 用パッケージ等が LGPL ライセンスもしくは産総研との個別契約のうち一つから選択するデュアルライセンス方式で利用可能です。
 
-<!-- - [[OpenRTM-aist-1.1.0-RELEASE.tar.gz:http://www.openrtm.org/pub/OpenRTM-aist/cxx/1.1.0/OpenRTM-aist-1.1.0-RELEASE.tar.gz]] -- 2012.05.25リリース -->
+<!-- - [[OpenRTM-aist-1.1.0-RELEASE.tar.gz:https://packages.openrtm.org/pub/OpenRTM-aist/cxx/1.1.0/OpenRTM-aist-1.1.0-RELEASE.tar.gz]] -- 2012.05.25リリース -->
 
 ### 機能に関する変更
 - 雑多なバグフィックス

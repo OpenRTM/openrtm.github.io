@@ -16,7 +16,7 @@ title: "openrtm-aist(c++版)のcmakeによるビルド手順"
 
 以下からビルド済みの omniORB を入手してください。
 
-- [https://openrtm.org/pub/omniORB/win32/](https://openrtm.org/pub/omniORB/win32/)
+- [https://packages.openrtm.org/pub/omniORB/win32/](https://packages.openrtm.org/pub/omniORB/win32/)
 
 チェックアウトしたフォルダー(OpenRTM-aist)に移動して以下のコマンドを実行してください。
 
@@ -121,7 +121,7 @@ Visual Studioのバージョンが違う場合は適宜対応してください�
 
 以下からx86用にビルドした omniORB のバイナリを入手してください。
 
-- [http://openrtm.org/pub/omniORB/win32/omniORB-4.2.2/](http://openrtm.org/pub/omniORB/win32/omniORB-4.2.2/)
+- [https://packages.openrtm.org/pub/omniORB/win32/omniORB-4.2.2/](https://packages.openrtm.org/pub/omniORB/win32/omniORB-4.2.2/)
 
 zipファイルを展開したフォルダの**bin/x86_win32**の中身を、omniORB-4.2.2.tar.bz2を展開したフォルダの**bin/x86_win32**にコピーしてください。
 

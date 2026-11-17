@@ -75,12 +75,12 @@ OpenRTM-aist-Python-1.0.0.msiでは、インストールされているPythonの
 <table class="table-alt">
   <tr>
     <td>Windows用インストーラ</td>
-    <td><a href="http://www.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.0.0.msi">OpenRTM-aist-Python-1.0.0.msi</a> <br> MD5:4afe4de69c9b56086fc97e9697334a36</td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.0.0.msi">OpenRTM-aist-Python-1.0.0.msi</a> <br> MD5:4afe4de69c9b56086fc97e9697334a36</td>
     <td>10/05/07</td>
   </tr>
   <tr>
     <td>Windows用インストーラ</td>
-    <td><a href="http://www.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.0.1.msi">OpenRTM-aist-Python-1.0.1.msi</a> <br> MD5:ad9653ab2a07a4247b7b4ad0cf069002</td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.0.1.msi">OpenRTM-aist-Python-1.0.1.msi</a> <br> MD5:ad9653ab2a07a4247b7b4ad0cf069002</td>
     <td>11/02/23</td>
   </tr>
   <tr>

@@ -131,7 +131,7 @@ Windows推奨ですが、Linuxでも実習可能です。
 
 <!-- -Python版で必要なもの -->
 <!-- --[[Python2.6:http://www.python.org/ftp/python/2.6.2/python-2.6.2.msi]] -->
-<!-- --[[Python版, Win32:http://www.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.0.0.msi]] -->
+<!-- --[[Python版, Win32:https://packages.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.0.0.msi]] -->
 
 - C++版で必要なもの
   - [Visual C++ Express](http://www.microsoft.com/japan/msdn/vstudio/2008/product/express/)
@@ -139,7 +139,7 @@ Windows推奨ですが、Linuxでも実習可能です。
   - [OpenCV2.1(VC2008用)](http://sourceforge.net/projects/opencvlibrary/files/opencv-win/2.1/OpenCV-2.1.0-win32-vs2008.exe/download)
 <br><span style="color:red;">※ OpenCV2.1のインストールの途中で、環境変数PathにOpenCV2.1のパスを設定するかの確認がでますので、２番目の"Add OpenCV to the system PATH for all users"を選択してください。</span>;
 <!-- --[[PyYAML(rtc-templateで使用):http://pyyaml.org/download/pyyaml/PyYAML-3.09.win32-py2.6.exe]] -->
-  - [OpenRTM-aist-1.0.0-RELEASE(C++版), Win32 VC2008](http://www.openrtm.org/pub/Windows/OpenRTM-aist/cxx/OpenRTM-aist-1.0.0-RELEASE_vc9_100212.msi)
+  - [OpenRTM-aist-1.0.0-RELEASE(C++版), Win32 VC2008](https://packages.openrtm.org/pub/Windows/OpenRTM-aist/cxx/OpenRTM-aist-1.0.0-RELEASE_vc9_100212.msi)
 
 <span style="color:black;">OpenCV1.0とOpenCV2.1は共存可能です。OpenRTMに付属しているサンプルを動作させるのにOpenCV1.0が必要になります。実習では、OpenCV2.1ベースのコンポーネント群を使用します。</span>;
 
@@ -152,8 +152,8 @@ Windows推奨ですが、Linuxでも実習可能です。
 - サンプルRTC群
 <br><span style="color:red;">OpenCV用RTC群は、インストーラに従ってインストールを行って下さい。</span>;
 
-  - [OpenCV用RTC群(新しいデータタイプを使用)](http://www.openrtm.org/pub/OpenRTM-aist/components/OpenCV/OpenCV-RTC-0.0.1.msi)
-  - [ARToolKitRTC](http://www.openrtm.org/pub/OpenRTM-aist/components/ARToolKit-RTC/ARToolKit_RTC.zip)
+  - [OpenCV用RTC群(新しいデータタイプを使用)](https://packages.openrtm.org/pub/OpenRTM-aist/components/OpenCV/OpenCV-RTC-0.0.1.msi)
+  - [ARToolKitRTC](https://packages.openrtm.org/pub/OpenRTM-aist/components/ARToolKit-RTC/ARToolKit_RTC.zip)
 
 #### Linuxで必要なソフトウエア
 <span style="color:red;">講習会でLinux PCを使用される方向けの情報ですので、Windows PCをご使用の方は、ここは読み飛ばして下さい。</span>;

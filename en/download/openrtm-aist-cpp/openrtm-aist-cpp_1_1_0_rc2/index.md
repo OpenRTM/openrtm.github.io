@@ -59,7 +59,7 @@ title: openrtm-aist c++ 1.1.0-rc2
 
 <!-- |LEFT:200|LEFT|LEFT:100|c -->
 <!-- |>|>|CENTER:''Visual Studio 2005 用''| -->
-<!-- |Windowsインストーラ|[[OpenRTM-aist-1.1.0-RC1_vc8.msi>http://www.openrtm.org/pub/Windows/OpenRTM-aist/cxx/OpenRTM-aist-1.1.0-RC1_vc8_100212.msi]]&br;MD5:|2011.05.24| -->
+<!-- |Windowsインストーラ|[[OpenRTM-aist-1.1.0-RC1_vc8.msi>https://packages.openrtm.org/pub/Windows/OpenRTM-aist/cxx/OpenRTM-aist-1.1.0-RC1_vc8_100212.msi]]&br;MD5:|2011.05.24| -->
 <!-- |Python Windows用インストーラ|[[python-2.6.4.msi:http://www.python.org/ftp/python/2.6.4/python-2.6.4.msi]]|[[python.org:http://www.python.org/]]| -->
 <!-- |PyYAML (rtc-templateに必要)|[[PyYAML-3.09.win32-py2.6.exe:http://pyyaml.org/download/pyyaml/PyYAML-3.09.win32-py2.6.exe]]|[[pyyaml.org:http://pyyaml.org/]]| -->
 <!--  -->
@@ -130,8 +130,8 @@ You can install all dependent packages at once by using the following scripts.
 <!-- &br; -->
 <!-- ***MacPorts -->
 <!-- MacPorts用Portfileが利用可能です。あらかじめXcodeおよびMacPortsをインストールした上でご利用ください。 -->
-<!-- - [[Portfile (ports.tgz) :http://www.openrtm.org/pub/MacOSX/macports/ports.tgz]] -->
-<!-- - [[インストールスクリプト (port_install.sh) :http://www.openrtm.org/pub/MacOSX/macports/port_install.sh]]: ports.tgz のダウンロード、OpenRTM-aistのビルド・インストールまで自動で行います。 -->
+<!-- - [[Portfile (ports.tgz) :https://packages.openrtm.org/pub/MacOSX/macports/ports.tgz]] -->
+<!-- - [[インストールスクリプト (port_install.sh) :https://packages.openrtm.org/pub/MacOSX/macports/port_install.sh]]: ports.tgz のダウンロード、OpenRTM-aistのビルド・インストールまで自動で行います。 -->
 
 <br>
 ## Tools
@@ -153,7 +153,7 @@ You can install all dependent packages at once by using the following scripts.
 OpenRTM-aist-1.1.0 release candidate version 2 (RC2) has been released in 6 June, 2011.
 From the OpenRTM-aist Official Website, source code and Windows installer package are available under LGPL license or individual licnese.
 
-- [OpenRTM-aist-1.1.0-RC2.tar.gz](http://www.openrtm.org/pub/OpenRTM-aist/cxx/1.1.0/OpenRTM-aist-1.1.0-RC2.tar.gz) -- released in 2011.06.06
+- [OpenRTM-aist-1.1.0-RC2.tar.gz](https://packages.openrtm.org/pub/OpenRTM-aist/cxx/1.1.0/OpenRTM-aist-1.1.0-RC2.tar.gz) -- released in 2011.06.06
   - Some APIs have been added.
     - Call back APIs.
     - Call backs for execution contexts.

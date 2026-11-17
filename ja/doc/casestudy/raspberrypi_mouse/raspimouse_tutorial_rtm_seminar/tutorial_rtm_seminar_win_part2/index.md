@@ -128,7 +128,7 @@ GUI(スライダー)によりシミュレーター上のロボットの操作を
 - [Doxygen](http://www.doxygen.nl/download.html) 
   - [doxygen-1.9.5-setup.exe](https://www.doxygen.nl/files/doxygen-1.9.5-setup.exe)
 - [OpenRTM-aist-2.0.0-RELEASE]({{ site.baseurl }}/ja/download)
-  - [OpenRTM-aist-2.0.0-RELEASE_x86_64.msi (64bit版)](https://openrtm.org/pub/Windows/OpenRTM-aist/2.0/OpenRTM-aist-2.0.0-RELEASE_x86_64.msi)
+  - [OpenRTM-aist-2.0.0-RELEASE_x86_64.msi (64bit版)](https://packages.openrtm.org/pub/Windows/OpenRTM-aist/2.0/OpenRTM-aist-2.0.0-RELEASE_x86_64.msi)
 
 
 

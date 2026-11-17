@@ -186,8 +186,8 @@ Ubuntu/Debianの場合
 <!-- &br; -->
 <!-- ***MacPorts -->
 <!-- MacPorts 用 Portfile が利用可能です。あらかじめXcodeおよび MacPorts をインストールした上でご利用ください。 -->
-<!-- - [[Portfile (ports.tgz) :http://www.openrtm.org/pub/MacOSX/macports/ports.tgz]] -->
-<!-- - [[インストールスクリプト (port_install.sh) :http://www.openrtm.org/pub/MacOSX/macports/port_install.sh]]: ports.tgz のダウンロード、OpenRTM-aist のビルド・インストールまで自動で行います。 -->
+<!-- - [[Portfile (ports.tgz) :https://packages.openrtm.org/pub/MacOSX/macports/ports.tgz]] -->
+<!-- - [[インストールスクリプト (port_install.sh) :https://packages.openrtm.org/pub/MacOSX/macports/port_install.sh]]: ports.tgz のダウンロード、OpenRTM-aist のビルド・インストールまで自動で行います。 -->
 
 <!-- ** ツール -->
 

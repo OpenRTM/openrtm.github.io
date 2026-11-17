@@ -33,7 +33,7 @@ Python 2.7(もしくは3.6、3.7)が必要です。以下のサイトから最�
 
 OpenRTM-aist-PythonのビルドにはomniORBpyのライブリが必要です。omniORBpyは以下のリンクから、必要なファイルを入手できます。
 
-- [OpenRTM.orgサイト](https://openrtm.org/pub/omniORB/win32/)
+- [OpenRTM.orgサイト](https://packages.openrtm.org/pub/omniORB/win32/)
 
 また、公式サイトからはソースが入手できます。
 - [omniORB official](http://omniorb.sourceforge.net/)

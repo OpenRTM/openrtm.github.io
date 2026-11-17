@@ -82,7 +82,7 @@ title: rtミドルウェア強化月間2015 in 中央大学・rtミドルウェ�
   - すでに他のバージョン（2008, 2010, 2012, 2013(Express)）がインストールされている場合は、それをお使い下さい。
 - OpenRTM-aist C++ 1.1.1-RELEASE版
   - <span style="color:red;">インストールされているVisual Studioに一致するバージョンをダウンロードしてください。</span>;
-  - 上記Visual C++ 2013用のインストーラは[こちら](http://openrtm.org/pub/Windows/OpenRTM-aist/cxx/1.1/OpenRTM-aist-1.1.1-RELEASE_x86_vc12.msi)
+  - 上記Visual C++ 2013用のインストーラは[こちら](https://packages.openrtm.org/pub/Windows/OpenRTM-aist/cxx/1.1/OpenRTM-aist-1.1.1-RELEASE_x86_vc12.msi)
   - 他のバージョン用は、[こちらのページ]({{ site.baseurl }}/en/download/openrtm-aist-cpp/openrtm-aist-cpp_1_1_1_release) からダウンロードできます。
   - インストーラは、デフォルトでOpenRTPとJREを一緒にインストールします。デフォルト設定のままインストールして下さい。
   - [OpenRTM-aistを10分で始めよう！]()(No corresponding page available.) を参考に、事前にサンプルコンポーネントを起動して動作確認を行っておいてください。
@@ -90,7 +90,7 @@ title: rtミドルウェア強化月間2015 in 中央大学・rtミドルウェ�
   - <span style="color:red;">OpenRTM-aistのPython版やPyYAMLをインストールする前にインストールしてください</span>;
   - OpenRTM-aist Python の64bit版をインストールされる場合は、[Python2.7(64bit)](https://www.python.org/ftp/python/2.7.9/python-2.7.9.amd64.msi) をインストールしてください。　
 - OpenRTM-aist Python 1.1.0-RELEASE
-  - 32bit版インストーラは、[こちら](http://openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python_1.1.0-RELEASE_x86.msi) からダウンロードできます。
+  - 32bit版インストーラは、[こちら](https://packages.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python_1.1.0-RELEASE_x86.msi) からダウンロードできます。
   - 64bit版インストーラは、[こちらのページ]({{ site.baseurl }}/en/download/openrtm-aist-python/openrtm-aist-python_1_1_0_release) からダウンロードできます。　　
 - [PyYAML(32bit)](http://pyyaml.org/download/pyyaml/PyYAML-3.11.win32-py2.7.exe)
   - Python2.7(64bit)をインストールされた場合は、[PyYAML(64bit)](http://pyyaml.org/download/pyyaml/PyYAML-3.11.win-amd64-py2.7.exe) をインストールしてください。　

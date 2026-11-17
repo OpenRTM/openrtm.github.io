@@ -13,7 +13,7 @@ Eclipse のメニューで、[ヘルプ] > [新規ソフトウエアのインス
 
 「インストール」ダイアログの [追加] ボタンをクリックし、リポジトリを追加します。名前とロケーションは以下のように指定します。
 - **名前** : OpenRTP
-- **ロケーション** : http://openrtm.org/pub/openrtp/stable/updates/
+- **ロケーション** : https://packages.openrtm.org/pub/openrtp/stable/updates/
 
 <div align="center"><a href="openrtp_02.jpg"><img src="openrtp_02.jpg" width="40%;"></a></div>
 

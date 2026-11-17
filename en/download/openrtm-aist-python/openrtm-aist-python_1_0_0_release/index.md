@@ -41,7 +41,7 @@ To install using OpenRTM-aist-Python-1.0.0.msi, Python version 2.4, 2.5 or 2.6 i
 <table class="table-alt">
   <tr>
     <td>Windows installer</td>
-    <td><a href="http://www.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.0.0.msi">OpenRTM-aist-Python-1.0.0.msi</a> <br> MD5:4afe4de69c9b56086fc97e9697334a36</td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.0.0.msi">OpenRTM-aist-Python-1.0.0.msi</a> <br> MD5:4afe4de69c9b56086fc97e9697334a36</td>
     <td>10/05/07</td>
   </tr>
   <tr>
@@ -78,22 +78,22 @@ Openrtm.org provides repositories containing packages for Debian, Fedora, Ubuntu
   <tr>
     <td>Vine Linux</td>
     <td>4.0, 4.2(i386 only), 5.0 (i386, x86_64)</td>
-    <td><a href="http://www.openrtm.org/pub/OpenRTM-aist/python/install_scripts/pkg_install_python_vine.sh">pkg_install_python_vine.sh </a></td>
+    <td><a href="https://packages.openrtm.org/pub/OpenRTM-aist/python/install_scripts/pkg_install_python_vine.sh">pkg_install_python_vine.sh </a></td>
   </tr>
   <tr>
     <td>Fedora</td>
     <td>11, 12 (i386/x86_64)</td>
-    <td><a href="http://www.openrtm.org/pub/OpenRTM-aist/python/install_scripts/pkg_install_python_fedora.sh">pkg_install_python_fedora.sh </a></td>
+    <td><a href="https://packages.openrtm.org/pub/OpenRTM-aist/python/install_scripts/pkg_install_python_fedora.sh">pkg_install_python_fedora.sh </a></td>
   </tr>
   <tr>
     <td>Ubuntu</td>
     <td>8.04, 8.10, 9.04, 9.10, 10.04 (i386/x86_64)</td>
-    <td><a href="http://www.openrtm.org/pub/OpenRTM-aist/python/install_scripts/pkg_install_python_ubuntu.sh">pkg_install_python_ubuntu.sh </a></td>
+    <td><a href="https://packages.openrtm.org/pub/OpenRTM-aist/python/install_scripts/pkg_install_python_ubuntu.sh">pkg_install_python_ubuntu.sh </a></td>
   </tr>
   <tr>
     <td>Debian</td>
     <td>3.1 (i386), 4.0, 5.0 (i386, x86_64)</td>
-    <td><a href="http://www.openrtm.org/pub/OpenRTM-aist/python/install_scripts/pkg_install_python_debian.sh">pkg_install_python_debian.sh </a></td>
+    <td><a href="https://packages.openrtm.org/pub/OpenRTM-aist/python/install_scripts/pkg_install_python_debian.sh">pkg_install_python_debian.sh </a></td>
   </tr>
 </table>
 

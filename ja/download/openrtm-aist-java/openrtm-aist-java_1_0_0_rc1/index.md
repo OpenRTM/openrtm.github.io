@@ -9,18 +9,18 @@ title: openrtm-aist-java-1.0.0-rc1
 #clear
 
 <!-- **ソースコード [#t5e6f060] -->
-<!-- |ソースコード|[[OpenRTM-aist-Java-1.0.0-RC1.tar.gz >http://www.openrtm.org/pub/OpenRTM-aist/java/1.0.0/OpenRTM-aist-Java-1.0.0-RC1.tar.gz]]&br;MD5:|2009.11.17| -->
+<!-- |ソースコード|[[OpenRTM-aist-Java-1.0.0-RC1.tar.gz >https://packages.openrtm.org/pub/OpenRTM-aist/java/1.0.0/OpenRTM-aist-Java-1.0.0-RC1.tar.gz]]&br;MD5:|2009.11.17| -->
 
 ## ビルド済みパッケージ
 <table class="table-alt">
   <tr>
     <td>Windows用インストーラ</td>
-    <td><a href="http://www.openrtm.org/pub/Windows/OpenRTM-aist/java/OpenRTM-aist-Java-1.0.0-RC1.msi">OpenRTM-aist-Java-1.0.0-RC1.msi </a><br>MD5:7C93CBA4A771A9B3F28A5E616F55F9CD</td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/java/OpenRTM-aist-Java-1.0.0-RC1.msi">OpenRTM-aist-Java-1.0.0-RC1.msi </a><br>MD5:7C93CBA4A771A9B3F28A5E616F55F9CD</td>
     <td>2009.11.17</td>
   </tr>
   <tr>
     <td>jarファイルおよびサンプル</td>
-    <td><a href="http://www.openrtm.org/pub/OpenRTM-aist/java/1.0.0/OpenRTM-aist-Java-1.0.0-RC1-jar.zip">OpenRTM-aist-Java-1.0.0-RC1-jar.zip </a><br>MD5:C467F31A2868E1EE09DBCC3121F32596</td>
+    <td><a href="https://packages.openrtm.org/pub/OpenRTM-aist/java/1.0.0/OpenRTM-aist-Java-1.0.0-RC1-jar.zip">OpenRTM-aist-Java-1.0.0-RC1-jar.zip </a><br>MD5:C467F31A2868E1EE09DBCC3121F32596</td>
     <td>2009.11.17</td>
   </tr>
 </table>

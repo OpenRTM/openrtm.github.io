@@ -25,7 +25,7 @@ Vine Linux へのインストールの方法には大きく分けて以下の二
 openrtm.org が提供するインストール・スクリプト **pkg_install[バージョン番号]_vine.sh** をダウンロードページからダウンロードし、root 権限で実行します。
 このスクリプトは、必要なパッケージを順次 apt-get でインストールしていきます。
 
-- [パッケージインストールスクリプト](http://www.openrtm.org/pub/OpenRTM-aist/cxx/install_scripts/)
+- [パッケージインストールスクリプト](https://packages.openrtm.org/pub/OpenRTM-aist/cxx/install_scripts/)
 
 OpenRTM-aist を開発・実行するために必要なパッケージをもれなくインストールしてくれるので大変便利です。
 初めて OpenRTM-aist をインストールしてみる方にお勧めします。
@@ -49,14 +49,14 @@ openrtm.org では apt-get から利用可能なパッケージリポジトリ�
 まず、**/etc/apt/sources.list** の末尾に次の一文を追記します。このとき root 権限が必要ですので注意してください。
 
 ```
- rpm http://www.openrtm.org/pub/Linux/Vine/apt x.x/$(ARCH) main
+ rpm https://packages.openrtm.org/pub/Linux/Vine/apt x.x/$(ARCH) main
 ```
 
 ここで、**x.x** の部分はバージョン番号です。例えば、**Vine5.0** なら
 **x.x** を **5.0** と置き換えます。
 
 ```
- rpm http://www.openrtm.org/pub/Linux/Vine/apt 5.0/$(ARCH) main
+ rpm https://packages.openrtm.org/pub/Linux/Vine/apt 5.0/$(ARCH) main
 ```
 
 sources.list を書き変えたら、次の手順でインストールを行います。

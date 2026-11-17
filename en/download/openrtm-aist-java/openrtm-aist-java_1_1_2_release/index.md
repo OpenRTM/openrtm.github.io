@@ -24,7 +24,7 @@ title: openrtm-aist-java-1.1.2-release
 <table class="table-alt">
   <tr>
     <td>Installer for Windows<br> (OpenRTM-aist C++、Python、Java版,<br> And OpenRTP, including rtshell (4.1.0))</td>
-    <td><a href="http://openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86.msi">OpenRTM-aist-1.1.2-RELEASE_x86.msi</a> <br>MD5:59be8603f3fc007c2aed4476052886ce</td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86.msi">OpenRTM-aist-1.1.2-RELEASE_x86.msi</a> <br>MD5:59be8603f3fc007c2aed4476052886ce</td>
     <td>2016/05/27</td>
   </tr>
   <tr>
@@ -33,7 +33,7 @@ title: openrtm-aist-java-1.1.2-release
     <td><a href="https://www.python.org">python.org</a></td>
   </tr>
 </table>
-<!-- |Windows 用インストーラー&br; (OpenRTM-aist C++、Python、Java版,&br; および OpenRTP、rtshell (4.1.0) 含む)|[[OpenRTM-aist-1.1.2-RELEASE_x86.msi:http://openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86.msi]] &br;MD5:59be8603f3fc007c2aed4476052886ce | 2016/05/27 | -->
+<!-- |Windows 用インストーラー&br; (OpenRTM-aist C++、Python、Java版,&br; および OpenRTP、rtshell (4.1.0) 含む)|[[OpenRTM-aist-1.1.2-RELEASE_x86.msi:https://packages.openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86.msi]] &br;MD5:59be8603f3fc007c2aed4476052886ce | 2016/05/27 | -->
 <!-- |Python-2.7|[[python-2.7.10.msi:https://www.python.org/ftp/python/2.7.10/python-2.7.10.msi]]|[[python.org:https://www.python.org]]| -->
 
 - <span style="color:red;">* Python 2.7.10 recommended. 2.7.11 may require setting environment variables such as PYTHONPATH.</span>;
@@ -47,7 +47,7 @@ title: openrtm-aist-java-1.1.2-release
 <table class="table-alt">
   <tr>
     <td>Installer for Windows<br> (OpenRTM-aist C++,Python,Java版,<br> And OpenRTP, including rtshell (4.1.0))</td>
-    <td><a href="http://openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86_64.msi">OpenRTM-aist-1.1.2-RELEASE_x86_64.msi</a> <br>MD5:ee8db7c1682cb21dce963207e0484fb3</td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86_64.msi">OpenRTM-aist-1.1.2-RELEASE_x86_64.msi</a> <br>MD5:ee8db7c1682cb21dce963207e0484fb3</td>
     <td>2016/05/27</td>
   </tr>
   <tr>
@@ -56,7 +56,7 @@ title: openrtm-aist-java-1.1.2-release
     <td><a href="https://www.python.org">python.org</a></td>
   </tr>
 </table>
-<!-- |Windows用インストーラー&br; (OpenRTM-aist C++,Python,Java版,&br; および OpenRTP,rtshell(4.1.0)含む)|[[OpenRTM-aist-1.1.2-RELEASE_x86_64.msi:http://openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86_64.msi]] &br;MD5:ee8db7c1682cb21dce963207e0484fb3 | 2016/05/27 | -->
+<!-- |Windows用インストーラー&br; (OpenRTM-aist C++,Python,Java版,&br; および OpenRTP,rtshell(4.1.0)含む)|[[OpenRTM-aist-1.1.2-RELEASE_x86_64.msi:https://packages.openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86_64.msi]] &br;MD5:ee8db7c1682cb21dce963207e0484fb3 | 2016/05/27 | -->
 <!-- |Python-2.7|[[python-2.7.10.amd64.msi:https://www.python.org/ftp/python/2.7.10/python-2.7.10.amd64.msi]]|[[python.org:https://www.python.org]]| -->
 
 - <span style="color:red;">* Python 2.7.10 recommended. 2.7.11 may require setting environment variables such as PYTHONPATH. </span>;
@@ -74,11 +74,11 @@ For installation, [OpenRTM-aist in 10 minutes!]({{ site.baseurl }}/en/doc/instal
 <table class="table-alt">
   <tr>
     <td>jar files and samples</td>
-    <td><a href="http://openrtm.org/pub/OpenRTM-aist/java/1.1.2/OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip">OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip</a> <br>MD5:e89979be5c43c07c3c72c90233b84ad7</td>
+    <td><a href="https://packages.openrtm.org/pub/OpenRTM-aist/java/1.1.2/OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip">OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip</a> <br>MD5:e89979be5c43c07c3c72c90233b84ad7</td>
     <td>2016.05.27</td>
   </tr>
 </table>
-<!-- |jar ファイルおよびサンプル|[[OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip:http://openrtm.org/pub/OpenRTM-aist/java/1.1.2/OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip]] &br;MD5:e89979be5c43c07c3c72c90233b84ad7 |2016.05.27| -->
+<!-- |jar ファイルおよびサンプル|[[OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip:https://packages.openrtm.org/pub/OpenRTM-aist/java/1.1.2/OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip]] &br;MD5:e89979be5c43c07c3c72c90233b84ad7 |2016.05.27| -->
 
 <!-- - Windows をご利用の方は msi でのインストールを推奨します。 -->
 <!-- - ''jar ファイルおよびサンプル''は Windows と UNIX 両方で利用可能です。 -->

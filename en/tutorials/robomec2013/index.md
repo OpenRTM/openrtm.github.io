@@ -141,7 +141,7 @@ G-ROBOTを操作するインターフェースを実際に作ってみたり、�
 - [OpenRTM-aist-1.1.0 C++版]({{ site.baseurl }}/en/download/openrtm-aist-cpp/openrtm-aist-cpp_1_1_0_release)
   - <span style="color:red;">インストールされているVCに一致するバージョンをダウンロードしてください。</span>;
   - 64bit版はPythonとの相性が悪いので、32bit版をお勧めします。
-- [OpenRTM-aist-1.1.0-RC1 Python](http://www.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.1.0-RC1.msi)
+- [OpenRTM-aist-1.1.0-RC1 Python](https://packages.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.1.0-RC1.msi)
 - [Python 2.6(32bit)](http://www.python.org/ftp/python/2.6.6/python-2.6.6.msi)
 - [PyYAML](http://pyyaml.org/download/pyyaml/PyYAML-3.10.win32-py2.6.exe)
 - [CMake](http://www.cmake.org/files/v2.8/cmake-2.8.8-win32-x86.exe)
@@ -150,7 +150,7 @@ G-ROBOTを操作するインターフェースを実際に作ってみたり、�
   - 32bit版をお勧めします。
 - [Eclipse全部入り]()(No corresponding page available.)
   - [Windows用32bit版全部入り]()(No corresponding page available.)を推奨します。
-  - インストール後、メニューの「ヘルプ」→「新規ソフトウエアのインストール」を選択、更新サイトに http://openrtm.org/pub/openrtp/releases/updates を入力してRTSystemEditorとRTCBuilderをアップデートしておくことをお勧めします。
+  - インストール後、メニューの「ヘルプ」→「新規ソフトウエアのインストール」を選択、更新サイトに https://packages.openrtm.org/pub/openrtp/releases/updates を入力してRTSystemEditorとRTCBuilderをアップデートしておくことをお勧めします。
 - [TeraTerm](http://sourceforge.jp/projects/ttssh2/downloads/58215/teraterm-4.77.exe/)
 - Bonjour: インストール方法については[こちら]({{ site.baseurl }}/en/doc/installation/other/raspberrypi_casestudy/raspi_init_setting#toc8)
   - [iTunes](http://www.apple.com/jp/itunes/download/)や[Bonjour Print Services for Windows](http://support.apple.com/kb/DL999?viewlocale=ja_JP)がインストールされていれば不要です。

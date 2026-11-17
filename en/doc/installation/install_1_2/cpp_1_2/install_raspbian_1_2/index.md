@@ -93,7 +93,7 @@ OpenRTM-aistを開発・実行するために必要なパッケージをもれ�
 openrtm.orgではapt-getから利用可能なパッケージリポジトリを提供しています。ただし、デフォルトのパッケージリポジトリには含まれていませんので、apt-getの設定を変更する必要があります。そのためには/etc/apt/sources.listを編集して以下の行を追加します。
 
 ```
-  deb http://www.openrtm.org/pub/Linux/raspbian/ buster main
+  deb https://packages.openrtm.org/pub/Linux/raspbian/ buster main
 ```
 
 #### apt-getによるインストール

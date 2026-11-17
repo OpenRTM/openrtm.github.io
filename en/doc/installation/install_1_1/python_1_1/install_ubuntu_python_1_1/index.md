@@ -73,9 +73,9 @@ openrtm.org では apt-get から利用可能なパッケージリポジトリ�
 ```
 
 ```
-  deb http://openrtm.org/pub/Linux/ubuntu/ (code name) main
+  deb https://packages.openrtm.org/pub/Linux/ubuntu/ (code name) main
   または
-  deb http://openrtm.org/pub/Linux/debian/ (code name) main
+  deb https://packages.openrtm.org/pub/Linux/debian/ (code name) main
 ```
 
 の1行を追加。"(code name)" の部分には以下の debian/ubuntu のバージョンに対応したコードネームを指定します。

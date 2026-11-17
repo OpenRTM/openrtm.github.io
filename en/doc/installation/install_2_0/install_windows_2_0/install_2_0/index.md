@@ -105,7 +105,7 @@ Download the Windows installer (MSI format) for OpenRTM-aist.
 
 <table class="table-alt">
   <tr>
-    <th><a href="https://openrtm.org/pub/Windows/OpenRTM-aist/2.0/OpenRTM-aist-2.0.2-RELEASE_x86_64.msi">OpenRTM-aist-2.0.2-RELEASE_x86_64.msi</a></th>
+    <th><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/2.0/OpenRTM-aist-2.0.2-RELEASE_x86_64.msi">OpenRTM-aist-2.0.2-RELEASE_x86_64.msi</a></th>
     <th>MD5:a03eebe388dd4d63f4b91bf98afc5884</th>
     <th>851MB</th>
   </tr>

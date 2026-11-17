@@ -66,7 +66,7 @@ openrtm.org では yum から利用可能なパッケージリポジトリを提
  [openrtm]
  name=Fedora $releasever - $basearch
  failovermethod=priority
- baseurl=http://openrtm.org/pub/Linux/Fedora/releases/$releasever/Fedora/$basearch/os/Packages
+ baseurl=https://packages.openrtm.org/pub/Linux/Fedora/releases/$releasever/Fedora/$basearch/os/Packages
  enabled=1
  gpgcheck=0
  gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora file:///etc/pki/rpm-gpg/RPM-GPG-KEY

@@ -74,7 +74,7 @@ pkgsrc は、バイナリパッケージによるインストールと、ソー�
 
 OpenRTM-aist は、openrtm.org の以下の URL においてバイナリパッケージを提供しています。
 
-- http://www.openrtm.org/pub/pkgsrc/packages/QNX/i386/6.5.0/All/
+- https://packages.openrtm.org/pub/pkgsrc/packages/QNX/i386/6.5.0/All/
 
 OpenRTM-aist で必要な omniORB も上述の[配布サイト:ftp]()(No corresponding page available.)にはバイナリパッケージが無いため、openrtm.org で提供されています。
 
@@ -82,13 +82,13 @@ OpenRTM-aist で必要な omniORB も上述の[配布サイト:ftp]()(No corresp
 
 インストール方法は以下のとおりです。
 
-- 環境変数 PKG_PATH に http://www.openrtm.org/pub/pkgsrc/packages/QNX/i386/6.5.0/All をセット
+- 環境変数 PKG_PATH に https://packages.openrtm.org/pub/pkgsrc/packages/QNX/i386/6.5.0/All をセット
   - 6.5.0 は QNX のバージョンですので適宜読み替えてください
 - pkg_add -v OpenRTM-aist-1.1.0-RELESE で OpenRTM-aist をインストール
   - omniORB も同時にインストールされます
 
 ```
- # export PKG_PATH=http://www.openrtm.org/pub/pkgsrc/packages/QNX/i386/6.5.0/All
+ # export PKG_PATH=https://packages.openrtm.org/pub/pkgsrc/packages/QNX/i386/6.5.0/All
  # pkg_add -v OpenRTM-aist-1.1.0-RELESE
  1.1.0-RELESE の部分は適宜インストールするバージョンに置き換えてください。
  Running install with PRE-INSTALL for omniORB-4.1.6.

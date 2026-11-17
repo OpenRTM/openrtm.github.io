@@ -40,8 +40,8 @@ OpenRTM-aist のビルドには下記の開発環境およびライブラリが�
 
 OpenRTM-aist-Java のソースをダウンロードします。
 
-<!-- -http://www.openrtm.org/pub/OpenRTM-aist/java/ -->
-- [OpenRTM-aist-Java-1.1.0-RELEASE.tar.gz](http://openrtm.org/pub/OpenRTM-aist/java/1.1.0/OpenRTM-aist-Java-1.1.0-RELEASE.tar.gz)
+<!-- -https://packages.openrtm.org/pub/OpenRTM-aist/java/ -->
+- [OpenRTM-aist-Java-1.1.0-RELEASE.tar.gz](https://packages.openrtm.org/pub/OpenRTM-aist/java/1.1.0/OpenRTM-aist-Java-1.1.0-RELEASE.tar.gz)
 
 
 ### ソースコードの展開 

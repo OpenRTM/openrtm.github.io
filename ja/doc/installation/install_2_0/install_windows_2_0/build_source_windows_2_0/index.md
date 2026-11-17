@@ -30,7 +30,7 @@ OpenRTM-aist本体に改修を加えてWindows上で利用したい場合は、O
 openrtm.org が提供するビルド済みバイナリパッケージを下記リンク先に omniORB-4.2.5-x64-vc14-pyXX.zip という名称で用意してあります。
 XXをインストールするpythonのバージョンに読み替えて適切なものをダウンロードし、適当な場所(以下の説明ではC:\workspace\omniORBとしています)に展開してください。
 
-- [openrtm.org提供バイナリパッケージ](https://openrtm.org/pub/omniORB/win32/omniORB-4.2.5/)
+- [openrtm.org提供バイナリパッケージ](https://packages.openrtm.org/pub/omniORB/win32/omniORB-4.2.5/)
 
 他のライブラリを使ってのビルドについては、 [RTシステム開発 (応用編)・OpenRTM-aist(C++版)のCMakeによるビルド手順]({{ site.baseurl }}/ja/doc/developersguide/advanced_rt_system_programming/openrtm_cpp_cmake_build) をご覧ください。
 
@@ -107,7 +107,7 @@ omniORBのダウンロードからソースビルド、インストールまで�
  set INSTALL_PREFIX=%INSTALL_PREFIX:\=/%
  @rem
  @rem omniORB download
- set base_omni_url="https://openrtm.org/pub/omniORB/win32/omniORB-%OMNI_VERSION%/"
+ set base_omni_url="https://packages.openrtm.org/pub/omniORB/win32/omniORB-%OMNI_VERSION%/"
  set OMNIORB_DIR=omniORB-%OMNI_VERSION%-x64-%VC_VERSION%-py%PY_VERSION%
  set OMNIORB_ZIP=%OMNIORB_DIR%.zip
  set OMNIORB_URL=%base_omni_url%/%OMNIORB_ZIP%
@@ -174,7 +174,7 @@ OpenRTM-aistは Release/Debug 両ビルドをしています。omniORBのバイ�
  set FLB_ROOT=%FLB_ROOT:\=/%
  @rem ------------
  @rem omniORB download
- set base_omni_url="https://openrtm.org/pub/omniORB/win32/omniORB-%OMNI_VERSION%/"
+ set base_omni_url="https://packages.openrtm.org/pub/omniORB/win32/omniORB-%OMNI_VERSION%/"
  set OMNIORB_DIR=omniORB-%OMNI_VERSION%-x64-%VC_VERSION%-py%PY_VERSION%
  set OMNIORB_ZIP=%OMNIORB_DIR%.zip
  set OMNIORB_URL=%base_omni_url%/%OMNIORB_ZIP%
@@ -189,7 +189,7 @@ OpenRTM-aistは Release/Debug 両ビルドをしています。omniORBのバイ�
  set OMNIORB_ROOT=%RTM_ROOT%/%OMNIORB_DIR%
  @rem ------------
  @rem OpenSSL download
- set base_ssl_url="https://openrtm.org/pub/OpenSSL/%SSL_VERSION%"
+ set base_ssl_url="https://packages.openrtm.org/pub/OpenSSL/%SSL_VERSION%"
  set OPENSSL_ZIP=openssl-%SSL_VERSION%-win64-%SSL_VC_VERSION%.zip
  set OPENSSL_URL=%base_ssl_url%/%OPENSSL_ZIP%
  if not exist %OPENSSL_ZIP% (

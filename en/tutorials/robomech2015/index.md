@@ -121,7 +121,7 @@ title: robomech2015講習会(2015年5月17日)
   - すでに他のバージョン（2008, 2010, 2012, 2013(Express)）がインストールされている場合は、それをお使い下さい。
 - OpenRTM-aist C++ 1.1.1-RELEASE版
   - <span style="color:red;">インストールされているVisual Studioに一致するバージョンをダウンロードしてください。</span>;
-  - 上記Visual C++ 2013用のインストーラは[こちら](http://openrtm.org/pub/Windows/OpenRTM-aist/cxx/1.1/OpenRTM-aist-1.1.1-RELEASE_x86_vc12.msi)
+  - 上記Visual C++ 2013用のインストーラは[こちら](https://packages.openrtm.org/pub/Windows/OpenRTM-aist/cxx/1.1/OpenRTM-aist-1.1.1-RELEASE_x86_vc12.msi)
   - 他のバージョン用は、[こちらのページ]({{ site.baseurl }}/en/download/openrtm-aist-cpp/openrtm-aist-cpp_1_1_1_release) からダウンロードできます。
   - インストーラは、デフォルトでOpenRTPとJREを一緒にインストールします。デフォルト設定のままインストールして下さい。
   - [OpenRTM-aistを10分で始めよう！]()(No corresponding page available.) を参考に、事前にサンプルコンポーネントを起動して動作確認を行っておいてください。
@@ -129,7 +129,7 @@ title: robomech2015講習会(2015年5月17日)
   - <span style="color:red;">OpenRTM-aistのPython版やPyYAMLをインストールする前にインストールしてください</span>;
   - OpenRTM-aist Python の64bit版をインストールされる場合は、[Python2.7(64bit)](https://www.python.org/ftp/python/2.7.9/python-2.7.9.amd64.msi) をインストールしてください。　
 - OpenRTM-aist Python 1.1.0-RELEASE
-  - 32bit版インストーラは、[こちら](http://openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python_1.1.0-RELEASE_x86.msi) からダウンロードできます。
+  - 32bit版インストーラは、[こちら](https://packages.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python_1.1.0-RELEASE_x86.msi) からダウンロードできます。
   - 64bit版インストーラは、[こちらのページ]({{ site.baseurl }}/en/download/openrtm-aist-python/openrtm-aist-python_1_1_0_release) からダウンロードできます。　　
 - [PyYAML(32bit)](http://pyyaml.org/download/pyyaml/PyYAML-3.11.win32-py2.7.exe)
   - Python2.7(64bit)をインストールされた場合は、[PyYAML(64bit)](http://pyyaml.org/download/pyyaml/PyYAML-3.11.win-amd64-py2.7.exe) をインストールしてください。　
@@ -171,7 +171,7 @@ $ sudo dpkg -i imageprocessing-1.1.0.deb
 <!-- - [[OpenRTM-aist-1.1.0 C++版:http://www.openrtm.org/openrtm/ja/node/5012]] -->
 <!-- -- &color(red){インストールされているVCに一致するバージョンをダウンロードしてください。}; -->
 <!-- -- 64bit版はPythonとの相性が悪いので、32bit版をお勧めします。 -->
-<!-- - [[OpenRTM-aist-1.1.0-RC1 Python:http://www.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.1.0-RC1.msi]] -->
+<!-- - [[OpenRTM-aist-1.1.0-RC1 Python:https://packages.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.1.0-RC1.msi]] -->
 <!-- - [[Python 2.6(32bit):http://www.python.org/ftp/python/2.6.6/python-2.6.6.msi]] -->
 <!-- - [[PyYAML:http://pyyaml.org/download/pyyaml/PyYAML-3.10.win32-py2.6.exe]] -->
 <!-- - [[CMake:http://www.cmake.org/files/v2.8/cmake-2.8.8-win32-x86.exe]] -->
@@ -179,8 +179,8 @@ $ sudo dpkg -i imageprocessing-1.1.0.deb
 <!-- - [[JDK:http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html]] -->
 <!-- -- 32bit版をお勧めします。 -->
 <!-- - [[Eclipse全部入り:http://www.openrtm.org/openrtm/ja/node/30]] -->
-<!-- -- [[Windows用32bit版全部入り:http://openrtm.org/pub/openrtp/packages/1.1.0.rc4v20130216/eclipse381-openrtp110rc4v20130216-ja-win32.zip]]を推奨します。 -->
-<!-- -- インストール後、メニューの「ヘルプ」→「新規ソフトウエアのインストール」を選択、更新サイトに http://openrtm.org/pub/openrtp/releases/updates を入力してRTSystemEditorとRTCBuilderをアップデートしておくことをお勧めします。 -->
+<!-- -- [[Windows用32bit版全部入り:https://packages.openrtm.org/pub/openrtp/packages/1.1.0.rc4v20130216/eclipse381-openrtp110rc4v20130216-ja-win32.zip]]を推奨します。 -->
+<!-- -- インストール後、メニューの「ヘルプ」→「新規ソフトウエアのインストール」を選択、更新サイトに https://packages.openrtm.org/pub/openrtp/releases/updates を入力してRTSystemEditorとRTCBuilderをアップデートしておくことをお勧めします。 -->
 <!-- - [[TeraTerm:http://sourceforge.jp/projects/ttssh2/downloads/58215/teraterm-4.77.exe/]] -->
 <!-- - Bonjour: インストール方法については[[こちら:http://openrtm.org/openrtm/ja/node/266#toc8]] -->
 <!-- -- [[iTunes:http://www.apple.com/jp/itunes/download/]]や[[Bonjour Print Services for Windows:http://support.apple.com/kb/DL999?viewlocale=ja_JP]]がインストールされていれば不要です。 -->

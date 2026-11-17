@@ -51,7 +51,7 @@ OpenRTM-aist-Python-1.1.0-RC1.msiでは、インストールされているPytho
 <table class="table-alt">
   <tr>
     <td>Windows用インストーラ</td>
-    <td><a href="http://www.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.1.0-RC1.msi">OpenRTM-aist-Python-1.1.0-RC1.msi</a> <br> MD5:1faaf9c25bcb879628da3d23f851a4cd</td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.1.0-RC1.msi">OpenRTM-aist-Python-1.1.0-RC1.msi</a> <br> MD5:1faaf9c25bcb879628da3d23f851a4cd</td>
     <td>11/010/04</td>
   </tr>
   <tr>
@@ -111,7 +111,7 @@ Fedora版は、もうしばらくお待ちください。
     <th>対応バージョン</th>
     <th>一括インストールスクリプト</th>
   </tr>
-<!-- | Fedora | 11, 12 (共にi386/x86_64) |[[pkg_install_python_fedora.sh >http://www.openrtm.org/pub/OpenRTM-aist/python/install_scripts/pkg_install_python_fedora.sh]]| -->
+<!-- | Fedora | 11, 12 (共にi386/x86_64) |[[pkg_install_python_fedora.sh >https://packages.openrtm.org/pub/OpenRTM-aist/python/install_scripts/pkg_install_python_fedora.sh]]| -->
   <tr>
     <th>Ubuntu</th>
     <th>8.04, 10.04, 10.10, 11.04 (共にi386/x86_64)</th>

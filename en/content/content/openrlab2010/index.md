@@ -213,7 +213,7 @@ OpenRTM-aist用のシステム構築ツールセットです。コマンドラ�
 
 以下からソースとVC9用のバイナリセットがダウンロードできます。
 
-[ARToolKit_RTC.zip(ソース+VC9用バイナリ)](http://www.openrtm.org/pub/OpenRTM-aist/components/ARToolKit-RTC/ARToolKit_RTC.zip)
+[ARToolKit_RTC.zip(ソース+VC9用バイナリ)](https://packages.openrtm.org/pub/OpenRTM-aist/components/ARToolKit-RTC/ARToolKit_RTC.zip)
 
 <br>
 

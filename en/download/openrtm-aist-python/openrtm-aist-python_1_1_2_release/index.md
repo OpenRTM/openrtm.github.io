@@ -29,7 +29,7 @@ title: openrtm-aist-python-1.1.2-release
 <table class="table-alt">
   <tr>
     <td>Installer for Windows<br> (OpenRTM-aist C++, Python, Java version<br> and Including OpenRTP, rtshell (4.1.0))</td>
-    <td><a href="http://openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86.msi">OpenRTM-aist-1.1.2-RELEASE_x86.msi</a> <br>MD5:59be8603f3fc007c2aed4476052886ce</td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86.msi">OpenRTM-aist-1.1.2-RELEASE_x86.msi</a> <br>MD5:59be8603f3fc007c2aed4476052886ce</td>
     <td>2016/05/27</td>
   </tr>
   <tr>
@@ -38,7 +38,7 @@ title: openrtm-aist-python-1.1.2-release
     <td><a href="https://www.python.org">python.org</a></td>
   </tr>
 </table>
-<!-- |Windows 用インストーラー&br; (OpenRTM-aist C++、Python、Java版&br; および OpenRTP、rtshell (4.1.0) 含む)|[[OpenRTM-aist-1.1.2-RELEASE_x86.msi:http://openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86.msi]] &br;MD5:59be8603f3fc007c2aed4476052886ce | 2016/05/27 | -->
+<!-- |Windows 用インストーラー&br; (OpenRTM-aist C++、Python、Java版&br; および OpenRTP、rtshell (4.1.0) 含む)|[[OpenRTM-aist-1.1.2-RELEASE_x86.msi:https://packages.openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86.msi]] &br;MD5:59be8603f3fc007c2aed4476052886ce | 2016/05/27 | -->
 <!-- |Python-2.7|[[python-2.7.10.msi:https://www.python.org/ftp/python/2.7.10/python-2.7.10.msi]]|[[python.org:https://www.python.org]]| -->
 
 - <span style="color:red;">* Python 2.7.10 recommended. 2.7.11 may require setting environment variables such as PYTHONPATH.</span>;
@@ -52,7 +52,7 @@ title: openrtm-aist-python-1.1.2-release
 <table class="table-alt">
   <tr>
     <td>Installer for Windows<br> (OpenRTM-aist C++, Python, Java version<br> And OpenRTP, including rtshell (4.1.0))</td>
-    <td><a href="http://openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86_64.msi">OpenRTM-aist-1.1.2-RELEASE_x86_64.msi</a> <br>MD5:ee8db7c1682cb21dce963207e0484fb3</td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86_64.msi">OpenRTM-aist-1.1.2-RELEASE_x86_64.msi</a> <br>MD5:ee8db7c1682cb21dce963207e0484fb3</td>
     <td>2016/05/27</td>
   </tr>
   <tr>
@@ -61,7 +61,7 @@ title: openrtm-aist-python-1.1.2-release
     <td><a href="https://www.python.org">python.org</a></td>
   </tr>
 </table>
-<!-- |Windows 用インストーラー&br; (OpenRTM-aist C++、Python、Java版&br; および OpenRTP、rtshell (4.1.0) 含む)|[[OpenRTM-aist-1.1.2-RELEASE_x86_64.msi:http://openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86_64.msi]] &br;MD5:ee8db7c1682cb21dce963207e0484fb3 | 2016/05/27 | -->
+<!-- |Windows 用インストーラー&br; (OpenRTM-aist C++、Python、Java版&br; および OpenRTP、rtshell (4.1.0) 含む)|[[OpenRTM-aist-1.1.2-RELEASE_x86_64.msi:https://packages.openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86_64.msi]] &br;MD5:ee8db7c1682cb21dce963207e0484fb3 | 2016/05/27 | -->
 <!-- |Python-2.7|[[python-2.7.10.amd64.msi:https://www.python.org/ftp/python/2.7.10/python-2.7.10.amd64.msi]]|[[python.org:https://www.python.org]]| -->
 
 - <span style="color:red;">* Python 2.7.10 recommended. 2.7.11 may require setting environment variables such as PYTHONPATH.</span>;
@@ -139,17 +139,17 @@ By specifying the option, it is now possible to install the package according to
 <table class="table-alt">
   <tr>
     <td>Python version source code</td>
-    <td><a href="http://openrtm.org/pub/OpenRTM-aist/python/1.1.2/OpenRTM-aist-Python-1.1.2.tar.gz">OpenRTM-aist-Python-1.1.2.tar.gz</a> <br>MD5:15e107e73dd5a60bebb675b561b86633</td>
+    <td><a href="https://packages.openrtm.org/pub/OpenRTM-aist/python/1.1.2/OpenRTM-aist-Python-1.1.2.tar.gz">OpenRTM-aist-Python-1.1.2.tar.gz</a> <br>MD5:15e107e73dd5a60bebb675b561b86633</td>
     <td>2016/05/27</td>
   </tr>
   <tr>
     <td>Python version source code(Win32)</td>
-    <td><a href="http://openrtm.org/pub/OpenRTM-aist/python/1.1.2/OpenRTM-aist-Python-1.1.2.zip">OpenRTM-aist-Python-1.1.2.zip</a> <br>MD5:0641a1e6f3f21b89ac62e35ffcf8d73d</td>
+    <td><a href="https://packages.openrtm.org/pub/OpenRTM-aist/python/1.1.2/OpenRTM-aist-Python-1.1.2.zip">OpenRTM-aist-Python-1.1.2.zip</a> <br>MD5:0641a1e6f3f21b89ac62e35ffcf8d73d</td>
     <td>2016/05/27</td>
   </tr>
 </table>
-<!-- |Python版ソースコード|[[OpenRTM-aist-Python-1.1.2.tar.gz:http://openrtm.org/pub/OpenRTM-aist/python/1.1.2/OpenRTM-aist-Python-1.1.2.tar.gz]] &br;MD5:15e107e73dd5a60bebb675b561b86633 | 2016/05/27 | -->
-<!-- |Python版ソースコード(Win32)|[[OpenRTM-aist-Python-1.1.2.zip:http://openrtm.org/pub/OpenRTM-aist/python/1.1.2/OpenRTM-aist-Python-1.1.2.zip]] &br;MD5:0641a1e6f3f21b89ac62e35ffcf8d73d | 2016/05/27 | -->
+<!-- |Python版ソースコード|[[OpenRTM-aist-Python-1.1.2.tar.gz:https://packages.openrtm.org/pub/OpenRTM-aist/python/1.1.2/OpenRTM-aist-Python-1.1.2.tar.gz]] &br;MD5:15e107e73dd5a60bebb675b561b86633 | 2016/05/27 | -->
+<!-- |Python版ソースコード(Win32)|[[OpenRTM-aist-Python-1.1.2.zip:https://packages.openrtm.org/pub/OpenRTM-aist/python/1.1.2/OpenRTM-aist-Python-1.1.2.zip]] &br;MD5:0641a1e6f3f21b89ac62e35ffcf8d73d | 2016/05/27 | -->
 
 
 

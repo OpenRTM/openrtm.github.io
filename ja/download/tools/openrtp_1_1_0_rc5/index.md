@@ -17,7 +17,7 @@ title: openrtp 1.1.0-rc5
 このバージョンからEclipseの更新サイトを利用したインストールに対応しています。
 以下のURLを更新サイト一覧に追加することで、お使いのEclipseのOpenRTPをインストールすることができます。
 
-- OpenRTP 更新サイト: [http://openrtm.org/pub/openrtp/stable/updates/]()（リンク切れです）
+- OpenRTP 更新サイト: [https://packages.openrtm.org/pub/openrtp/stable/updates/]()（リンク切れです）
 
 手順については[更新方法]({{ site.baseurl }}/ja/doc/toolmanuals/rtcbuilder-1_1_0/update_rtcb_1_1_0)のページをご覧下さい。
 
@@ -105,7 +105,7 @@ eclipseというディレクトリが展開されますので、そのなかのo
 
 ```
  $ cd /usr/share/openrtm-1.1
- $ sudo wget http://openrtm.org/pub/openrtp/packages/1.1.0.rc5v20150317/eclipse381-openrtp110rc5v20150317-ja-linux-gtk.tar.gz
+ $ sudo wget https://packages.openrtm.org/pub/openrtp/packages/1.1.0.rc5v20150317/eclipse381-openrtp110rc5v20150317-ja-linux-gtk.tar.gz
  $ sudo tar xvzf eclipse381-openrtp110rc5v20150317-ja-linux-gtk.tar.gz
  $ cd /usr/bin
  $ sudo ln -s /usr/share/openrtm-1.1/eclipse/openrtp .
@@ -124,7 +124,7 @@ eclipseというディレクトリが展開されますので、Linux版と同�
 
 ```
  $ cd /usr/lib/openrtm-1.1
- $ sudo wget http://openrtm.org/pub/openrtp/packages/1.1.0.rc5v20150317/eclipse381-openrtp110rc5v20150317-ja-macosx-cocoa.tar.gz
+ $ sudo wget https://packages.openrtm.org/pub/openrtp/packages/1.1.0.rc5v20150317/eclipse381-openrtp110rc5v20150317-ja-macosx-cocoa.tar.gz
  $ sudo tar xvzf eclipse381-openrtp110rc5v20150317-ja-macosx-cocoa.tar.gz
  $ cd /usr/bin
  $ sudo ln -s /usr/lib/openrtm-1.1/eclipse/Eclipse.app/Contents/MacOSX/openrtp .
@@ -143,7 +143,7 @@ Linux版やMac OS X版ではこれらIDLの場所を得るために、環境変�
 <table class="table-alt">
   <tr>
     <th>jar ファイル(RTSE+RTCB)</th>
-    <th><a href="http://openrtm.org/pub/openrtp/openrtp/1.1.0.rc5v20150317/openrtp-1.1.0.rc5v20150317.zip">openrtp-1.1.0.rc5v20150317.zip</a><br>MD5: 38019521f6e8574c03e1cab6e8f954cd</th>
+    <th><a href="https://packages.openrtm.org/pub/openrtp/openrtp/1.1.0.rc5v20150317/openrtp-1.1.0.rc5v20150317.zip">openrtp-1.1.0.rc5v20150317.zip</a><br>MD5: 38019521f6e8574c03e1cab6e8f954cd</th>
     <th>2015.03.17</th>
   </tr>
 </table>
@@ -169,7 +169,7 @@ Linux版やMac OS X版ではこれらIDLの場所を得るために、環境変�
 <!-- -ただし、開発版をビルドしただけのものですので、動かない場合もあります。導入は自己責任でお願いいたします。  -->
 <!-- -アーカイブに含まれている jar ファイルを eclipse の plugins ディレクトリにコピーするだけで更新可能です。  -->
 <!-- -更新後は eclipse の起動時に -clean オプションを付けることを推奨します。 -->
-<!-- -ダウンロードはこちらから：http://www.openrtm.org/pub/OpenRTM-aist/dailybuild/tools/1.1.0/ -->
+<!-- -ダウンロードはこちらから：https://packages.openrtm.org/pub/OpenRTM-aist/dailybuild/tools/1.1.0/ -->
 <!-- --Eclipse SDKパッケージをダウンロードして、独自にこれ等のプラグインを追加する際は、RTSE、RTCBが依存している EMF SDOランタイム, GEF, XSD ランタイムプラグインを追加でインストールする必要があります。 -->
 
 <br>

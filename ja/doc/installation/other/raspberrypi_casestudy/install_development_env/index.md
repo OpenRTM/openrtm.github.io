@@ -27,7 +27,7 @@ OpenRTM-aist は、apt-get を使用してインストールすることが可�
 sourcelist に以下の１行を加えてください。
 
 ```
- deb http://openrtm.org/pub/Linux/raspbian/ wheezy main
+ deb https://packages.openrtm.org/pub/Linux/raspbian/ wheezy main
 ```
 
 次に、以下の手順でインストールを行います。

@@ -28,7 +28,7 @@ First, modify sources.list.
 Add the following line to sources.list.
 
 ```text
- deb http://openrtm.org/pub/Linux/raspbian/ wheezy main
+ deb https://packages.openrtm.org/pub/Linux/raspbian/ wheezy main
 ```
 
 Next, install it using the following procedure.

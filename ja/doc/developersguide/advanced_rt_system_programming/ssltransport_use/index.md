@@ -20,7 +20,7 @@ CORBA Security Serviceではセキュリティポリシーのモデル、認証�
 
 まず、OpenSSLのヘッダーファイル、ライブラリを適当な場所に展開してください。
 
-- https://openrtm.org/pub/OpenSSL/
+- https://packages.openrtm.org/pub/OpenSSL/
 
 OpenRTM-aist+omniORBを以下の手順でビルド、インストールします。
 

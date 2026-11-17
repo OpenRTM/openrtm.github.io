@@ -37,7 +37,7 @@ OpenRTM-aist-Python-1.0.0 のインストールには下記の開発環境およ
 
 OpenRTM-aist-Python のソースをダウンロードします。
 
-- http://openrtm.org/pub/OpenRTM-aist/python/
+- https://packages.openrtm.org/pub/OpenRTM-aist/python/
 
 
 ### ソースコードの展開 

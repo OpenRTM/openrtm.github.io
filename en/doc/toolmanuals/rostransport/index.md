@@ -11,9 +11,9 @@ This is the announcement for ROS support in OpenRTM-aist. This page will shortly
 
 <br>
 
-The patch can be downloaded [here](http://www.openrtm.org/pub/OpenRTM-aist/cxx/1.0.0/ros_transport.patch-1.0.0.tar.gz).
+The patch can be downloaded [here](https://packages.openrtm.org/pub/OpenRTM-aist/cxx/1.0.0/ros_transport.patch-1.0.0.tar.gz).
 
-The sample components can be downloaded [here](http://www.openrtm.org/pub/OpenRTM-aist/cxx/1.0.0/examples.ros-1.0.0.tar.gz).
+The sample components can be downloaded [here](https://packages.openrtm.org/pub/OpenRTM-aist/cxx/1.0.0/examples.ros-1.0.0.tar.gz).
 
 <br>
 

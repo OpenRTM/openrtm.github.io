@@ -195,7 +195,7 @@ Java is also required to run OpenRTP, so install the `default-jre` package.
 
 ```bash
  $ apt-get install default-jre
- $ wget http://openrtm.org/pub/openrtp/packages/1.1.2.v20160526/eclipse442-openrtp112v20160526-ja-linux-gtk-x86_64.tar.gz
+ $ wget https://packages.openrtm.org/pub/openrtp/packages/1.1.2.v20160526/eclipse442-openrtp112v20160526-ja-linux-gtk-x86_64.tar.gz
  $ tar xvzf eclipse442-openrtp112v20160526-ja-linux-gtk-x86_64.tar.gz
 ```
 

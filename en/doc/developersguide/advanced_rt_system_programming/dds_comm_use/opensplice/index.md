@@ -244,8 +244,8 @@ Install the Python version of omniORB.
 
 ```
  sudo su
- # echo "deb http://openrtm.org/pub/Linux/ubuntu/ $code_name main" >> /etc/apt/sources.list
- # wget -O- --secure-protocol=TLSv1_2 --no-check-certificate https://openrtm.org/pub/openrtm.key | apt-key add -
+ # echo "deb https://packages.openrtm.org/pub/Linux/ubuntu/ $code_name main" >> /etc/apt/sources.list
+ # wget -O- --secure-protocol=TLSv1_2 --no-check-certificate https://packages.openrtm.org/pub/openrtm.key | apt-key add -
  # apt update
  # apt install python3-omniorb python3-omniorb-omg omniidl-python3
  # exit

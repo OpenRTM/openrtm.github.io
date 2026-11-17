@@ -37,7 +37,7 @@ xfinder can be downloaded from the following location:
 <table class="table-alt">
   <tr>
     <th>xfinder</th>
-    <th>http://openrtm.org/pub/RaspberryPi/xfinder.exe</th>
+    <th>https://packages.openrtm.org/pub/RaspberryPi/xfinder.exe</th>
   </tr>
 </table>
 

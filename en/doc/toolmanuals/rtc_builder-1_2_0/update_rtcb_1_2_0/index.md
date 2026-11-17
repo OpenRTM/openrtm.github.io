@@ -13,7 +13,7 @@ From the Eclipse menu, select [Help] > [Install New Software].
 
 Click the [Add] button in the "Install" dialog and add the repository. Specify the name and location as follows.
 - **Name** : OpenRTP
-- **Location** : http://openrtm.org/pub/openrtp/stable/updates/
+- **Location** : https://packages.openrtm.org/pub/openrtp/stable/updates/
 
 <div align="center"><a href="openrtp_02.jpg"><img src="openrtp_02.jpg" width="40%;"></a></div>
 

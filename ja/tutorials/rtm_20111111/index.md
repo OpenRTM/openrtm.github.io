@@ -130,7 +130,7 @@ Windows推奨ですが、Linuxでも実習可能です。
 
 <!-- -Python版で必要なもの -->
 <!-- --[[Python2.6:http://www.python.org/ftp/python/2.6.2/python-2.6.2.msi]] -->
-<!-- --[[Python版, Win32:http://www.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.0.0.msi]] -->
+<!-- --[[Python版, Win32:https://packages.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.0.0.msi]] -->
 
 - C++版で必要なもの
   - [Visual C++ Express](http://www.microsoft.com/japan/msdn/vstudio/2008/product/express/)
@@ -139,7 +139,7 @@ Windows推奨ですが、Linuxでも実習可能です。
 <!-- --[[PyYAML(rtc-templateで使用):http://pyyaml.org/download/pyyaml/PyYAML-3.09.win32-py2.6.exe]] -->
   - [OpenRTM-aist-1.1.0-RC3(C++版), Win32 VC2008]()（リンク切れです）~
 (MD5:7fb431b64d2ac9a27956fba447fd9e8c)
-<!-- --[[OpenCVコンポーネント群:http://www.openrtm.org/pub/OpenRTM-aist/ROBOMEC2011/opencv-rtcs.zip]] -->
+<!-- --[[OpenCVコンポーネント群:https://packages.openrtm.org/pub/OpenRTM-aist/ROBOMEC2011/opencv-rtcs.zip]] -->
 <!-- &color(red){OpenCV1.0とOpenCV2.1は共存可能です。OpenRTMに付属しているサンプルを動作させるのにOpenCV1.0が必要になります。実習では、OpenCV2.1ベースのコンポーネント群を使用します。}; -->
 
   - [Eclipse3.4.2+RTSE(1.1.0-RC2)+RTCB(1.1.0-RC2)Windows用全部入り]()（リンク切れです）~
@@ -159,18 +159,18 @@ Windows推奨ですが、Linuxでも実習可能です。
   - cmake-2.8-WiX-patch\share\cmake-2.8\Modules\CPackWIX.cmakeをC:\Program Files\CMake 2.8\share\cmake-2.8\Modulesにコピー（上書き）する。
 
 <!-- -サンプルRTC群 -->
-<!-- --[[OpenCV用RTC群(新しいデータタイプを使用):http://www.openrtm.org/pub/OpenRTM-aist/components/OpenCV/OpenCV-RTC-0.0.1.msi]] -->
-<!-- --[[ARToolKitRTC:http://www.openrtm.org/pub/OpenRTM-aist/components/ARToolKit-RTC/ARToolKit_RTC.zip]] -->
+<!-- --[[OpenCV用RTC群(新しいデータタイプを使用):https://packages.openrtm.org/pub/OpenRTM-aist/components/OpenCV/OpenCV-RTC-0.0.1.msi]] -->
+<!-- --[[ARToolKitRTC:https://packages.openrtm.org/pub/OpenRTM-aist/components/ARToolKit-RTC/ARToolKit_RTC.zip]] -->
 
 <!-- ***Linuxで必要なソフトウエア -->
 <!-- &color(red){講習会でLinux PCを使用される方向けの情報ですので、Windows PCをご使用の方は、ここは読み飛ばして下さい。}; -->
 
 <!-- --OpenRTM-aist-1.1.0-RC3(C++版) (準備ができましたら、こちらへアップいたします。) -->
-<!-- --[[OpenRTM-aist-1.1.0-RC3(C++版), Linux:http://www.openrtm.org/pub/OpenRTM-aist/cxx/1.1/OpenRTM-aist-1.1.0-RC2.tar.gz]]~ -->
+<!-- --[[OpenRTM-aist-1.1.0-RC3(C++版), Linux:https://packages.openrtm.org/pub/OpenRTM-aist/cxx/1.1/OpenRTM-aist-1.1.0-RC2.tar.gz]]~ -->
 <!-- (MD5:86bab7c5153e9d0a3ab12311471e36d3) -->
 
 <!-- --RTSystemEditor,RTCBilder (準備ができましたら、こちらへアップいたします。) -->
-<!-- --[[Eclipse3.4.2+RTSE(1.1.0-RELEASE)+RTCB(1.1.0-RELEASE)Linux用全部入り:http://www.openrtm.org/pub/OpenRTM-aist/tools/1.1.0/eclipse342_rtmtools110release_linux_ja.tar.gz]]~ -->
+<!-- --[[Eclipse3.4.2+RTSE(1.1.0-RELEASE)+RTCB(1.1.0-RELEASE)Linux用全部入り:https://packages.openrtm.org/pub/OpenRTM-aist/tools/1.1.0/eclipse342_rtmtools110release_linux_ja.tar.gz]]~ -->
 <!-- (MD5:062355b5963cd0f0a42fb3b8ad43ddc2) -->
 
 <!-- 基本的に、[[ダウンロード:http://www.openrtm.org/openrtm/ja/node/619]]ページを参照して、必要なソフトウエアをダウンロードしてください。 -->

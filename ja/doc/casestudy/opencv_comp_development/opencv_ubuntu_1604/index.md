@@ -188,7 +188,7 @@ OepnRTP の実行には Java も必要となりますので default-jre パッ�
 
 ```
  $ apt-get install default-jre
- $ wget http://openrtm.org/pub/openrtp/packages/1.1.2.v20160526/eclipse442-openrtp112v20160526-ja-linux-gtk-x86_64.tar.gz
+ $ wget https://packages.openrtm.org/pub/openrtp/packages/1.1.2.v20160526/eclipse442-openrtp112v20160526-ja-linux-gtk-x86_64.tar.gz
  $ tar xvzf eclipse442-openrtp112v20160526-ja-linux-gtk-x86_64.tar.gz
 ```
 <!-- $ cd eclipse -->

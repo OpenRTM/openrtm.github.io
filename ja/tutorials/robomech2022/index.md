@@ -181,7 +181,7 @@ title: robomech2022講習会 (2022年6月1日(水))
 <!-- - [[Doxygen:http://www.doxygen.nl/download.html]]  -->
 <!-- (32bit, 64bitの別なし） -->
 <!-- -- [[doxygen-1.9.1-setup.exe:https://doxygen.nl/files/doxygen-1.9.1-setup.exe]] -->
-- [OpenRTM-aist-2.0.0-RC220404](https://openrtm.org/pub/Windows/OpenRTM-aist/2.0/)
+- [OpenRTM-aist-2.0.0-RC220404](https://packages.openrtm.org/pub/Windows/OpenRTM-aist/2.0/)
   - OpenRTM-aist-1.2.2でも可
 <!-- - [[OpenRTM-aist-2.0.0-RELEASE(準備中):https://openrtm.org/openrtm/ja/download]] -->
 <!-- - [[OpenRTM-aist-1.2.2-RELEASE:https://openrtm.org/openrtm/ja/download]] -->

@@ -27,7 +27,7 @@ Prebuilt binary packages provided by openrtm.org are available at the following 
 
 Replace XX with the version of Python you have installed, download the appropriate package, and extract it to a suitable location (the examples below use `C:\workspace\omniORB`).
 
-- [Binary Packages Provided by openrtm.org](https://openrtm.org/pub/omniORB/win32/omniORB-4.3.4/)
+- [Binary Packages Provided by openrtm.org](https://packages.openrtm.org/pub/omniORB/win32/omniORB-4.3.4/)
 
 For information about building with other libraries, see [RT System Development (Advanced) - Building OpenRTM-aist (C++ Version) with CMake](/en/doc/installation/install_2_0/cpp_2_0/build_2_0/openrtm_cpp_cmake_build).
 

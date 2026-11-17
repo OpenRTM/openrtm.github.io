@@ -103,7 +103,7 @@ RaspberryPiを利用しているので、実機上で開発したり、容易に
 <!-- - [[Graphviz:https://graphviz.gitlab.io/download/]] -->
 <!-- -- [[stable_windows_10_cmake_Release_x64_graphviz-install-2.49.3-win64.exe:https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/2.49.3/stable_windows_10_cmake_Release_x64_graphviz-install-2.49.3-win64.exe]] -->
 - [OpenRTM-aist-2.0.2-RELEASE]({{ site.baseurl }}/en/download)
-  - [OpenRTM-aist-2.0.2-RELEASE_x86_64.msi (64bit版)](https://openrtm.org/pub/Windows/OpenRTM-aist/2.0/OpenRTM-aist-2.0.2-RELEASE_x86_64.msi)
+  - [OpenRTM-aist-2.0.2-RELEASE_x86_64.msi (64bit版)](https://packages.openrtm.org/pub/Windows/OpenRTM-aist/2.0/OpenRTM-aist-2.0.2-RELEASE_x86_64.msi)
 - [TeraTerm](https://teratermproject.github.io/)
   - [teraterm-5.3.exe](https://github.com/TeraTermProject/teraterm/releases/download/v5.3/teraterm-5.3.exe)
 - 使い慣れたエディタ: EclipseやPythonに付属のエディタでも構いませんが、使い慣れたエディタが入っていた方が良いでしょう

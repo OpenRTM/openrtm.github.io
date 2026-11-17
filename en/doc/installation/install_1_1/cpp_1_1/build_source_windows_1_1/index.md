@@ -70,7 +70,7 @@ OpenRTM-aist のビルドには omniORB 4.1.7（2015/03/31現在）のライブ�
 openrtm.org が提供するビルド済みバイナリパッケージを下記リンク先に用意してあります。
 環境に合わせて適切なものをダウンロードし、適当な場所 (以下では C:\distribution\omniORB を仮定) に展開してください。
 
-- [openrtm.org提供バイナリパッケージ](http://openrtm.org/pub/omniORB/win32/omniORB-4.1.7/)
+- [openrtm.org提供バイナリパッケージ](https://packages.openrtm.org/pub/omniORB/win32/omniORB-4.1.7/)
 <!-- が、openrtm.org が提供するビルド済みバイナリインストーラーが便利です。 -->
 
 <!-- -[[omniORB official:http://omniorb.sourceforge.net/]] -->
@@ -227,7 +227,7 @@ OpenRTM-aist は Windows 用のインストーラーを WiX を利用して作�
 
 まずソースコード OpenRTM-aist-1.1.1-win32.zip をダウンロードし、適当なディレクトリーに展開します。
 
-- [OpenRTM-aist-1.1.1-win32.zip](http://www.openrtm.org/pub/OpenRTM-aist/cxx/1.1.1/OpenRTM-aist-1.1.1-win32.zip)
+- [OpenRTM-aist-1.1.1-win32.zip](https://packages.openrtm.org/pub/OpenRTM-aist/cxx/1.1.1/OpenRTM-aist-1.1.1-win32.zip)
 
 
 ### バッチファイルの修正

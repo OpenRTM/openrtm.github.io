@@ -59,7 +59,7 @@ OpenRTM-aist-Python のビルドには omniORBpy のライブリが必要です�
 
 - [omniORB official](http://omniorb.sourceforge.net/)
   - [sourceforge download page](http://sourceforge.net/projects/omniorb/files/omniORBpy/)
-<!-- -[[openrtm.org提供msiパッケージ:http://www.openrtm.org/pub/Windows/omniORB/]] -->
+<!-- -[[openrtm.org提供msiパッケージ:https://packages.openrtm.org/pub/Windows/omniORB/]] -->
 <!-- --omniORBpyのインストーラはPythonのバージョンによって分かれています。環境に合わせて適切なものをインストールしてください。 -->
 
 ZIPファイルを展開すると、以下の様なディレクトリツリーが展開されるはずです。
@@ -81,7 +81,7 @@ ZIPファイルを展開すると、以下の様なディレクトリツリー�
 
 まずソースコード OpenRTM-aist-Python-X.X.X.zip をダウンロードし、適当なディレクトリーに展開します。
 
-- [OpenRTM-aist-Python-1.1.2](http://www.openrtm.org/pub/OpenRTM-aist/python/1.1.2/)
+- [OpenRTM-aist-Python-1.1.2](https://packages.openrtm.org/pub/OpenRTM-aist/python/1.1.2/)
 - [OpenRTM-aist-Python-1.1.0]()(No corresponding page available.)
 
 

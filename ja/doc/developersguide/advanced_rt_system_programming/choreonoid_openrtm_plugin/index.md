@@ -44,7 +44,7 @@ OpenRTM-aist+omniORBを以下の手順でビルド、インストールしてく
 
 またOpenSSLのヘッダーファイル、ライブラリを適当な場所に展開してください。
 
-- https://openrtm.org/pub/OpenSSL/1.1.0/
+- https://packages.openrtm.org/pub/OpenSSL/1.1.0/
 
 #### Choreonoidのビルドとインストール
 

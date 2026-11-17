@@ -16,18 +16,18 @@ Please use RTSystemEditor 1.0.0 or later in OpenRTM-aist-Java-1.0.0.
 
 <br>
 <!-- **Source Code [#t5e6f060] -->
-<!-- |Source Code|[[OpenRTM-aist-Java-1.0.0-RC1.tar.gz >http://www.openrtm.org/pub/OpenRTM-aist/java/1.0.0/OpenRTM-aist-Java-1.0.0-RC1.tar.gz]]&br;MD5:|2009.11.17| -->
+<!-- |Source Code|[[OpenRTM-aist-Java-1.0.0-RC1.tar.gz >https://packages.openrtm.org/pub/OpenRTM-aist/java/1.0.0/OpenRTM-aist-Java-1.0.0-RC1.tar.gz]]&br;MD5:|2009.11.17| -->
 
 ## Pre-built packages
 <table class="table-alt">
   <tr>
     <th>Windows installer</th>
-    <th><a href="http://www.openrtm.org/pub/Windows/OpenRTM-aist/java/OpenRTM-aist-Java-1.0.0-RC1.msi">OpenRTM-aist-Java-1.0.0-RC1.msi </a><br>MD5:7C93CBA4A771A9B3F28A5E616F55F9CD</th>
+    <th><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/java/OpenRTM-aist-Java-1.0.0-RC1.msi">OpenRTM-aist-Java-1.0.0-RC1.msi </a><br>MD5:7C93CBA4A771A9B3F28A5E616F55F9CD</th>
     <th>2009.11.17</th>
   </tr>
   <tr>
     <td>jar File and Sample</td>
-    <td><a href="http://www.openrtm.org/pub/OpenRTM-aist/java/1.0.0/OpenRTM-aist-Java-1.0.0-RC1-jar.zip">OpenRTM-aist-Java-1.0.0-RC1-jar.zip </a><br>MD5:C467F31A2868E1EE09DBCC3121F32596</td>
+    <td><a href="https://packages.openrtm.org/pub/OpenRTM-aist/java/1.0.0/OpenRTM-aist-Java-1.0.0-RC1-jar.zip">OpenRTM-aist-Java-1.0.0-RC1-jar.zip </a><br>MD5:C467F31A2868E1EE09DBCC3121F32596</td>
     <td>2009.11.17</td>
   </tr>
 </table>

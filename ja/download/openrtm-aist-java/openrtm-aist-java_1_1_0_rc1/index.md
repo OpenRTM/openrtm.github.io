@@ -14,12 +14,12 @@ title: openrtm-aist-java-1.1.0-rc1
 <table class="table-alt">
   <tr>
     <td>jarファイルおよびサンプル</td>
-    <td><a href="http://www.openrtm.org/pub/OpenRTM-aist/java/1.1.0/OpenRTM-aist-Java-1.1.0-RC1-jar.zip">OpenRTM-aist-Java-1.1.0-RC1-jar.zip </a><br>MD5:9AB2440D42C66042ACB5B36226839168</td>
+    <td><a href="https://packages.openrtm.org/pub/OpenRTM-aist/java/1.1.0/OpenRTM-aist-Java-1.1.0-RC1-jar.zip">OpenRTM-aist-Java-1.1.0-RC1-jar.zip </a><br>MD5:9AB2440D42C66042ACB5B36226839168</td>
     <td>2011.10.05</td>
   </tr>
   <tr>
     <td>Windows用インストーラ</td>
-    <td><a href="http://www.openrtm.org/pub/Windows/OpenRTM-aist/java/OpenRTM-aist-Java-1.1.0-RC1.msi">OpenRTM-aist-Java-1.1.0-RC1.msi </a><br>MD5:6C89B80A9BF96F73393D4D2E583AAB92</td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/java/OpenRTM-aist-Java-1.1.0-RC1.msi">OpenRTM-aist-Java-1.1.0-RC1.msi </a><br>MD5:6C89B80A9BF96F73393D4D2E583AAB92</td>
     <td>2011.10.05</td>
   </tr>
 </table>

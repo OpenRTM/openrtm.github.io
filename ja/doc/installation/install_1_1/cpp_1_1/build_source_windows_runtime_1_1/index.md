@@ -15,7 +15,7 @@ Visual Studio でランタイムライブラリにマルチスレッド(/MT)、�
 ### OpenRTM-aist のソースコードの入手
 以下より OpenRTM-aist のソースコードを入手してください。
 
-- [http://www.openrtm.org/pub/OpenRTM-aist/cxx/1.1.2/OpenRTM-aist-1.1.2-win32.zip](http://www.openrtm.org/pub/OpenRTM-aist/cxx/1.1.2/OpenRTM-aist-1.1.2-win32.zip)
+- [https://packages.openrtm.org/pub/OpenRTM-aist/cxx/1.1.2/OpenRTM-aist-1.1.2-win32.zip](https://packages.openrtm.org/pub/OpenRTM-aist/cxx/1.1.2/OpenRTM-aist-1.1.2-win32.zip)
 
 ダウンロードしたら適当な場所に展開してください。
 この例では以下の位置に配置します。
@@ -28,7 +28,7 @@ Visual Studio でランタイムライブラリにマルチスレッド(/MT)、�
 以下より omniORB のバイナリパッケージを入手してください。
 Visual Studioのバージョンにあったものを選んでください。
 
-- [http://openrtm.org/pub/omniORB/win32/omniORB-4.1.7/](http://openrtm.org/pub/omniORB/win32/omniORB-4.1.7/)
+- [https://packages.openrtm.org/pub/omniORB/win32/omniORB-4.1.7/](https://packages.openrtm.org/pub/omniORB/win32/omniORB-4.1.7/)
 
 ダウンロードしたら、OpenRTM-aist フォルダー内に omniORB という名前のフォルダーを作成して展開してください。
 

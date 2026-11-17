@@ -17,17 +17,17 @@ title: openrtm-aist-python-1.0.0-rc1
 <table class="table-alt">
   <tr>
     <th>Source code (Python)</th>
-    <th><a href="http://www.openrtm.org/pub/OpenRTM-aist/python/1.0.0/OpenRTM-aist-Python-1.0.0-RC1.tar.gz">OpenRTM-aist-Python-1.0.0-RC1.tar.gz</a></th>
+    <th><a href="https://packages.openrtm.org/pub/OpenRTM-aist/python/1.0.0/OpenRTM-aist-Python-1.0.0-RC1.tar.gz">OpenRTM-aist-Python-1.0.0-RC1.tar.gz</a></th>
     <th>09/08/13</th>
   </tr>
   <tr>
     <td>Source code (Python2.4+Win32)</td>
-    <td><a href="http://www.openrtm.org/pub/OpenRTM-aist/python/1.0.0/OpenRTM-aist-Python24-1.0.0-RC1.zip">OpenRTM-aist-Python24-1.0.0-RC1.zip</a></td>
+    <td><a href="https://packages.openrtm.org/pub/OpenRTM-aist/python/1.0.0/OpenRTM-aist-Python24-1.0.0-RC1.zip">OpenRTM-aist-Python24-1.0.0-RC1.zip</a></td>
     <td>09/08/13</td>
   </tr>
   <tr>
     <td>Source code (Python2.5+Win32)</td>
-    <td><a href="http://www.openrtm.org/pub/OpenRTM-aist/python/1.0.0/OpenRTM-aist-Python25-1.0.0-RC1.zip">OpenRTM-aist-Python25-1.0.0-RC1.zip</a></td>
+    <td><a href="https://packages.openrtm.org/pub/OpenRTM-aist/python/1.0.0/OpenRTM-aist-Python25-1.0.0-RC1.zip">OpenRTM-aist-Python25-1.0.0-RC1.zip</a></td>
     <td>09/08/13</td>
   </tr>
   <tr>
@@ -35,7 +35,7 @@ title: openrtm-aist-python-1.0.0-rc1
   </tr>
   <tr>
     <td>Patch OpenRTM-aist-Python-1.0.0-RC1</td>
-    <td><a href="http://www.openrtm.org/pub/OpenRTM-aist/python/1.0.0/patch-OpenRTM-aist-Python-1.0.0-RC1-20090818">patch-OpenRTM-aist-Python-1.0.0-RC1-20090818</a></td>
+    <td><a href="https://packages.openrtm.org/pub/OpenRTM-aist/python/1.0.0/patch-OpenRTM-aist-Python-1.0.0-RC1-20090818">patch-OpenRTM-aist-Python-1.0.0-RC1-20090818</a></td>
     <td>09/08/18</td>
   </tr>
 </table>
@@ -47,7 +47,7 @@ title: openrtm-aist-python-1.0.0-rc1
 <table class="table-alt">
   <tr>
     <th>Installer for Windows <br> (for only for Python2.4)</th>
-    <th><a href="http://www.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python24-1.0.0-RC1.msi">OpenRTM-aist-Python24-1.0.0-RC1.msi</a></th>
+    <th><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python24-1.0.0-RC1.msi">OpenRTM-aist-Python24-1.0.0-RC1.msi</a></th>
     <th>09/08/13</th>
   </tr>
   <tr>
@@ -57,7 +57,7 @@ title: openrtm-aist-python-1.0.0-rc1
   </tr>
   <tr>
     <td>omniORBpy-2.7 installer <br> (offered by AIST)</td>
-    <td><a href="http://www.openrtm.org/pub/Windows/omniORB/omniORBpy-2.7.msi">omniORBpy-2.7.msi</a></td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/omniORB/omniORBpy-2.7.msi">omniORBpy-2.7.msi</a></td>
     <td>2007.11.09</td>
   </tr>
   <tr>
@@ -71,7 +71,7 @@ title: openrtm-aist-python-1.0.0-rc1
 <table class="table-alt">
   <tr>
     <th>Installer for Windows <br> (for only for Python2.4)</th>
-    <th><a href="http://www.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python25-1.0.0-RC1.msi">OpenRTM-aist-Python25-1.0.0-RC1.msi</a></th>
+    <th><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python25-1.0.0-RC1.msi">OpenRTM-aist-Python25-1.0.0-RC1.msi</a></th>
     <th>09/08/13</th>
   </tr>
   <tr>
@@ -81,7 +81,7 @@ title: openrtm-aist-python-1.0.0-rc1
   </tr>
   <tr>
     <td>omniORBpy-3.1 installer <br>(offered by AIST)</td>
-    <td><a href="http://www.openrtm.org/pub/Windows/omniORB/omniORBpy-3.1.msi">omniORBpy-3.1.msi</a></td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/omniORB/omniORBpy-3.1.msi">omniORBpy-3.1.msi</a></td>
     <td>2007.11.09</td>
   </tr>
   <tr>
@@ -96,7 +96,7 @@ title: openrtm-aist-python-1.0.0-rc1
 <table class="table-alt">
   <tr>
     <th>Installer for Windows <br>(for only for Python2.6)</th>
-    <th><a href="http://www.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python26-1.0.0-RC1-p1.msi">OpenRTM-aist-Python26-1.0.0-RC1-p1.msi</a></th>
+    <th><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python26-1.0.0-RC1-p1.msi">OpenRTM-aist-Python26-1.0.0-RC1-p1.msi</a></th>
     <th>09/09/02</th>
   </tr>
   <tr>
@@ -106,7 +106,7 @@ title: openrtm-aist-python-1.0.0-rc1
   </tr>
   <tr>
     <td>omniORBpy-3.4 installer <br>(offered by AIST)</td>
-    <td><a href="http://www.openrtm.org/pub/Windows/omniORB/omniORBpy-3.4.msi">omniORBpy-3.4.msi</a></td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/omniORB/omniORBpy-3.4.msi">omniORBpy-3.4.msi</a></td>
     <td>2009.08.31</td>
   </tr>
   <tr>
@@ -126,30 +126,30 @@ You can install rpm/deb packages with apt-get and yum from OpenRTM-aist's reposi
 <!-- ***For Vine Linux  -->
 
 <!-- |>|>|CENTER:''For Vine Linux''| -->
-<!-- |Vine Linux 4.0 RPM package | [[repository >http://www.openrtm.org/pub/Linux/Vine/apt/4.0/i386/RPMS.main/]] | 09/08/13 | -->
-<!-- |Vine Linux 4.1 RPM package | [[repository >http://www.openrtm.org/pub/Linux/Vine/apt/4.1/i386/RPMS.main/]] | 09/08/13 | -->
-<!-- |Vine Linux 4.2 RPM package | [[repository >http://www.openrtm.org/pub/Linux/Vine/apt/4.2/i386/RPMS.main/]] | 09/08/13 | -->
+<!-- |Vine Linux 4.0 RPM package | [[repository >https://packages.openrtm.org/pub/Linux/Vine/apt/4.0/i386/RPMS.main/]] | 09/08/13 | -->
+<!-- |Vine Linux 4.1 RPM package | [[repository >https://packages.openrtm.org/pub/Linux/Vine/apt/4.1/i386/RPMS.main/]] | 09/08/13 | -->
+<!-- |Vine Linux 4.2 RPM package | [[repository >https://packages.openrtm.org/pub/Linux/Vine/apt/4.2/i386/RPMS.main/]] | 09/08/13 | -->
 
 <!-- *** For Fedora  -->
 
 <!-- |>|>|CENTER:''For Fedora''| -->
-<!-- |Fedora 10 RPM package     | [[repository >http://www.openrtm.org/pub/Linux/Fedora/releases/10/Fedora/i386/os/Packages/OpenRTM-aist-Python-1.0/]] | 09/08/13 | -->
-<!-- |Fedora 11 RPM package     | [[repository >http://www.openrtm.org/pub/Linux/Fedora/releases/11/Fedora/i386/os/Packages/OpenRTM-aist-Python-1.0/]] | 09/08/13 | -->
+<!-- |Fedora 10 RPM package     | [[repository >https://packages.openrtm.org/pub/Linux/Fedora/releases/10/Fedora/i386/os/Packages/OpenRTM-aist-Python-1.0/]] | 09/08/13 | -->
+<!-- |Fedora 11 RPM package     | [[repository >https://packages.openrtm.org/pub/Linux/Fedora/releases/11/Fedora/i386/os/Packages/OpenRTM-aist-Python-1.0/]] | 09/08/13 | -->
 <!-- *** For Ubuntu  -->
 <!-- |>|>|CENTER:''For Ubuntu''| -->
-<!-- |Ubuntu 8.04 deb package | [[repository >http://www.openrtm.org/pub/Linux/ubuntu/dists/hardy/main/binary-i386/]]  | 09/08/13 | -->
-<!-- |Ubuntu 8.10 deb package | [[repository >http://www.openrtm.org/pub/Linux/ubuntu/dists/intrepid/main/binary-i386/]]  | 09/08/13 | -->
-<!-- |Ubuntu 9.04 deb package | [[repository >http://www.openrtm.org/pub/Linux/ubuntu/dists/jaunty/main/binary-i386/]]  | 09/08/13 | -->
+<!-- |Ubuntu 8.04 deb package | [[repository >https://packages.openrtm.org/pub/Linux/ubuntu/dists/hardy/main/binary-i386/]]  | 09/08/13 | -->
+<!-- |Ubuntu 8.10 deb package | [[repository >https://packages.openrtm.org/pub/Linux/ubuntu/dists/intrepid/main/binary-i386/]]  | 09/08/13 | -->
+<!-- |Ubuntu 9.04 deb package | [[repository >https://packages.openrtm.org/pub/Linux/ubuntu/dists/jaunty/main/binary-i386/]]  | 09/08/13 | -->
 
 
 <!-- *** For Debian  -->
 <!-- |>|>|CENTER:''For debian''| -->
-<!-- |Debian 4.0 etch  debpackage | [[repository >http://www.openrtm.org/pub/Linux/debian/dists/etch/main/binary-i386/]]  | 09/08/13 | -->
-<!-- |Debian 5.0 lenny debpackage | [[repository >http://www.openrtm.org/pub/Linux/debian/dists/lenny/main/binary-i386/]] | 09/08/13 | -->
+<!-- |Debian 4.0 etch  debpackage | [[repository >https://packages.openrtm.org/pub/Linux/debian/dists/etch/main/binary-i386/]]  | 09/08/13 | -->
+<!-- |Debian 5.0 lenny debpackage | [[repository >https://packages.openrtm.org/pub/Linux/debian/dists/lenny/main/binary-i386/]] | 09/08/13 | -->
 
 
 ## Release note: 1.0.0-RC1 
-- [OpenRTM-aist-Python-1.0.0-RC1.tar.gz ](http://www.openrtm.org/pub/OpenRTM-aist/python/1.0.0/OpenRTM-aist-Python-1.0.0-RC1.tar.gz) -- 09/08/13
+- [OpenRTM-aist-Python-1.0.0-RC1.tar.gz ](https://packages.openrtm.org/pub/OpenRTM-aist/python/1.0.0/OpenRTM-aist-Python-1.0.0-RC1.tar.gz) -- 09/08/13
   - Officially based on OMG RTC Specification 1.0
   - Support new data port 1.0
   - Miscellaneous bug fixes

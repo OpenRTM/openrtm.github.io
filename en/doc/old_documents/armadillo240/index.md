@@ -55,12 +55,12 @@ ATDE2 はすでにクロスコンパイル環境が整っていますが、OpenR
 
 - ダウンロード
   - OpenRTM ソースコード
-    - [OpenRTM-0.4.2.tar.gz](http://www.openrtm.org/pub/OpenRTM-aist/cxx/0.4.2/OpenRTM-aist-0.4.2-RELEASE.tar.gz)
-    - [OpenRTM-1.0.0.tar.gz](http://www.openrtm.org/pub/OpenRTM-aist/cxx/1.0.0/OpenRTM-aist-1.0.0-RC1.tar.gz)
-  - [config100.sh](http://www.openrtm.org/pub/OpenRTM-aist/armadillo/buildtools/config100.sh) ・ [config042.sh](http://www.openrtm.org/pub/OpenRTM-aist/armadillo/buildtools/config042.sh)
+    - [OpenRTM-0.4.2.tar.gz](https://packages.openrtm.org/pub/OpenRTM-aist/cxx/0.4.2/OpenRTM-aist-0.4.2-RELEASE.tar.gz)
+    - [OpenRTM-1.0.0.tar.gz](https://packages.openrtm.org/pub/OpenRTM-aist/cxx/1.0.0/OpenRTM-aist-1.0.0-RC1.tar.gz)
+  - [config100.sh](https://packages.openrtm.org/pub/OpenRTM-aist/armadillo/buildtools/config100.sh) ・ [config042.sh](https://packages.openrtm.org/pub/OpenRTM-aist/armadillo/buildtools/config042.sh)
     - 展開した OpenRTM-0.4.2.tar.gz、又は OpenRTM-1.0.0.tar.gz の中で実行し、クロスコンパイルに必要なオプションを指定して configure を行うことができます。
     - OpenRTM-0.4.2 対応、OpenRTM-1.0.0 対応に分けました。2010/01/21
-  - [arm-cross-install.sh](http://www.openrtm.org/pub/OpenRTM-aist/armadillo/buildtools/arm-cross-install.sh)
+  - [arm-cross-install.sh](https://packages.openrtm.org/pub/OpenRTM-aist/armadillo/buildtools/arm-cross-install.sh)
     - OpenRTM-1.0.0対応になりました。2009/12/28 
     - OpenRTMのARM クロスコンパイル環境を Debianホストに構築します。
 
@@ -68,7 +68,7 @@ ATDE2 はすでにクロスコンパイル環境が整っていますが、OpenR
 deb パッケージを置いている URL を sources.list に加えます。su コマンドで root (パスワード：root)になり、**/etc/apt/sources.list**に下の URL を加えてください。
 ```
  deb http://downloads.pylone.jp/cross-toolchain/deb ./
- deb http://www.openrtm.org/pub/Linux/debian/ etch main
+ deb https://packages.openrtm.org/pub/Linux/debian/ etch main
 ```
 - root のまま、apt-get コマンドでパッケージをインストールします。
 ```
@@ -449,7 +449,7 @@ RTコンポーネントが起動がします。
 
 :**Linuxカーネル**| Atmark-dist でイメージファイルを作成する際必要です。
   - [こちら](http://armadillo.atmark-techno.com/armadillo-240/downloads)から無料で入手できます。(Armadillo240の場合)
-  - [openrtm_new.patch](http://www.openrtm.org/pub/OpenRTM-aist/armadillo/buildtools/openrtm_new.patch), Atmark-dist(2009/03/18)のverアップに伴い patch ファイルを修正しました。(2010/02/12)
+  - [openrtm_new.patch](https://packages.openrtm.org/pub/OpenRTM-aist/armadillo/buildtools/openrtm_new.patch), Atmark-dist(2009/03/18)のverアップに伴い patch ファイルを修正しました。(2010/02/12)
 
 ### atmark-distのビルドと設定
 ここでは、Armadillo の userland のイメージファイルを作成します。

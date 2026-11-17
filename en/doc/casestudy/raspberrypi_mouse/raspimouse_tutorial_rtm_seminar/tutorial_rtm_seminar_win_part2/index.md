@@ -111,7 +111,7 @@ The following environment is assumed:
 - [Doxygen](http://www.doxygen.nl/download.html)
   - [doxygen-1.9.5-setup.exe](https://www.doxygen.nl/files/doxygen-1.9.5-setup.exe)
 - [OpenRTM-aist-2.0.0-RELEASE]({{ site.baseurl }}/en/download)
-  - [OpenRTM-aist-2.0.0-RELEASE_x86_64.msi (64-bit)](https://openrtm.org/pub/Windows/OpenRTM-aist/2.0/OpenRTM-aist-2.0.0-RELEASE_x86_64.msi)
+  - [OpenRTM-aist-2.0.0-RELEASE_x86_64.msi (64-bit)](https://packages.openrtm.org/pub/Windows/OpenRTM-aist/2.0/OpenRTM-aist-2.0.0-RELEASE_x86_64.msi)
 
 ### Component Specification
 

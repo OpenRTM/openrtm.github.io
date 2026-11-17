@@ -155,11 +155,11 @@ title: サイエンスキャンプ(2010年8月25日)
 - プログラミング言語Pythonのインタプリタ(msiを実行してインストール)
   - [Python2.5](http://www.python.org/ftp/python/2.5.1/python-2.5.1.msi)
 - RTミドルウエアのPython版(msiを実行してインストール)
-  - [OpenRTM-aist-Python, Win32](http://www.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.0.0.msi)
+  - [OpenRTM-aist-Python, Win32](https://packages.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.0.0.msi)
 - RTミドルウエアC++版を使うために必要なライブラリ(Microsoftのサイトに飛ぶのでダウンロードボタンを押してインストール)
   - [VC2008DLL](http://www.microsoft.com/japan/msdn/vstudio/2008/product/express/offline.aspx)
 - RTミドルウエアのC++版(msiを実行してインストール)
-  - [OpenRTM-aist-C++](http://www.openrtm.org/pub/Windows/OpenRTM-aist/cxx/OpenRTM-aist-1.0.0-RELEASE_vc9_100212.msi)
+  - [OpenRTM-aist-C++](https://packages.openrtm.org/pub/Windows/OpenRTM-aist/cxx/OpenRTM-aist-1.0.0-RELEASE_vc9_100212.msi)
 
 - TkJoyStickからの入力データをBlueToothを介してNXTにセットするためのコンポーネント
   - [NXTBlueTooth.zip]()（リンク切れです）

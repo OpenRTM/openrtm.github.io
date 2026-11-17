@@ -9,7 +9,7 @@ title: other faqs
 Please refer to the following pages.
 <br>
 <br>
-- [http://openrtm.org/doc/idl/1.1/idlreference_ja/index.html](http://openrtm.org/doc/idl/1.1/idlreference_ja/index.html)
+- [https://packages.openrtm.org/doc/idl/1.1/idlreference_ja/index.html](https://packages.openrtm.org/doc/idl/1.1/idlreference_ja/index.html)
 - [https://github.com/Nobu19800/DataTypeManual/wiki](https://github.com/Nobu19800/DataTypeManual/wiki)
 <br>
 <br>
@@ -18,7 +18,7 @@ Please refer to the following pages.
 Debugging is performed using rtprint, rtinject, and other rtshell commands. Please refer to the following page.
 <br>
 <br>
-[http://www.openrtm.org/pub/OpenRTM-aist/tools/rtshell/3.0/ja/rtprint.html](http://www.openrtm.org/pub/OpenRTM-aist/tools/rtshell/3.0/ja/rtprint.html)
+[https://packages.openrtm.org/pub/OpenRTM-aist/tools/rtshell/3.0/ja/rtprint.html](https://packages.openrtm.org/pub/OpenRTM-aist/tools/rtshell/3.0/ja/rtprint.html)
 <br>
 <br>
 

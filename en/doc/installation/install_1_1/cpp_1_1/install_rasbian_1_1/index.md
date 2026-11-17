@@ -93,7 +93,7 @@ apt-get の設定を変更する必要があります。
 ```
 
 ```
-  deb http://www.openrtm.org/pub/Linux/raspbian/ (code name) main
+  deb https://packages.openrtm.org/pub/Linux/raspbian/ (code name) main
 ```
 
 の1行を追加。"(code name)" の部分には以下の raspbian のバージョンに対応したコードネームを指定します。

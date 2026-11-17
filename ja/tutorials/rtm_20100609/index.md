@@ -68,7 +68,7 @@ Windows推奨ですが、Linuxでも実習可能です。
 
 #### Windowsで必要なソフトウエア 
 - C++版で必要なもの
-  - [C++版, Win32 VC2008](http://www.openrtm.org/pub/Windows/OpenRTM-aist/cxx/OpenRTM-aist-1.0.0-RELEASE_vc9_100212.msi)
+  - [C++版, Win32 VC2008](https://packages.openrtm.org/pub/Windows/OpenRTM-aist/cxx/OpenRTM-aist-1.0.0-RELEASE_vc9_100212.msi)
   - [Visual C++ Express](http://www.microsoft.com/japan/msdn/vstudio/2008/product/express/offline.aspx)
   - [OpenCV1.0](http://downloads.sourceforge.net/opencvlibrary/OpenCV_1.0.exe?modtime=1161287502&big_mirror=1)
   - [OpenCV2.1(VC2008用)](http://sourceforge.net/projects/opencvlibrary/files/opencv-win/2.1/OpenCV-2.1.0-win32-vs2008.exe/download)
@@ -77,7 +77,7 @@ Windows推奨ですが、Linuxでも実習可能です。
 <span style="color:red;">OpenCV1.0とOpenCV2.1は共存可能です。OpenRTMに付属しているサンプルを動作させるのにOpenCV1.0が必要になります。実習では、OpenCV2.1ベースのコンポーネント群を使用します。</span>;
 
 - Python版で必要なもの
-  - [Python版, Win32](http://www.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.0.0.msi)
+  - [Python版, Win32](https://packages.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.0.0.msi)
   - [Python2.6](http://www.python.org/ftp/python/2.6.2/python-2.6.2.msi)
 
 - RTSystemEditor,RTCBilder

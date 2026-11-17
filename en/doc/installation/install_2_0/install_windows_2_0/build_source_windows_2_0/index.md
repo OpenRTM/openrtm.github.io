@@ -30,7 +30,7 @@ Prebuilt binary packages provided by openrtm.org are available at the link below
 
 Replace XX with the version of Python you have installed, download the appropriate package, and extract it to a suitable location (C:\workspace\omniORB is used in the examples below).
 
-- [Binary Packages Provided by openrtm.org](https://openrtm.org/pub/omniORB/win32/omniORB-4.2.5/)
+- [Binary Packages Provided by openrtm.org](https://packages.openrtm.org/pub/omniORB/win32/omniORB-4.2.5/)
 
 For information on building with other libraries, see [RT System Development (Advanced) - Building OpenRTM-aist (C++ Version) with CMake]({{ site.baseurl }}/en/doc/installation/install_2_0/cpp_2_0/build_2_0/openrtm_cpp_cmake_build).
 
@@ -109,7 +109,7 @@ Before running the script, modify the following three settings to match your env
  set INSTALL_PREFIX=%INSTALL_PREFIX:\=/%
  @rem
  @rem omniORB download
- set base_omni_url="https://openrtm.org/pub/omniORB/win32/omniORB-%OMNI_VERSION%/"
+ set base_omni_url="https://packages.openrtm.org/pub/omniORB/win32/omniORB-%OMNI_VERSION%/"
  set OMNIORB_DIR=omniORB-%OMNI_VERSION%-x64-%VC_VERSION%-py%PY_VERSION%
  set OMNIORB_ZIP=%OMNIORB_DIR%.zip
  set OMNIORB_URL=%base_omni_url%/%OMNIORB_ZIP%
@@ -187,7 +187,7 @@ OpenRTM-aist is built in both Release and Debug configurations. Although omniORB
  set FLB_ROOT=%FLB_ROOT:\=/%
  @rem ------------
  @rem omniORB download
- set base_omni_url="https://openrtm.org/pub/omniORB/win32/omniORB-%OMNI_VERSION%/"
+ set base_omni_url="https://packages.openrtm.org/pub/omniORB/win32/omniORB-%OMNI_VERSION%/"
  set OMNIORB_DIR=omniORB-%OMNI_VERSION%-x64-%VC_VERSION%-py%PY_VERSION%
  set OMNIORB_ZIP=%OMNIORB_DIR%.zip
  set OMNIORB_URL=%base_omni_url%/%OMNIORB_ZIP%
@@ -202,7 +202,7 @@ OpenRTM-aist is built in both Release and Debug configurations. Although omniORB
  set OMNIORB_ROOT=%RTM_ROOT%/%OMNIORB_DIR%
  @rem ------------
  @rem OpenSSL download
- set base_ssl_url="https://openrtm.org/pub/OpenSSL/%SSL_VERSION%"
+ set base_ssl_url="https://packages.openrtm.org/pub/OpenSSL/%SSL_VERSION%"
  set OPENSSL_ZIP=openssl-%SSL_VERSION%-win64-%SSL_VC_VERSION%.zip
  set OPENSSL_URL=%base_ssl_url%/%OPENSSL_ZIP%
  if not exist %OPENSSL_ZIP% (

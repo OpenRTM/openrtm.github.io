@@ -20,7 +20,7 @@ title: openrtm-aist-java-1.1.2-release
 <table class="table-alt">
   <tr>
     <td>Windows 用インストーラー<br> (OpenRTM-aist C++、Python、Java版,<br> および OpenRTP、rtshell (4.1.0) 含む)</td>
-    <td><a href="http://openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86.msi">OpenRTM-aist-1.1.2-RELEASE_x86.msi</a> <br>MD5:59be8603f3fc007c2aed4476052886ce</td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86.msi">OpenRTM-aist-1.1.2-RELEASE_x86.msi</a> <br>MD5:59be8603f3fc007c2aed4476052886ce</td>
     <td>2016/05/27</td>
   </tr>
   <tr>
@@ -38,7 +38,7 @@ title: openrtm-aist-java-1.1.2-release
 <table class="table-alt">
   <tr>
     <td>Windows用インストーラー<br> (OpenRTM-aist C++,Python,Java版,<br> および OpenRTP,rtshell(4.1.0)含む)</td>
-    <td><a href="http://openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86_64.msi">OpenRTM-aist-1.1.2-RELEASE_x86_64.msi</a> <br>MD5:ee8db7c1682cb21dce963207e0484fb3</td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/1.1/OpenRTM-aist-1.1.2-RELEASE_x86_64.msi">OpenRTM-aist-1.1.2-RELEASE_x86_64.msi</a> <br>MD5:ee8db7c1682cb21dce963207e0484fb3</td>
     <td>2016/05/27</td>
   </tr>
   <tr>
@@ -59,7 +59,7 @@ title: openrtm-aist-java-1.1.2-release
 <table class="table-alt">
   <tr>
     <td>jar ファイルおよびサンプル</td>
-    <td><a href="https://openrtm.org/pub/OpenRTM-aist/java/1.1.2/OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip">OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip</a> <br>MD5:e89979be5c43c07c3c72c90233b84ad7</td>
+    <td><a href="https://packages.openrtm.org/pub/OpenRTM-aist/java/1.1.2/OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip">OpenRTM-aist-Java-1.1.2-RELEASE-jar.zip</a> <br>MD5:e89979be5c43c07c3c72c90233b84ad7</td>
     <td>2016.05.27</td>
   </tr>
 </table>

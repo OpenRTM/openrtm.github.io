@@ -24,7 +24,7 @@ Ubuntu/Debian GNU Linux への対応およびそのバージョンは、予告�
 
 openrtm.org が提供するインストール・スクリプト **pkg_install_ubuntu.sh** または **pkg_install_debian.sh** をダウンロードページからダウンロードし、root 権限で実行します。このスクリプトは、必要なパッケージを順次 apt-get でインストールしていきます。
 
-<!-- -[[パッケージインストールスクリプト:http://www.openrtm.org/pub/OpenRTM-aist/cxx/install_scripts/]] -->
+<!-- -[[パッケージインストールスクリプト:https://packages.openrtm.org/pub/OpenRTM-aist/cxx/install_scripts/]] -->
 <!-- -[[ソースコードリポジトリの最新スクリプト:http://svn.openrtm.org/OpenRTM-aist/trunk/OpenRTM-aist/build/pkg_install100_ubuntu.sh]] -->
 
 <!-- -[[一括インストールスクリプト(Ubuntu):http://svn.openrtm.org/OpenRTM-aist/tags/RELEASE_1_1_1/OpenRTM-aist/build/pkg_install_ubuntu.sh]] -->
@@ -64,9 +64,9 @@ openrtm.org では apt-get から利用可能なパッケージリポジトリ�
 ```
 
 ```
-  deb http://openrtm.org/pub/Linux/ubuntu/ (code name) main
+  deb https://packages.openrtm.org/pub/Linux/ubuntu/ (code name) main
   または
-  deb http://openrtm.org/pub/Linux/debian/ (code name) main
+  deb https://packages.openrtm.org/pub/Linux/debian/ (code name) main
 ```
 
 の1行を追加。"(code name)" の部分には以下の debian/ubuntu のバージョンに対応したコードネームを指定します。

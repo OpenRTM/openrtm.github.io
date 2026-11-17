@@ -51,8 +51,8 @@ title: openrtm-aist-python-1.0.2-release
 
 
 <!-- |LEFT:200|LEFT|LEFT:100|c -->
-<!-- |Windows 用インストーラー|[[OpenRTM-aist-Python-1.0.0.msi:http://www.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.0.0.msi]] &br; MD5:4afe4de69c9b56086fc97e9697334a36 | 10/05/07 | -->
-<!-- |Windows 用インストーラー|[[OpenRTM-aist-Python-1.0.1.msi:http://www.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.0.1.msi]] &br; MD5:ad9653ab2a07a4247b7b4ad0cf069002 | 11/02/23 | -->
+<!-- |Windows 用インストーラー|[[OpenRTM-aist-Python-1.0.0.msi:https://packages.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.0.0.msi]] &br; MD5:4afe4de69c9b56086fc97e9697334a36 | 10/05/07 | -->
+<!-- |Windows 用インストーラー|[[OpenRTM-aist-Python-1.0.1.msi:https://packages.openrtm.org/pub/Windows/OpenRTM-aist/python/OpenRTM-aist-Python-1.0.1.msi]] &br; MD5:ad9653ab2a07a4247b7b4ad0cf069002 | 11/02/23 | -->
 <!-- |Python-2.4.4|[[python-2.4.4.msi:http://www.python.org/ftp/python/2.4.4/python-2.4.4.msi]]|[[python.org:http://www.python.org]]| -->
 <!-- |Python-2.5.1|[[python-2.5.1.msi:http://www.python.org/ftp/python/2.5.1/python-2.5.1.msi]]|[[python.org:http://www.python.org]]| -->
 <!-- |Python-2.6.2|[[python-2.6.2.msi:http://www.python.org/ftp/python/2.6.2/python-2.6.2.msi]]|[[python.org:http://www.python.org]]| -->

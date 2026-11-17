@@ -15,12 +15,12 @@ title: openrtm-aist-java-1.0.0-release
 <table class="table-alt">
   <tr>
     <td>jarファイルおよびサンプル</td>
-    <td><a href="http://www.openrtm.org/pub/OpenRTM-aist/java/1.0.0/OpenRTM-aist-Java-1.0.0-jar.zip">OpenRTM-aist-Java-1.0.0-jar.zip </a><br>MD5:B1C538B3BAA390A895E90E033E6D0D87</td>
+    <td><a href="https://packages.openrtm.org/pub/OpenRTM-aist/java/1.0.0/OpenRTM-aist-Java-1.0.0-jar.zip">OpenRTM-aist-Java-1.0.0-jar.zip </a><br>MD5:B1C538B3BAA390A895E90E033E6D0D87</td>
     <td>2010.05.11</td>
   </tr>
   <tr>
     <td>Windows用インストーラ</td>
-    <td><a href="http://www.openrtm.org/pub/Windows/OpenRTM-aist/java/OpenRTM-aist-Java-1.0.0.msi">OpenRTM-aist-Java-1.0.0.msi </a><br>MD5:1EB7EE0241A59B6FCEABE0EE7ADE50B3</td>
+    <td><a href="https://packages.openrtm.org/pub/Windows/OpenRTM-aist/java/OpenRTM-aist-Java-1.0.0.msi">OpenRTM-aist-Java-1.0.0.msi </a><br>MD5:1EB7EE0241A59B6FCEABE0EE7ADE50B3</td>
     <td>2010.05.11</td>
   </tr>
 </table>
@@ -32,7 +32,7 @@ title: openrtm-aist-java-1.0.0-release
 <table class="table-alt">
   <tr>
     <td>ソースコード</td>
-    <td><a href="http://www.openrtm.org/pub/OpenRTM-aist/java/1.0.0/OpenRTM-aist-Java-1.0.0-RELEASE.tar.gz">OpenRTM-aist-Java-1.0.0-RELEASE.tar.gz </a><br>MD5:5A0FD25EB9CE87D72F0B377B3D24A43A</td>
+    <td><a href="https://packages.openrtm.org/pub/OpenRTM-aist/java/1.0.0/OpenRTM-aist-Java-1.0.0-RELEASE.tar.gz">OpenRTM-aist-Java-1.0.0-RELEASE.tar.gz </a><br>MD5:5A0FD25EB9CE87D72F0B377B3D24A43A</td>
     <td>2010.05.11</td>
   </tr>
 </table>
@@ -55,7 +55,7 @@ OpenRTM-aist Official Website からソースコード、Windowsインストー�
 
 どなたでもすぐにサンプルを実行して試用可能となっております。ぜひお試しください。
 
-- [OpenRTM-aist-Java-1.0.0-RELESE.tar.gz](http://www.openrtm.org/pub/OpenRTM-aist/java/1.0.0/OpenRTM-aist-Java-1.0.0-RELEASE.tar.gz) -- 2010.05.11リリース 
+- [OpenRTM-aist-Java-1.0.0-RELESE.tar.gz](https://packages.openrtm.org/pub/OpenRTM-aist/java/1.0.0/OpenRTM-aist-Java-1.0.0-RELEASE.tar.gz) -- 2010.05.11リリース 
   - OMG RTC Specification v1.0 準拠
   - 新データポート導入 (corba_cdrインターフェース型)
     - push型・pull型データフローの導入

@@ -22,7 +22,7 @@ This page describes how to use omniORB's SSLIOP communication with OpenRTM-aist.
 
 First, extract the OpenSSL header files and libraries to an appropriate location.
 
-- https://openrtm.org/pub/OpenSSL/
+- https://packages.openrtm.org/pub/OpenSSL/
 
 Build and install OpenRTM-aist + omniORB according to the following procedure.
 

@@ -23,7 +23,7 @@ top_comm_dir
 
 準備中です。
 
-## [イベント]({{ site.baseurl }}/ja/content/content/)
+## [イベント](../content/content/)
 
 ## 関連製品等
 

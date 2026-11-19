@@ -7,8 +7,8 @@ categories: event
 
 #image: assets/images/coding-langs.jpg
 image: assets/post_image/2026/con2026_end_news.png
-image_alt: sample post 1
-image_caption: testing post caption
+#image_alt: sample post 1
+#image_caption: testing post caption
 
 permalink: /2026-09-16-summercamp2026_close/
 

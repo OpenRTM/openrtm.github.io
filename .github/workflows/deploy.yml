@@ -3,6 +3,8 @@ name: Build & Deploy Jekyll to Pages
 'on':
   push:
     branches: [ main ]   # Deploy from the default branch
+  pull_request:
+    branches: [ main ]   # Build PRs without deploying
   workflow_dispatch:
 
 permissions:
@@ -49,6 +51,7 @@ jobs:
           path: _site
 
   deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     environment:

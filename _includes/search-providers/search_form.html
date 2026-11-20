@@ -1,7 +1,7 @@
 {%- assign search_provider = site.search_provider | default: "google" -%}
 {%- case search_provider -%}
   {%- when "google" -%}
-  <form class="form-inline border rounded" onsubmit="return googleCustomSearchExecute();">
+  <form id="openrtm-google-search-form" class="form-inline border rounded">
     <input class="form-control bg-transparent border-0 text-white" type="search" placeholder="Search..."
       aria-label="Search" id="lwt-form-search-input">
     <button class="btn btn-primary" type="submit">Search</button>

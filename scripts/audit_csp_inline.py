@@ -24,7 +24,9 @@ class CSPAudit(HTMLParser):
         attrs = dict(attrs)
         line, _ = self.getpos()
         if tag == "script":
-            self.inline_script = "src" not in attrs
+            script_type = (attrs.get("type") or "").split(";", 1)[0].strip().lower()
+            executable = not script_type or script_type in ("text/javascript", "application/javascript", "module", "text/ecmascript", "application/ecmascript")
+            self.inline_script = "src" not in attrs and executable
             self.script_line = line
             self.script_has_content = False
         for name, value in attrs.items():

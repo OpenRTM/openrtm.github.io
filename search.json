@@ -5,7 +5,7 @@ layout: null
 {% assign docs = site.pages | where_exp: "p", "p.title" %}
 {% for p in docs %}
   {
-    "title": {{ p.title | jsonify }},
+    "title": {{ p.title | append: '' | jsonify }},
     "url": {{ p.url | relative_url | jsonify }},
     "content": {{ p.content | strip_html | strip_newlines | jsonify }}
   }{% unless forloop.last %},{% endunless %}

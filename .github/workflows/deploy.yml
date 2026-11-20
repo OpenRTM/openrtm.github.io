@@ -31,6 +31,9 @@ jobs:
       - name: Build
         run: bundle exec jekyll build --trace
 
+      - name: Audit generated HTML for CSP inline scripts
+        run: python3 scripts/audit_csp_inline.py _site --max-examples 100
+
       - name: Generate aspect-ratio-preserving favicon
         run: ruby scripts/generate_favicon.rb
 

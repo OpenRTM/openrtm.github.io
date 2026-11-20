@@ -2,7 +2,7 @@ name: Build & Deploy Jekyll to Pages
 
 'on':
   push:
-    branches: [ site ]   # ← デプロイ元ブランチ
+    branches: [ main ]   # Deploy from the default branch
   workflow_dispatch:
 
 permissions:

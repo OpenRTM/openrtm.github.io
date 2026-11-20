@@ -25,25 +25,7 @@ swiper_images:
 {% include top-swiper.html %}
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  new Swiper('.top-swiper', {
-    loop: true,
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev'
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true
-    }
-  });
-});
-</script>
+<script src="{{ '/assets/js/home-swiper.js' | relative_url }}"></script>
 
 
 # News

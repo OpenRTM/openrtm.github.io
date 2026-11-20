@@ -14,7 +14,7 @@ swiper_images:
     link: /ja/doc/installation/lets_start
   - src: /assets/images/swiper/rtm201_slider_re.png
     link: /ja/download
-  - src: /assets/images/swiper/contest2026.png
+  - src: /assets/images/swiper/contest2026_slider.png
     link: /ja/content/content/rtmcontest2026/
   - src: /assets/images/swiper/what_is_openrtm_ja2.jpg
     link: /ja/doc/aboutopenrtm/rtmiddleware

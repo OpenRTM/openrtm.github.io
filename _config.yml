@@ -20,7 +20,7 @@ title: "OpenRTM-aist"
 description: "The power to connect"
 url: "https://openrtm.github.io"
 baseurl: ""
-repo_url: "https://github.com/OpenRTM/openrtm.github.io/blob/site"
+repo_url: "https://github.com/OpenRTM/openrtm.github.io/blob/main"
 author: openrtm
   #twitter:
   #username: mani_d2 # should be site's username

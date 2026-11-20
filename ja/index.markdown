@@ -24,7 +24,7 @@ swiper_images:
 
 {% include top-swiper.html %}
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@12.2.0/swiper-bundle.min.js"></script>
+<script src="{{ '/assets/js/vendor/swiper-bundle.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/home-swiper.js' | relative_url }}"></script>
 
 

@@ -28,6 +28,9 @@ jobs:
       - name: Install deps
         run: bundle install --jobs 4 --retry 3
 
+      - name: Stage Bootstrap and Bootswatch 4.6.2 Sass
+        run: bash scripts/stage_bootstrap_sass.sh
+
       - name: Build
         run: bundle exec jekyll build --trace
 

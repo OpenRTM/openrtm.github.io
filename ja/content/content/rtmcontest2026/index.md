@@ -115,13 +115,14 @@ RTミドルウエアは、ロボットを構成する様々な要素をモジュ
   <tr>
     <td>1G3-03</td>
     <td>11:10-11:25</td>
-    <td><a href="">植物とロボットを融合させたコミュニケーションシステム Robotized Plant の開発</a>(no_link)</td>
+    <td><a href="https://github.com/MH-tmu2026/Robotized-Plant">植物とロボットを融合させたコミュニケーションシステム Robotized Plant の開発</a><br>(githubにリンクしました)</td>
     <td>椛沢 妃那、下川原（佐藤）英理 <br>（東京都立大学 ）</td>
   </tr>
   <tr>
     <td>1G3-04</td>
     <td>11:25-11:40</td>
-    <td><a href="">システム設計情報に基づく AI 駆動開発支援ツールの開発</a>(no_link)</td>
+    <td><a href="https://github.com/Nobu19800/RTC-Agent-Tools">システム設計情報に基づく AI 駆動開発支援ツールの開発</a>(githubにリン
+クしました)</td>
     <td>宮本 信彦、安藤 慶昭 <br>（産業技術総合研究所 ）</td>
   </tr>
   <tr>
@@ -281,8 +282,13 @@ SI2026の申込方法、申込および原稿〆切および具体的な開催�
 <!--（[応募作品](http://www.openrtm.org/openrtm/contests/2024)（Projectページはリンク切れです））-->
   - （[応募作品]()）(no_link)
 - [RTミドルウエアコンテスト2025](../rtmcontest2025)      
-<!--（[応募作品](http://www.openrtm.org/openrtm/contests/2025)（Projectページはリンク切れです））-->
-  - （[応募作品]()）(no_link)
+<!--（[応募作品](http://www.openrtm.org/openrtm/contests/2025)（Projectページはリンク切れです））
+  - （[応募作品]()）(no_link) -->
+  - <a href="{{ site.baseurl }}/ja/project/contest_2025/project0026/">利用者の肌の情報と気象情報を用いたAI化粧品選出システムの開発 </a>
+  - <a href="{{ site.baseurl }}/ja/project/contest_2025/project0048/">大型小売店向け自動走行案内ロボ『スマートカート』の開発</a>
+  - <a href="{{ site.baseurl }}/ja/project/contest_2025/project1059/">RTミドルウェア対応組み込み機器開発をサポートするためツール「RTno2」の開発</a>
+  - <a href="{{ site.baseurl }}/ja/project/contest_2025/project1336/">コンテナ技術を活用したソフトウェアプロファイルに基づくソフトウェアモジュール生成・運用に関する研究</a>
+
 
 <!-- &aname(registration){}; -->
 <!-- ** コンテスト作品のwebへの登録方法  -->

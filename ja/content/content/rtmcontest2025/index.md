@@ -83,10 +83,7 @@ RTミドルウエアは、ロボットを構成する様々な要素をモジュ
 
 <table class="table-alt">
   <tr>
-    <td>></td>
-    <td>></td>
-    <td>></td>
-    <td>2025年12月10日 10:40~</td>
+    <td colspan="4" style="text-align: center;">2025年12月10日 10:40~</td>
   </tr>
   <tr>
     <td>番号</td>
@@ -97,28 +94,28 @@ RTミドルウエアは、ロボットを構成する様々な要素をモジュ
   <tr>
     <td>si2025-0026</td>
     <td>10:40-10:55</td>
-    <td><a href="/ja/project/contest2025-si2025-0026">利用者の肌の情報と気象情報を用いたAI化粧品選出システムの開発 </a>（Projectページはリンク切れです）</td>
+    <td><a href="{{ site.baseurl }}/ja/project/contest_2025/project0026/">利用者の肌の情報と気象情報を用いたAI化粧品選出システムの開発 </a></td>
     <td>山田　留里花 、烏田　美歌 、鈴木　悠花 <br>（芝浦工業大学附属高等学校 ） <br>佐々木　毅 （芝浦工業大学 ）<br> 山岡　佳代 、米川　大地 <br> （芝浦工業大学附属中学高等学校 ）</td>
     <td>フレッシャーズ賞<br> チェンジビジョン賞</td>
   </tr>
   <tr>
     <td>si2025-0048</td>
     <td>10:55-11:10</td>
-    <td><a href="/ja/project/contest2025-si2025-0048">大型小売店向け自動走行案内ロボ『スマートカート』の開発</a>（Projectページはリンク切れです）</td>
+    <td><a href="{{ site.baseurl }}/ja/project/contest_2025/project0048/">大型小売店向け自動走行案内ロボ『スマートカート』の開発</a></td>
     <td>平松　蓮 、河合　航希 、森尾　太一 <br> （芝浦工業大学附属中学校） <br> 山岡　佳代、米川　大地<br> （芝浦工業大学附属中学高等学校）<br> 佐々木　毅 （芝浦工業大学 ）</td>
     <td>ベストサポート賞<br> ロボットサービスイニシアチブ賞<br> 日本ロボット工業会賞</td>
   </tr>
   <tr>
     <td>si2025-1059</td>
     <td>11:10-11:25</td>
-    <td><a href="/ja/project/contest2025-si2025-1059">RTミドルウェア対応組み込み機器開発をサポートするためツール「RTno2」の開発</a>（Projectページはリンク切れです）</td>
+    <td><a href="{{ site.baseurl }}/ja/project/contest_2025/project1059/">RTミドルウェア対応組み込み機器開発をサポートするためツール「RTno2」の開発</a></td>
     <td>菅　佑樹 、尾形　哲也 （早稲田大学 ）</td>
     <td>RTM技術賞<br>帰ってきた「世界一小さなRTコンポーネント賞」</td>
   </tr>
   <tr>
     <td>si2025-1336</td>
     <td>11:25-11:40</td>
-    <td><a href="/ja/project/contest2025-si2025-1336">コンテナ技術を活用したソフトウェアプロファイルに基づくソフトウェアモジュール生成・運用に関する研究</a>（Projectページはリンク切れです）</td>
+    <td><a href="{{ site.baseurl }}/ja/project/contest_2025/project1336/">コンテナ技術を活用したソフトウェアプロファイルに基づくソフトウェアモジュール生成・運用に関する研究</a></td>
     <td>斎藤　雅弘 、大原　賢一 （名城大学 ）</td>
     <td><span style="color:red;">計測自動制御学会学会RTミドルウエア賞（最優秀賞）</span>;<br>グローバルアシスト賞<br>システムエンジニアンリング賞<br> SUGAR SWEET ROBOTICS賞</td>
   </tr>

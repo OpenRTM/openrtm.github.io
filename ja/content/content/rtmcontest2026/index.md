@@ -282,8 +282,8 @@ SI2026の申込方法、申込および原稿〆切および具体的な開催�
 <!--（[応募作品](http://www.openrtm.org/openrtm/contests/2024)（Projectページはリンク切れです））-->
   - （[応募作品]()）(no_link)
 - [RTミドルウエアコンテスト2025](../rtmcontest2025)      
-<!--（[応募作品](http://www.openrtm.org/openrtm/contests/2025)（Projectページはリンク切れです））
-  - （[応募作品]()）(no_link) -->
+<!---（[応募作品](http://www.openrtm.org/openrtm/contests/2025)（Projectページはリンク切れです））
+  - （[応募作品]()）(no_link) --->
   - <a href="{{ site.baseurl }}/ja/project/contest_2025/project0026/">利用者の肌の情報と気象情報を用いたAI化粧品選出システムの開発 </a>
   - <a href="{{ site.baseurl }}/ja/project/contest_2025/project0048/">大型小売店向け自動走行案内ロボ『スマートカート』の開発</a>
   - <a href="{{ site.baseurl }}/ja/project/contest_2025/project1059/">RTミドルウェア対応組み込み機器開発をサポートするためツール「RTno2」の開発</a>

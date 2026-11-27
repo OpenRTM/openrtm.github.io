@@ -3,6 +3,8 @@ name: Build & Deploy Jekyll to Pages
 'on':
   push:
     branches: [ main ]   # Deploy from the default branch
+  pull_request:
+    branches: [ main ]   # Build PRs without deploying
   workflow_dispatch:
 
 permissions:
@@ -28,6 +30,9 @@ jobs:
       - name: Install deps
         run: bundle install --jobs 4 --retry 3
 
+      - name: Stage Bootstrap and Bootswatch 4.6.2 Sass
+        run: bash scripts/stage_bootstrap_sass.sh
+
       - name: Build
         run: bundle exec jekyll build --trace
 
@@ -46,6 +51,7 @@ jobs:
           path: _site
 
   deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     environment:
